@@ -1,0 +1,195 @@
+@font-face {
+    font-family: Maven-Pro;
+    src: url("D:/2021/mrepol742.github.io/fonts/Maven%20Pro.ttf");
+}
+
+::selection {
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
+body {
+    background-color: #ffffff;
+    color: #414141;
+}
+
+a {
+    color: #4285f4;
+    text-decoration: none;
+}
+
+.header {
+    color: #4285f4;
+    font-size: 72pt;
+    font-weight: bolder;
+    line-height: 119%;
+    top: 300%;
+}
+
+#splashScreen {
+    position: absolute;
+    z-index: 1;
+    left: 283px;
+    top: 347px;
+    width: 585px;
+    height: 155px;
+}
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+.fade-out {
+  animation: fadeOut ease 10s;
+  -webkit-animation: fadeOut ease 10s;
+  -moz-animation: fadeOut ease 10s;
+  -o-animation: fadeOut ease 10s;
+  -ms-animation: fadeOut ease 10s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+td {
+    vertical-align: top;
+    height: 155;
+    width: 585;
+}
+
+table {
+    cellpadding: 0;
+    cellspacing: 0;
+}
+
+a:hover {
+    color: #212121;
+    text-decoration: underline;
+}
+
+* {
+    font-family: Maven-Pro;
+}
+
+.footer {
+    color: #212121;
+    font-size: 13pt;
+    font-weight: lighter;
+    line-height: 119%;
+    top: 300%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 20px;
+    font-size: 14.5pt;
+    font-weight: normal;
+    float: right;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 1px #888888;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 50px;
+    text-transform: uppercase;
+
+}
