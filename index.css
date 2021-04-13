@@ -16,6 +16,8 @@
 body {
     background-color: #ffffff;
     color: #414141;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -84,7 +86,7 @@ a {
     height: 100vh;
     width: 100%;
     background: rgba(0, 0, 0, 0.7);
-    position:fixed;
+    position: fixed;
     top: 0;
     left: 0;
     display: flex;
@@ -94,5 +96,5 @@ a {
 
 .webvium_selected_image {
     width: auto;
-    height:100vh;
+    height: 100vh;
 }
