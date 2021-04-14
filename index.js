@@ -17,3 +17,13 @@ function mrepol742() {
 function hello_world() {
     window.location.href = "https://github.com/mrepol742/Hello_World";
 }
+
+function openNav() {
+  document.getElementById("mrepol742_sidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mrepol742_sidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}

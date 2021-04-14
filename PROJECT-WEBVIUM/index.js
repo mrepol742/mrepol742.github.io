@@ -21,5 +21,14 @@ function create_img(img_src) {
 
  parent.appendChild(image);
  document.body.appendChild(parent);
+}
 
+function openNav1() {
+  document.getElementById("mrepol742_sidebar0").style.width = "250px";
+  document.getElementById("main0").style.marginLeft = "250px";
+}
+
+function closeNav1() {
+  document.getElementById("mrepol742_sidebar0").style.width = "0";
+  document.getElementById("main0").style.marginLeft= "0";
 }
