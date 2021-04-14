@@ -1,9 +1,9 @@
 # mrepol742.github.io
-The officially site of DROID MJ
+My Official Website Source Code
 
 >> DROID MJ | Melvin Jones Gallano Repol
 
-## Follow us, send us a suggetions, message or reports, or support us
+## Follow me on:
 - Gmail: mrepol742@gmail.com
 - DROID MJ Facebook Page: https://fb.me/mrepol742.droidmj 
 - Webvium Facebook Page: https://fb.me/mrepol742.webvium

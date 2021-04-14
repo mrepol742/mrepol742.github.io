@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Maven-Pro;
+    src: url("../fonts/Maven%20Pro.ttf");
+}
+
+::selection {
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
+body {
+    background-color: #ffffff;
+    color: #414141;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #4285f4;
+    text-decoration: none;
+}
+
+* {
+    font-family: Maven-Pro;
+}
+
+.background {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    box-shadow: 1px 3px 3px 1px #f5f5f5;
+    background-color: #ffffff;
+}
+
+.space {
+    margin-top: 13%;
+}
+
+.webvium {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.webvium_title {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.webvium_sub {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 1%;
+}
+
+.webvium_info {
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.webvium_screenshots {
+    display: flex;
+    margin-top: 10%;
+    margin-right: 3%;
+    margin-left: 3%;
+    overflow: hidden;
+}
+
+.webvium_shot {
+    width: 80%;
+    height: auto;
+    box-shadow: 1px 1px 2px 2px #f5f5f5;
+}
+
+.webvium_shot_holder {
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.webvium_selected_image {
+    width: auto;
+    height: 100vh;
+}

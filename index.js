@@ -1,25 +1,19 @@
-var webvium_images = document.getElementsByClassName("webvium_shot");
-for (let i = 0; i < webvium_images.length; i++) {
-	webvium_images[i].addEventListener("click", e => {
-		create_img(webvium_images[i].src);
-	});
+function project_webvium() {
+    window.location.href = "https://github.com/mrepol742/PROJECT-WEBVIUM";
 }
 
+function mrepol742_github_io() {
+    window.location.href = "https://github.com/mrepol742/mrepol742.github.io";
+}
 
-function create_img(img_src) {
- var image = document.createElement("img");
- image.src = img_src;
+function server() {
+    window.location.href = "https://github.com/mrepol742/Server";
+}
 
- image.setAttribute("class", "webvium_selected_image");
- var parent = document.createElement("body");
- parent.setAttribute("class", "webvium_shot_holder");
+function mrepol742() {
+    window.location.href = "https://github.com/mrepol742/mrepol742";
+}
 
-
- parent.addEventListener("click", () => {
- 	document.body.removeChild(parent)
-});
-
- parent.appendChild(image);
- document.body.appendChild(parent);
-
+function hello_world() {
+    window.location.href = "https://github.com/mrepol742/Hello_World";
 }
