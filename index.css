@@ -108,3 +108,18 @@ button:active {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
+
+.mrepol742_error {
+   margin-top: 20%;
+}
+
+.mrepol742_error, .mrepol742_p, .mrepol742_homepage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.mrepol742_homepage {
+    margin-top: 30%;
+}

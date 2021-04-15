@@ -32,3 +32,7 @@ function closeNav1() {
   document.getElementById("mrepol742_sidebar0").style.width = "0";
   document.getElementById("main0").style.marginLeft= "0";
 }
+
+function webvium_download_url() {
+    window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/download";
+}

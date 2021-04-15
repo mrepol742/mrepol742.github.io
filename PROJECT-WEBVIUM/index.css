@@ -157,3 +157,35 @@ a {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
+
+.webvium_redirect {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+button {
+    background-color: #4285f4;
+    color: #ffffff;
+    font-size: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10%;
+    border-radius: 50px;
+    border-color: #4285f4;
+    outline: none;
+    border-style: solid;
+}
+
+button:active {
+    background-color: #ffffff;
+    color: #4285f4;
+    border-color: #4285f4;
+}
+
+.webvium_downloadas {
+    margin: 10px;
+}
