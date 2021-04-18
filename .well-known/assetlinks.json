@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.mrepol742.webvium",
+    "sha256_cert_fingerprints":
+    ["69:FF:DB:A1:2A:69:24:AB:0C:3F:BA:64:5E:AE:45:7E:FF:5C:CC:F8:1F:90:B8:01:C5:C7:FE:3B:E0:2A:3E:8C"]
+  }
+}]
