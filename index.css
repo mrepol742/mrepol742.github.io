@@ -15,11 +15,10 @@
 
 body {
     background-color: #ffffff;
-    color: #414141;
-    margin-right: 5%;
-    margin-left: 5%;
-    padding-right: 5%;
-    padding-left: 5%;
+    color: #212121;
+    margin: 0;
+    word-wrap: break-word;
+    padding: 0;
 }
 
 a {
@@ -27,26 +26,12 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #f1f1f1;
+}
+
 * {
     font-family: Maven-Pro;
-}
-
-button {
-    background-color: #4285f4;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 15px;
-    margin: 5px;
-    border-radius: 50px;
-    border-color: #4285f4;
-    outline: none;
-    border-style: solid;
-}
-
-button:active {
-    background-color: #ffffff;
-    color: #4285f4;
-    border-color: #4285f4;
 }
 
 .sidebar {
@@ -56,17 +41,19 @@ button:active {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #ffffff;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 65px;
+  border-top-right-radius: 20px;
+  box-shadow: 3px 3px 5px;
 }
 
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  font-size: 20px;
+  color: #212121;
   display: block;
   transition: 0.3s;
 }
@@ -86,21 +73,24 @@ button:active {
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: #111;
+  background-color: #4285f4;
   color: white;
   padding: 10px 15px;
   border: none;
   border-radius: 50px;
   outline: none;
+  box-shadow: 3px 3px 5px;
 }
 
 .openbtn:hover {
-  background-color: #444;
-  color: #4285f4;
+  background-color: #ffffff;
+  color: #4284f5;
+  border-color: #4285f4;
+  box-shadow: 3px 3px 5px;
 }
 
 #main {
-  transition: margin-left .5s;
+  transition: margin-top .5s;
   padding: 16px;
 }
 
@@ -109,8 +99,9 @@ button:active {
   .sidebar a {font-size: 18px;}
 }
 
-.mrepol742_error {
-   margin-top: 20%;
+.webvium_404 {
+    padding: 20%;
+    margin: 0%;
 }
 
 .mrepol742_error, .mrepol742_p, .mrepol742_homepage {
@@ -120,6 +111,67 @@ button:active {
     text-align: center;
 }
 
+.mrepol742_error {
+    margin-top: 10%;
+}
+
 .mrepol742_homepage {
     margin-top: 30%;
+}
+
+.mrepol742_p {
+text-shadow: 3px 3px 1px;
+font-size: 20px;
+color: #ea4335;
+}
+
+.mrepol742_homepage {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #4285f4;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  box-shadow: 3px 3px 5px;
+}
+
+.mrepol742_homepage:hover {
+  background-color: #ffffff;
+  color: #4284f5;
+  border-color: #4285f4;
+  box-shadow: 3px 3px 5px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 5px;
+}
+
+p {
+    text-indent: 30px;
+}
+
+.mushi {
+    margin-top: 15%;
+}
+
+header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 35px;
+    text-shadow: 3px 3px 1px;
+}
+
+footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 13px;
 }
