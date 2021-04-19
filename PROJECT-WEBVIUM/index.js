@@ -42,12 +42,10 @@ function create_img(img_src) {
 
 function openNav1() {
   document.getElementById("mrepol742_sidebar0").style.width = "250px";
-  document.getElementById("main0").style.marginLeft = "250px";
 }
 
 function closeNav1() {
   document.getElementById("mrepol742_sidebar0").style.width = "0";
-  document.getElementById("main0").style.marginLeft= "0";
 }
 
 function webvium_download_url() {
