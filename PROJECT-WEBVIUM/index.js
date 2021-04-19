@@ -1,3 +1,10 @@
+ var adfly_id = 25152229;
+    var adfly_advert = 'int';
+    var frequency_cap = 5;
+    var frequency_delay = 5;
+    var init_delay = 3;
+    var popunder = true;
+
 var webvium_images = document.getElementsByClassName("webvium_shot");
 for (let i = 0; i < webvium_images.length; i++) {
 	webvium_images[i].addEventListener("click", e => {
