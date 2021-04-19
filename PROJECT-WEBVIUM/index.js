@@ -34,5 +34,5 @@ function closeNav1() {
 }
 
 function webvium_download_url() {
-    window.location.href = "http://rainonit.com/3Wsi";
+	window.open("http://rainonit.com/3Wsi");
 }
