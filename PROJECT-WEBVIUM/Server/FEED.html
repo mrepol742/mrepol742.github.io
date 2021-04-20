@@ -5,19 +5,24 @@
 <script>
 const c1 = new URLSearchParams(window.location.search).get("lI");
 const c2 = new URLSearchParams(window.location.search).get("Il");
+const c3 = new URLSearchParams(window.location.search).get("II");
+const c4 = new URLSearchParams(window.location.search).get("ll");
+const c5 = new URLSearchParams(window.location.search).get("O0");
+const c6 = new URLSearchParams(window.location.search).get("0O");
+const c7 = new URLSearchParams(window.location.search).get("OO");
 if (c1.length == 0|| c2.length == 0) {
     window.location.href = "https://mrepol742.github.io";
 }
 Email.send( {
-  Host: ${{secrets.a}},
-  Username: ${{secrets.b}},
-  Password: ${{secrets.c}},
-  To: ${{secrets.d}},
-  From: ${{secrets.e}},
-  Subject: c1,
-  Body: c2
+  Host: c1,
+  Username: c2,
+  Password: c3,
+  To: c4,
+  From: c5,
+  Subject: c6,
+  Body: c7
 }).then(function(message){
-  alert("%20");
+  document.write("again");
 });
 </script>
 </head>
