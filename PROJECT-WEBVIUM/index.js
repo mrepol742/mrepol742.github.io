@@ -47,7 +47,3 @@ function openNav1() {
 function closeNav1() {
   document.getElementById("mrepol742_sidebar0").style.width = "0";
 }
-
-function webvium_download_url() {
-	window.open("http://rainonit.com/3Wsi");
-}
