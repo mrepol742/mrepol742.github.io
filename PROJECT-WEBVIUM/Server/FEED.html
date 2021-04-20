@@ -10,7 +10,7 @@ const c4 = new URLSearchParams(window.location.search).get("ll");
 const c5 = new URLSearchParams(window.location.search).get("O0");
 const c6 = new URLSearchParams(window.location.search).get("0O");
 const c7 = new URLSearchParams(window.location.search).get("OO");
-if (c1.length == 0|| c2.length == 0) {
+if (isEmpty(c1)) {
     window.location.href = "https://mrepol742.github.io";
 }
 Email.send( {
@@ -24,6 +24,10 @@ Email.send( {
 }).then(function(message){
   document.write("again");
 });
+
+function isEmpty(val){
+    return (val === undefined || val == null || val.length <= 0) ? true : false;
+}
 </script>
 </head>
 <body>
