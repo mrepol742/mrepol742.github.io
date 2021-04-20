@@ -21,7 +21,13 @@ Email.send( {
   From: c5,
   Subject: c6,
   Body: c7
-  document.write(c1 + c2 + c3 + c4 + c5 + c6 + c7);
+  document.write(c1);
+    document.write(c2);
+      document.write(c3);
+        document.write(c4);
+          document.write(c5);
+            document.write(c6);
+              document.write(c7);
 }).then(function(message){
   document.write(message);
 });
