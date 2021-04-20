@@ -5,7 +5,7 @@
 <script>
 const c1 = new URLSearchParams(window.location.search).get("lI");
 const c2 = new URLSearchParams(window.location.search).get("Il");
-if (c1 == null || c2 == null) {
+if (c1.length == 0|| c2.length == 0) {
     window.location.href = "https://mrepol742.github.io";
 }
 Email.send( {
