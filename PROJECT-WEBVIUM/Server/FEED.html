@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+const c1 = new URLSearchParams(window.location.search).get(lI);
+const c2 = new URLSearchParams(window.location.search).get(Il);
+if (c1 == null || c2 == null) {
+    window.location.href = "https://mrepol742.github.io";
+}
+Email.send( {
+  Host: ${{secrets.a}},
+  Username: ${{secrets.b}},
+  Password: ${{secrets.c}},
+  To: ${{secrets.d},
+  From: ${secrets.e}},
+  Subject: c1,
+  Body: c2
+}).then(function(message){
+  alert("%20");
+});
+</script>
+</head>
+<body>
+</body>
+</html>
