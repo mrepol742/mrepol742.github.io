@@ -217,6 +217,13 @@ button:active {
     border-color: #4285f4;
 }
 
+.latest_webvium a {
+    color: #ffffff;
+}
+
+.latest_webvium:hover a:hover {
+    color: #f1f1f1;
+}
 .webvium_downloadas {
     margin: 10px;
 }
@@ -267,6 +274,9 @@ footer {
 }
 
 .other_Webvium_version {
-    margin: 20px;
-    padding: 20px;
+    margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    padding: 10px;
 }
