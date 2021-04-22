@@ -17,7 +17,8 @@
 
 @font-face {
     font-family: Maven-Pro;
-    src: url("../fonts/Maven%20Pro.ttf");
+    //src: url("../fonts/Maven%20Pro.ttf");
+    src: local('Maven Pro'), url('../fonts/Maven%20Pro.ttf2') format('ttf')
 }
 
 ::selection {
