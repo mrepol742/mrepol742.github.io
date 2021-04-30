@@ -192,3 +192,12 @@ footer {
     margin-top: 20%;
     font-size: 13px;
 }
+
+body {
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #212121;
+    border-radius: 10px;
+    margin: 50px;
+    box-shadow: 1px 1px 10px #414141;
+}
