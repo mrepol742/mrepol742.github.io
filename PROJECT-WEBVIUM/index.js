@@ -60,17 +60,36 @@ var firebaseConfig = {
 
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
-
+var c = 0;
   firebase.database().ref('visitors/').on('value', function(snapshot) {
-    	var c = snapshot.val().Number
+    	 c = snapshot.val().Number
     	c++;
 		document.getElementById("webvium_number_of_downloads").innerText = "Number of Downloads: " + c;
     });
 
-function ex(link) {
+	function ey() {
+		firebase.database().ref('visitors').set({
+  		Number: c
+  	});
+	}
+
+function ex(id) {
         grecaptcha.ready(function() {
           grecaptcha.execute('6Lf7QMUaAAAAAAdE2gqKY9ob3Q5hJ9sIRZCb-FcS', {action: 'submit'}).then(function(token) {
-             window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v21.04.20.apk";
+			  switch (id) {
+				  case 0:
+				   window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v21.04.20.apk";
+				   ey();
+				  break;
+				  case 1:
+				  window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v21.04.17.apk";
+				  ey();
+				  break;
+				  case 2:
+				  window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v21.04.20.zip";
+				  ey();
+				  break;
+			  }
           });
         });
 }

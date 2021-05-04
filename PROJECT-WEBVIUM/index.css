@@ -46,6 +46,7 @@ body {
 a {
     color: #4285f4;
     text-decoration: none;
+    cursor: default;
 }
 
 a:hover {
@@ -220,17 +221,6 @@ button:active {
     background-color: #ffffff;
     color: #4285f4;
     border-color: #4285f4;
-}
-
-.latest_webvium a {
-    color: #ffffff;
-}
-
-.latest_webvium:hover a:hover {
-    color: #f1f1f1;
-}
-.webvium_downloadas {
-    margin: 10px;
 }
 
 footer {
