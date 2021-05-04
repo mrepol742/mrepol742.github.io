@@ -267,3 +267,9 @@ footer {
         margin-bottom: 10px;
     padding: 10px;
 }
+
+#webvium_number_of_downloads {
+    text-align: center;
+    margin-top: 5%;
+    font-style: bolder;
+}

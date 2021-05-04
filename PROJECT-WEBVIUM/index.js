@@ -47,3 +47,31 @@ function openNav1() {
 function closeNav1() {
   document.getElementById("mrepol742_sidebar0").style.width = "0";
 }
+
+var firebaseConfig = {
+    apiKey: "AIzaSyAmuYgXpDNti7SXnq_T3yNqJvVP1dJDo_8",
+    authDomain: "mrepol-e2ed6.firebaseapp.com",
+    projectId: "mrepol-e2ed6",
+    storageBucket: "mrepol-e2ed6.appspot.com",
+    messagingSenderId: "541029821490",
+    appId: "1:541029821490:web:3713defdb0f0d8a939e02b",
+    measurementId: "G-YYV1BV578J"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+  firebase.database().ref('visitors/').on('value', function(snapshot) {
+    	var c = snapshot.val().Number
+    	c++;
+		document.getElementById("webvium_number_of_downloads").innerText = "Number of Downloads: " + c;
+    });
+
+function ex(link) {
+	e.preventDefault();
+        grecaptcha.ready(function() {
+          grecaptcha.execute('reCAPTCHA_site_key', {action: 'submit'}).then(function(token) {
+             window.location.href = link;
+          });
+        });
+}
