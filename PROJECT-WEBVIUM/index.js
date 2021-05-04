@@ -70,7 +70,7 @@ var firebaseConfig = {
 function ex(link) {
 	e.preventDefault();
         grecaptcha.ready(function() {
-          grecaptcha.execute('reCAPTCHA_site_key', {action: 'submit'}).then(function(token) {
+          grecaptcha.execute('6Lf7QMUaAAAAAAdE2gqKY9ob3Q5hJ9sIRZCb-FcS', {action: 'submit'}).then(function(token) {
              window.location.href = link;
           });
         });
