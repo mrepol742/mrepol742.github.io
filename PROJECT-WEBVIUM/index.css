@@ -32,15 +32,10 @@
 
 body {
     color: #414141;
-    margin: 0;
     word-wrap: break-word;
-    padding: 0;
+    padding: 10px;
     background-color: #ffffff;
-    border-style: solid;
-    border-color: #212121;
-    border-radius: 10px;
-    margin: 50px;
-    box-shadow: 1px 1px 10px #414141;
+    margin: 10px;
 }
 
 a {
@@ -142,7 +137,7 @@ a:hover {
   transition: 0.5s;
   padding-top: 65px;
   border-top-right-radius: 20px;
-  box-shadow: 3px 3px 5px;
+ box-shadow: 2px 2px 5px -3px black;
 }
 
 .sidebar a {
