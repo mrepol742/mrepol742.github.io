@@ -188,3 +188,20 @@ footer {
     margin-top: 20%;
     font-size: 13px;
 }
+
+
+hr {
+	height:1px;
+	background:#444;
+}
+
+.sidebar-bg {
+	height:110vh;
+	width:110%;
+	position:fixed;
+	z-index:-2;
+	background:rgba(0, 0, 0, 0.6);
+	top:0;
+	left:0;
+	margin:-10px;
+}

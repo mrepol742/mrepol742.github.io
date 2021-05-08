@@ -42,10 +42,16 @@ function create_img(img_src) {
 
 function openNav1() {
   document.getElementById("mrepol742_sidebar0").style.width = "250px";
+  var bg = document.createElement('div')
+bg.setAttribute('class', 'sidebar-bg')
+bg.setAttribute('id', 'sbg')
+document.body.appendChild(bg)
 }
 
 function closeNav1() {
   document.getElementById("mrepol742_sidebar0").style.width = "0";
+  var bg = document.getElementById('sbg')
+ document.body.removeChild(bg)
 }
 
 var firebaseConfig = {
