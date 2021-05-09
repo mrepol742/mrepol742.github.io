@@ -22,6 +22,9 @@ function openNav() {
 bg.setAttribute('class', 'sidebar-bg')
 bg.setAttribute('id', 'sbg')
 document.body.appendChild(bg)
+document.getElementById('sbg').addEventListener('click', () => {
+   closeNav();
+ });
 }
 
 function closeNav() {
