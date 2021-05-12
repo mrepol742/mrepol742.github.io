@@ -118,6 +118,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     animation: zoom 15s forwards;
+    margin:-10px;
 }
 
 .webvium_selected_image {
@@ -127,7 +128,7 @@ a:hover {
 
 .sidebar {
   height: 100%;
-  width: 0;
+  width: 250px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -138,6 +139,7 @@ a:hover {
   padding-top: 65px;
   border-top-right-radius: 20px;
  box-shadow: 2px 2px 5px -3px black;
+ transform:translateX(-100%);
 }
 
 .sidebar a {

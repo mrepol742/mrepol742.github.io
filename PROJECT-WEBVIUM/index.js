@@ -14,7 +14,9 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-
+$.getJSON('https://api.ipify.org/?format=json', (data) => {
+	visited(data.ip)
+})
 var webvium_images = document.getElementsByClassName("webvium_shot");
 for (let i = 0; i < webvium_images.length; i++) {
 	webvium_images[i].addEventListener("click", e => {
@@ -41,18 +43,18 @@ function create_img(img_src) {
 }
 
 function openNav1() {
-  document.getElementById("mrepol742_sidebar0").style.width = "250px";
-  var bg = document.createElement('div')
-bg.setAttribute('class', 'sidebar-bg')
-bg.setAttribute('id', 'sbg')
-document.body.appendChild(bg)
-document.getElementById('sbg').addEventListener('click', () => {
-   closeNav1();
- });
+	document.getElementById("mrepol742_sidebar0").style.transform = 'translateX(0%)';
+	var bg = document.createElement('div')
+	bg.setAttribute('class', 'sidebar-bg')
+	bg.setAttribute('id', 'sbg')
+	document.body.appendChild(bg)
+	document.getElementById('sbg').addEventListener('click', () => {
+		closeNav1();
+	});
 }
 
 function closeNav1() {
-  document.getElementById("mrepol742_sidebar0").style.width = "0";
+	document.getElementById("mrepol742_sidebar0").style.transform = 'translateX(-100%)';
   var bg = document.getElementById('sbg')
  document.body.removeChild(bg)
 }
@@ -101,4 +103,11 @@ function ex(id) {
 			  }
           });
         });
+}
+
+let visited = (ip) => {
+	firebase.database().ref('ip/').push().set({
+		IP: ip
+	})
+
 }

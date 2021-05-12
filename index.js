@@ -17,7 +17,7 @@
 
 
 function openNav() {
-  document.getElementById("mrepol742_sidebar").style.width = "250px";
+  document.getElementById("mrepol742_sidebar").style.transform = 'translateX(0%)';
   var bg = document.createElement('div')
 bg.setAttribute('class', 'sidebar-bg')
 bg.setAttribute('id', 'sbg')
@@ -28,7 +28,7 @@ document.getElementById('sbg').addEventListener('click', () => {
 }
 
 function closeNav() {
-  document.getElementById("mrepol742_sidebar").style.width = "0";
+  document.getElementById("mrepol742_sidebar").style.transform = 'translateX(-100%)';
   var bg = document.getElementById('sbg')
  document.body.removeChild(bg)
 }
