@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$.getJSON('https://api.ipify.org/?format=json', (data) => {
+	visited(data.ip)
+})
+
+let visited = (ip) => {
+    document.write(ip)
+}
+</script>
+</body>
+</html>
