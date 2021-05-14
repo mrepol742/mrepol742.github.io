@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title></title>
+    <title></title>
 </head>
 <body>
-<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script> 
-<script>
-
-eval(function(p,a,c,k,e,d){while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+c.toString(a)+'\\b','g'),k[c])}}return p}('0 a=6 5(1.4.3).2(\'a\');0 b=6 5(1.4.3).2(\'b\');0 c=6 5(1.4.3).2(\'c\');0 d=6 5(1.4.3).2(\'d\');0 e=6 5(1.4.3).2(\'e\');0 f=6 5(1.4.3).2(\'f\');0 g=6 5(1.4.3).2(\'g\');0 h=6 5(1.4.3).2(\'h\');0 i=6 5(1.4.3).2(\'i\');y 8={u:a,k:b,l:c,n:d,j:e,p:f,t:g};7.v(8);7.w();7.x().r(\'9/\').s().o({m:h,q:i});',35,35,'const|window|get|search|location|URLSearchParams|new|firebase|firebaseConfig|messages||||||||||messagingSenderId|authDomain|projectId|Subject|storageBucket|set|appId|Message|ref|push|measurementId|apiKey|initializeApp|analytics|database|var'.split('|')))
-alert("ara")
-</script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
+    <script>
+        const a = new URLSearchParams(window.location.search).get('a');
+        const b = new URLSearchParams(window.location.search).get('b');
+        const c = new URLSearchParams(window.location.search).get('c');
+        const d = new URLSearchParams(window.location.search).get('d');
+        const e = new URLSearchParams(window.location.search).get('e');
+        const f = new URLSearchParams(window.location.search).get('f');
+        const g = new URLSearchParams(window.location.search).get('g');
+        const h = new URLSearchParams(window.location.search).get('h');
+        const i = new URLSearchParams(window.location.search).get('i');
+        let j = new URLSearchParams(window.location.search).get('j');
+        j = j || 'Empty'
+        alert(j)
+        var firebaseConfig = {
+            apiKey: a,
+            authDomain: b,
+            projectId: c,
+            storageBucket: d,
+            messagingSenderId: e,
+            appId: f,
+            measurementId: g
+        };
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+        firebase.database().ref('messages/').push().set({
+            Subject: h,
+            Message: i,
+            Log: j
+        });
+        console.log('Succeed')
+    </script>
 </body>
 </html>
