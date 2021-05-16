@@ -100,6 +100,14 @@ function ex(id) {
 				  window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v21.04.20.zip";
 				  ey();
 				  break;
+				  case 3:
+				window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.2.apk";
+				ey();
+				break;
+				case 4:
+				window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.2.zip";
+				ey();
+				break;
 			  }
           });
         });
