@@ -1,7 +1,7 @@
 name: Minify Workflow
 on:
   push:
-    branches: [ main ]
+    branches: main
 
 jobs:
   build:
@@ -19,4 +19,4 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Minify source code
-          branch: ${{ mainMinified }}
+          branch: mainMinified
