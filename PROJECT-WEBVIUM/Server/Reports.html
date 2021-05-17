@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
+    <script>
+        const a = new URLSearchParams(window.location.search).get('a');
+        const b = new URLSearchParams(window.location.search).get('b');
+        const c = new URLSearchParams(window.location.search).get('c');
+        const d = new URLSearchParams(window.location.search).get('d');
+        const e = new URLSearchParams(window.location.search).get('e');
+        const f = new URLSearchParams(window.location.search).get('f');
+        const g = new URLSearchParams(window.location.search).get('g');
+        const h = new URLSearchParams(window.location.search).get('h');
+        const i = new URLSearchParams(window.location.search).get('i');
+        let j = new URLSearchParams(window.location.search).get('j');
+        j = j || 'Empty'
+        var firebaseConfig = {
+            apiKey: a,
+            authDomain: b,
+            projectId: c,
+            storageBucket: d,
+            messagingSenderId: e,
+            appId: f,
+            measurementId: g
+        };
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+        firebase.database().ref('path1/').get(data) {
+           makeJson(data)
+           console.log(data)
+       };
+        console.log('Succeed')
+    </script>
+</body>
+</html>
