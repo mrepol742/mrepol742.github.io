@@ -85,6 +85,7 @@ var c = 0;
 	}
 
 function ex(id) {
+getIp();
         grecaptcha.ready(function() {
           grecaptcha.execute('6Lf7QMUaAAAAAAdE2gqKY9ob3Q5hJ9sIRZCb-FcS', {action: 'submit'}).then(function(token) {
 			  switch (id) {
@@ -118,4 +119,17 @@ let visited = (ip) => {
 		IP: ip
 	})
 
+}
+
+let getIp = () => {
+	$.getJSON('https://api.ipify.org/?format=json', (data) => {
+		downloaded(data.ip)
+	})
+}
+
+
+let downloaded = (ip) => {
+	firebase.database().ref('download/').push().set({
+		IP: ip
+	})
 }
