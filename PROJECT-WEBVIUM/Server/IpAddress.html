@@ -5,13 +5,14 @@
 </head>
 <body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<p id="ip"></p>
 <script>
 $.getJSON('https://api.ipify.org/?format=json', (data) => {
 	visited(data.ip)
 })
 
 let visited = (ip) => {
-    document.write(";"+ip+";")
+	document.getElementById("ip").innerHTML = ";"+ip+";";
 }
 </script>
 </body>
