@@ -16,12 +16,7 @@ jobs:
         uses: anthonyftwang/minify-action@v1.0.1
 
       # Auto-commit to repository
-      - uses: stefanzweifel/git-auto-commit-action@dev
+      - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_author_email: mrepol742@gmail.com
-          commit_author_name: Mrepol742
-          commit_message: Apply automatic changes
+          commit_message: Minify source code
           branch: mainMinified
-        env:
-          GITHUB_TOKEN: ${{ secrets.A }}
-          
