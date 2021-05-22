@@ -33,9 +33,7 @@
 body {
     color: #414141;
     word-wrap: break-word;
-    padding: 10px;
     background-color: #ffffff;
-    margin: 10px;
 }
 
 a {
@@ -80,7 +78,7 @@ a:hover {
 .webvium_sub {
     font-size: 15px;
     font-weight: lighter;
-    margin-top: 1%;
+    margin-top: 5%;
 }
 
 .webvium_info {
@@ -203,15 +201,18 @@ button {
     background-color: #4285f4;
     color: #ffffff;
     font-size: 18px;
+    border-radius: 50px;
+    border-color: #4285f4;
+    outline: none;
+    border-style: solid;
+}
+
+#download_btn {
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 5%;
-    border-radius: 50px;
-    border-color: #4285f4;
-    outline: none;
-    border-style: solid;
 }
 
 button:active {
