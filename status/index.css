@@ -33,9 +33,9 @@
 body {
     background-color: #ffffff;
     color: #212121;
-    margin: 10px;
+    margin: 0px;
     word-wrap: break-word;
-    padding: 10px;
+    padding: 0px;
 }
 
 a {
@@ -138,4 +138,11 @@ footer {
 
 .mushi {
     margin-top: 15%;
+    font-size:1.8rem;
+}
+
+.git {
+	width:100%;
+	max-width:550px;
+	height:auto;
 }
