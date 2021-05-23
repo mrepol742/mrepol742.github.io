@@ -1,14 +1,20 @@
-# Melvin Jones Repol
-My Official Website
->> Mrepol742 | Melvin Jones Repol
+<p align="center">
+ <img width="100px" src="https://github.com/mrepol742/PROJECT-WEBVIUM/blob/master/app/src/main/res/mipmap-xxxhdpi/c.png" align="center" alt="PROJECT-WEBVIUM" />
+ <h2 align="center">mrepol742.github.io</h2>
+ <p align="center">My Official Website</p>
+</p>
 
-Ya guy's can reach me on:
-- My Website: https://mrepol742.github.io
-- Facebook: https://fb.me/mrepol742
-- Facebook Page (Mrepol742): https://fb.me/mrepol742.page
-- Facebook Page (Webvium): https://fb.me/mrepol742.webvium
-- Facebook Group: https://fb.me/mrepol742.group
-- Xbox Gamertag: https://xboxgamertag.com/search/mrepol742
-- Instagram: https://instagram.com/mrepol742
-- Twitter: https://twitter.com/mrepol742
-- Youtube: https://www.youtube.com/channel/UC84G4uf0Xs8ObDL52kj4HpA
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML-5-blue.svg">
+  <img src="https://img.shields.io/badge/CSS-blue.svg"> 
+  <img src="https://img.shields.io/badge/JavaScript-blue.svg">
+  <img src="https://img.shields.io/badge/Firebase-blue.svg">
+    <img src="https://img.shields.io/badge/JQuery-blue.svg">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/github/issues/mrepol742/PROJECT-WEBVIUM?color=0088ff" />
+  <img src="https://img.shields.io/github/issues-pr/mrepol742/PROJECT-WEBVIUM?color=0088ff" />
+</p>
+<p align="center">
+<img src="https://github.com/mrepol742/mrepol742.github.io/blob/main/images/download.jfif" width="190"> 
+</p>
