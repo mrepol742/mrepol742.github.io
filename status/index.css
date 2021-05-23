@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: Maven-Pro;
-    src: url("fonts/Maven%20Pro.ttf");
+    src: url("https://mrepol742.github.io/fonts/Maven%20Pro.ttf");
 }
 
 ::selection {
@@ -117,74 +117,6 @@ a:hover {
   .sidebar a {font-size: 18px;}
 }
 
-.webvium_404 {
-    padding: 20%;
-    margin: 0%;
-}
-
-.mrepol742_error, .mrepol742_p, .mrepol742_homepage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.mrepol742_error {
-    margin-top: 5%;
-}
-
-.mrepol742_homepage {
-    margin-top: 20%;
-}
-
-.mrepol742_p {
-text-shadow: 3px 3px 1px;
-font-size: 20px;
-color: #ea4335;
-}
-
-.mrepol742_homepage {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #4285f4;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 50px;
-  outline: none;
-  box-shadow: 3px 3px 5px;
-}
-
-.mrepol742_homepage:hover {
-  background-color: #ffffff;
-  color: #4284f5;
-  border-color: #4285f4;
-  box-shadow: 3px 3px 5px;
-}
-
-.list {
-    list-style-type: none;
-    padding: 5px;
-}
-
-.mushi {
-    margin-top: 15%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-header {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-top: 20%;
-    font-size: 35px;
-    text-shadow: 3px 3px 1px;
-}
-
 footer {
     display: block;
     margin-left: auto;
@@ -192,12 +124,6 @@ footer {
     text-align: center;
     margin-top: 20%;
     font-size: 13px;
-}
-
-
-hr {
-	height:1px;
-	background:#444;
 }
 
 .sidebar-bg {
@@ -210,15 +136,6 @@ hr {
 	margin:-10px;
 }
 
-.image {
-    border-radius: 500px;
-    border-style: solid;
-    border-color: transparent;
-}
-
-.most_Act {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+.mushi {
+    margin-top: 15%;
 }
