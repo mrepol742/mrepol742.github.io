@@ -51,11 +51,6 @@ a:hover {
     font-family: Maven-Pro;
 }
 
-.git {
-	width:100%;
-	height:auto;
-}
-
 .sidebar {
   height: 100%;
   width: 250px;
@@ -226,4 +221,10 @@ hr {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+.git {
+	width:100%;
+	max-width:550px;
+	height:auto;
 }
