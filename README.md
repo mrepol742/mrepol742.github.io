@@ -12,8 +12,8 @@
     <img src="https://img.shields.io/badge/JQuery-blue.svg">
 </p>
 <p align="center">
-  <img src="https://img.shields.io/github/issues/mrepol742/PROJECT-WEBVIUM?color=0088ff" />
-  <img src="https://img.shields.io/github/issues-pr/mrepol742/PROJECT-WEBVIUM?color=0088ff" />
+  <img src="https://img.shields.io/github/issues/mrepol742/mrepol742.github.io?color=0088ff" />
+  <img src="https://img.shields.io/github/issues-pr/mrepol742/mrepol742.github.io?color=0088ff" />
 </p>
 <p align="center">
 <img src="https://github.com/mrepol742/mrepol742.github.io/blob/main/images/download.jfif" width="190"> 
