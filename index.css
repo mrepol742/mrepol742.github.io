@@ -15,108 +15,6 @@
 * limitations under the License.
 */
 
-@font-face {
-    font-family: Maven-Pro;
-    src: url("fonts/Maven%20Pro.ttf");
-}
-
-::selection {
-    background-color: #4285f4;
-    color: #ffffff;
-}
-
-::-moz-selection {
-    background-color: #4285f4;
-    color: #ffffff;
-}
-
-body {
-    background-color: #ffffff;
-    color: #212121;
-    margin: 10px;
-    word-wrap: break-word;
-    padding: 10px;
-}
-
-a {
-    color: #4285f4;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #f1f1f1;
-}
-
-* {
-    font-family: Maven-Pro;
-}
-
-.sidebar {
-  height: 100%;
-  width: 250px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #ffffff;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 65px;
-  border-top-right-radius: 20px;
-  box-shadow: 2px 2px 5px -3px black;
-  transform:translateX(-100%);
-}
-
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #212121;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidebar a:hover {
-  color: #f1f1f1;
-}
-
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #4285f4;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 50px;
-  outline: none;
-  box-shadow: 3px 3px 5px;
-}
-
-.openbtn:hover {
-  background-color: #ffffff;
-  color: #4284f5;
-  border-color: #4285f4;
-  box-shadow: 3px 3px 5px;
-}
-
-#main {
-  transition: margin-top .5s;
-  padding: 16px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
-}
-
 .webvium_404 {
     padding: 20%;
     margin: 0%;
@@ -185,30 +83,6 @@ header {
     text-shadow: 3px 3px 1px;
 }
 
-footer {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-top: 20%;
-    font-size: 13px;
-}
-
-
-hr {
-	height:1px;
-	background:#444;
-}
-
-.sidebar-bg {
-	height:110vh;
-	width:110%;
-	position:fixed;
-	background:rgba(0, 0, 0, 0.6);
-	top:0;
-	left:0;
-	margin:-10px;
-}
 
 .image {
     border-radius: 500px;

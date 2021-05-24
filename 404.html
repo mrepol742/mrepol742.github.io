@@ -18,8 +18,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="preload" href="https://mrepol742.github.io/index.css" as="style">
-  <link rel="preload" href="https://mrepol742.github.io/index.js" as="script">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
     <meta property="og:site_name" content="File Not Found | 404">
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#4285f4">
@@ -46,7 +46,11 @@
 <h1 class="mrepol742_error">You spell it wrong.</h1>
 <h3 class="mrepol742_p">404 Not Found</h3>
 
-<button class="mrepol742_homepage" onclick="mrepol742_github_io_2();">Go to Homepage</button>
-<script src="https://mrepol742.github.io/index.js" defer></script>
+<button class="mrepol742_homepage" onclick="load()">Go to Homepage</button>
+<script>
+function load() {
+    window.location.href = "https://mrepol742.github.io";
+}
+</script>
 </body>
 </html>
