@@ -89,7 +89,7 @@
     height: 100vh;
 }
 
-button {
+#download_btn {
     background-color: #4285f4;
     color: #ffffff;
     font-size: 18px;
@@ -97,9 +97,6 @@ button {
     border-color: #4285f4;
     outline: none;
     border-style: solid;
-}
-
-#download_btn {
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 10px;
@@ -107,7 +104,7 @@ button {
     margin: 5%;
 }
 
-button:active {
+#download_btn:active {
     background-color: #ffffff;
     color: #4285f4;
     border-color: #4285f4;
