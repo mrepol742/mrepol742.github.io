@@ -18,12 +18,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preload" href="index.css" as="style">
-    <link rel="preload" href="../images/webvium_dark_main.webp" as="image">
-    <link rel="preload" href="../images/webvium_light_main.webp" as="image">
-    <link rel="preload" href="../images/webvium_settings.webp" as="image">
-    <link rel="preload" href="../images/webvium_manage_space.webp" as="image">
-    <link rel="preload" href="../images/webvium_transparent_icon.png" as="image">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'/>
+    <link rel="preload" href="https://mrepol742.github.io/images/webvium_dark_main.webp" as="image">
+    <link rel="preload" href="https://mrepol742.github.io/images/webvium_light_main.webp" as="image">
+    <link rel="preload" href="https://mrepol742.github.io/images/webvium_settings.webp" as="image">
+    <link rel="preload" href="https://mrepol742.github.io/images/webvium_manage_space.webp" as="image">
+    <link rel="preload" href="https://mrepol742.github.io/images/webvium_transparent_icon.png" as="image">
     <meta property="og:site_name" content="Webvium | Lightweight, Fast, Material and Full-Featured Android Web Browser">
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#4285f4">
@@ -32,7 +34,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="Download Webvium for free on Android">
     <meta name="og:description" content="Download Webvium for free on Android">
-    <meta property="og:image" content="../images/PROJECT-WEBVIUM.jpg">
+    <meta property="og:image" content="https://mrepol742.github.io/images/PROJECT-WEBVIUM.jpg">
     <meta name="keywords" content="@mrepol742, mrepol742, Webvium, DROID MJ">
     <meta name="author" content="Melvin Jones Gallano Repol">
     <meta property="og:title" content="Webvium | Lightweight, Fast, Material and Full-Featured Android Web Browser">
@@ -40,7 +42,8 @@
     <meta property="og:local" content="en">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="canonical" href="https://mrepol742.github.io">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://mrepol742.github.io/css/main.css">
+        <link rel="stylesheet" href="https://mrepol742.github.io/css/webvium.css">
     <link rel="shortcut icon" href="favicon.png">
     <link rel="apple-touch-icon" href="favicon.png">
     <title>Webvium | Lightweight, Fast, Material and Full-Featured Android Web Browser</title>
@@ -48,17 +51,17 @@
 <body>
     <div id="mrepol742_sidebar0" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">×</a>
-        <a href="../index.html">Home</a>
-        <a href="../base64/index.html">Base64</a>
-            <a href="../uri/index.html">UriComponent</a>
-                <a href="..status/index.html">Status</a>
+        <a href="https://mrepol742.github.io">Home</a>
+        <a href="https://mrepol742.github.io/base64">Base64</a>
+            <a href="https://mrepol742.github.io/uri">UriComponent</a>
+                <a href="https://mrepol742.github.io/status">Status</a>
         <a href="https://mrepol742.github.io/PROJECT-WEBVIUM/TermsAndConditions/index.html">Terms and Conditions</a>
         <a href="https://mrepol742.github.io/PROJECT-WEBVIUM/PrivacyPolicy/index.html">Privacy Policy</a>
     </div>
     <div id="main0">
         <button class="openbtn" onclick="openNav1()">☰ Webvium</button>
         <div class="space">
-            <img class="background" src="../images/webvium_transparent_icon.png" alt="Webvium Transparent Icon">
+            <img class="background" src="https://mrepol742.github.io/images/webvium_transparent_icon.png" alt="Webvium Transparent Icon">
         </div>
         <div class="webvium">
             <span class="webvium_title">Webvium</span>
@@ -68,16 +71,16 @@
         <center>
             <div class="webvium_screenshots">
                 <div class="webvium_main_light">
-                    <img alt="Webvium Light" class="webvium_shot" src="../images/webvium_dark_main.webp">
+                    <img alt="Webvium Light" class="webvium_shot" src="https://mrepol742.github.io/images/webvium_dark_main.webp">
                 </div>
                 <div class="webvium_main_dark">
-                    <img alt="Webvium Dark" class="webvium_shot" src="../images/webvium_light_main.webp">
+                    <img alt="Webvium Dark" class="webvium_shot" src="https://mrepol742.github.io/images/webvium_light_main.webp">
                 </div>
                 <div class="webvium_settings">
-                    <img alt="Webvium Settings" class="webvium_shot" src="../images/webvium_settings.webp">
+                    <img alt="Webvium Settings" class="webvium_shot" src="https://mrepol742.github.io/images/webvium_settings.webp">
                 </div>
                 <div class="webvium_manage_space">
-                    <img alt="Webvium Manage Space" class="webvium_shot" src="../images/webvium_manage_space.webp">
+                    <img alt="Webvium Manage Space" class="webvium_shot" src="https://mrepol742.github.io/images/webvium_manage_space.webp">
                 </div>
             </div>
             <p id="webvium_number_of_downloads"></p>
@@ -126,22 +129,6 @@
         <footer>Copyright (c) 2021. Melvin Jones Repol</footer>
     </div>
     <div id="fb-root"></div>
-    <script>
-        window.fbAsyncInit = function() {
-            FB.init({
-                xfbml: true,
-                version: 'v10.0'
-            });
-        };
-
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
     <div class="fb-customerchat"
         attribution="biz_inbox"
         page_id="100612354732104">
@@ -152,6 +139,6 @@
     <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
     <script src="https://www.google.com/recaptcha/api.js?render=6Lf7QMUaAAAAAAdE2gqKY9ob3Q5hJ9sIRZCb-FcS"></script>
-    <script src="index.js"></script>
+    <script src="https://mrepol742.github.io/js/webvium.js"></script>
 </body>
 </html>
