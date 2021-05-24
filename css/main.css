@@ -107,6 +107,11 @@ a:hover {
   padding: 16px;
 }
 
+#main0 {
+  transition: margin-top .5s;
+  padding: 16px;
+}
+
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
