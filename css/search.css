@@ -15,11 +15,6 @@
 * limitations under the License.
 */
 
-@font-face {
-    font-family: Maven-Pro;
-    src: url("https://mrepol742.github.io/fonts/Maven%20Pro.ttf");
-}
-
 ::selection {
     background-color: #4285f4;
     color: #ffffff;
@@ -41,7 +36,7 @@ a:hover {
 }
 
 * {
-    font-family: Maven-Pro;
+    font-family: 'Maven Pro', sans-serif;
     outline: none;
 }
 
