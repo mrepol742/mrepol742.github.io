@@ -91,3 +91,8 @@ color: #ea4335;
 	max-width:550px;
 	height:auto;
 }
+
+.stats {
+    width: 100%;
+    max-width: 300px;
+}
