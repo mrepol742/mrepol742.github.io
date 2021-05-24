@@ -130,3 +130,31 @@ footer {
     margin-top: 20%;
     font-size: 13px;
 }
+
+textarea {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    outline: none;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #484848;
+    border-width: 1px;
+    height: 100px;
+    resize: none;
+}
+
+center {
+    margin-top: 10%;
+}
+
+
+header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 35px;
+    text-shadow: 3px 3px 1px;
+}

@@ -73,17 +73,6 @@ color: #ea4335;
     text-align: center;
 }
 
-header {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-top: 20%;
-    font-size: 35px;
-    text-shadow: 3px 3px 1px;
-}
-
-
 .image {
     border-radius: 500px;
     border-style: solid;
@@ -95,4 +84,10 @@ header {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+.git {
+	width:100%;
+	max-width:550px;
+	height:auto;
 }
