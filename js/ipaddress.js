@@ -20,5 +20,5 @@ $.getJSON('https://api.ipify.org/?format=json', (data) => {
 })
 
 let visited = (ip) => {
-	document.getElementById("ip").innerHTML = ";"+ip+";";
+	alert(ip);
 }
