@@ -84,13 +84,14 @@ a:hover {
 }
 
 .openbtn {
+position: fixed;
   font-size: 20px;
   cursor: pointer;
   background-color: #4285f4;
   color: white;
   padding: 10px 15px;
   border: none;
-  border-radius: 50px;
+  border-radius: 10px;
   outline: none;
   box-shadow: 3px 3px 5px;
 }
