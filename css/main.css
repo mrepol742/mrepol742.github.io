@@ -84,7 +84,9 @@ a:hover {
 }
 
 .openbtn {
-position: fixed;
+    position: sticky;
+    top: 0;
+    margin-top: 5px;
   font-size: 20px;
   cursor: pointer;
   background-color: #4285f4;
