@@ -84,9 +84,7 @@ a:hover {
 }
 
 .openbtn {
-    position: sticky;
-    top: 0;
-    margin-top: 5%;
+position: fixed;
   font-size: 20px;
   cursor: pointer;
   background-color: #4285f4;
@@ -101,6 +99,11 @@ a:hover {
   background-color: #ffffff;
   color: #4284f5;
   border-color: #4285f4;
+}
+
+.openbtn:hover #slide {
+    transition: 1s;
+    left: 0;
 }
 
 #main {
