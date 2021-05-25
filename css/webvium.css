@@ -22,8 +22,6 @@
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    box-shadow: 1px 3px 3px 1px #f5f5f5;
-    background-color: #ffffff;
 }
 
 .space {
@@ -67,7 +65,6 @@
 .webvium_shot {
     width: 80%;
     height: auto;
-    box-shadow: 3px 3px 5px;
 }
 
 .webvium_shot_holder {
