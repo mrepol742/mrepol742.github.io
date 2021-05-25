@@ -91,16 +91,14 @@ position: fixed;
   color: white;
   padding: 10px 15px;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   outline: none;
-  box-shadow: 3px 3px 5px;
 }
 
 .openbtn:hover {
   background-color: #ffffff;
   color: #4284f5;
   border-color: #4285f4;
-  box-shadow: 3px 3px 5px;
 }
 
 #main {
