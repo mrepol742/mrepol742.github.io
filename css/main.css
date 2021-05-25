@@ -114,6 +114,9 @@ position: fixed;
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
+  footer {
+      margin-top: 10%;
+  }
 }
 
 .sidebar-bg {

@@ -28,6 +28,19 @@
     margin-top: 13%;
 }
 
+@media screen and (max-height: 450px) {
+    .space {
+        margin-top: 5%;
+    }
+    .webvium {
+        text-align: center;
+        margin-top: 2%;
+    }
+    .webvium_screenshots {
+        margin-top: 5%;
+    }
+}
+
 .webvium {
     text-align: center;
     margin-top: 5%;
