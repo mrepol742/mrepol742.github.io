@@ -86,7 +86,7 @@ a:hover {
 .openbtn {
     position: sticky;
     top: 0;
-    margin-top: 5px;
+    margin-top: 5%;
   font-size: 20px;
   cursor: pointer;
   background-color: #4285f4;
