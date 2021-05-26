@@ -130,11 +130,13 @@ position: fixed;
 }
 
 footer {
+    position: fixed;
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    margin-top: 20%;
+    margin-bottom: : 5%;
+    bottom: 0;
     font-size: 13px;
 }
 
