@@ -109,6 +109,14 @@ getIp();
 				window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.2.zip";
 				ey();
 				break;
+				case 5:
+				window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.3.apk";
+				ey();
+				break;
+				case 6:
+				window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.3.zip";
+				ey();
+				break;
 			  }
           });
         });
