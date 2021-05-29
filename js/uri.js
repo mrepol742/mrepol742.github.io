@@ -15,11 +15,10 @@
 * limitations under the License.
 */
 
-$("#input").on("change keyup paste", function() {
-    document.getElementById("output").value = encodeURIComponent(document.getElementById("input").value);
+input.addEventListener("input", () => {
+	document.getElementById("output").value = encodeURIComponent(document.getElementById("input").value);
 })
 
-
-$("#output").on("change keyup paste", function() {
-    document.getElementById("input").value = decodeURIComponent(document.getElementById("output").value);
+output.addEventListener("input", () => {
+	document.getElementById("input").value = decodeURIComponent(document.getElementById("output").value);
 })

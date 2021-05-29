@@ -14,9 +14,7 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-$.getJSON('https://api.ipify.org/?format=json', (data) => {
-	visited(data.ip)
-})
+
 var webvium_images = document.getElementsByClassName("webvium_shot");
 for (let i = 0; i < webvium_images.length; i++) {
 	webvium_images[i].addEventListener("click", e => {
@@ -26,20 +24,20 @@ for (let i = 0; i < webvium_images.length; i++) {
 
 
 function create_img(img_src) {
- var image = document.createElement("img");
- image.src = img_src;
+	var image = document.createElement("img");
+	image.src = img_src;
 
- image.setAttribute("class", "webvium_selected_image");
- var parent = document.createElement("body");
- parent.setAttribute("class", "webvium_shot_holder");
+	image.setAttribute("class", "webvium_selected_image");
+	var parent = document.createElement("body");
+	parent.setAttribute("class", "webvium_shot_holder");
 
 
- parent.addEventListener("click", () => {
- 	document.body.removeChild(parent)
-});
+	parent.addEventListener("click", () => {
+		document.body.removeChild(parent)
+	});
 
- parent.appendChild(image);
- document.body.appendChild(parent);
+	parent.appendChild(image);
+	document.body.appendChild(parent);
 }
 
 function openNav1() {
@@ -55,104 +53,39 @@ function openNav1() {
 
 function closeNav1() {
 	document.getElementById("mrepol742_sidebar0").style.transform = 'translateX(-100%)';
-  var bg = document.getElementById('sbg')
- document.body.removeChild(bg)
+	var bg = document.getElementById('sbg')
+	document.body.removeChild(bg)
 }
-
-var firebaseConfig = {
-    apiKey: "AIzaSyAmuYgXpDNti7SXnq_T3yNqJvVP1dJDo_8",
-    authDomain: "mrepol-e2ed6.firebaseapp.com",
-    projectId: "mrepol-e2ed6",
-    storageBucket: "mrepol-e2ed6.appspot.com",
-    messagingSenderId: "541029821490",
-    appId: "1:541029821490:web:3713defdb0f0d8a939e02b",
-    measurementId: "G-YYV1BV578J"
-  };
-
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-var c = 0;
-  firebase.database().ref('visitors/').on('value', function(snapshot) {
-    	 c = snapshot.val().Number
-    	c++;
-		document.getElementById("webvium_number_of_downloads").innerText = "Number of Downloads: " + c;
-    });
-
-	function ey() {
-		firebase.database().ref('visitors').set({
-  		Number: c
-  	});
-	}
 
 function ex(id) {
-getIp();
-        grecaptcha.ready(function() {
-          grecaptcha.execute('6Lf7QMUaAAAAAAdE2gqKY9ob3Q5hJ9sIRZCb-FcS', {action: 'submit'}).then(function(token) {
-			  switch (id) {
-				  case 0:
-				   window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v21.04.20.apk";
-				   ey();
-				  break;
-				  case 1:
-				  window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v21.04.17.apk";
-				  ey();
-				  break;
-				  case 2:
-				  window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v21.04.20.zip";
-				  ey();
-				  break;
-				  case 3:
-				window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.2.apk";
-				ey();
-				break;
-				case 4:
-				window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.2.zip";
-				ey();
-				break;
-				case 5:
-				window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.3.apk";
-				ey();
-				break;
-				case 6:
-				window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.3.zip";
-				ey();
-				break;
-			  }
-          });
-        });
+	switch (id) {
+		case 0:
+		window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v21.04.20.apk";
+		ey();
+		break;
+		case 1:
+		window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v21.04.17.apk";
+		ey();
+		break;
+		case 2:
+		window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v21.04.20.zip";
+		ey();
+		break;
+		case 3:
+		window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.2.apk";
+		ey();
+		break;
+		case 4:
+		window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.2.zip";
+		ey();
+		break;
+		case 5:
+		window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.3.apk";
+		ey();
+		break;
+		case 6:
+		window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.3.zip";
+		ey();
+		break;
+	}
 }
-
-let visited = (ip) => {
-	firebase.database().ref('ip/').push().set({
-		IP: ip
-	})
-
-}
-
-let getIp = () => {
-	$.getJSON('https://api.ipify.org/?format=json', (data) => {
-		downloaded(data.ip)
-	})
-}
-
-
-let downloaded = (ip) => {
-	firebase.database().ref('download/').push().set({
-		IP: ip
-	})
-}
-
-window.fbAsyncInit = function() {
-	FB.init({
-		xfbml: true,
-		version: 'v10.0'
-	});
-};
-
-(function(d, s, id) {
-	var js, fjs = d.getElementsByTagName(s)[0];
-	if (d.getElementById(id)) return;
-	js = d.createElement(s); js.id = id;
-	js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-	fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
