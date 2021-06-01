@@ -42,4 +42,4 @@ firebase.database().ref('messages/').push().set({
     Message: i,
     Log: j
 });
-console.log('Succeed')
+alert("ara")

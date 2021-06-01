@@ -8,6 +8,67 @@
     <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-database.js"></script>
-    <script src="https://mrepol742.github.io/js/feed.js"></script>
+    <!--<script src="https://mrepol742.github.io/js/feed.js"></script>-->
+    <script>
+    /*
+    *
+    * Copyright (c) 2021 Melvin Jones Repol (mrepol742.github.io). All rights reserved.
+    *
+    * License under the GNU General Public License, Version 3.0 (the "License");
+    * you may not use this file except in compliance with the License.
+    * You may obtain a copy of the License at
+    *
+    *     https://www.gnu.org/licenses/gpl-3.0.en.html
+    *
+    * Unless required by the applicable law or agreed in writing, software
+    * distributed under the License is distributed on an "AS IS" BASIS,
+    * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    * See the License for the specific language governing permissions and
+    * limitations under the License.
+    */
+
+    const a = new URLSearchParams(window.location.search).get('query');
+    if (!a) {
+        var b = decodeURIComponent(a).split(";");
+        if (b.length == 8) {
+            var firebaseConfig = {
+                apiKey: b[0],
+                authDomain: b[1],
+                projectId: b[2],
+                storageBucket: b[3],
+                messagingSenderId: b[4],
+                appId: b[5],
+                measurementId: b[6]
+            };
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+            firebase.database().ref('feedbacks/').push().set({
+                Subject: b[7],
+                Message: b[8],
+                Log: b[9]
+            });
+        } else {
+            var firebaseConfig = {
+                apiKey: b[0],
+                authDomain: b[1],
+                databaseURL: b[2],
+                projectId: b[3],
+                storageBucket: b[4],
+                messagingSenderId: b[5],
+                appId: b[6],
+                measurementId: b[7]
+            };
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+            firebase.database().ref('feedbacks/').push().set({
+                Subject: b[8],
+                Message: b[9],
+                Log: b[10]
+            });
+        }
+        alert("ara")
+    }
+
+</script>
 </body>
 </html>
