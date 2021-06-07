@@ -13,8 +13,8 @@ let li3 = document.createElement("li")
 li3.innerHTML = "<a href=\"https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.3.apk\">Webvium v1.3 (588.6KB)</a>"
 u.appendChild(li3)
 
-var a = Update.checkUpdate(13)
-if (a) {
+var a = 13;
+if (a > Update.currentVersion()) {
 document.getElementById("curr").style.color = "#4285f4";
 document.getElementById("curr").innerHTML = "You're currently using the latest version of Webvium.";
 } else {
