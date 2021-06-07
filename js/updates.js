@@ -14,7 +14,7 @@ li3.innerHTML = "<a href=\"https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads
 u.appendChild(li3)
 
 var a = 13;
-if (a > Update.currentVersion()) {
+if (Update.currentVersion() => a) {
 document.getElementById("curr").style.color = "#4285f4";
 document.getElementById("curr").innerHTML = "You're currently using the latest version of Webvium.";
 } else {
