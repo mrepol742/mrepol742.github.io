@@ -15,7 +15,7 @@
 * limitations under the License.
 */
 
-
+"use strict";
 document.addEventListener('touchstart', handleTouchStart, false);
 document.addEventListener('touchmove', handleTouchMove, false);
 
@@ -24,16 +24,19 @@ var yDown = null;
 var isOpen = false;
 
 function getTouches(evt) {
+"use strict";
     return evt.touches || evt.originalEvent.touches;
 }
 
 function handleTouchStart(evt) {
+"use strict";
     const firstTouch = getTouches(evt)[0];
     xDown = firstTouch.clientX;
     yDown = firstTouch.clientY;
 };
 
 function handleTouchMove(evt) {
+"use strict";
     if (! xDown || ! yDown) {
         return;
     }
@@ -68,6 +71,7 @@ function handleTouchMove(evt) {
 
 
 function openNav() {
+"use strict";
     isOpen = true;
     document.getElementById("mrepol742_sidebar").style.transform = "translateX(0)"
     var bg = document.createElement('div')
@@ -80,6 +84,7 @@ function openNav() {
 }
 
 function closeNav() {
+"use strict";
     isOpen = false;
     document.getElementById("mrepol742_sidebar").style.transform = 'translateX(-100%)';
     var bg = document.getElementById('sbg')
