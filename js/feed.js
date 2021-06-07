@@ -15,31 +15,20 @@
 * limitations under the License.
 */
 
-const a = new URLSearchParams(window.location.search).get('a');
-const b = new URLSearchParams(window.location.search).get('b');
-const c = new URLSearchParams(window.location.search).get('c');
-const d = new URLSearchParams(window.location.search).get('d');
-const e = new URLSearchParams(window.location.search).get('e');
-const f = new URLSearchParams(window.location.search).get('f');
-const g = new URLSearchParams(window.location.search).get('g');
-const h = new URLSearchParams(window.location.search).get('h');
-const i = new URLSearchParams(window.location.search).get('i');
-let j = new URLSearchParams(window.location.search).get('j');
-j = j || 'Empty'
 var firebaseConfig = {
-    apiKey: a,
-    authDomain: b,
-    projectId: c,
-    storageBucket: d,
-    messagingSenderId: e,
-    appId: f,
-    measurementId: g
+    apiKey: Feed.apikey(),
+    authDomain: Feed.authDomain(),
+    projectId: Feed.projectId(),
+    storageBucket: Feed.storageBucket(),
+    messagingSenderId: Feed.messagingSenderId(),
+    appId: Feed.appId(),
+    measurementId: Feed.measurementId()
 };
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
-firebase.database().ref('messages/').push().set({
-    Subject: h,
-    Message: i,
-    Log: j
+firebase.database().ref('feedbacks/').push().set({
+    Webvium: Feed.getWebviumVersion(),
+    Message: Feed.getMessage(),
+    Log: Feed.getLog()
 });
-alert("ara")
+Feed.succeed(true);

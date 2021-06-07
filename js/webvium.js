@@ -56,36 +56,3 @@ function closeNav1() {
 	var bg = document.getElementById('sbg')
 	document.body.removeChild(bg)
 }
-
-function ex(id) {
-	switch (id) {
-		case 0:
-		window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v21.04.20.apk";
-		ey();
-		break;
-		case 1:
-		window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v21.04.17.apk";
-		ey();
-		break;
-		case 2:
-		window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v21.04.20.zip";
-		ey();
-		break;
-		case 3:
-		window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.2.apk";
-		ey();
-		break;
-		case 4:
-		window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.2.zip";
-		ey();
-		break;
-		case 5:
-		window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.3.apk";
-		ey();
-		break;
-		case 6:
-		window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.3.zip";
-		ey();
-		break;
-	}
-}

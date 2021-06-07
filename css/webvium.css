@@ -151,3 +151,9 @@
     margin-top: 5%;
     font-style: bolder;
 }
+
+#curr {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+}
