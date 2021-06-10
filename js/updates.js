@@ -1,4 +1,3 @@
-"use strict";
 document.querySelector('#download_btn').textContent = 'Webvium v1.3 (588.6KB)';
 function download() {
 	window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.3.apk"

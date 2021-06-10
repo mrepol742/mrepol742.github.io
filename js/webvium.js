@@ -15,7 +15,6 @@
 * limitations under the License.
 */
 
-"use strict";
 var webvium_images = document.getElementsByClassName("webvium_shot");
 for (let i = 0; i < webvium_images.length; i++) {
 	webvium_images[i].addEventListener("click", e => {
@@ -25,7 +24,6 @@ for (let i = 0; i < webvium_images.length; i++) {
 
 
 function create_img(img_src) {
-"use strict";
 	var image = document.createElement("img");
 	image.src = img_src;
 
@@ -43,7 +41,6 @@ function create_img(img_src) {
 }
 
 function openNav1() {
-"use strict";
 	document.getElementById("mrepol742_sidebar0").style.transform = 'translateX(0%)';
 	var bg = document.createElement('div')
 	bg.setAttribute('class', 'sidebar-bg')
@@ -55,7 +52,6 @@ function openNav1() {
 }
 
 function closeNav1() {
-"use strict";
 	document.getElementById("mrepol742_sidebar0").style.transform = 'translateX(-100%)';
 	var bg = document.getElementById('sbg')
 	document.body.removeChild(bg)
