@@ -15,10 +15,6 @@
 * limitations under the License.
 */
 
- web.loadUrl("javascript:window.Webvium.themeColor( (function (){ const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) { if (metas[i].getAttribute('name') === "theme-color") { return metas[i].getAttribute('content'); } } return '';  } )() );");
-
-const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) { if (metas[i].getAttribute('name') === "theme-color") { alert(metas[i].getAttribute('content')) } }
-
 document.addEventListener('touchstart', handleTouchStart, false);
 document.addEventListener('touchmove', handleTouchMove, false);
 
