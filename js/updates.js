@@ -15,8 +15,9 @@ u.appendChild(li3)
 let li4 = document.createElement("li")
 li4.innerHTML = "<a href=\"https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.4.apk\">Webvium v1.4 (576.2KB)</a>"
 u.appendChild(li4)
-document.getElementById("size12").innerHTML = "576.2KB";
+
 var a = 14;
+document.getElementById("size12").innerHTML = "576.2KB";
 if (Webvium.currentVersion() >= a) {
 document.getElementById("curr").style.color = "#4285f4";
 document.getElementById("curr").innerHTML = "You're currently using the latest version of Webvium.";
