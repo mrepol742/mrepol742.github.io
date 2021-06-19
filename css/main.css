@@ -169,3 +169,8 @@ header {
 .mushi {
     margin-top: 15%;
 }
+
+iframe {
+    height: 50vw;
+    width: 70vw;
+}
