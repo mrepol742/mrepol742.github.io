@@ -1,5 +1,5 @@
-document.querySelector('#download_btn').textContent = 'Webvium v1.4 (576.2KB)';
-function download() { window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.4.apk" }
+document.querySelector('#download_btn').textContent = 'Webvium v1.5 (580.6KB)';
+function download() { window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.5.apk" }
 let li0 = document.createElement("li")
 li0.innerHTML = "<a href=\"https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v21.04.17.apk\">Webvium v21.04.17 (596.0KB)</a>"
 u.appendChild(li0)
@@ -15,9 +15,12 @@ u.appendChild(li3)
 let li4 = document.createElement("li")
 li4.innerHTML = "<a href=\"https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.4.apk\">Webvium v1.4 (576.2KB)</a>"
 u.appendChild(li4)
+let li5 = document.createElement("li")
+li5.innerHTML = "<a href=\"https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.5.apk\">Webvium v1.5 (580.6KB)</a>"
+u.appendChild(li5)
 
-var a = 14;
-document.getElementById("size12").innerHTML = "576.2KB";
+var a = 15;
+document.getElementById("size12").innerHTML = "580.6KB";
 if (Webvium.currentVersion() >= a) {
 document.getElementById("curr").style.color = "#4285f4";
 document.getElementById("curr").innerHTML = "You're currently using the latest version of Webvium.";
