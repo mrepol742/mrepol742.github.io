@@ -14,5 +14,5 @@
   <img src="https://wakatime.com/badge/github/mrepol742/mrepol742.github.io.svg" />
 </p>
 <p align="center">
-<img src="https://github.com/mrepol742/mrepol742.github.io/blob/main/images/download.jfif" width="190"> 
+<img src="https://github.com/mrepol742/mrepol742.github.io/blob/main/images/download.jfif" width="190"> <img src="https://github.com/mrepol742/mrepol742.github.io/blob/main/images/download%20(1).jfif" width="190"> 
 </p>
