@@ -15,6 +15,15 @@
 * limitations under the License.
 */
 
+body {
+    background-image: url("../images/webvium_bg.jpg");
+    color: #ffffff !important;
+}
+
+.webvium_main {
+    background-color: rgba(33, 33, 33, 0.6);
+}
+
 .background {
     display: block;
     margin-left: auto;
