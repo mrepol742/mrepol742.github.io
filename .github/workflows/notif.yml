@@ -1,0 +1,25 @@
+name: Notification on Push
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Discord Notification
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        DISCORD_USERNAME: Mrepol742
+        DISCORD_AVATAR: https://cdn.discordapp.com/avatars/867883717854625813/747a8bc5c8ee375a0af357dcc2da1204.png
+      uses: Ilshidur/action-discord@master
+      with:
+        args: 'A new commit has been pushed to mrepol742/mrepol742.github.io.'
+    - name: Discord Notification
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      uses: Ilshidur/action-discord@master
