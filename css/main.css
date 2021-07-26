@@ -39,7 +39,7 @@ a {
 }
 
 a:hover {
-    color: #f1f1f1;
+    color: #212121;
 }
 
 * {
@@ -57,7 +57,7 @@ a:hover {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 65px;
-  border-top-right-radius: 20px;
+  border-top-right-radius: 10px;
   box-shadow: 2px 2px 5px -3px black;
   transform:translateX(-100%);
 }
@@ -68,11 +68,11 @@ a:hover {
   font-size: 20px;
   color: #212121;
   display: block;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .sidebar a:hover {
-  color: #f1f1f1;
+  color: #4285f4;
 }
 
 .sidebar .closebtn {
