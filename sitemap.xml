@@ -1,5 +1,4 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
 <url>
 <loc>https://mrepol742.github.io/</loc>
 <lastmod>2021-07-25T08:27:45+00:00</lastmod>
@@ -17,11 +16,6 @@
 </url>
 <url>
 <loc>https://mrepol742.github.io/uri/index.html</loc>
-<lastmod>2021-07-25T08:27:45+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://mrepol742.github.io/status/index.html</loc>
 <lastmod>2021-07-25T08:27:45+00:00</lastmod>
 <priority>0.80</priority>
 </url>
@@ -47,11 +41,6 @@
 </url>
 <url>
 <loc>https://mrepol742.github.io/uri/</loc>
-<lastmod>2021-07-25T08:27:45+00:00</lastmod>
-<priority>0.64</priority>
-</url>
-<url>
-<loc>https://mrepol742.github.io/status/</loc>
 <lastmod>2021-07-25T08:27:45+00:00</lastmod>
 <priority>0.64</priority>
 </url>
