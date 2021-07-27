@@ -20,6 +20,9 @@ h3 {
 }
 
 .background {
+ border-radius: 500px;
+    border-style: solid;
+    border-color: transparent;
     display: block;
     margin-left: auto;
     margin-right: auto;
