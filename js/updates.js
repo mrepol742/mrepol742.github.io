@@ -26,11 +26,20 @@ li7.innerHTML = "<a href=\"https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads
 u.appendChild(li7)
 
 var a = 17;
-document.getElementById("size12").innerHTML = "589.0KB";
+
+let items = document.querySelectorAll('.size12')
+
+items.forEach((e) => {
+    e.innerHTML = "589.0KB";
+})
+try {
+
 if (Webvium.currentVersion() >= a) {
 document.getElementById("curr").style.color = "#4285f4";
 document.getElementById("curr").innerHTML = "You're currently using the latest version of Webvium.";
 } else {
 document.getElementById("curr").innerHTML = "You're using a outdated version of Webvium.";
 document.getElementById("curr").style.color = "#ea4335";
+}
+} catch (en) {
 }
