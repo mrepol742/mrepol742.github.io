@@ -4,6 +4,6 @@ webvium.forEach(function(item, index, array) {
   console.log(item, index)
   let li0 = document.createElement("a")
   li0.href = 'https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/' + item + '.apk';
-  li0.title = item;
+  li0.innerHTML = item;
   document.getElementById("mrepol742_sidebar").appendChild(li0)
 })
