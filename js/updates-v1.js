@@ -5,8 +5,4 @@ webvium.forEach(function(item, index, array) {
   li0.href = 'https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/' + item;
   li0.innerHTML = item;
   document.getElementById("mrepol742_sidebar").appendChild(li0)
-  let li1 = document.createElement("a")
-  li1.href = 'https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/' + item;
-  li1.innerHTML = item;
-    document.getElementById("u").appendChild(li1)
 })
