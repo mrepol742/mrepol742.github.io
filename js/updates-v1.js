@@ -4,13 +4,13 @@ webvium.forEach(function(item, index, array) {
   let li0 = document.createElement("a")
   li0.href = 'https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/' + item;
   li0.innerHTML = item;
-  document.getElementById("mrepol742_sidebar").appendChild(li0)
-  u.appendChild(li0)
+  document.getElementById("mrepol742_sidebar").appendChild(li0);
+  document.getElementById("u").appendChild(li0);
 })
 
 document.querySelector('#download_btn').textContent = 'Webvium v1.7 (589.0KB)';
 function download() {
-    window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.7" 
+    window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.7"
 }
 
 var a = 17;
