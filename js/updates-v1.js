@@ -3,7 +3,7 @@ let webvium = ['Webvium-v21.04.17', 'Webvium-v21.4.20', 'Webvium-v1.2', 'Webvium
 webvium.forEach(function(item, index, array) {
   console.log(item, index)
   let li0 = document.createElement("a")
-  li0.href = 'https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/' + item + '.apk';
+  li0.href = 'https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/' + item;
   li0.innerHTML = item;
   document.getElementById("mrepol742_sidebar").appendChild(li0)
 })
