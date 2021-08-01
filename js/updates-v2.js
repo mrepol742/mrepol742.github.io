@@ -1,4 +1,4 @@
-let webvium = ['Webvium-v21.04.17', 'Webvium-v21.04.20', 'Webvium-v1.2', 'Webvium-v1.3', 'Webvium-v1.4', 'Webvium-v1.5', 'Webvium-v1.6', 'Webvium-v1.7', 'Webvium-v1.8']
+let webvium = ['Webvium-v21.04.17', 'Webvium-v21.04.20', 'Webvium-v1.2', 'Webvium-v1.3', 'Webvium-v1.4', 'Webvium-v1.5', 'Webvium-v1.6', 'Webvium-v1.7', 'Webvium-v1.8', 'Webvium-v1.8.1']
 
 webvium.forEach(function(item, index, array) {
 
@@ -8,9 +8,9 @@ webvium.forEach(function(item, index, array) {
 })
 
 
-document.querySelector('#download_btn').textContent = 'Webvium v1.8 (540.0KB)';
+document.querySelector('#download_btn').textContent = 'Webvium v1.8.1 (540.0KB)';
 function download() {
-    window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.8"
+    window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.8.1"
 }
 
 var a = 18;

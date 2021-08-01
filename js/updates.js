@@ -1,5 +1,5 @@
-document.querySelector('#download_btn').textContent = 'Webvium v1.8 (540.0KB)';
-function download() { window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.8.apk" }
+document.querySelector('#download_btn').textContent = 'Webvium v1.8.1 (540.0KB)';
+function download() { window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.8.1.apk" }
 let li0 = document.createElement("li")
 li0.innerHTML = "<a href=\"https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v21.04.17.apk\">Webvium v21.04.17 (596.0KB)</a>"
 u.appendChild(li0)
@@ -25,8 +25,11 @@ let li7 = document.createElement("li")
 li7.innerHTML = "<a href=\"https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.7.apk\">Webvium v1.7 (589.0KB)</a>"
 u.appendChild(li7)
 let li8 = document.createElement("li")
-li8.innerHTML = "<a href=\"https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.7.apk\">Webvium v1.8 (540.0KB)</a>"
+li8.innerHTML = "<a href=\"https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.8.apk\">Webvium v1.8 (540.0KB)</a>"
 u.appendChild(li8)
+let li9 = document.createElement("li")
+li9.innerHTML = "<a href=\"https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium-v1.8.1.apk\">Webvium v1.8.1 (540.0KB)</a>"
+u.appendChild(li9)
 
 var a = 18;
 
