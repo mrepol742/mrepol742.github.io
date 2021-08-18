@@ -1,6 +1,20 @@
+::selection {
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
 body {
 background: #f5f5f5;
 color: #484848;
+}
+
+* {
+    font-family: 'Maven Pro', sans-serif;
 }
 
 a {
@@ -25,16 +39,14 @@ li.nav-item:hover {
     background-color: #4285f4;
     color: #ffffff;
 }
-:focus {
-	outline: 0;
-}
+
 nav {
     background: #ffffff;
     border-style: solid;
     border-color: #ffffff;
     border-top-color: #4285f4;
     border-width: 3px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, .35);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .20);
 }
 
 .navbar-nav {
@@ -56,11 +68,11 @@ section.main {
 .navbar-toggler {
     color: #4285f4;
 }
-div.row, h2.pad {
+div.row, h2.pad, div.card-group {
     padding-top: 15px;
 }
 .card {
-    box-shadow: 0 2px 6px rgba(0, 0, 0, .35);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .20);
     padding: 10px;
 }
 .text-center {
@@ -96,7 +108,11 @@ fa:hover {
   color: #4285f4;
   margin: 5px;
 }
-
+.btn {
+	margin-top: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
 @media (max-width:1080px) {
     section.main {
         margin: 3%;
@@ -104,4 +120,9 @@ fa:hover {
     .container-fluid {
         margin: 0;
     }
+}
+
+.carousel-inner > .carousel-item > img {
+    height: 500px;
+    width: 100px;
 }
