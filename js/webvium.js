@@ -1,13 +1,13 @@
-var a = 18;
+var a = 19;
 
 let items = document.querySelectorAll('.size12')
 
 items.forEach((e) => {
-    e.innerHTML = "538KB";
+    e.innerHTML = "474KB";
 })
-document.querySelector('#download_btn').textContent = 'Webvium v1.8.1 --538KB--';
+document.querySelector('#download_btn').textContent = 'Webvium v1.9 --474KB--';
 function download() {
-	window.location.href = "https://github.com/webvium/webvium.github.io/blob/main/Webvium%20v1.8.1-stable.apk?raw=true";
+	window.location.href = "https://github.com/webvium/webvium.github.io/blob/main/Webvium%20v1.9-stable.apk?raw=true";
 }
 try {
 
