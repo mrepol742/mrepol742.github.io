@@ -12,11 +12,11 @@ function download() {
 try {
 
 if (a > Webvium.currentVersion()) {
-document.getElementById("curr").innerHTML = "You're using an outdated version of Webvium.";
+document.getElementById("curr").innerHTML = "You are using an outdated version of Webvium.";
 document.getElementById("curr").style.color = "#ea4335";
 } else {
-document.getElementById("curr").innerHTML = "You're updated";
-document.getElementById("curr").style.color = "#ea4335";
+document.getElementById("curr").innerHTML = "No need to Download. You are already using the Latest version.";
+document.getElementById("curr").style.color = "#4285f4";
 }
 } catch (en) {
 
