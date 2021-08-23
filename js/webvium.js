@@ -14,6 +14,9 @@ try {
 if (Webvium.currentVersion() <= a) {
 document.getElementById("curr").innerHTML = "You're using an outdated version of Webvium.";
 document.getElementById("curr").style.color = "#ea4335";
+} else {
+document.getElementById("curr").innerHTML = "You're updated";
+document.getElementById("curr").style.color = "#ea4335";
 }
 } catch (en) {
 
