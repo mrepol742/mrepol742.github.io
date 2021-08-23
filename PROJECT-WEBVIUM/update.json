@@ -1,13 +1,13 @@
 {
   "app" : "com.mrepol742.webvium",
   "dev" : [{
-    "url" : "https://drive.google.com/drive/folders/1UlefzcsFyGegfUffyvtjfrKHwc7g6Fw7?usp=sharing",
-    "name" : 18,
+    "url" : "https://mrepol742.github.io/PROJECT-WEBVIUM/",
+    "name" : 19,
     "code" : 20210802
   }],
   "rel": [{
-    "url" : "https://mrepol742.github.io/PROJECT-WEBVIUM/Downloads/Webvium v1.8.1",
-    "name" : 18,
+    "url" : "https://mrepol742.github.io/PROJECT-WEBVIUM/",
+    "name" : 19,
     "code" : 20210802
   }]
 }
