@@ -1,4 +1,4 @@
-var a = 19;
+var a = 182;
 
 let items = document.querySelectorAll('.size12')
 
