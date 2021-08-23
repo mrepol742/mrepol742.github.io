@@ -11,7 +11,7 @@ function download() {
 }
 try {
 
-if (Webvium.currentVersion() <= a) {
+if (a > Webvium.currentVersion()) {
 document.getElementById("curr").innerHTML = "You're using an outdated version of Webvium.";
 document.getElementById("curr").style.color = "#ea4335";
 } else {
