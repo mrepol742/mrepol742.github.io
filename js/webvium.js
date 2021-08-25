@@ -19,3 +19,30 @@ document.getElementById("curr").innerHTML = "<div class=\"alert alert-success\" 
 } catch (en) {
     document.getElementById("curr").innerHTML = "<div class=\"alert alert-info\" role=\"alert\">By downloading Webvium, you agree to its <a href=\"https://mrepol742.github.io/PROJECT-WEBVIUM/PrivacyPolicy\">Privacy Policy</a></div>";
 }
+
+function getOS() {
+  var userAgent = window.navigator.userAgent,
+      platform = window.navigator.platform,
+      macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+      windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+      iosPlatforms = ['iPhone', 'iPad', 'iPod'],
+      os = null;
+
+  if (macosPlatforms.indexOf(platform) !== -1) {
+    os = 'Mac OS';
+  } else if (iosPlatforms.indexOf(platform) !== -1) {
+    os = 'iOS';
+  } else if (windowsPlatforms.indexOf(platform) !== -1) {
+    os = 'Windows';
+  } else if (/Android/.test(userAgent)) {
+    os = 'Android';
+  } else if (!os && /Linux/.test(platform)) {
+    os = 'Linux';
+  }
+
+  return os;
+}
+
+if (getOS() != 'Android') {
+    document.getElementById("nots").innerHTML = "<div class=\"alert alert-danger\" role=\"alert\">We detected you are using <b>"  + getOS() + " OS</b> in which Webvium are not compatible. Webvium only supports Android OS version 5 or higher</div>";
+}
