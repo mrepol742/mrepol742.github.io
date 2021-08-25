@@ -9,6 +9,7 @@ document.querySelector('#download_btn').textContent = 'Webvium v1.9 --474KB--';
 function download() {
 	window.location.href = "https://github.com/webvium/webvium.github.io/blob/main/Webvium%20v1.9-stable.apk?raw=true";
 }
+document.getElementById("latest").innerHTML = "Latest";
 try {
 
 if (a > Webvium.currentVersion()) {
