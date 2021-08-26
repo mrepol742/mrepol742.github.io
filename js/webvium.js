@@ -1,15 +1,19 @@
 var a = 19;
 
 let items = document.querySelectorAll('.size12')
-
 items.forEach((e) => {
     e.innerHTML = "474KB";
 })
-document.querySelector('#download_btn').textContent = 'Webvium v1.9 --474KB--';
+
+let items0 = document.querySelectorAll('#download_btn')
+items0.forEach((e1) => {
+    e1.textContent = 'Download Webvium v1.9(474KB)';
+})
+
 function download() {
 	window.location.href = "https://github.com/webvium/webvium.github.io/blob/main/Webvium%20v1.9-stable.apk?raw=true";
 }
-document.getElementById("latest").innerHTML = "Latest";
+
 try {
 
 if (a > Webvium.currentVersion()) {

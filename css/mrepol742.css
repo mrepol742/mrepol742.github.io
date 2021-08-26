@@ -78,13 +78,19 @@ div.row, h2.pad, div.card-group {
 .text-center {
     padding-top: 10%;
 }
+
+.text-center2 {
+    text-align: center;
+}
 p.top {
     font-size: 1.2em;
 }
 .col-sm-6 {
     padding-top: 10px;
 }
-
+.accordion-item, .list-group-item {
+    border: none;
+}
 fa:hover {
   opacity: 0.7;
 }
