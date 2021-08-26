@@ -1,0 +1,90 @@
+/*
+*
+* Copyright (c) 2021 Melvin Jones Repol (mrepol742.github.io). All rights reserved.
+*
+* License under the GNU General Public License, Version 3.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     https://www.gnu.org/licenses/gpl-3.0.en.html
+*
+* Unless required by the applicable law or agreed in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
+::selection {
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
+
+a {
+    color: #4285f4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f1f1f1;
+}
+
+.alert {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+* {
+    font-family: 'Maven Pro', sans-serif;
+    outline: none;
+}
+
+h1 {
+    text-shadow:  0 2px 6px rgba(0, 0, 0, .40);
+}
+
+#con {
+  text-align: center;
+  margin-top: 10%;
+}
+
+@media (max-width:1080px) {
+    #con {
+        margin-top: 30%;
+    }
+}
+
+#search {
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 0px;
+    background: linear-gradient(to right, #5f2c82, #49a09d);
+    color: #ffffff;
+    width: 80%;
+    height: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .50);
+}
+
+#search::placeholder {
+    color: #f1f1f1;
+}
+
+.obj {
+	opacity:0;
+	transform:translateY(15%);
+	transition:all 1.5s ease;
+}
+
+.obj.active {
+	opacity:1;
+	transform:translateY(0);
+}

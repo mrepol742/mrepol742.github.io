@@ -45,5 +45,5 @@ function getOS() {
 }
 
 if (getOS() != 'Android') {
-    document.getElementById("nots").innerHTML = "<div class=\"alert alert-danger\" role=\"alert\">We detected you are using <b>"  + getOS() + " OS</b> in which Webvium are not compatible. Webvium only supports Android OS version 5 or higher</div>";
+    document.getElementById("nots").innerHTML = "<div class=\"alert alert-danger\" role=\"alert\">We detected that you are using <b>"  + getOS() + " OS</b> in which Webvium are not compatible. Webvium only supports Android OS version 5 or higher</div>";
 }
