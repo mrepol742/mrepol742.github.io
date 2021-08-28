@@ -56,6 +56,8 @@ try {
     document.body.background = 'https://source.unsplash.com/640x480?day'
     b();
 }
+document.body.backgroundSize = "cover";
+document.body.backgroundPosition = "centers";
 
 const node = document.getElementById("search");
 node.addEventListener("keyup", function(event) {
