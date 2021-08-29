@@ -1,4 +1,4 @@
-var a = 19;
+var a = 20;
 
 let items = document.querySelectorAll('.size12')
 items.forEach((e) => {
@@ -7,11 +7,11 @@ items.forEach((e) => {
 
 let items0 = document.querySelectorAll('#download_btn')
 items0.forEach((e1) => {
-    e1.textContent = 'Download Webvium v1.9(474KB)';
+    e1.textContent = 'Download Webvium v2.0(474KB)';
 })
 
 function download() {
-	window.location.href = "https://github.com/webvium/webvium.github.io/blob/main/Webvium%20v1.9-stable.apk?raw=true";
+	window.location.href = "https://github.com/webvium/webvium.github.io/blob/main/Webvium%20v2.0-stable.apk?raw=true";
 }
 
 try {
