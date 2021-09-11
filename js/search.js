@@ -18,46 +18,50 @@
 var a = 20;
 
 try {
-if (a > Webvium.currentVersion()) {
-    Webvium.showNotification("Update available", "A new version of Webvium was now available to download", "https://mrepol742.github.io/PROJECT-WEBVIUM")
-}
-} catch (ee) {
-
-}
+	if (a > Webvium.currentVersion()) {
+	    Webvium.showNotification("Update available", "A new version of Webvium was now available to download", "https://mrepol742.github.io/PROJECT-WEBVIUM")
+	}
+} catch (ee) {}
 
 window.addEventListener('scroll', reveal)
 reveal();
+lozad().observe();
 function reveal() {
-let items = document.querySelectorAll('.obj')
-for (let i = 0; i < items.length; i++) {
-    let windowHeight = window.innerHeight;
-    let revealTop = items[i].getBoundingClientRect().top;
-    let distance = 50;
+    let items = document.querySelectorAll('.obj')
+    for (let i = 0; i < items.length; i++) {
+        let windowHeight = window.innerHeight;
+        let revealTop = items[i].getBoundingClientRect().top;
+        let distance = 50;
 
-    if (revealTop < windowHeight - distance) {
-        items[i].classList.add('active')
-    } else {
-        items[i].classList.remove('active')
+        if (revealTop < windowHeight - distance) {
+            items[i].classList.add('active')
+        } else {
+            items[i].classList.remove('active')
+        }
     }
-}
 }
 
 try {
-    if (WebviumThemeHelper.isDarkModeEnabled()) {
-        document.body.background = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?night'
-        document.getElementById("search").style.backgroundColor = "#212121";
-        document.getElementById("btn").style.backgroundColor = "#212121";
-        document.getElementById("search").style.color = "#ffffff";
+	if (!WebviumThemeHelper.isCustomBackgroundEnabled()) {
+	    if (WebviumThemeHelper.isDarkModeEnabled()) {
+        	bg.style.display = 'block'
+	        bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?night'
+	        document.getElementById("search").style.backgroundColor = "#212121";
+	        document.getElementById("btn").style.backgroundColor = "#212121";
+	        document.getElementById("search").style.color = "#ffffff";
+	        document.querySelector('.webvium').style.color = '#fcfcfc'
+	    } else {
+	        bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?day'
+	    }
     } else {
-        document.body.background = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?day'
+    	bg.style.display = 'none'
     }
-    b();
 } catch (a) {
-    document.body.background = 'https://source.unsplash.com/640x480?day'
-    b();
+    bg.src = 'https://source.unsplash.com/640x480?day'
+    if (!a.toString().includes('Webvium')) {
+    	console.error(a)
+    }
 }
-document.body.backgroundSize = "cover";
-document.body.backgroundPosition = "centers";
 
 const node = document.getElementById("search");
 node.addEventListener("keyup", function(event) {
@@ -69,7 +73,7 @@ node.addEventListener("keyup", function(event) {
                 const aq = a.toLowerCase();
                 if (aq.startsWith("https://") || aq.startsWith("http://")) {
                     if (WebviumSearchHelper.isValidDomain(aq)) {
-                    window.location.href = a;
+                        window.location.href = a;
                     } else {
                         window.location.href = WebviumSearchHelper.getSearchEngine() + a;
                     }
@@ -99,16 +103,16 @@ node.addEventListener("keyup", function(event) {
 
 try {
     var su = WebviumSearchHelper.query().split(":");
-        if (su != "null") {
-            for (let i = 0; i < su.length; i++) {
-                let opt = document.createElement("option")
-                opt.setAttribute("value", atob(su[i]))
-                suggestions.appendChild(opt)
-            }
+    if (su != "null") {
+        for (let i = 0; i < su.length; i++) {
+            let opt = document.createElement("option")
+            opt.setAttribute("value", atob(su[i]))
+            suggestions.appendChild(opt)
         }
-} catch (a) {
-}
+    }
+} catch (a) {}
 
+//Unused function
 function b() {
     document.body.style.backgroundSize = 'cover';
     document.body.style.backgroundRepeat = 'no-repeat';

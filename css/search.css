@@ -35,23 +35,18 @@ a:hover {
     color: #f1f1f1;
 }
 
-.alert {
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
 * {
     font-family: 'Maven Pro', sans-serif;
     outline: none;
 }
 
 h1 {
-    text-shadow:  0 2px 6px rgba(0, 0, 0, .40);
+    text-shadow: 0 2px 6px rgba(0, 0, 0, .40);
 }
 
 #con {
-  text-align: center;
-  margin-top: 10%;
+    text-align: center;
+    margin-top: 10%;
 }
 
 @media (max-width:1080px) {
@@ -64,13 +59,14 @@ h1 {
     border-radius: 50px;
     border-style: solid;
     border-width: 0px;
-    background: linear-gradient(to right, #5f2c82, #49a09d);
+    background: linear-gradient(90deg, #5f2c82, #49a09d);
     color: #ffffff;
     width: 80%;
     height: 45px;
     padding-left: 25px;
     padding-right: 25px;
     font-size: 15px;
+    z-index:100;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .50);
 }
 
@@ -79,12 +75,21 @@ h1 {
 }
 
 .obj {
-	opacity:0;
-	transform:translateY(15%);
-	transition:all 1.5s ease;
+    opacity: 0;
+    transform: translateY(15%);
+    transition: all 1.5s ease;
 }
 
 .obj.active {
-	opacity:1;
-	transform:translateY(0);
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
 }
