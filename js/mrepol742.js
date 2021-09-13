@@ -1,5 +1,6 @@
 window.addEventListener('scroll', reveal)
 reveal();
+lozad().observe();
 function reveal() {
 let items = document.querySelectorAll('.obj')
 for (let i = 0; i < items.length; i++) {

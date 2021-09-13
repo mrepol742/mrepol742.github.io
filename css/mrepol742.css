@@ -96,8 +96,8 @@ fa:hover {
 }
 
 .obj {
-	opacity:0;
-	transform:translateY(15%);
+	opacity:1;
+	transform:translateY(0%);
 	transition:all 1.5s ease;
 }
 
@@ -119,6 +119,36 @@ fa:hover {
 	margin-left: 2px;
 	margin-right: 2px;
 }
+
+.images {
+	width:100%;
+	background:transparent;
+	overflow:hidden; /* Hidden overflow in parent to remove the scrollbars in browser*/
+	display:flex;
+}
+
+.images .holder {
+	overflow:scroll; /* Make the images scrollable */
+	display:flex;
+		/* helps to auto scroll kinda thing... 
+		 * just google it what scrollsnap is.. 
+		 * youll also find scroll snap example in tiktok or youtube shorts
+		 */
+	scroll-snap-type: x mandatory; 
+	width:100%;
+}
+
+.images .holder .preview {
+	min-width:90%;
+	height:auto;
+	/* another part of scrollsnap which i cant explain */
+	scroll-snap-align: start;
+}
+
+.images .holder .preview {
+	width:100px;
+}
+
 @media (max-width:1080px) {
     section.main {
         margin: 3%;
