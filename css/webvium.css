@@ -163,3 +163,8 @@ h3 {
     text-transform: uppercase;
     font-size: 15px;
 }
+
+.images {
+    scroll-behavior: smooth;
+    width: 10px;
+}
