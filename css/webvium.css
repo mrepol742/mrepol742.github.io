@@ -19,7 +19,7 @@ h3 {
     color: #4285f4;
 }
 .background {
- border-radius: 500px;
+    border-radius: 500px;
     border-style: solid;
     border-color: transparent;
     display: block;
@@ -45,7 +45,7 @@ h3 {
     .webvium_screenshots {
         margin-top: 5%;
     }
-    
+
 }
 
 .webvium {
@@ -98,7 +98,7 @@ h3 {
     justify-content: center;
     align-items: center;
     animation: zoom 15s forwards;
-    margin:-10px;
+    margin: -10px;
 }
 
 .webvium_selected_image {
@@ -147,9 +147,9 @@ h3 {
 
 .other_Webvium_version {
     margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 10px;
-        margin-bottom: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 10px;
 }
 

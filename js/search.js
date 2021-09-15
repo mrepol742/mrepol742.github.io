@@ -18,9 +18,9 @@
 var a = 20;
 
 try {
-	if (a > Webvium.currentVersion()) {
-	    Webvium.showNotification("Update available", "A new version of Webvium was now available to download", "https://mrepol742.github.io/PROJECT-WEBVIUM")
-	}
+    if (a > Webvium.currentVersion()) {
+        Webvium.showNotification("Update available", "A new version of Webvium was now available to download", "https://mrepol742.github.io/PROJECT-WEBVIUM")
+    }
 } catch (ee) {}
 
 window.addEventListener('scroll', reveal)
@@ -42,24 +42,24 @@ function reveal() {
 }
 
 try {
-	if (!WebviumThemeHelper.isCustomBackgroundEnabled()) {
-	    if (WebviumThemeHelper.isDarkModeEnabled()) {
-        	bg.style.display = 'block'
-	        bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?night'
-	        document.getElementById("search").style.backgroundColor = "#212121";
-	        document.getElementById("btn").style.backgroundColor = "#212121";
-	        document.getElementById("search").style.color = "#ffffff";
-	        document.querySelector('.webvium').style.color = '#fcfcfc'
-	    } else {
-	        bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?day'
-	    }
+    if (!WebviumThemeHelper.isCustomBackgroundEnabled()) {
+        if (WebviumThemeHelper.isDarkModeEnabled()) {
+            bg.style.display = 'block'
+            bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?night'
+            document.getElementById("search").style.backgroundColor = "#212121";
+            document.getElementById("btn").style.backgroundColor = "#212121";
+            document.getElementById("search").style.color = "#ffffff";
+            document.querySelector('.webvium').style.color = '#fcfcfc'
+        } else {
+            bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?day'
+        }
     } else {
-    	bg.style.display = 'none'
+        bg.style.display = 'none'
     }
 } catch (a) {
     bg.src = 'https://source.unsplash.com/640x480?day'
     if (!a.toString().includes('Webvium')) {
-    	console.error(a)
+        console.error(a)
     }
 }
 
