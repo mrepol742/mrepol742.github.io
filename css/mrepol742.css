@@ -161,6 +161,21 @@ fa:hover {
 .gitprogress img {
     max-width: 100%;
 }
+
+div.row {
+	margin:0.7rem;
+}
+
+.inf {
+	display:flex;
+	align-items:center;
+	font-size:0.9rem;
+}
+
+.inf .material-icons {
+	margin:0 0.5rem;
+}
+
 @media (max-width:1080px) {
     section.main {
         margin: 3%;
