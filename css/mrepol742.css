@@ -11,6 +11,7 @@
 body {
     background: #f5f5f5;
     color: #484848;
+    margin:0;
 }
 
 * {
@@ -60,6 +61,7 @@ section.main {
     margin-left: 15%;
     margin-right: 15%;
 }
+
 .intro {
     padding-left: 15px;
     padding-right: 15px;
@@ -161,6 +163,17 @@ fa:hover {
 .gitprogress img {
     max-width: 100%;
 }
+
+.inf {
+	display:flex;
+	align-items:center;
+	font-size:0.9rem;
+}
+
+.inf .material-icons {
+	margin:0 0.5rem;
+}
+
 @media (max-width:1080px) {
     section.main {
         margin: 3%;
