@@ -16,6 +16,8 @@
 */
 
 var a = 20;
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`)
 
 try {
     if (a > Webvium.currentVersion()) {
@@ -103,11 +105,47 @@ node.addEventListener("keyup", function(event) {
 
 try {
     var su = WebviumSearchHelper.query().split(":");
+    alert(su)
     if (su != "null") {
         for (let i = 0; i < su.length; i++) {
             let opt = document.createElement("option")
             opt.setAttribute("value", atob(su[i]))
             suggestions.appendChild(opt)
+            let sugItem = document.createElement('div')
+            sugItem.setAttribute('class', 'sug-item')
+
+            let icon = document.createElement('span')
+            icon.setAttribute('class', 'material-icons')
+            icon.textContent = 'history'
+
+            let text = document.createElement('span')
+            text.setAttribute('class', 'text')
+            text.textContent = atob(su[i])
+
+            sugItem.appendChild(icon)
+            sugItem.appendChild(text)
+            sug.appendChild(sugItem)
+
+            search.addEventListener('input', () => {
+                if (search.value.length != 0) {
+                    sug.style.display = 'flex'
+                    if (text.textContent.includes(search.value)) {
+                        sugItem.style.display = 'flex'
+                        sug.style.display = 'flex'
+                    } else {
+                        sugItem.style.display = 'none'
+                    }
+
+                    sugItem.addEventListener('click', () => {
+                        search.value = atob(su[i])
+                    })
+                } else {
+                    sug.style.display = 'none'
+                    search.style.transform = 'translateY(0%)'
+                    webvium.style.transform = 'translateY(0%)'
+                    sug.style.transform = 'tranlate(-50%, 0%)'
+                }
+            })
         }
     }
 } catch (a) {}

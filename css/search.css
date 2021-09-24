@@ -25,7 +25,6 @@
     color: #ffffff;
 }
 
-
 a {
     color: #4285f4;
     text-decoration: none;
@@ -47,6 +46,16 @@ h1 {
 #con {
     text-align: center;
     margin-top: 10%;
+}
+
+.webvium {
+	margin:1.5rem;
+}
+
+#con {
+    text-align: center;
+    margin-top: 10%;
+    position:relative;
 }
 
 @media (max-width:1080px) {
@@ -92,4 +101,40 @@ h1 {
     height: 100vh;
     width: 100vw;
     object-fit: cover;
+    height: calc(var(--vh, 1vh) * 100);
+    width: 100vw;
+    object-fit: cover;
+}
+
+#sug {
+	display:none;
+	flex-direction:column;
+	width:calc(80% - 0rem);
+	background:white;
+	margin:1rem 0;
+	border-radius:1rem;
+	position:absolute;
+	left:50%;
+	transform:translate(-50%, -10%);
+	padding:0 5px;
+	max-height:calc(100vh - 50vh);
+	overflow-y:scroll;
+}
+
+#sug .sug-item {
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+	padding:0.5rem;
+}
+
+#sug .sug-item span {
+	margin:0 0.5rem;
+	font-size:1rem;
+}
+
+#sug .sug-item .text {
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
 }
