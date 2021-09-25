@@ -16,8 +16,6 @@
 */
 
 var a = 20;
-let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', `${vh}px`)
 
 try {
     if (a > Webvium.currentVersion()) {
@@ -27,7 +25,7 @@ try {
 
 window.addEventListener('scroll', reveal)
 reveal();
-lozad().observe();
+/*lozad().observe();*/
 function reveal() {
     let items = document.querySelectorAll('.obj')
     for (let i = 0; i < items.length; i++) {
@@ -105,12 +103,8 @@ node.addEventListener("keyup", function(event) {
 
 try {
     var su = WebviumSearchHelper.query().split(":");
-    alert(su)
     if (su != "null") {
         for (let i = 0; i < su.length; i++) {
-            let opt = document.createElement("option")
-            opt.setAttribute("value", atob(su[i]))
-            suggestions.appendChild(opt)
             let sugItem = document.createElement('div')
             sugItem.setAttribute('class', 'sug-item')
 
@@ -149,6 +143,53 @@ try {
         }
     }
 } catch (a) {}
+
+
+search.addEventListener('input', () => {
+	try {
+		var inp = search.value
+	    if (inp.trim().length != 0) {
+			let divs = document.querySelectorAll('.sug-item')
+			
+			for (let i = 0; i < divs.length; i++) {
+				sug.removeChild(divs[i])
+			}
+			
+	    	sug.style.display = 'flex'
+	    	var doc = web.tt(search.value)
+	    	var jsonString = xml2json($.parseXML(doc)).split('undefined').join('')
+	    	var json = JSON.parse(jsonString)
+	    	var topLevel = json.toplevel
+	    	var comsug = topLevel.CompleteSuggestion
+	    	var data = ""
+				    	
+			for (let i = 0; i < comsug.length; i++) {
+			    data += comsug[i].suggestion.data + "<br>"
+			    let sugItem = document.createElement('div')
+			    sugItem.setAttribute('class', 'sug-item')
+			    
+			    let icon = document.createElement('span')
+			    icon.setAttribute('class', 'material-icons')
+			    icon.textContent = 'search'
+			    
+			    let text = document.createElement('span')
+			    text.setAttribute('class', 'text')
+			    text.textContent = comsug[i].suggestion.data
+			    
+			    sugItem.appendChild(icon)
+			    sugItem.appendChild(text)
+			    sug.appendChild(sugItem)
+			    sugItem.addEventListener('click', () => {
+				    search.value = comsug[i].suggestion.data
+				        		sug.style.display = 'none'
+			    })
+			}
+		} else {
+			sug.style.display = 'none'
+			sug.innerHTML = ''
+		}
+	} catch (ex) {}
+})
 
 //Unused function
 function b() {
