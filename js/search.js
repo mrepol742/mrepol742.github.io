@@ -23,9 +23,12 @@ try {
     }
 } catch (ee) {}
 
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`)
+
 window.addEventListener('scroll', reveal)
 reveal();
-/*lozad().observe();*/
+lozad().observe();
 function reveal() {
     let items = document.querySelectorAll('.obj')
     for (let i = 0; i < items.length; i++) {
@@ -144,6 +147,12 @@ try {
     }
 } catch (a) {}
 
+/*
+ * Roses are red
+ * Violets are blue
+ * If you are reading this
+ * You are an idiot too
+*/
 
 search.addEventListener('input', () => {
 	try {
@@ -156,7 +165,7 @@ search.addEventListener('input', () => {
 			}
 			
 	    	sug.style.display = 'flex'
-	    	var doc = web.tt(search.value)
+	    	var doc = WebviumSearchSuggestion.getResponse(search.value)
 	    	var jsonString = xml2json($.parseXML(doc)).split('undefined').join('')
 	    	var json = JSON.parse(jsonString)
 	    	var topLevel = json.toplevel
@@ -181,7 +190,7 @@ search.addEventListener('input', () => {
 			    sug.appendChild(sugItem)
 			    sugItem.addEventListener('click', () => {
 				    search.value = comsug[i].suggestion.data
-				        		sug.style.display = 'none'
+	        		sug.style.display = 'none'
 			    })
 			}
 		} else {
