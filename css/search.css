@@ -115,9 +115,9 @@ h1 {
 	border-radius:1rem;
 	position:absolute;
 	left:50%;
-	transform:translate(-50%, -10%);
+	transform:translate(-50%, -5%);
 	padding:0 5px;
-	max-height:calc(100vh - 50vh);
+	max-height:calc(var(--sug, 1vh) * 50);
 	overflow-y:scroll;
 }
 
