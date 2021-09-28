@@ -1,5 +1,5 @@
 var a = 20;
-
+/*alert(document.querySelector('.preview').height)*/
 let items = document.querySelectorAll('.size12')
 items.forEach((e) => {
     e.innerHTML = "474KB";

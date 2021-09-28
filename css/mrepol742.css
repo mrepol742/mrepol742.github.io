@@ -134,7 +134,8 @@ fa:hover {
 }
 
 .images .holder {
-    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y:hidden;
     /* Make the images scrollable */
     display: flex;
     /* helps to auto scroll kinda thing...
@@ -148,8 +149,9 @@ fa:hover {
 
 .images .holder .preview {
     width: 50%;
-    height: auto;
+    height:auto;
     max-width:200px;
+    max-height:35vh;
     /* another part of scrollsnap which i cant explain */
     scroll-snap-align: start;
     margin:0 0.5rem;
