@@ -143,18 +143,21 @@ fa:hover {
 		 */
     scroll-snap-type: x mandatory;
     width: 100%;
+    padding:10% 0;
 }
 
 .images .holder .preview {
-    min-width: 90%;
+    width: 50%;
     height: auto;
+    max-width:200px;
     /* another part of scrollsnap which i cant explain */
     scroll-snap-align: start;
+    margin:0 0.5rem;
 }
 
-.images .holder .preview {
-    width: 100px;
-}
+.images .holder .preview:nth-child(odd) {
+	transform:translateY(-10%);
+} 
 
 .gitprogress {
     max-width: 100vw;
