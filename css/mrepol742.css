@@ -145,6 +145,12 @@ fa:hover {
     scroll-snap-type: x mandatory;
     width: 100%;
     padding:10% 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.images .holder::-webkit-scrollbar { 
+    display: none;
 }
 
 .images .holder .preview {
