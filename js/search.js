@@ -160,11 +160,11 @@ search.addEventListener('input', () => {
 		var inp = search.value
 	    if (inp.trim().length != 0) {
 			let divs = document.querySelectorAll('.sug-item')
-			
+
 			for (let i = 0; i < divs.length; i++) {
 				sug.removeChild(divs[i])
 			}
-			
+
 	    	sug.style.display = 'flex'
 	    	var doc = WebviumSearchSuggestion.getResponse(search.value)
 	    	var jsonString = xml2json($.parseXML(doc)).split('undefined').join('')
@@ -172,20 +172,20 @@ search.addEventListener('input', () => {
 	    	var topLevel = json.toplevel
 	    	var comsug = topLevel.CompleteSuggestion
 	    	var data = ""
-				    	
+
 			for (let i = 0; i < comsug.length; i++) {
 			    data += comsug[i].suggestion.data + "<br>"
 			    let sugItem = document.createElement('div')
 			    sugItem.setAttribute('class', 'sug-item')
-			    
+
 			    let icon = document.createElement('span')
 			    icon.setAttribute('class', 'material-icons')
 			    icon.textContent = 'search'
-			    
+
 			    let text = document.createElement('span')
 			    text.setAttribute('class', 'text')
 			    text.textContent = comsug[i].suggestion.data
-			    
+
 			    sugItem.appendChild(icon)
 			    sugItem.appendChild(text)
 			    sug.appendChild(sugItem)
@@ -200,11 +200,3 @@ search.addEventListener('input', () => {
 		}
 	} catch (ex) {}
 })
-
-//Unused function
-function b() {
-    document.body.style.backgroundSize = 'cover';
-    document.body.style.backgroundRepeat = 'no-repeat';
-    document.body.style.backgroundAttachment = 'fixed';
-    document.body.style.backgroundPosition = 'center';
-}
