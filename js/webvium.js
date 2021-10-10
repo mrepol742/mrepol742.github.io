@@ -1,4 +1,4 @@
-var a = 20;
+var a = 21;
 /*alert(document.querySelector('.preview').height)*/
 let items = document.querySelectorAll('.size12')
 items.forEach((e) => {
