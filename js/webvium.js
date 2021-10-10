@@ -2,16 +2,16 @@ var a = 20;
 /*alert(document.querySelector('.preview').height)*/
 let items = document.querySelectorAll('.size12')
 items.forEach((e) => {
-    e.innerHTML = "474KB";
+    e.innerHTML = "Unknown";
 })
 
 let items0 = document.querySelectorAll('#download_btn')
 items0.forEach((e1) => {
-    e1.textContent = 'Download Webvium v2.0(474KB)';
+    e1.textContent = 'Download Webvium v2.1(Unknown)';
 })
 
 function download() {
-    window.location.href = "https://github.com/webvium/webvium.github.io/blob/main/Webvium%20v2.0-stable.apk?raw=true";
+    window.location.href = "https://github.com/webvium/webvium.github.io/blob/main/Webvium%20v2.1-stable.apk?raw=true";
 }
 
 try {
