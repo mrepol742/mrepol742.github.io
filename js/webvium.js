@@ -2,12 +2,12 @@ var a = 20;
 /*alert(document.querySelector('.preview').height)*/
 let items = document.querySelectorAll('.size12')
 items.forEach((e) => {
-    e.innerHTML = "Unknown";
+    e.innerHTML = "474KB";
 })
 
 let items0 = document.querySelectorAll('#download_btn')
 items0.forEach((e1) => {
-    e1.textContent = 'Download Webvium v2.1(Unknown)';
+    e1.textContent = 'Download Webvium v2.1(474KB)';
 })
 
 function download() {
