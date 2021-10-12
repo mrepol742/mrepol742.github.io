@@ -42,10 +42,6 @@ h3 {
         text-align: center;
         margin-top: 2%;
     }
-    .webvium_screenshots {
-        margin-top: 5%;
-    }
-
 }
 
 .webvium {
@@ -70,79 +66,6 @@ h3 {
     margin-right: 5%;
     text-align: center;
     margin-top: 10%;
-}
-
-.webvium_screenshots {
-    display: flex;
-    margin-top: 10%;
-    margin-right: 3%;
-    margin-left: 3%;
-    margin-bottom: 10%;
-    padding: 5px;
-    overflow: hidden;
-}
-
-.webvium_shot {
-    width: 80%;
-    height: auto;
-}
-
-.webvium_shot_holder {
-    height: 100vh;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: zoom 15s forwards;
-    margin: -10px;
-}
-
-.webvium_selected_image {
-    width: auto;
-    height: 100vh;
-}
-
-#download_btn {
-    background-color: #4285f4;
-    color: #ffffff;
-    font-size: 18px;
-    border-radius: 5px;
-    border-color: #4285f4;
-    outline: none;
-    border-style: solid;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 5%;
-}
-
-#download_btn:active {
-    background-color: #ffffff;
-    color: #4285f4;
-    border-color: #4285f4;
-}
-
-@keyframes zoom {
-    0% {
-        transform: scale(1,1);
-    }
-    25% {
-        transform: scale(1.1,1.1);
-    }
-    50% {
-        transform: scale(1.2,1.2);
-    }
-    75% {
-        transform: scale(1.1,1.1);
-    }
-    100% {
-        transform: scale(1,1);
-    }
 }
 
 .other_Webvium_version {

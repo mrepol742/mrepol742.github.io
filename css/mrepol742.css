@@ -18,7 +18,6 @@ body {
     font-family: 'Maven Pro', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 a {
@@ -26,36 +25,11 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+
 a:hover {
     color: #000000;
 }
-a.nav-link {
-    color: #484848;
-    text-decoration: none;
-    cursor: pointer;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-a:navlink:hover {
-    color: #ffffff;
-}
-li.nav-item:hover {
-    background-color: #4285f4;
-    color: #ffffff;
-}
 
-nav {
-    background: #ffffff;
-    border-style: solid;
-    border-color: #ffffff;
-    border-top-color: #4285f4;
-    border-width: 3px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, .20);
-}
-
-.navbar-nav {
-    background-color: #f5f5f5;
-}
 section.main {
     padding-top: 5%;
     margin-left: 15%;
