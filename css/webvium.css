@@ -15,80 +15,12 @@
 * limitations under the License.
 */
 
-h3 {
-    color: #4285f4;
-}
-.background {
-    border-radius: 500px;
-    border-style: solid;
-    border-color: transparent;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+section.main {
+    margin-bottom: 10% !important;
 }
 
-.space {
-    margin-top: 13%;
-}
-
-@media screen and (max-height: 450px) {
-    .space {
-        margin-top: 5%;
+@media (max-width:1080px) {
+    section.main {
+        margin-bottom: 10% !important;
     }
-    .webvium {
-        text-align: center;
-        margin-top: 2%;
-    }
-}
-
-.webvium {
-    text-align: center;
-    margin-top: 5%;
-}
-
-.webvium_title {
-    font-weight: bolder;
-    font-size: 30px;
-}
-
-.webvium_sub {
-    font-size: 15px;
-    font-weight: lighter;
-    margin-top: 5%;
-}
-
-.webvium_info {
-    display: block;
-    margin-left: 5%;
-    margin-right: 5%;
-    text-align: center;
-    margin-top: 10%;
-}
-
-.other_Webvium_version {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-}
-
-#webvium_number_of_downloads {
-    text-align: center;
-    margin-top: 5%;
-    font-style: bolder;
-}
-
-#curr {
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 15px;
-}
-
-.images {
-    scroll-behavior: smooth;
-    width: 10px;
 }

@@ -14,6 +14,14 @@ function download() {
     window.location.href = "https://github.com/webvium/webvium.github.io/blob/main/Webvium-v2.1-stable.apk?raw=true";
 }
 
+function issue() {
+    window.location.href = "https://github.com/mrepol742/PROJECT-WEBVIUM/issues/new?assignees=&labels=&template=bug_report.md&title=";
+}
+
+function request() {
+    window.location.href = "https://github.com/mrepol742/PROJECT-WEBVIUM/issues/new?assignees=&labels=&template=feature_request.md&title=";
+}
+
 try {
 
     if (a > Webvium.currentVersion()) {
@@ -57,5 +65,5 @@ function getOS() {
 }
 
 if (getOS() != 'Android') {
-    document.getElementById("nots").innerHTML = "<div class=\"alert alert-danger\" role=\"alert\">We detected that you are using <b>"  + getOS() + " OS</b> in which Webvium are not compatible. Webvium only supports Android OS version 5 or higher</div>";
+    document.getElementById("nots").innerHTML = "<div class=\"alert alert-danger\" role=\"alert\">We detected that you are using <b>" + getOS() + "OS</b> in which Webvium are not compatible. Webvium only supports Android OS version 5 or higher</div>";
 }
