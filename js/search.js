@@ -47,23 +47,20 @@ function reveal() {
 
 try {
     if (!WebviumThemeHelper.isCustomBackgroundEnabled()) {
-        if (WebviumThemeHelper.isDarkModeEnabled()) {
-            bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?night';
-            document.getElementById("search").style.backgroundColor = "#212121";
-            document.getElementById("btn").style.backgroundColor = "#212121";
-            document.getElementById("search").style.color = "#ffffff";
-            document.querySelector('.webvium').style.color = '#fcfcfc';
-        } else {
-            bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?day';
-        }
+    if (WebviumThemeHelper.isDarkModeEnabled()) {
+        document.body.background = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?night'
+        document.getElementById("search").style.backgroundColor = "#212121";
+        document.getElementById("btn").style.backgroundColor = "#212121";
+        document.getElementById("search").style.color = "#ffffff";
+        document.querySelector('.webvium').style.color = '#fcfcfc';
     } else {
-        bg.style.display = 'none';
+        document.body.background = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?day'
     }
+    b();
+}
 } catch (a) {
-    bg.src = 'https://source.unsplash.com/640x480?day';
-    if (!a.toString().includes('Webvium')) {
-        console.error(a);
-    }
+    document.body.background = 'https://source.unsplash.com/640x480?day'
+    b();
 }
 
 const node = document.getElementById("search");
@@ -199,3 +196,11 @@ search.addEventListener('input', () => {
 		}
 	} catch (ex) {}
 })
+
+
+function b() {
+    document.body.style.backgroundSize = 'cover';
+    document.body.style.backgroundRepeat = 'no-repeat';
+    document.body.style.backgroundAttachment = 'fixed';
+    document.body.style.backgroundPosition = 'center';
+}

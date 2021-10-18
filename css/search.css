@@ -93,7 +93,7 @@ h1 {
     opacity: 1;
     transform: translateY(0);
 }
-
+/*
 #bg {
     position: fixed;
     top: 0;
@@ -104,7 +104,7 @@ h1 {
     height: calc(var(--vh, 1vh) * 100);
     width: 100vw;
     object-fit: cover;
-}
+}*/
 
 #sug {
 	display:none;
