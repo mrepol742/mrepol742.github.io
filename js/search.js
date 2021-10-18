@@ -48,22 +48,21 @@ function reveal() {
 try {
     if (!WebviumThemeHelper.isCustomBackgroundEnabled()) {
         if (WebviumThemeHelper.isDarkModeEnabled()) {
-            bg.style.display = 'block'
-            bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?night'
+            bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?night';
             document.getElementById("search").style.backgroundColor = "#212121";
             document.getElementById("btn").style.backgroundColor = "#212121";
             document.getElementById("search").style.color = "#ffffff";
-            document.querySelector('.webvium').style.color = '#fcfcfc'
+            document.querySelector('.webvium').style.color = '#fcfcfc';
         } else {
-            bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?day'
+            bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?day';
         }
     } else {
-        bg.style.backgroundColor = "transparent";
+        bg.style.display = 'none';
     }
 } catch (a) {
-    bg.src = 'https://source.unsplash.com/640x480?day'
+    bg.src = 'https://source.unsplash.com/640x480?day';
     if (!a.toString().includes('Webvium')) {
-        console.error(a)
+        console.error(a);
     }
 }
 
