@@ -58,7 +58,7 @@ try {
             bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?day'
         }
     } else {
-        bg.style.display = 'none'
+        bg.style.backgroundColor = "transparent";
     }
 } catch (a) {
     bg.src = 'https://source.unsplash.com/640x480?day'
