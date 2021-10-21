@@ -27,45 +27,23 @@ let vh = window.innerHeight * 0.01;
 document.documentElement.style.setProperty('--vh', `${vh}px`)
 document.documentElement.style.setProperty('--sug', `${vh}px`)
 
-window.addEventListener('scroll', reveal)
-reveal();
-lozad().observe();
-function reveal() {
-    let items = document.querySelectorAll('.obj')
-    for (let i = 0; i < items.length; i++) {
-        let windowHeight = window.innerHeight;
-        let revealTop = items[i].getBoundingClientRect().top;
-        let distance = 50;
-
-        if (revealTop < windowHeight - distance) {
-            items[i].classList.add('active')
-        } else {
-            items[i].classList.remove('active')
-        }
-    }
-}
-
 try {
     if (!WebviumThemeHelper.isCustomBackgroundEnabled()) {
         if (WebviumThemeHelper.isDarkModeEnabled()) {
-            bg.style.display = 'block'
             bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?night'
-            document.getElementById("search").style.backgroundColor = "#212121";
-            document.getElementById("btn").style.backgroundColor = "#212121";
-            document.getElementById("search").style.color = "#ffffff";
-            document.querySelector('.webvium').style.color = '#fcfcfc'
         } else {
             bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?day'
         }
     } else {
-        bg.style.display = 'none'
+        bg.style.display = 'none';
+        document.getElementsByTagName("body")[0].style.backgroundColor = "rgba(255, 255, 255, 0)";
     }
 } catch (a) {
     bg.src = 'https://source.unsplash.com/640x480?day'
-    if (!a.toString().includes('Webvium')) {
-        console.error(a)
-    }
 }
+
+
+document.getElementById("search").style.background = "linear-gradient(" + Math.floor(Math.random() * 91) + 20 +"deg, rgb(95, 44, 130), rgb(73, 160, 157))";
 
 const node = document.getElementById("search");
 node.addEventListener("keyup", function(event) {

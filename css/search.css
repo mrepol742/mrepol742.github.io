@@ -64,13 +64,18 @@ h1 {
     }
 }
 
+@media (max-width:700px) {
+    #search {
+        width: 80% !important;
+    }
+}
+
 #search {
     border-radius: 50px;
     border-style: solid;
     border-width: 0px;
-    background: linear-gradient(90deg, #5f2c82, #49a09d);
     color: #ffffff;
-    width: 80%;
+    width: 50%;
     height: 45px;
     padding-left: 25px;
     padding-right: 25px;
