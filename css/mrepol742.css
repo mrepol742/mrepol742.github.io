@@ -11,7 +11,6 @@
 body {
     background: #f5f5f5;
     color: #484848;
-    margin:0;
 }
 
 * {
@@ -34,6 +33,11 @@ section.main {
     padding-top: 5%;
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 10% !important;
+}
+
+nav {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .20);
 }
 
 .intro {
@@ -53,7 +57,15 @@ div.row, h2.pad, div.card-group {
 .card {
     box-shadow: 0 2px 6px rgba(0, 0, 0, .20);
     padding: 10px;
+    border-radius: 10px;
+    border: none;
 }
+
+.card-header {
+    background: none;
+    border: none;
+}
+
 .text-center {
     padding-top: 10%;
 }
@@ -70,7 +82,8 @@ p.top {
 .accordion-item, .list-group-item {
     border: none;
 }
-fa:hover {
+
+.fa:hover {
     opacity: 0.7;
 }
 
@@ -159,9 +172,11 @@ fa:hover {
 	margin:0 0.5rem;
 }
 
+
 @media (max-width:1080px) {
     section.main {
         margin: 3%;
+        margin-bottom: 20% !important;
     }
     .container-fluid {
         margin: 0;
