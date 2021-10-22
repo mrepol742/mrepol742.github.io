@@ -30,7 +30,7 @@ a:hover {
 }
 
 section.main {
-    padding-top: 5%;
+    padding-top: 6%;
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 10% !important;
@@ -52,7 +52,7 @@ nav {
     color: #4285f4;
 }
 div.row, h2.pad, div.card-group {
-    padding-top: 15px;
+    padding-top: 17px;
 }
 .card {
     box-shadow: 0 2px 6px rgba(0, 0, 0, .20);
