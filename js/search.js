@@ -48,38 +48,7 @@ document.getElementById("search").style.background = "linear-gradient(" + Math.f
 const node = document.getElementById("search");
 node.addEventListener("keyup", function(event) {
     if (event.key === "Enter") {
-        try {
-            let t = search.value;
-            if (t.trim()) {
-                const a = document.getElementById("search").value;
-                const aq = a.toLowerCase();
-                if (aq.startsWith("https://") || aq.startsWith("http://")) {
-                    if (WebviumSearchHelper.isValidDomain(aq)) {
-                        window.location.href = a;
-                    } else {
-                        window.location.href = WebviumSearchHelper.getSearchEngine() + a;
-                    }
-                } else {
-                    if (WebviumSearchHelper.isValidDomain(aq)) {
-                        window.location.href = "https://" + a;
-                    } else {
-                        window.location.href = WebviumSearchHelper.getSearchEngine() + a;
-                    }
-                }
-                WebviumSearchHelper.saveQuery(a);
-            }
-        } catch (qw) {
-            let t = search.value;
-            if (t.trim()) {
-                const a = document.getElementById("search").value;
-                const aq = a.toLowerCase();
-                if (aq.startsWith("https://") || aq.startsWith("http://")) {
-                    window.location.href = a;
-                } else {
-                    window.location.href = "https://google.com/search?q=" + a;
-                }
-            }
-        }
+	    find(search.value)
     }
 });
 
@@ -170,6 +139,7 @@ search.addEventListener('input', () => {
 			    sugItem.addEventListener('click', () => {
 				    search.value = comsug[i].suggestion.data
 	        		sug.style.display = 'none'
+	        		find(comsug[i].suggestion.data)
 			    })
 			}
 		} else {
@@ -178,3 +148,38 @@ search.addEventListener('input', () => {
 		}
 	} catch (ex) {}
 })
+
+function find(query) {
+	try {
+	    let t = query;
+	    if (t.trim()) {
+	        const a = document.getElementById("search").value;
+	        const aq = a.toLowerCase();
+	        if (aq.startsWith("https://") || aq.startsWith("http://")) {
+	            if (WebviumSearchHelper.isValidDomain(aq)) {
+	                window.location.href = a;
+	            } else {
+	                window.location.href = WebviumSearchHelper.getSearchEngine() + a;
+	            }
+	        } else {
+	            if (WebviumSearchHelper.isValidDomain(aq)) {
+	                window.location.href = "https://" + a;
+	            } else {
+	                window.location.href = WebviumSearchHelper.getSearchEngine() + a;
+	            }
+	        }
+	        WebviumSearchHelper.saveQuery(a);
+	    }
+	} catch (qw) {
+	    let t = search.value;
+	    if (t.trim()) {
+	        const a = document.getElementById("search").value;
+	        const aq = a.toLowerCase();
+	        if (aq.startsWith("https://") || aq.startsWith("http://")) {
+	            window.location.href = a;
+	        } else {
+	            window.location.href = "https://google.com/search?q=" + a;
+	        }
+	    }
+	}
+}

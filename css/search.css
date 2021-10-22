@@ -43,11 +43,6 @@ h1 {
     text-shadow: 0 2px 6px rgba(0, 0, 0, .40);
 }
 
-#con {
-    text-align: center;
-    margin-top: 10%;
-}
-
 .webvium {
 	margin:1.5rem;
 }
@@ -78,7 +73,7 @@ h1 {
     width: 50%;
     height: 45px;
     padding-left: 25px;
-    padding-right: 25px;
+    padding-right: calc(10vw + 1rem);
     font-size: 15px;
     z-index: 100;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .50);
@@ -143,3 +138,20 @@ h1 {
 	overflow:hidden;
 	text-overflow:ellipsis;
 }
+/*.sc {
+	display:block;
+	height:auto;
+	position:relative;
+}
+.scic {
+	position:absolute;
+	z-index:168;
+	right:10%;
+	padding:0 1rem;
+	height:100%;
+	font-size:1.5rem !important;
+	color:white;
+	top:50%;
+	transform:translateY(-30%);
+	display:none;
+}*/
