@@ -40,20 +40,19 @@ nav {
     box-shadow: 0 2px 6px rgba(0, 0, 0, .20);
 }
 
-.intro {
-    padding-left: 15px;
-    padding-right: 15px;
-}
 .container-fluid {
     margin-left: 15%;
     margin-right: 15%;
 }
+
 .navbar-toggler {
     color: #4285f4;
 }
+
 div.row, h2.pad, div.card-group {
     padding-top: 17px;
 }
+
 .card {
     box-shadow: 0 2px 6px rgba(0, 0, 0, .20);
     padding: 10px;
@@ -73,13 +72,16 @@ div.row, h2.pad, div.card-group {
 .text-center2 {
     text-align: center;
 }
+
 p.top {
     font-size: 1.2em;
 }
+
 .col-sm-6 {
     padding-top: 10px;
 }
-.accordion-item, .list-group-item {
+
+.list-group-item {
     border: none;
 }
 
@@ -99,39 +101,21 @@ p.top {
 }
 
 .fa {
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    color: #4285f4;
     margin: 5px;
-}
-.btn {
-    margin-top: 10px;
-    margin-left: 2px;
-    margin-right: 2px;
 }
 
 .images {
     width: 100%;
-    background: transparent;
     overflow: hidden;
-    /* Hidden overflow in parent to remove the scrollbars in browser*/
     display: flex;
 }
 
 .images .holder {
     overflow-x: scroll;
     overflow-y:hidden;
-    /* Make the images scrollable */
     display: flex;
-    /* helps to auto scroll kinda thing...
-		 * just google it what scrollsnap is..
-		 * youll also find scroll snap example in tiktok or youtube shorts
-		 */
     scroll-snap-type: x mandatory;
     width: 100%;
-    padding:10% 0;
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
@@ -145,33 +129,13 @@ p.top {
     height:auto;
     max-width:200px;
     max-height:35vh;
-    /* another part of scrollsnap which i cant explain */
     scroll-snap-align: start;
     margin:0 0.5rem;
 }
 
-.images .holder .preview:nth-child(odd) {
-	transform:translateY(-10%);
-} 
-
-.gitprogress {
-    max-width: 100vw;
-}
-
-.gitprogress img {
-    max-width: 100%;
-}
-
-.inf {
-	display:flex;
-	align-items:center;
-	font-size:0.9rem;
-}
-
-.inf .material-icons {
+.material-icons {
 	margin:0 0.5rem;
 }
-
 
 @media (max-width:1080px) {
     section.main {
