@@ -128,7 +128,7 @@ p.top {
     width: 50%;
     height:auto;
     max-width:200px;
-    max-height:60vh;
+    max-height:50vh;
     scroll-snap-align: start;
     margin:0 0.5rem;
 }
@@ -144,5 +144,8 @@ p.top {
     }
     .container-fluid {
         margin: 0;
+    }
+    .preview1 {
+        max-height:29vh;
     }
 }
