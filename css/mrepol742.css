@@ -128,7 +128,7 @@ p.top {
     width: 50%;
     height:auto;
     max-width:200px;
-    max-height:35vh;
+    max-height:60vh;
     scroll-snap-align: start;
     margin:0 0.5rem;
 }
