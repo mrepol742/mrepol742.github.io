@@ -124,11 +124,11 @@ p.top {
     display: none;
 }
 
-.images .holder .preview {
+.images .holder .preview, .preview1 {
     width: 50%;
     height:auto;
     max-width:200px;
-    max-height:50vh;
+    max-height:45vh;
     scroll-snap-align: start;
     margin:0 0.5rem;
 }
