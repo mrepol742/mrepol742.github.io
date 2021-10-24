@@ -11,7 +11,7 @@ items0.forEach((e1) => {
 })
 
 function download() {
-    window.location.href = "https://github.com/webvium/webvium.github.io/blob/main/Webvium-v2.1-stable.apk?raw=true";
+    window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Released/Webvium%20v2.1.apk";
 }
 
 function issue() {
