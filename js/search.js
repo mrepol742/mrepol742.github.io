@@ -28,6 +28,7 @@ document.documentElement.style.setProperty('--vh', `${vh}px`)
 document.documentElement.style.setProperty('--sug', `${vh}px`)
 
 try {
+	if (WebviumThemeHelper.isBackgroundEnabled()) {
     if (!WebviumThemeHelper.isCustomBackgroundEnabled()) {
         if (WebviumThemeHelper.isDarkModeEnabled()) {
             bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?night'
@@ -38,6 +39,7 @@ try {
         bg.style.display = 'none';
         document.getElementsByTagName("body")[0].style.backgroundColor = "rgba(255, 255, 255, 0)";
     }
+}
 } catch (a) {
     bg.src = 'https://source.unsplash.com/640x480?day'
 }
@@ -104,6 +106,7 @@ try {
 
 search.addEventListener('input', () => {
 	try {
+		if (WebviumSearchSuggestion.isSearchSuggestionsEnabled()) {
 		var inp = search.value
 	    if (inp.trim().length != 0) {
 			let divs = document.querySelectorAll('.sug-item')
@@ -146,9 +149,10 @@ search.addEventListener('input', () => {
 			sug.style.display = 'none'
 			sug.innerHTML = ''
 		}
+	}
 	} catch (ex) {}
 })
-
+	
 function find(query) {
 	try {
 	    let t = query;
