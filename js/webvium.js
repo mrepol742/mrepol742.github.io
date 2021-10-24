@@ -1,17 +1,17 @@
-var a = 21;
+var a = 22;
 
 let items = document.querySelectorAll('.size12')
 items.forEach((e) => {
-    e.innerHTML = "488KB";
+    e.innerHTML = "478KB";
 })
 
 let items0 = document.querySelectorAll('#download_btn')
 items0.forEach((e1) => {
-    e1.textContent = 'Download Webvium v2.1';
+    e1.textContent = 'Download Webvium v2.2';
 })
 
 function download() {
-    window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Released/Webvium%20v2.1.apk";
+    window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Released/Webvium%20v2.2.apk";
 }
 
 function issue() {

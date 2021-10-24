@@ -15,7 +15,7 @@
 * limitations under the License.
 */
 
-var a = 21;
+var a = 22;
 
 try {
     if (a > Webvium.currentVersion()) {
