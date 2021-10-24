@@ -128,9 +128,9 @@ p.top {
     width: 50%;
     height:auto;
     max-width:200px;
-    max-height:45vh;
+    max-height:90vh;
     scroll-snap-align: start;
-    margin:0 0.5rem;
+    margin:0 0.3rem;
 }
 
 .material-icons {
@@ -145,7 +145,19 @@ p.top {
     .container-fluid {
         margin: 0;
     }
-    .preview1 {
-        max-height:29vh;
+
+    .preview {
+        max-height: 50vh !important;
     }
+
+    .preview1 {
+        max-height:20vh;
+    }
+}
+
+@media (max-height:400px) {
+    .preview {
+        max-height: 70vh !important;
+    }
+
 }
