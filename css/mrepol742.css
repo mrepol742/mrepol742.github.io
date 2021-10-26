@@ -40,13 +40,13 @@ nav {
     box-shadow: 0 2px 6px rgba(0, 0, 0, .20);
 }
 
+.navbar-toggler {
+    border: 0px;
+}
+
 .container-fluid {
     margin-left: 15%;
     margin-right: 15%;
-}
-
-.navbar-toggler {
-    color: #4285f4;
 }
 
 div.row, h2.pad, div.card-group {
