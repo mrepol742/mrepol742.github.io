@@ -14,14 +14,6 @@ function download() {
     window.location.href = "https://mrepol742.github.io/PROJECT-WEBVIUM/Released/Webvium%20v2.2.apk";
 }
 
-function issue() {
-    window.location.href = "https://github.com/mrepol742/PROJECT-WEBVIUM/issues/new?assignees=&labels=&template=bug_report.md&title=";
-}
-
-function request() {
-    window.location.href = "https://github.com/mrepol742/PROJECT-WEBVIUM/issues/new?assignees=&labels=&template=feature_request.md&title=";
-}
-
 try {
 
     if (a > Webvium.currentVersion()) {
