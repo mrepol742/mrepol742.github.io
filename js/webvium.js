@@ -14,6 +14,7 @@ function download() {
     window.location.href = "https://github.com/mrepol742/released/blob/stable/Webvium%20v2.2.apk?raw=true";
 }
 
+
 try {
 
     if (a > Webvium.currentVersion()) {
