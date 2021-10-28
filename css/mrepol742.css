@@ -43,6 +43,12 @@ nav {
 .navbar-toggler {
     border: 0px;
 }
+img {
+    transition: transform .3s; 
+}
+img:hover {
+    transform: scale(0.95);
+  }
 
 .container-fluid {
     margin-left: 15%;
