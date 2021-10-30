@@ -145,20 +145,7 @@ img:hover {
 	overflow:hidden;
 	text-overflow:ellipsis;
 }
-/*.sc {
-	display:block;
-	height:auto;
-	position:relative;
+
+.webvI {
+    padding: 10px;
 }
-.scic {
-	position:absolute;
-	z-index:168;
-	right:10%;
-	padding:0 1rem;
-	height:100%;
-	font-size:1.5rem !important;
-	color:white;
-	top:50%;
-	transform:translateY(-30%);
-	display:none;
-}*/
