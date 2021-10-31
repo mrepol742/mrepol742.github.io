@@ -1,11 +1,11 @@
-var a = 22;
-var fo = "2.2";
+var a = 23;
+var fo = "2.3";
 var ul = "https://github.com/mrepol742/released/blob/stable/Webvium%20v";
 var ab = ".apk?raw=true";
-var vr = ["1.0", "1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "1.8", "1.9", "2.0", "2.1"];
+var vr = ["1.0", "1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "1.8", "1.9", "2.0", "2.1", "2.2"];
 let items = document.querySelectorAll('.size12')
 items.forEach((e) => {
-    e.innerHTML = "478KB";
+    e.innerHTML = "474KB";
 })
 
 let items0 = document.querySelectorAll('#download_btn')

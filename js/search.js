@@ -1,4 +1,4 @@
-var a = 22;
+var a = 23;
 
 try {
     if (a > Webvium.currentVersion()) {
