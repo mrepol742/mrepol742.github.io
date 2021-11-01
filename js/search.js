@@ -2,7 +2,7 @@ var a = 23;
 
 try {
     if (a > Webvium.currentVersion()) {
-        Webvium.showNotification("Update available", "A new version of Webvium was now available to download", "https://mrepol742.github.io/PROJECT-WEBVIUM")
+        Webvium.showNotification("Update available", "A new version of Webvium is now available to download", "https://mrepol742.github.io/PROJECT-WEBVIUM")
     }
 } catch (ee) {}
 

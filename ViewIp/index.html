@@ -10,7 +10,7 @@ $.getJSON('https://api.ipify.org/?format=json', (data) => {
 	a(data.ip)
 })
 let a = (ip) => {
-    var b = alert(ip);
+    var b = confirm(ip);
 	if (b) {
         window.history.back();
     }
