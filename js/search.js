@@ -18,7 +18,6 @@
 var a = 23;
 
 try {
-Webvium.showNotification("Shoutout Mark Gaguan", "Pakopya na", "https://tiktok.com/@mrepol742")
     if (a > Webvium.currentVersion()) {
         Webvium.showNotification("Update available", "A new version of Webvium is now available to download", "https://mrepol742.github.io/PROJECT-WEBVIUM")
     }
