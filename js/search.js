@@ -19,7 +19,13 @@ var a = 23;
 
 try {
     if (a > Webvium.currentVersion()) {
-        Webvium.showNotification("Update available", "A new version of Webvium is now available to download", "https://mrepol742.github.io/PROJECT-WEBVIUM")
+	    let qw = ac("gfdgfgf");
+
+	  if (qw == "" || qw == null) {
+		  Webvium.showNotification("Update available", "A new version of Webvium is now available to download", "https://mrepol742.github.io/PROJECT-WEBVIUM")
+		  ab("gfdgfgf", "1098", 1);
+	  }
+     
     }
 } catch (ee) {}
 
@@ -214,11 +220,11 @@ function ab(cname, cvalue, exdays) {
   }
 
   function qwer() {
-	let qw = ac("qw12");
+	let qw = ac("qw1212");
 
 	  if (qw == "" || qw == null) {
-		  Webvium.showNotification("Webvium", "A new version of this app will be available soon bringing security, compatibility, performance, UI and realibility improvements, bug fixes and new features.", "https://webvium.github.io")
-		ab("qw12", "1234", 7);
+		  Webvium.showNotification("Webvium", "A new version of this app will be available soon bringing security, compatibility, performance, UI and reliability improvements, bug fixes and new features.", "https://webvium.github.io")
+		ab("qw1212", "1234", 7);
 	  }
   }
 try {
