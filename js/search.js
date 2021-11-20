@@ -19,13 +19,19 @@ var a = 23;
 
 try {
     if (a > Webvium.currentVersion()) {
-	 
+		let qw = ac("qwewqe34");
+
+		if (qw == "" || qw == null) {
 
 		  Webvium.showNotification("Update available", "A new version of Webvium is now available to download", "https://mrepol742.github.io/PROJECT-WEBVIUM")
-		 
+		  ab("oyujt", "f3f4fas", 1);
+		}
      
     }
-} catch (ee) {}
+
+} catch (ee) {
+
+}
 
 
 

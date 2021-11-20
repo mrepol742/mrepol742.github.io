@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+    padding: 0;
+	overflow: hidden;
+}
+
+svg {
+	width:100vw;
+    height:100vh;
+}
+
+.fc1 { 
+    fill: violet;  
+}
+.fc2 { 
+    fill: hotpink; 
+}
+.fc3 { 
+    fill: lavender;
+}
+.fc4 { 
+    fill: skyblue; 
+}
+
+svg path {
+	fill: inherit;
+}
