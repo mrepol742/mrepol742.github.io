@@ -18,12 +18,13 @@
 
 var typed = new Typed('#txt', {
 		strings: [
-            "i love you",
+            "I love you",
             "Wǒ ài nǐ",
             "te amo, te quiero",
             "ahabak",
             "eu te amo",
-            "Āmi tōmāẏa bhālōbāsi",
+            "Ami tomake bhalobashi",
+            "mujhe tumse pyaar hai",
             "ya lyublyu tebya",
             "watashi wa, anata o aishiteimasu",
             "maiṁ tuhānū pi’āra karadā hāṁ",
