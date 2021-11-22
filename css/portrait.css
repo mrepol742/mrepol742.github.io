@@ -27,9 +27,10 @@ body {
 
 p {
     font-family: 'Maven Pro', sans-serif;
-    background-image: url("/images/mrepol742.png");
+    background-image: url("/images/mrepol742.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     line-height: 1.0;
     text-align: justify;
     font-size: 15px;
