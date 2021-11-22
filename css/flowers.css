@@ -10,16 +10,16 @@ svg {
 }
 
 .fc1 { 
-    fill: violet;  
+    fill: #6495ED;  
 }
 .fc2 { 
-    fill: hotpink; 
+    fill: #ADD8E6; 
 }
 .fc3 { 
-    fill: lavender;
+    fill: #87CEEB;
 }
 .fc4 { 
-    fill: skyblue; 
+    fill: #87CEFA; 
 }
 
 svg path {
