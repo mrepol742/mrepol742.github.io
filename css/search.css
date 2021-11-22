@@ -49,32 +49,14 @@ h1 {
 }
 
 .webvium {
-	margin:1.5rem;
+	margin-bottom: 10px;
 }
-
-img {
-    transition: transform .3s; 
-}
-img:hover {
-    transform: scale(1.05);
-  }
 
 #con {
-    text-align: center;
-    margin-top: 10%;
-    position:relative;
-}
-
-@media (max-width:1080px) {
-    #con {
-        margin-top: 30%;
-    }
-}
-
-@media (max-width:700px) {
-    #search {
-        width: 80% !important;
-    }
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 #search {
@@ -82,10 +64,10 @@ img:hover {
     border-style: solid;
     border-width: 0px;
     color: #ffffff;
-    width: 50%;
-    height: 45px;
-    padding-left: 25px;
-    padding-right: calc(10vw + 1rem);
+    width: 120%;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 15px;
     z-index: 100;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .50);
@@ -93,17 +75,6 @@ img:hover {
 
 #search::placeholder {
     color: #f1f1f1;
-}
-
-.obj {
-    opacity: 0;
-    transform: translateY(15%);
-    transition: all 1.5s ease;
-}
-
-.obj.active {
-    opacity: 1;
-    transform: translateY(0);
 }
 
 #bg {

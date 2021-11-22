@@ -43,9 +43,11 @@ try {
 	if (WebviumThemeHelper.isBackgroundEnabled()) {
     if (!WebviumThemeHelper.isCustomBackgroundEnabled()) {
         if (WebviumThemeHelper.isDarkModeEnabled()) {
-            bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?night'
+            bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?night';
+			document.getElementById("webvium").style.color ="#ffffff";
         } else {
-            bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?day'
+			document.getElementById("webvium").style.color ="#212121";
+            bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?day';
         }
     } else {
         bg.style.display = 'none';
@@ -53,7 +55,7 @@ try {
     }
 }
 } catch (a) {
-    bg.src = 'https://source.unsplash.com/640x480?day'
+    bg.src = 'https://source.unsplash.com/640x480?day';
 }
 
 

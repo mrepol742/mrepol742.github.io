@@ -15,10 +15,11 @@
 * limitations under the License.
 */
 
-
+lozad().observe();
 var typed = new Typed('#txt', {
 		strings: [
             "I love you",
+            "Mahal kita",
             "Wǒ ài nǐ",
             "te amo, te quiero",
             "ahabak",
