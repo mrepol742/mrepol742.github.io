@@ -1,12 +1,12 @@
 {
-    "name": "PROJECT-WEBVIUM | Webvium",
+    "name": "Webvium",
     "short_name": "Webvium",
     "description": "Lightweight, Fast, Material and Full-Featured Android Web Browser.",
     "dir": "ltr",
     "lang": "en-US",
     "icons": [
       {
-        "src": "/images/PROJECT-WEBVIUM.png",
+        "src": "/images/webvium.png",
         "sizes": "192x192",
         "type": "image/png"
       }
@@ -19,7 +19,7 @@
     "related_applications": [
       {
         "platform": "web",
-        "url": "https://mrepol742.github.io/PROJECT-WEBVIUM"
+        "url": "https://mrepol742.github.io/webvium"
       }
     ]
   }
