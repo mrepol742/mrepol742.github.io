@@ -22,7 +22,7 @@ try {
     if (a > Webvium.currentVersion()) {
 		let qw = ac("qwewqe34");
 		if (qw == "" || qw == null) {
-		  Webvium.showNotification("Update available", "A new version of Webvium is now available to download", "https://mrepol742.github.io/PROJECT-WEBVIUM")
+		  Webvium.showNotification("Update available", "A new version of Webvium is now available to download", "https://mrepol742.github.io/webvium")
 		  ab("oyujt", "f3f4fas", 1);
 		}
      
@@ -223,7 +223,7 @@ function ab(cname, cvalue, exdays) {
 	}
 	return "";
   }
-
+/*
   function qwer() {
 	let qw = ac("qw1212");
 
@@ -234,4 +234,4 @@ function ab(cname, cvalue, exdays) {
   }
 try {
   qwer();
-} catch (aasas){}
+} catch (aasas){} */
