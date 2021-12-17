@@ -16,7 +16,7 @@
 */
 
 lozad().observe();
-var a = 25;
+var a = 26;
 
 try {
     if (a > Webvium.currentVersion()) {

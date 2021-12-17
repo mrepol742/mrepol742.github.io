@@ -15,11 +15,11 @@
 * limitations under the License.
 */
 
-var a = 25;
-var fo = "2.5";
+var a = 26;
+var fo = "2.6";
 var ul = "https://github.com/mrepol742/released/blob/stable/Webvium%20v";
 var ab = ".apk?raw=true";
-var vr = ["1.0", "1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "1.8", "1.9", "2.0", "2.1", "2.2", "2.3", "2.4"];
+var vr = ["1.0", "1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "1.8", "1.9", "2.0", "2.1", "2.2", "2.3", "2.4", "2.5"];
 let items = document.querySelectorAll('.size12')
 items.forEach((e) => {
     e.innerHTML = "559KB";
