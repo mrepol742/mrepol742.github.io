@@ -53,5 +53,5 @@ try {
         document.getElementById("curr").innerHTML = "<b>No need to Download. You are already using the Latest version.</b>";
     }
 } catch (en) {
-    document.getElementById("curr").innerHTML = "By downloading Webvium, you agree to its <a href=\"https://mrepol742.github.io/PROJECT-WEBVIUM/PrivacyPolicy\">Privacy Policy</a>";
+    document.getElementById("curr").innerHTML = "By downloading Webvium, you agree to its <a href=\"https://mrepol742.github.io/webvium/privacypolicy\">Privacy Policy</a>";
 }
