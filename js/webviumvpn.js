@@ -17,7 +17,7 @@
 
 var a = 10;
 var fo = "1.0";
-var ul = "https://github.com/mrepol742/released/blob/stable/Webvium-VPN%20v";
+var ul = "https://github.com/mrepol742/released/blob/stable/Webvium%20VPN%20v";
 var ab = ".apk?raw=true";
 var vr = ["1.0"];
 let items = document.querySelectorAll('.size12')
