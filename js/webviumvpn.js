@@ -17,12 +17,21 @@
 
 var a = 10;
 var fo = "1.0";
+var upda = "Dec 25, 2021";
 var ul = "https://github.com/mrepol742/released/blob/stable/Webvium%20VPN%20v";
 var ab = ".apk?raw=true";
 var vr = ["1.0"];
 let items = document.querySelectorAll('.size12')
 items.forEach((e) => {
     e.innerHTML = "7MB";
+})
+let items3 = document.querySelectorAll('.version')
+items3.forEach((e3) => {
+    e3.innerHTML = fo;
+})
+let items4 = document.querySelectorAll('.upda')
+items4.forEach((e4) => {
+    e4.innerHTML = upda;
 })
 
 let items0 = document.querySelectorAll('#download_btn')
@@ -33,7 +42,6 @@ items0.forEach((e1) => {
 function download() {
     window.location.href = ul+fo+ab;
 }
-
 for (var i = 0; i < vr.length; i++) {
     let a = document.createElement('a');
     a.setAttribute('href', ul+vr[i]+ab);
@@ -44,10 +52,9 @@ for (var i = 0; i < vr.length; i++) {
     a.innerHTML = "Webvium VPN v"+ vr[i];
     versions.appendChild(a);
 }
-
 try {
 
-    if (a > Webvium.currentVersion()) {
+    if (a > WebviumVPN.currentVersion()) {
         document.getElementById("curr").innerHTML = "<b>You are using an outdated version of Webvium VPN.</b>";
     } else {
         document.getElementById("curr").innerHTML = "<b>No need to Download. You are already using the Latest version.</b>";
