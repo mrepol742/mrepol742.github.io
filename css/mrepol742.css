@@ -201,7 +201,7 @@ p.top {
     box-shadow: 0 0 20px #2696E8,
                 0 0 60px #2696E8,
                 0 0 100px #2696E8;
-    animation: colors 5s infinite;
+    animation: colors 3s infinite;
     transform: translate(-50%, -50%);
     display: none;
   }
