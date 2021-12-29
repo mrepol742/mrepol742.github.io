@@ -7,7 +7,7 @@ setInterval(function() {
   var hours = Math.floor((count % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((count % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((count % (1000 * 60)) / 1000);
-  alert(days + ":" +  hours + ":" + minutes + ":" + seconds);
+  document.getElementById("webvium").innerHTML = days + ":" +  hours + ":" + minutes + ":" + seconds;
   if (distance < 0) {
     clearInterval(x);
   }
