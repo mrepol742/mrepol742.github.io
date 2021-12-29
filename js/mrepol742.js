@@ -17,7 +17,11 @@
 
 window.addEventListener('scroll', reveal)
 reveal();
+try {
 lozad().observe();
+} catch (e33) {
+  
+}
 function reveal() {
     let items = document.querySelectorAll('.obj')
     for (let i = 0; i < items.length; i++) {

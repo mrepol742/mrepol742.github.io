@@ -8,7 +8,4 @@ setInterval(function() {
   var minutes = Math.floor((count % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((count % (1000 * 60)) / 1000);
   document.getElementById("webvium").innerHTML = days + ":" +  hours + ":" + minutes + ":" + seconds;
-  if (distance < 0) {
-    clearInterval(x);
-  }
 }, 1000);
