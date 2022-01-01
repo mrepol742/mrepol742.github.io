@@ -34,26 +34,29 @@ document.getElementById("upda").innerHTML = upda;
 document.getElementById("download_btn").innerHTML = "Download Webvium v" + fo;
 
 let i2 = 10;
-let interval = 0;
+let interval;
 
 function download() {
-    if (interval == 0) {
-interval = setInterval(ct, 1000);
-   ct();
-    }
+	if (!interval) {
+		interval = setInterval(ct, 1000);
+	}
 }
 
 function ct() {
 	if (i2 <= 0) {
         document.getElementById("download_btn").innerHTML = "Download Webvium v" + fo;
-		clearInterval(interval)
-        interval = 0;
 		window.location.href = ul+fo+ab;
+		resetTimer()
 	} else {
 		i2--;
+	    document.getElementById("download_btn").innerHTML = "Downloading in ...... " + i2;
 	}
-    document.getElementById("download_btn").innerHTML = "Downloading in ...... " + i2;
- 
+}
+
+function resetTimer() {
+	i2 = 10;
+	clearInterval(interval)
+	interval = 0
 }
 
 for (var i = 0; i < vr.length; i++) {
