@@ -34,17 +34,20 @@ document.getElementById("upda").innerHTML = upda;
 document.getElementById("download_btn").innerHTML = "Download Webvium v" + fo;
 
 let i2 = 10;
-let interval;
+let interval = 0;
 
 function download() {
+    if (interval == 0) {
 interval = setInterval(ct, 1000);
    ct();
+    }
 }
 
 function ct() {
 	if (i2 <= 0) {
         document.getElementById("download_btn").innerHTML = "Download Webvium v" + fo;
 		clearInterval(interval)
+        interval = 0;
 		window.location.href = ul+fo+ab;
 	} else {
 		i2--;
