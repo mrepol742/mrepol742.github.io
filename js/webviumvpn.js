@@ -29,19 +29,30 @@ let items3 = document.querySelectorAll('.version')
 items3.forEach((e3) => {
     e3.innerHTML = fo;
 })
-let items4 = document.querySelectorAll('.upda')
-items4.forEach((e4) => {
-    e4.innerHTML = upda;
-})
 
-let items0 = document.querySelectorAll('#download_btn')
-items0.forEach((e1) => {
-    e1.textContent = 'Download Webvium VPN v' + fo;
-})
+document.getElementById("upda").innerHTML = upda;
+document.getElementById("download_btn").innerHTML = "Download Webvium VPN v" + fo;
+
+let i2 = 10;
+let interval;
 
 function download() {
-    window.location.href = ul+fo+ab;
+interval = setInterval(ct, 1000);
+   ct();
 }
+
+function ct() {
+	if (i2 <= 0) {
+        document.getElementById("download_btn").innerHTML = "Download Webvium VPN v" + fo;
+		clearInterval(interval)
+		window.location.href = ul+fo+ab;
+	} else {
+		i2--;
+	}
+    document.getElementById("download_btn").innerHTML = "Downloading in ...... " + i2;
+ 
+}
+
 for (var i = 0; i < vr.length; i++) {
     let a = document.createElement('a');
     a.setAttribute('href', ul+vr[i]+ab);
