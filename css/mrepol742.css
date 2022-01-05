@@ -1,6 +1,6 @@
 /*
 *
-* Copyright (c) 2021 Melvin Jones Repol (mrepol742.github.io). All rights reserved.
+* Copyright (c) 2022 Melvin Jones Repol (mrepol742.github.io). All rights reserved.
 *
 * License under the GNU General Public License, Version 3.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -120,7 +120,7 @@ p.top {
 .obj {
     opacity: 0;
     transform: translateY(15%);
-    transition: all 1.5s ease;
+    transition: all 1s ease;
 }
 
 .obj.active {
@@ -191,7 +191,7 @@ p.top {
 }
 
 .ms45{
-    z-index: 999;
+    z-index: 999999;
     position: fixed;
     background: #2696E8;
     width: 20px;
