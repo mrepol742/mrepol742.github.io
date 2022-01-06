@@ -52,13 +52,6 @@ h1 {
 	margin:1.5rem;
 }
 
-img {
-    transition: transform .3s; 
-}
-img:hover {
-    transform: scale(1.05);
-  }
-
 #con {
     text-align: center;
     margin-top: 10%;
