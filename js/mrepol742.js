@@ -59,7 +59,7 @@ document.addEventListener("mouseout", () => {
   cursor.style.display = "none";
 });
 
-function ab(cname, cvalue, exdays) {
+function ab56(cname, cvalue, exdays) {
 	const d = new Date();
 	d.setTime(d.getTime() + (exdays*24*60*60*1000));
 	let expires = "expires="+ d.toUTCString();
@@ -98,5 +98,5 @@ function ab(cname, cvalue, exdays) {
   function acc() {
     var x = document.querySelectorAll("#tst");
     x[0].style.setProperty("display", "none", "important");
-    ab("gy5", "56a", 99);
+    ab56("gy5", "56a", 99);
   }
