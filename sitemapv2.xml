@@ -1,0 +1,95 @@
+<!--
+~
+~ Copyright (c) 2022 Melvin Jones Repol (mrepol742.github.io). All rights reserved.
+~
+~ License under the GNU General Public License, Version 3.0 (the "License");
+~ you may not use this file except in compliance with the License.
+~ You may obtain a copy of the License at
+~
+~     https://www.gnu.org/licenses/gpl-3.0.en.html
+~
+~ Unless required by the applicable law or agreed in writing, software
+~ distributed under the License is distributed on an "AS IS" BASIS,
+~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+~ See the License for the specific language governing permissions and
+~ limitations under the License.
+-->
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+<loc>https://mrepol742.github.io/</loc>
+<changefreq>daily</changefreq>
+<lastmod>2022-01-05T05:53:59+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+
+<url>
+<loc>https://mrepol742.github.io/webvium/</loc>
+<changefreq>daily</changefreq>
+<lastmod>2022-01-05T05:53:59+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+
+<url>
+<loc>https://mrepol742.github.io/privacypolicy/</loc>
+<changefreq>daily</changefreq>
+<lastmod>2022-01-05T05:53:59+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+
+<url>
+<loc>https://mrepol742.github.io/ily/</loc>
+<lastmod>2022-01-05T05:53:59+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+
+<url>
+<loc>https://mrepol742.github.io/flowers/</loc>
+<lastmod>2022-01-05T05:53:59+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+
+<url>
+<loc>https://mrepol742.github.io/portrait/</loc>
+<lastmod>2022-01-05T05:53:59+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+
+<url>
+<loc>https://mrepol742.github.io/search/</loc>
+<lastmod>2022-01-05T05:53:59+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+
+<url>
+<loc>https://mrepol742.github.io/webvium/privacypolicy/</loc>
+<lastmod>2022-01-05T05:53:59+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+
+<url>
+<loc>https://mrepol742.github.io/webvium/windows11/</loc>
+<lastmod>2022-01-05T05:53:59+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+
+<url>
+<loc>https://mrepol742.github.io/webviumvpn/privacypolicy/</loc>
+<lastmod>2022-01-05T05:53:59+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+
+<url>
+<loc>https://mrepol742.github.io/webviumvpn/</loc>
+<changefreq>daily</changefreq>
+<lastmod>2022-01-05T05:53:59+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+
+<url>
+<loc>https://mrepol742.github.io/privacypolicy/</loc>
+<lastmod>2022-01-05T05:53:59+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+</urlset>
