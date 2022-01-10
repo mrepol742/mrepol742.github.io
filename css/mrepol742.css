@@ -60,6 +60,7 @@ section.main {
 
 nav {
     box-shadow: 0 2px 6px rgba(0, 0, 0, .20);
+    background-color: #ffffff;
 }
 
 .navbar-toggler {
@@ -126,35 +127,6 @@ p.top {
     margin: 5px;
 }
 
-.images {
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-}
-
-.images .holder {
-    overflow-x: scroll;
-    overflow-y:hidden;
-    display: flex;
-    scroll-snap-type: x mandatory;
-    width: 100%;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-.images .holder::-webkit-scrollbar { 
-    display: none;
-}
-
-.images .holder .preview, .preview1 {
-    width: 50%;
-    height:auto;
-    max-width:200px;
-    max-height:90vh;
-    scroll-snap-align: start;
-    margin:0 0.3rem;
-}
-
 .material-icons {
 	margin: 0 0.5rem;
 }
@@ -168,21 +140,6 @@ p.top {
     .container-fluid {
         margin: 0;
     }
-
-    .preview {
-        max-height: 50vh !important;
-    }
-
-    .preview1 {
-        max-height:20vh;
-    }
-}
-
-@media (max-height:400px) {
-    .preview {
-        max-height: 70vh !important;
-    }
-
 }
 
 .ms45{
