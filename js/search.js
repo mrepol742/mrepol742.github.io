@@ -49,8 +49,9 @@ try {
             bg.src = 'https://source.unsplash.com/' + WebviumThemeHelper.getQuality() + '?day';
         }
     } else {
+		// bug not solve
         bg.style.display = 'none';
-        document.getElementsByTagName("body")[0].style.backgroundColor = "rgba(255, 255, 255, 0)";
+		bdy.style.background = 'red';
     }
 }
 } catch (a) {
