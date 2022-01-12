@@ -191,3 +191,7 @@ p.top {
     position: fixed !important;
     display: none !important;
   }
+
+  .circle-png {
+      border-radius: 50% !important;
+  }
