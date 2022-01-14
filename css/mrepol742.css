@@ -59,7 +59,7 @@ section.main {
 }
 
 nav {
-    box-shadow: 0 2px 6px rgba(0, 0, 0, .40);
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, .175);
     background-color: #ffffff;
 }
 
@@ -77,7 +77,7 @@ nav {
 }
 
 .card {
-    box-shadow: 0 2px 6px rgba(0, 0, 0, .40);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
     padding: 10px;
     border-radius: 10px;
     border: none;
@@ -114,7 +114,7 @@ p.top {
 
 .obj {
     opacity: 0;
-    transform: translateY(15%);
+    transform: translateY(10%);
     transition: all 1s ease;
 }
 
