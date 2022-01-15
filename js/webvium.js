@@ -49,7 +49,7 @@ function ct() {
 		resetTimer()
 	} else {
 		i2--;
-	    document.getElementById("download_btn").innerHTML = "Downloading in ...... " + i2;
+	    document.getElementById("download_btn").innerHTML = "Download Starts in ----- " + i2;
 	}
 }
 
@@ -75,7 +75,7 @@ try {
     if (a > Webvium.currentVersion()) {
         document.getElementById("curr").innerHTML = "<b>You are using an outdated version of Webvium.</b>";
     } else {
-        document.getElementById("curr").innerHTML = "<b>No need to Download. You are already using the Latest version.</b>";
+        document.getElementById("curr").innerHTML = "<b>You are already using the Latest version.</b>";
     }
 } catch (en) {
     document.getElementById("curr").innerHTML = "By downloading Webvium, you agree to its <a href=\"https://mrepol742.github.io/webvium/privacypolicy\">Privacy Policy</a>";
