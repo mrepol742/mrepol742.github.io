@@ -3245,7 +3245,7 @@
                     value: function() {
                         for (var t = 0, e = 0; e < this.length; e++) {
                             t = (t << 5) - t + this.charCodeAt(e),
-                                t | = 0
+                                t | 0
                         }
                         return Math.abs(t) + (t < 0 ? "N" : "")
                     }
