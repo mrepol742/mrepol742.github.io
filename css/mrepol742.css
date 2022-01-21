@@ -199,3 +199,25 @@ p.top {
   .webvI {
       margin: 2%;
   }
+
+  .skill {
+      margin: 5px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+      background-color: #ffffff;
+      border-color: #ffffff;
+      border-width: 0px;
+      border-style: solid;
+      border-radius: 50px;
+      color: #484848;
+  }
+
+  .skill:hover {
+      background-color: #4285f4;
+      color: #ffffff;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
