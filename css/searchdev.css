@@ -149,6 +149,7 @@ body {
   }
 
   .ad-67 {
+      z-index: 99;
       margin: 2%;
       margin-top: 4%;
   }
