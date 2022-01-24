@@ -23,9 +23,11 @@ try {
         if (WebviumThemeHelper.isDarkModeEnabled()) {
             document.body.style.background = "url('https://source.unsplash.com/" + WebviumThemeHelper.getQuality() + "?night')";
             document.getElementById("webvium").style.color = "#ffffff";
+			document.body.style.backgroundSize = "cover";
         } else {
             document.body.style.background = "url('https://source.unsplash.com/" + WebviumThemeHelper.getQuality() + "?day')";
             document.getElementById("webvium").style.color = "#484848";
+			document.body.style.backgroundSize = "cover";
         }
     } else {
         document.body.style.background = "transparent";
@@ -33,6 +35,7 @@ try {
 }
 } catch (a) {
     document.body.style.background = "url('https://source.unsplash.com/640x480?day')";
+	document.body.style.backgroundSize = "cover";
 }
 
 const node = document.getElementById("search");
