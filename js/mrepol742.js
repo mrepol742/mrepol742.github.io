@@ -37,28 +37,6 @@ function reveal() {
     }
 }
 
-const cursor = document.querySelector(".ms45");
-var timeout;
-
-document.addEventListener("mousemove", (e) => {
-  let x = e.pageX;
-  let y = e.pageY;
-
-  cursor.style.top = y + "%";
-  cursor.style.right = x + "%";
-
-  function mouseStopped(){
-    cursor.style.display = "none";
-  }
-
-  clearTimeout(timeout);
-  timeout = setTimeout(mouseStopped, 1000);
-});
-
-document.addEventListener("mouseout", () => {
-  cursor.style.display = "none";
-});
-
 function ab56(cname, cvalue, exdays) {
 	const d = new Date();
 	d.setTime(d.getTime() + (exdays*24*60*60*1000));
