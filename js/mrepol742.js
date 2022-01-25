@@ -100,3 +100,8 @@ function ab56(cname, cvalue, exdays) {
     x[0].style.setProperty("display", "none", "important");
     ab56("gy5", "56a", 99);
   }
+
+  var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+var toastList = toastElList.map(function (toastEl) {
+  return new bootstrap.Toast(toastEl, option)
+})

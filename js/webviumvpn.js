@@ -49,7 +49,7 @@ function ct() {
         resetTimer();
 	} else {
 		i2--;
-        document.getElementById("download_btn").innerHTML = "Downloading in ...... " + i2;
+        document.getElementById("download_btn").innerHTML = "Downloading in  " + i2 + " secs";
 	}
  
 }
