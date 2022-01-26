@@ -19,30 +19,30 @@ lozad().observe();
 
 try {
 	if (WebviumThemeHelper.isBackgroundEnabled()) {
-    if (!WebviumThemeHelper.isCustomBackgroundEnabled()) {
-        if (WebviumThemeHelper.isDarkModeEnabled()) {
-            document.body.style.background = "url('https://source.unsplash.com/" + WebviumThemeHelper.getQuality() + "?night')";
-            document.getElementById("webvium").style.color = "#ffffff";
-			document.body.style.backgroundSize = "cover";
-        } else {
-            document.body.style.background = "url('https://source.unsplash.com/" + WebviumThemeHelper.getQuality() + "?day')";
-            document.getElementById("webvium").style.color = "#484848";
-			document.body.style.backgroundSize = "cover";
-        }
-    } else {
-        document.body.style.background = "transparent";
-    }
-}
+		if (!WebviumThemeHelper.isCustomBackgroundEnabled()) {
+			if (WebviumThemeHelper.isDarkModeEnabled()) {
+				document.body.style.background = "url('https://source.unsplash.com/" + WebviumThemeHelper.getQuality() + "?night')";
+				document.getElementById("webvium").style.color = "#ffffff";
+				document.body.style.backgroundSize = "cover";
+			} else {
+				document.body.style.background = "url('https://source.unsplash.com/" + WebviumThemeHelper.getQuality() + "?day')";
+				document.getElementById("webvium").style.color = "#484848";
+				document.body.style.backgroundSize = "cover";
+			}
+		} else {
+			document.body.style.background = "transparent";
+		}
+	}
 } catch (a) {
-    document.body.style.background = "url('https://source.unsplash.com/640x480?day')";
+	document.body.style.background = "url('https://source.unsplash.com/640x480?day')";
 	document.body.style.backgroundSize = "cover";
 }
 
 const node = document.getElementById("search");
-node.addEventListener("keyup", function(event) {
-    if (event.key === "Enter") {
-	    find(search.value)
-    }
+node.addEventListener("keyup", function (event) {
+	if (event.key === "Enter") {
+		find(search.value)
+	}
 });
 
 /*
@@ -55,83 +55,83 @@ node.addEventListener("keyup", function(event) {
 search.addEventListener('input', () => {
 	try {
 		if (WebviumSearchSuggestion.isSearchSuggestionsEnabled()) {
-		var inp = search.value
-	    if (inp.trim().length != 0) {
-			let divs = document.querySelectorAll('.sug-item')
+			var inp = search.value
+			if (inp.trim().length != 0) {
+				let divs = document.querySelectorAll('.sug-item')
 
-			for (let i = 0; i < divs.length; i++) {
-				sug.removeChild(divs[i])
+				for (let i = 0; i < divs.length; i++) {
+					sug.removeChild(divs[i])
+				}
+
+				sug.style.display = 'flex'
+				var doc = WebviumSearchSuggestion.getResponse(search.value)
+				var jsonString = xml2json($.parseXML(doc)).split('undefined').join('')
+				var json = JSON.parse(jsonString)
+				var topLevel = json.toplevel
+				var comsug = topLevel.CompleteSuggestion
+				var data = ""
+
+				for (let i = 0; i < comsug.length; i++) {
+					data += comsug[i].suggestion.data + "<br>"
+					let sugItem = document.createElement('div')
+					sugItem.setAttribute('class', 'sug-item')
+
+					let icon = document.createElement('span')
+					icon.setAttribute('class', 'material-icons')
+					icon.textContent = 'search'
+
+					let text = document.createElement('span')
+					text.setAttribute('class', 'text')
+					text.textContent = comsug[i].suggestion.data
+
+					sugItem.appendChild(icon)
+					sugItem.appendChild(text)
+					sug.appendChild(sugItem)
+					sugItem.addEventListener('click', () => {
+						search.value = comsug[i].suggestion.data
+						sug.style.display = 'none'
+						find(comsug[i].suggestion.data)
+					})
+				}
+			} else {
+				sug.style.display = 'none'
+				sug.innerHTML = ''
 			}
-
-	    	sug.style.display = 'flex'
-	    	var doc = WebviumSearchSuggestion.getResponse(search.value)
-	    	var jsonString = xml2json($.parseXML(doc)).split('undefined').join('')
-	    	var json = JSON.parse(jsonString)
-	    	var topLevel = json.toplevel
-	    	var comsug = topLevel.CompleteSuggestion
-	    	var data = ""
-
-			for (let i = 0; i < comsug.length; i++) {
-			    data += comsug[i].suggestion.data + "<br>"
-			    let sugItem = document.createElement('div')
-			    sugItem.setAttribute('class', 'sug-item')
-
-			    let icon = document.createElement('span')
-			    icon.setAttribute('class', 'material-icons')
-			    icon.textContent = 'search'
-
-			    let text = document.createElement('span')
-			    text.setAttribute('class', 'text')
-			    text.textContent = comsug[i].suggestion.data
-
-			    sugItem.appendChild(icon)
-			    sugItem.appendChild(text)
-			    sug.appendChild(sugItem)
-			    sugItem.addEventListener('click', () => {
-				    search.value = comsug[i].suggestion.data
-	        		sug.style.display = 'none'
-	        		find(comsug[i].suggestion.data)
-			    })
-			}
-		} else {
-			sug.style.display = 'none'
-			sug.innerHTML = ''
 		}
-	}
-	} catch (ex) {}
+	} catch (ex) { }
 })
-	
+
 function find(query) {
 	try {
-	    let t = query;
-	    if (t.trim()) {
-	        const a = document.getElementById("search").value;
-	        const aq = a.toLowerCase();
-	        if (aq.startsWith("https://") || aq.startsWith("http://")) {
-	            if (WebviumSearchHelper.isValidDomain(aq)) {
-	                window.location.href = a;
-	            } else {
-	                window.location.href = WebviumSearchHelper.getSearchEngine() + a;
-	            }
-	        } else {
-	            if (WebviumSearchHelper.isValidDomain(aq)) {
-	                window.location.href = "https://" + a;
-	            } else {
-	                window.location.href = WebviumSearchHelper.getSearchEngine() + a;
-	            }
-	        }
-	        WebviumSearchHelper.saveQuery(a);
-	    }
+		let t = query;
+		if (t.trim()) {
+			const a = document.getElementById("search").value;
+			const aq = a.toLowerCase();
+			if (aq.startsWith("https://") || aq.startsWith("http://")) {
+				if (WebviumSearchHelper.isValidDomain(aq)) {
+					window.location.href = a;
+				} else {
+					window.location.href = WebviumSearchHelper.getSearchEngine() + a;
+				}
+			} else {
+				if (WebviumSearchHelper.isValidDomain(aq)) {
+					window.location.href = "https://" + a;
+				} else {
+					window.location.href = WebviumSearchHelper.getSearchEngine() + a;
+				}
+			}
+			WebviumSearchHelper.saveQuery(a);
+		}
 	} catch (qw) {
-	    let t = search.value;
-	    if (t.trim()) {
-	        const a = document.getElementById("search").value;
-	        const aq = a.toLowerCase();
-	        if (aq.startsWith("https://") || aq.startsWith("http://")) {
-	            window.location.href = a;
-	        } else {
-	            window.location.href = "https://google.com/search?q=" + a;
-	        }
-	    }
+		let t = search.value;
+		if (t.trim()) {
+			const a = document.getElementById("search").value;
+			const aq = a.toLowerCase();
+			if (aq.startsWith("https://") || aq.startsWith("http://")) {
+				window.location.href = a;
+			} else {
+				window.location.href = "https://google.com/search?q=" + a;
+			}
+		}
 	}
 }

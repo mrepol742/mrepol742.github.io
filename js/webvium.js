@@ -37,36 +37,36 @@ let i2 = 10;
 let interval;
 
 function download() {
-	if (!interval) {
-		interval = setInterval(ct, 1000);
-	}
+    if (!interval) {
+        interval = setInterval(ct, 1000);
+    }
 }
 
 function ct() {
-	if (i2 <= 0) {
+    if (i2 <= 0) {
         document.getElementById("download_btn").innerHTML = "Download Webvium v" + fo;
-		window.location.href = ul+fo+ab;
-		resetTimer()
-	} else {
-		i2--;
-	    document.getElementById("download_btn").innerHTML = "Download Starts in " + i2 + " secs";
-	}
+        window.location.href = ul + fo + ab;
+        resetTimer()
+    } else {
+        i2--;
+        document.getElementById("download_btn").innerHTML = "Download Starts in " + i2 + " secs";
+    }
 }
 
 function resetTimer() {
-	i2 = 10;
-	clearInterval(interval)
-	interval = 0
+    i2 = 10;
+    clearInterval(interval)
+    interval = 0
 }
 
 for (var i = 0; i < vr.length; i++) {
     let a = document.createElement('a');
-    a.setAttribute('href', ul+vr[i]+ab);
+    a.setAttribute('href', ul + vr[i] + ab);
     a.classList.add('btn');
     a.classList.add('btn-outline-dark');
     a.classList.add('webvI');
     a.setAttribute('target', '_blank');
-    a.innerHTML = "Webvium v"+ vr[i];
+    a.innerHTML = "Webvium v" + vr[i];
     versions.appendChild(a);
 }
 
