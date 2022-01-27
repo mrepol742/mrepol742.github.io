@@ -67,7 +67,7 @@ body {
     border-radius: 50px;
     border-style: solid;
     border-width: 0px;
-    background: rgba(0, 0, 0, .8);
+    background: rgba(0, 0, 0, .4);
     backdrop-filter: saturate(150%) blur(5px);
     width: 75%;
     color: #ffffff;
@@ -103,7 +103,7 @@ body {
     color: #ffffff;
 	position: absolute;
 	left: 50%;
-    height: 45%;
+    height: 90%;
 	transform: translate(-50%, -5%);
 	padding: 0 5px;
 	overflow-y: scroll;
@@ -132,13 +132,13 @@ body {
     padding-top: 30%;
 }
 
-a {
+a.footer {
     color: #4285f4;
     text-decoration: none;
     cursor: pointer;
 }
 
-a:hover {
+a.footer:hover {
     color: #000000;
 }
 
@@ -148,4 +148,24 @@ a:hover {
 
 .fa {
     margin: 5px;
+}
+
+a.sites {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    background: rgba(0, 0, 0, .2);
+    backdrop-filter: saturate(100%) blur(2px);
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #ffffff;
+    padding: 4%;
+}
+
+a.sites:hover {
+    color: #000000;
+}
+
+.site {
+    margin-top: 10%;
 }

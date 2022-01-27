@@ -21,11 +21,11 @@ try {
 	if (WebviumThemeHelper.isBackgroundEnabled()) {
 		if (!WebviumThemeHelper.isCustomBackgroundEnabled()) {
 			if (WebviumThemeHelper.isDarkModeEnabled()) {
-				document.body.style.background = "url('https://source.unsplash.com/" + WebviumThemeHelper.getQuality() + "?night') no-repeat fixed center";
+				document.body.style.background = "url('https://source.unsplash.com/" + WebviumThemeHelper.getQuality() + "?night') no-repeat";
 				document.getElementById("webvium").style.color = "#ffffff";
 				document.body.style.backgroundSize = "cover";
 			} else {
-				document.body.style.background = "url('https://source.unsplash.com/" + WebviumThemeHelper.getQuality() + "?day') no-repeat fixed center";
+				document.body.style.background = "url('https://source.unsplash.com/" + WebviumThemeHelper.getQuality() + "?day') no-repeat";
 				document.getElementById("webvium").style.color = "#484848";
 				document.body.style.backgroundSize = "cover";
 			}
@@ -36,7 +36,7 @@ try {
 		document.body.style.background = "transparent";
 	}
 } catch (a) {
-	document.body.style.background = "url('https://source.unsplash.com/640x480?day') no-repeat fixed center";
+	document.body.style.background = "url('https://source.unsplash.com/640x480?day') no-repeat";
 	document.body.style.backgroundSize = "cover";
 }
 
