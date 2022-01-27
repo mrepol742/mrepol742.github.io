@@ -31,7 +31,7 @@
 }
 
 a {
-    color: #484848;
+    color: #4285f4;
     text-decoration: none;
 }
 
@@ -92,18 +92,6 @@ body {
     transform: translateY(0);
 }
 
-.fa {
-    margin: 5px;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.material-icons {
-	margin: 0 0.5rem;
-}
-
 #sug {
 	display: none;
 	flex-direction: column;
@@ -140,8 +128,24 @@ body {
 	text-overflow: ellipsis;
 }
 
-.ad-67 {
-    z-index: 99;
-    margin: 2%;
-    margin-top: 4%;
+.foot {
+    padding-top: 30%;
+}
+
+a {
+    color: #4285f4;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa {
+    margin: 5px;
 }
