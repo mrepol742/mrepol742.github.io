@@ -127,3 +127,25 @@ body {
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
+
+.foot {
+    padding-top: 30%;
+}
+
+a {
+    color: #4285f4;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa {
+    margin: 5px;
+}
