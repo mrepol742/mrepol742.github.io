@@ -101,7 +101,7 @@ p.top {
 }
 
 .col-sm-6 {
-    padding-top: 10px;
+    padding: 2%;
 }
 
 .list-group-item {
@@ -175,4 +175,8 @@ p.top {
       color: #ffffff;
       padding-left: 30px;
       padding-right: 30px;
+  }
+
+  .asd {
+      margin: 2%;
   }
