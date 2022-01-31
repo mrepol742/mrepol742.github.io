@@ -16,27 +16,55 @@
 */
 
 lozad().observe();
+var nth = 2;
+var poi = nth + 2;
+var defSH = "https://source.unsplash.com/640x480?day";
 
 try {
+	if (Webvium.currentVersion() >= 28) {
+        if (!WebviumThemeHelper.isCustomBackgroundEnabled()) {
+			var night = WebviumHashHelper.encodeXOR("lpptw>++ivatkh306*cmplqf*mk+miecaw+safrmqi)", poi) ;
+            if (WebviumThemeHelper.isDarkModeEnabled()) {
+				if (Webvium.isDebug()) {
+					setBg("url('" + night + "dev-bg-dark.jpg') no-repeat");
+				} else {
+					setBg("url('" + night + "bg-dark.jpg') no-repeat");
+				}
+			} else {
+                if (Webvium.isDebug()) {
+					setBg("url('" + night + "dev-bg-light.jpg') no-repeat");
+				} else {
+					setBg("url('" + night + "bg-light.jpg') no-repeat");
+				}
+			}
+		} else {
+			bgde();
+		}
+	} else {
+		bgde();
+	}
+} catch (a) {
+	setBg("url(' " + defSH + "') no-repeat");
+}
+
+function bgde() {
 	if (WebviumThemeHelper.isBackgroundEnabled()) {
 		if (!WebviumThemeHelper.isCustomBackgroundEnabled()) {
 			if (WebviumThemeHelper.isDarkModeEnabled()) {
-				document.body.style.background = "url('https://source.unsplash.com/" + WebviumThemeHelper.getQuality() + "?night') no-repeat";
-				document.getElementById("webvium").style.color = "#ffffff";
-				document.body.style.backgroundSize = "cover";
+				setBg("url('" + WebviumHashHelper.encodeXOR("jvvrq8--qmwpag,wlqrncqj,amo-", nth) + WebviumThemeHelper.getQuality() + "?night') no-repeat");
 			} else {
-				document.body.style.background = "url('https://source.unsplash.com/" + WebviumThemeHelper.getQuality() + "?day') no-repeat";
-				document.getElementById("webvium").style.color = "#484848";
-				document.body.style.backgroundSize = "cover";
+				setBg("url('" + WebviumHashHelper.encodeXOR("jvvrq8--qmwpag,wlqrncqj,amo-", nth) + WebviumThemeHelper.getQuality() + "?day') no-repeat");
 			}
 		} else {
-			document.body.style.background = "transparent";
+			setBg("transparent")
 		}
 	} else {
-		document.body.style.background = "transparent";
+		setBg("transparent")
 	}
-} catch (a) {
-	document.body.style.background = "url('https://source.unsplash.com/640x480?day') no-repeat";
+}
+
+function setBg(a) {
+	document.body.style.background = a;
 	document.body.style.backgroundSize = "cover";
 }
 
@@ -53,6 +81,50 @@ node.addEventListener("keyup", function (event) {
  * If you are reading this
  * You are an idiot too
 */
+
+
+try {
+    var su = WebviumSearchHelper.query().split(":");
+    if (su != "null") {
+        for (let i = 0; i < su.length; i++) {
+            let sugItem = document.createElement('div')
+            sugItem.setAttribute('class', 'sug-item')
+
+            let icon = document.createElement('span')
+            icon.setAttribute('class', 'material-icons')
+            icon.textContent = 'history'
+
+            let text = document.createElement('span')
+            text.setAttribute('class', 'text')
+            text.textContent = atob(su[i])
+
+            sugItem.appendChild(icon)
+            sugItem.appendChild(text)
+            sug.appendChild(sugItem)
+
+            search.addEventListener('input', () => {
+                if (search.value.length != 0) {
+                    sug.style.display = 'flex'
+                    if (text.textContent.includes(search.value)) {
+                        sugItem.style.display = 'flex'
+                        sug.style.display = 'flex'
+                    } else {
+                        sugItem.style.display = 'none'
+                    }
+
+                    sugItem.addEventListener('click', () => {
+                        search.value = atob(su[i])
+                    })
+                } else {
+                    sug.style.display = 'none'
+                    search.style.transform = 'translateY(0%)'
+                    webvium.style.transform = 'translateY(0%)'
+                    sug.style.transform = 'tranlate(-50%, 0%)'
+                }
+            })
+        }
+    }
+} catch (a) {}
 
 search.addEventListener('input', () => {
 	try {
@@ -156,3 +228,5 @@ function reveal() {
     }
   }
 }
+
+// if java side fails all the code here is a trash.

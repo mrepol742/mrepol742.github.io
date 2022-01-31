@@ -156,10 +156,10 @@ a.sites {
     cursor: pointer;
     background: rgba(0, 0, 0, .2);
     backdrop-filter: saturate(100%) blur(2px);
-    border-radius: 100%;
+    border-radius: 90px;
     border-style: solid;
-    border-color: #ffffff;
-    padding: 4%;
+    border-color: transparent;
+    padding: 3%;
 }
 
 a.sites:hover {
