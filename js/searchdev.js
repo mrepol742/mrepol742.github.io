@@ -21,20 +21,22 @@ var poi = nth + 2;
 var defSH = "https://source.unsplash.com/640x480?day";
 
 try {
-	if (Webvium.currentVersion() >= 28) {
-        if (!WebviumThemeHelper.isCustomBackgroundEnabled()) {
-			var night = WebviumHashHelper.encodeXOR("lpptw>++ivatkh306*cmplqf*mk+miecaw+safrmqi)", poi) ;
-            if (WebviumThemeHelper.isDarkModeEnabled()) {
-				if (Webvium.isDebug()) {
-					setBg("url('" + night + "dev-bg-dark.jpg') no-repeat");
+	if (Webvium.currentVersion() >= 27) {
+        if (WebviumThemeHelper.isBackgroundEnabled()) {
+			var night = WebviumHashHelper.encodeXOR("lpptw>++ivatkh306*cmplqf*mk+miecaw+safrmqi)", poi);
+           if (WebviumThemeHelper.isDarkModeEnabled()) {
+		
+			   if (true){
+					setBg(night + "dev-bg-dark.jpg");
 				} else {
-					setBg("url('" + night + "bg-dark.jpg') no-repeat");
+					setBg(night + "bg-dark.jpg");
 				}
 			} else {
-                if (Webvium.isDebug()) {
-					setBg("url('" + night + "dev-bg-light.jpg') no-repeat");
+               // if (Webvium.isDebug()) {
+				if (true){
+					setBg(night + "dev-bg-light.jpg");
 				} else {
-					setBg("url('" + night + "bg-light.jpg') no-repeat");
+					setBg(night + "bg-light.jpg");
 				}
 			}
 		} else {
@@ -44,28 +46,32 @@ try {
 		bgde();
 	}
 } catch (a) {
-	setBg("url(' " + defSH + "') no-repeat");
+	setBg(defSH);
 }
 
 function bgde() {
 	if (WebviumThemeHelper.isBackgroundEnabled()) {
 		if (!WebviumThemeHelper.isCustomBackgroundEnabled()) {
 			if (WebviumThemeHelper.isDarkModeEnabled()) {
-				setBg("url('" + WebviumHashHelper.encodeXOR("jvvrq8--qmwpag,wlqrncqj,amo-", nth) + WebviumThemeHelper.getQuality() + "?night') no-repeat");
+				setBg(WebviumHashHelper.encodeXOR("jvvrq8--qmwpag,wlqrncqj,amo-", nth) + WebviumThemeHelper.getQuality() + "?night");
 			} else {
-				setBg("url('" + WebviumHashHelper.encodeXOR("jvvrq8--qmwpag,wlqrncqj,amo-", nth) + WebviumThemeHelper.getQuality() + "?day') no-repeat");
+				setBg(WebviumHashHelper.encodeXOR("jvvrq8--qmwpag,wlqrncqj,amo-", nth) + WebviumThemeHelper.getQuality() + "?day");
 			}
 		} else {
-			setBg("transparent")
+			trans();
 		}
 	} else {
-		setBg("transparent")
+		trans();
 	}
 }
 
 function setBg(a) {
-	document.body.style.background = a;
+	document.body.style.background = "url('" + a + "') no-repeat";
 	document.body.style.backgroundSize = "cover";
+}
+
+function trans() {
+	document.body.style.background = "transparent";
 }
 
 const node = document.getElementById("search");
@@ -91,8 +97,7 @@ try {
             sugItem.setAttribute('class', 'sug-item')
 
             let icon = document.createElement('span')
-            icon.setAttribute('class', 'material-icons')
-            icon.textContent = 'history'
+            icon.setAttribute('class', 'fa fa-search')
 
             let text = document.createElement('span')
             text.setAttribute('class', 'text')
@@ -151,8 +156,7 @@ search.addEventListener('input', () => {
 					sugItem.setAttribute('class', 'sug-item')
 
 					let icon = document.createElement('span')
-					icon.setAttribute('class', 'material-icons')
-					icon.textContent = 'search'
+					icon.setAttribute('class', 'fa fa-search')
 
 					let text = document.createElement('span')
 					text.setAttribute('class', 'text')

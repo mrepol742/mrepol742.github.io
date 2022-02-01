@@ -44,16 +44,6 @@ a:hover {
     outline: none;
 }
 
-h1 {
-    text-shadow: 0 2px 6px rgba(0, 0, 0, .40);
-}
-
-body {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 .webvium {
 	margin:1.5rem;
 }
@@ -68,7 +58,6 @@ body {
     border-style: solid;
     border-width: 0px;
     background: rgba(0, 0, 0, .4);
-    backdrop-filter: saturate(150%) blur(5px);
     width: 75%;
     color: #ffffff;
     padding-left: 20px;
@@ -148,22 +137,6 @@ a.footer:hover {
 
 .fa {
     margin: 5px;
-}
-
-a.sites {
-    color: #ffffff;
-    text-decoration: none;
-    cursor: pointer;
-    background: rgba(0, 0, 0, .2);
-    backdrop-filter: saturate(100%) blur(2px);
-    border-radius: 90px;
-    border-style: solid;
-    border-color: transparent;
-    padding: 3%;
-}
-
-a.sites:hover {
-    color: #000000;
 }
 
 .site {
