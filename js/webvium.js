@@ -47,6 +47,10 @@ function ct() {
         document.getElementById("download_btn").innerHTML = "Download Webvium v" + fo;
         window.location.href = ul + fo + ab;
         resetTimer()
+        ga('send', {
+            hitType: 'event',
+            item_category: "onDownload"
+          });
     } else {
         i2--;
         document.getElementById("download_btn").innerHTML = "Download Starts in " + i2 + " secs";
