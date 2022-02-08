@@ -63,15 +63,13 @@ function ac(cname) {
 
 function qwer() {
   let qw = ac("gy5");
-
   if (qw == "" || qw == null) {
     var x = document.querySelectorAll("#tst");
     x[0].style.setProperty("display", "block", "important");
   }
 }
-try {
-  qwer();
-} catch (aasas) { }
+
+qwer();
 
 function acc() {
   var x = document.querySelectorAll("#tst");
