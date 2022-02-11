@@ -16,28 +16,67 @@
 */
 
 lozad().observe();
+var defSH = "https://source.unsplash.com/";
+
 
 try {
+
+	if (Webvium.currentVersion() >= 28) {
+		
+        if (WebviumThemeHelper.isBackgroundEnabled()) {
+			
+			var night = "https://mrepol742.github.io/images/webvium-";
+            if (WebviumThemeHelper.isDarkModeEnabled()) {
+
+			  // if (true){
+				//	setBg(night + "dev-bg-dark.jpg");
+			
+		    //	} else {
+					setBg(night + "bg-dark.jpg");
+			//	}
+			} else {
+               // if (Webvium.isDebug()) {
+			//	if (true){
+					setBg(night + "dev-bg-light.jpg");
+			//	} else {
+					setBg(night + "bg-light.jpg");
+			//	}
+			}
+
+		} else {
+			bgde();
+		}
+	} else {
+		bgde();
+	}
+	
+} catch (a) {
+	setBg(defSH + "640x480?day");
+}
+
+function bgde() {
 	if (WebviumThemeHelper.isBackgroundEnabled()) {
 		if (!WebviumThemeHelper.isCustomBackgroundEnabled()) {
 			if (WebviumThemeHelper.isDarkModeEnabled()) {
-				document.body.style.background = "url('https://source.unsplash.com/" + WebviumThemeHelper.getQuality() + "?night') no-repeat fixed center";
-				document.getElementById("webvium").style.color = "#ffffff";
-				document.body.style.backgroundSize = "cover";
+				setBg(defSH + WebviumThemeHelper.getQuality() + "?night");
 			} else {
-				document.body.style.background = "url('https://source.unsplash.com/" + WebviumThemeHelper.getQuality() + "?day') no-repeat fixed center";
-				document.getElementById("webvium").style.color = "#484848";
-				document.body.style.backgroundSize = "cover";
+				setBg(defSH + WebviumThemeHelper.getQuality() + "?day");
 			}
 		} else {
-			document.body.style.background = "transparent";
+			trans();
 		}
 	} else {
-		document.body.style.background = "transparent";
+		trans();
 	}
-} catch (a) {
-	document.body.style.background = "url('https://source.unsplash.com/640x480?day') no-repeat fixed center";
+}
+
+function setBg(a) {
+	document.body.style.background = "url('" + a + "') no-repeat";
 	document.body.style.backgroundSize = "cover";
+}
+
+function trans() {
+	document.body.style.background = "transparent";
 }
 
 const node = document.getElementById("search");
@@ -53,6 +92,49 @@ node.addEventListener("keyup", function (event) {
  * If you are reading this
  * You are an idiot too
 */
+
+
+try {
+    var su = WebviumSearchHelper.query().split(":");
+    if (su != "null") {
+        for (let i = 0; i < su.length; i++) {
+            let sugItem = document.createElement('div')
+            sugItem.setAttribute('class', 'sug-item')
+
+            let icon = document.createElement('span')
+            icon.setAttribute('class', 'fa fa-search')
+
+            let text = document.createElement('span')
+            text.setAttribute('class', 'text')
+            text.textContent = atob(su[i])
+
+            sugItem.appendChild(icon)
+            sugItem.appendChild(text)
+            sug.appendChild(sugItem)
+
+            search.addEventListener('input', () => {
+                if (search.value.length != 0) {
+                    sug.style.display = 'flex'
+                    if (text.textContent.includes(search.value)) {
+                        sugItem.style.display = 'flex'
+                        sug.style.display = 'flex'
+                    } else {
+                        sugItem.style.display = 'none'
+                    }
+
+                    sugItem.addEventListener('click', () => {
+                        search.value = atob(su[i])
+                    })
+                } else {
+                    sug.style.display = 'none'
+                    search.style.transform = 'translateY(0%)'
+                    webvium.style.transform = 'translateY(0%)'
+                    sug.style.transform = 'tranlate(-50%, 0%)'
+                }
+            })
+        }
+    }
+} catch (a) {}
 
 search.addEventListener('input', () => {
 	try {
@@ -79,8 +161,7 @@ search.addEventListener('input', () => {
 					sugItem.setAttribute('class', 'sug-item')
 
 					let icon = document.createElement('span')
-					icon.setAttribute('class', 'material-icons')
-					icon.textContent = 'search'
+					icon.setAttribute('class', 'fa fa-search')
 
 					let text = document.createElement('span')
 					text.setAttribute('class', 'text')
@@ -138,21 +219,4 @@ function find(query) {
 	}
 }
 
-
-window.addEventListener('scroll', reveal)
-reveal();
-
-function reveal() {
-  let items = document.querySelectorAll('.obj')
-  for (let i = 0; i < items.length; i++) {
-    let windowHeight = window.innerHeight;
-    let revealTop = items[i].getBoundingClientRect().top;
-    let distance = 50;
-
-    if (revealTop < windowHeight - distance) {
-      items[i].classList.add('active')
-    } else {
-      items[i].classList.remove('active')
-    }
-  }
-}
+// if java side fails all the code here is a trash.

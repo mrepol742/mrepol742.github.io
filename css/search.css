@@ -44,20 +44,6 @@ a:hover {
     outline: none;
 }
 
-h1 {
-    text-shadow: 0 2px 6px rgba(0, 0, 0, .40);
-}
-
-body {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.webvium {
-	margin:1.5rem;
-}
-
 #con {
     text-align: center;
     margin-top: 20%;
@@ -67,8 +53,7 @@ body {
     border-radius: 50px;
     border-style: solid;
     border-width: 0px;
-    background: rgba(0, 0, 0, .8);
-    backdrop-filter: saturate(150%) blur(5px);
+    background: rgba(0, 0, 0, .4);
     width: 75%;
     color: #ffffff;
     padding-left: 20px;
@@ -81,29 +66,17 @@ body {
     color: #f1f1f1;
 }
 
-.obj {
-    opacity: 0;
-    transform: translateY(15%);
-    transition: all 1s ease;
-}
-
-.obj.active {
-    opacity: 1;
-    transform: translateY(0);
-}
-
 #sug {
 	display: none;
 	flex-direction: column;
 	width: 75%;
-    background: rgba(0, 0, 0, .8);
-    backdrop-filter: saturate(150%) blur(5px);
+    background: rgba(0, 0, 0, .4);
 	margin: 1rem 0;
 	border-radius: 10px;
     color: #ffffff;
 	position: absolute;
 	left: 50%;
-    height: 45%;
+    height: 90%;
 	transform: translate(-50%, -5%);
 	padding: 0 5px;
 	overflow-y: scroll;
@@ -132,13 +105,13 @@ body {
     padding-top: 30%;
 }
 
-a {
+a.footer {
     color: #4285f4;
     text-decoration: none;
     cursor: pointer;
 }
 
-a:hover {
+a.footer:hover {
     color: #000000;
 }
 
@@ -148,4 +121,8 @@ a:hover {
 
 .fa {
     margin: 5px;
+}
+
+.site {
+    margin-top: 10%;
 }
