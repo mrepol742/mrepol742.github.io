@@ -18,7 +18,7 @@
 var a = 10;
 var fo = "1.0";
 var upda = "Jan 19, 2022";
-var ul = "https://github.com/mrepol742/released/blob/stable/Raid%20Shooter%20v";
+var ul = "https://github.com/mrepol742/released/blob/raidshooter/Raid%20Shooter%20v";
 var ab = ".apk?raw=true";
 var vr = ["1.0"];
 let items = document.querySelectorAll('.size12')
