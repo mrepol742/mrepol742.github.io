@@ -15,12 +15,11 @@
 * limitations under the License.
 */
 
-var a = 27;
-var fo = "2.7";
-var upda = "Jan 13, 2022";
-var ul = "https://github.com/mrepol742/released/blob/stable/Webvium%20v";
-var ab = ".apk?raw=true";
-var vr = ["1.0", "1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "1.8", "1.9", "2.0", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6"];
+var a = 28;
+var fo = "2.8";
+var upda = "Feb 14, 2022";
+var ul = "https://github.com/mrepol742/released/blob/dev/Webvium-dev.apk?raw=true";
+
 let items = document.querySelectorAll('.size12')
 items.forEach((e) => {
     e.innerHTML = "559KB";
@@ -31,7 +30,7 @@ items3.forEach((e3) => {
 })
 
 document.getElementById("upda").innerHTML = upda;
-document.getElementById("download_btn").innerHTML = "Download Webvium v" + fo;
+document.getElementById("download_btn").innerHTML = "Download Webvium Dev v" + fo;
 
 let i2 = 10;
 let interval;
@@ -44,8 +43,8 @@ function download() {
 
 function ct() {
     if (i2 <= 0) {
-        document.getElementById("download_btn").innerHTML = "Download Webvium v" + fo;
-        window.location.href = ul + fo + ab;
+        document.getElementById("download_btn").innerHTML = "Download Webvium Dev v" + fo;
+        window.location.href = ul;
         resetTimer()
     } else {
         i2--;
@@ -57,26 +56,4 @@ function resetTimer() {
     i2 = 10;
     clearInterval(interval)
     interval = 0
-}
-
-for (var i = 0; i < vr.length; i++) {
-    let a = document.createElement('a');
-    a.setAttribute('href', ul + vr[i] + ab);
-    a.classList.add('btn');
-    a.classList.add('btn-outline-dark');
-    a.classList.add('webvI');
-    a.setAttribute('target', '_blank');
-    a.innerHTML = "Webvium v" + vr[i];
-    versions.appendChild(a);
-}
-
-try {
-
-    if (a > Webvium.currentVersion()) {
-        document.getElementById("curr").innerHTML = "<b>You are using an outdated version of Webvium.</b>";
-    } else {
-        document.getElementById("curr").innerHTML = "<b>You are already using the Latest version.</b>";
-    }
-} catch (en) {
-    document.getElementById("curr").innerHTML = "By downloading Webvium, you agree to its <a href=\"https://mrepol742.github.io/webvium/privacypolicy\">Privacy Policy</a>";
 }
