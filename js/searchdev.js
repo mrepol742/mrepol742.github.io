@@ -174,7 +174,7 @@ search.addEventListener('input', () => {
 						search.value = comsug[i].suggestion.data;
 						sug.style.display = 'none';
 						find(comsug[i].suggestion.data);
-					})
+					});
 				}
 			} else {
 				sug.style.display = 'none';
