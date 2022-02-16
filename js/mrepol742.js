@@ -15,7 +15,7 @@
 * limitations under the License.
 */
 
-window.addEventListener('scroll', reveal)
+window.addEventListener('scroll', reveal);
 reveal();
 try {
   lozad().observe();
@@ -23,16 +23,16 @@ try {
 
 }
 function reveal() {
-  let items = document.querySelectorAll('.obj')
+  let items = document.querySelectorAll('.obj');
   for (let i = 0; i < items.length; i++) {
     let windowHeight = window.innerHeight;
     let revealTop = items[i].getBoundingClientRect().top;
     let distance = 50;
 
     if (revealTop < windowHeight - distance) {
-      items[i].classList.add('active')
+      items[i].classList.add('active');
     } else {
-      items[i].classList.remove('active')
+      items[i].classList.remove('active');
     }
   }
 }
@@ -77,7 +77,7 @@ function acc() {
   ab56("gy5", "56a", 99);
 }
 
-var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+var toastElList = [].slice.call(document.querySelectorAll('.toast'));
 var toastList = toastElList.map(function (toastEl) {
-  return new bootstrap.Toast(toastEl, option)
-})
+  return new bootstrap.Toast(toastEl, option);
+});

@@ -82,7 +82,7 @@ function trans() {
 const node = document.getElementById("search");
 node.addEventListener("keyup", function (event) {
 	if (event.key === "Enter") {
-		find(search.value)
+		find(search.value);
 	}
 });
 
@@ -98,40 +98,40 @@ try {
     var su = WebviumSearchHelper.query().split(":");
     if (su != "null") {
         for (let i = 0; i < su.length; i++) {
-            let sugItem = document.createElement('div')
-            sugItem.setAttribute('class', 'sug-item')
+            let sugItem = document.createElement('div');
+            sugItem.setAttribute('class', 'sug-item');
 
-            let icon = document.createElement('span')
-            icon.setAttribute('class', 'fa fa-search')
+            let icon = document.createElement('span');
+            icon.setAttribute('class', 'fa fa-search');
 
-            let text = document.createElement('span')
-            text.setAttribute('class', 'text')
-            text.textContent = atob(su[i])
+            let text = document.createElement('span');
+            text.setAttribute('class', 'text');
+            text.textContent = atob(su[i]);
 
-            sugItem.appendChild(icon)
-            sugItem.appendChild(text)
-            sug.appendChild(sugItem)
+            sugItem.appendChild(icon);
+            sugItem.appendChild(text);
+            sug.appendChild(sugItem);
 
             search.addEventListener('input', () => {
                 if (search.value.length != 0) {
-                    sug.style.display = 'flex'
+                    sug.style.display = 'flex';
                     if (text.textContent.includes(search.value)) {
-                        sugItem.style.display = 'flex'
-                        sug.style.display = 'flex'
+                        sugItem.style.display = 'flex';
+                        sug.style.display = 'flex';
                     } else {
-                        sugItem.style.display = 'none'
+                        sugItem.style.display = 'none';
                     }
 
                     sugItem.addEventListener('click', () => {
-                        search.value = atob(su[i])
-                    })
+                        search.value = atob(su[i]);
+                    });
                 } else {
-                    sug.style.display = 'none'
-                    search.style.transform = 'translateY(0%)'
-                    webvium.style.transform = 'translateY(0%)'
-                    sug.style.transform = 'tranlate(-50%, 0%)'
+                    sug.style.display = 'none';
+                    search.style.transform = 'translateY(0%)';
+                    webvium.style.transform = 'translateY(0%)';
+                    sug.style.transform = 'tranlate(-50%, 0%)';
                 }
-            })
+            });
         }
     }
 } catch (a) {}
@@ -139,50 +139,50 @@ try {
 search.addEventListener('input', () => {
 	try {
 		if (WebviumSearchSuggestion.isSearchSuggestionsEnabled()) {
-			var inp = search.value
+			var inp = search.value;
 			if (inp.trim().length != 0) {
-				let divs = document.querySelectorAll('.sug-item')
+				let divs = document.querySelectorAll('.sug-item');
 
 				for (let i = 0; i < divs.length; i++) {
-					sug.removeChild(divs[i])
+					sug.removeChild(divs[i]);
 				}
 
-				sug.style.display = 'flex'
-				var doc = WebviumSearchSuggestion.getResponse(search.value)
-				var jsonString = xml2json($.parseXML(doc)).split('undefined').join('')
-				var json = JSON.parse(jsonString)
-				var topLevel = json.toplevel
-				var comsug = topLevel.CompleteSuggestion
-				var data = ""
+				sug.style.display = 'flex';
+				var doc = WebviumSearchSuggestion.getResponse(search.value);
+				var jsonString = xml2json($.parseXML(doc)).split('undefined').join('');
+				var json = JSON.parse(jsonString);
+				var topLevel = json.toplevel;
+				var comsug = topLevel.CompleteSuggestion;
+				var data = "";
 
 				for (let i = 0; i < comsug.length; i++) {
-					data += comsug[i].suggestion.data + "<br>"
-					let sugItem = document.createElement('div')
-					sugItem.setAttribute('class', 'sug-item')
+					data += comsug[i].suggestion.data + "<br>";
+					let sugItem = document.createElement('div');
+					sugItem.setAttribute('class', 'sug-item');
 
-					let icon = document.createElement('span')
-					icon.setAttribute('class', 'fa fa-search')
+					let icon = document.createElement('span');
+					icon.setAttribute('class', 'fa fa-search');
 
-					let text = document.createElement('span')
-					text.setAttribute('class', 'text')
-					text.textContent = comsug[i].suggestion.data
+					let text = document.createElement('span');
+					text.setAttribute('class', 'text');
+					text.textContent = comsug[i].suggestion.data;
 
-					sugItem.appendChild(icon)
-					sugItem.appendChild(text)
-					sug.appendChild(sugItem)
+					sugItem.appendChild(icon);
+					sugItem.appendChild(text);
+					sug.appendChild(sugItem);
 					sugItem.addEventListener('click', () => {
-						search.value = comsug[i].suggestion.data
-						sug.style.display = 'none'
-						find(comsug[i].suggestion.data)
+						search.value = comsug[i].suggestion.data;
+						sug.style.display = 'none';
+						find(comsug[i].suggestion.data);
 					})
 				}
 			} else {
-				sug.style.display = 'none'
-				sug.innerHTML = ''
+				sug.style.display = 'none';
+				sug.innerHTML = '';
 			}
 		}
 	} catch (ex) { }
-})
+});
 
 function find(query) {
 	try {
@@ -218,5 +218,3 @@ function find(query) {
 		}
 	}
 }
-
-// if java side fails all the code here is a trash.

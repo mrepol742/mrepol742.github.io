@@ -21,14 +21,15 @@ var upda = "Jan 19, 2022";
 var ul = "https://github.com/mrepol742/released/blob/raidshooter/Raid%20Shooter%20v";
 var ab = ".apk?raw=true";
 var vr = ["1.0"];
+
 let items = document.querySelectorAll('.size12')
 items.forEach((e) => {
     e.innerHTML = "53KB";
-})
+});
 let items3 = document.querySelectorAll('.version')
 items3.forEach((e3) => {
     e3.innerHTML = fo;
-})
+});
 
 document.getElementById("upda").innerHTML = upda;
 document.getElementById("download_btn").innerHTML = "Download Raid Shooter v" + fo;
@@ -56,8 +57,8 @@ function ct() {
 
 function resetTimer() {
     i2 = 10;
-    clearInterval(interval)
-    interval = 0
+    clearInterval(interval);
+    interval = 0;
 }
 
 for (var i = 0; i < vr.length; i++) {

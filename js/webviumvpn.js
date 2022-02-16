@@ -21,14 +21,15 @@ var upda = "Dec 25, 2021";
 var ul = "https://github.com/mrepol742/released/blob/stable/Webvium%20VPN%20v";
 var ab = ".apk?raw=true";
 var vr = ["1.0"];
-let items = document.querySelectorAll('.size12')
+
+let items = document.querySelectorAll('.size12');
 items.forEach((e) => {
     e.innerHTML = "7MB";
-})
-let items3 = document.querySelectorAll('.version')
+});
+let items3 = document.querySelectorAll('.version');
 items3.forEach((e3) => {
     e3.innerHTML = fo;
-})
+});
 
 document.getElementById("upda").innerHTML = upda;
 document.getElementById("download_btn").innerHTML = "Download Webvium VPN v" + fo;
@@ -56,7 +57,7 @@ function ct() {
 
 function resetTimer() {
     i2 = 10;
-    clearInterval(interval)
+    clearInterval(interval);
     interval = 0
 }
 
@@ -70,6 +71,7 @@ for (var i = 0; i < vr.length; i++) {
     a.innerHTML = "Webvium VPN v" + vr[i];
     versions.appendChild(a);
 }
+
 try {
 
     if (a > WebviumVPN.currentVersion()) {

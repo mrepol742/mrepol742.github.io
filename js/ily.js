@@ -112,6 +112,7 @@ var typed = new Typed('#txt', {
 
     ],
     typeSpeed: 100
-})
+});
+
 document.body.style.background = "url('https://source.unsplash.com/640x480?day') no-repeat fixed center";
 document.body.style.backgroundSize = "cover";

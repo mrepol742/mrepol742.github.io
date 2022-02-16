@@ -20,14 +20,14 @@ var fo = "2.8";
 var upda = "Feb 14, 2022";
 var ul = "https://github.com/mrepol742/released/blob/dev/Webvium-dev.apk?raw=true";
 
-let items = document.querySelectorAll('.size12')
+let items = document.querySelectorAll('.size12');
 items.forEach((e) => {
     e.innerHTML = "559KB";
-})
-let items3 = document.querySelectorAll('.version')
+});
+let items3 = document.querySelectorAll('.version');
 items3.forEach((e3) => {
     e3.innerHTML = fo;
-})
+});
 
 document.getElementById("upda").innerHTML = upda;
 document.getElementById("download_btn").innerHTML = "Download Webvium Dev v" + fo;
@@ -45,7 +45,7 @@ function ct() {
     if (i2 <= 0) {
         document.getElementById("download_btn").innerHTML = "Download Webvium Dev v" + fo;
         window.location.href = ul;
-        resetTimer()
+        resetTimer();
     } else {
         i2--;
         document.getElementById("download_btn").innerHTML = "Download Starts in " + i2 + " secs";
@@ -54,6 +54,6 @@ function ct() {
 
 function resetTimer() {
     i2 = 10;
-    clearInterval(interval)
-    interval = 0
+    clearInterval(interval);
+    interval = 0;
 }
