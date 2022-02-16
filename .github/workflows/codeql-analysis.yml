@@ -1,9 +1,6 @@
 name: "CodeQL Analysis"
 
-on: [push]
-    
-  schedule:
-    - cron: '33 18 * * 4'
+on: [push, pull_request]
 
 jobs:
 

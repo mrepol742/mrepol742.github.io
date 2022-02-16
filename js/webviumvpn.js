@@ -58,7 +58,7 @@ function ct() {
 function resetTimer() {
     i2 = 10;
     clearInterval(interval);
-    interval = 0
+    interval = 0;
 }
 
 for (var i = 0; i < vr.length; i++) {
