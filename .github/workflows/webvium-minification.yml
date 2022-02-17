@@ -2,9 +2,9 @@ name: "Webvium Minification"
 
 on:
   push:
-    branches: [ release ]
+    branches: [ dev ]
   pull_request:
-    branches: [ release ]
+    branches: [ dev ]
 
 jobs:
   build:
