@@ -20,7 +20,7 @@ jobs:
           java-version: 11.0.10
 
       - name: Clone Git Repository
-        run: git clone https://github.com/mrepol742/mrepol742.github.io
+        run: git clone https://github.com/mrepol742/mrepol742.github.io.dev
       - name: Run
         run: java Main
       
