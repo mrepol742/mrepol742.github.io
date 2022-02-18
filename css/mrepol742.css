@@ -143,8 +143,7 @@ p.top {
 }
 
   .tst {
-    position: fixed !important;
-    display: none !important;
+    display: none;
   }
 
   .circle-png {
@@ -180,3 +179,46 @@ p.top {
   .asd {
       margin: 2%;
   }
+
+  .images {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.images .holder {
+    overflow-x: scroll;
+    overflow-y:hidden;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    width: 100%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.images .holder::-webkit-scrollbar { 
+    display: none;
+}
+
+.images .holder .preview, .preview1 {
+    width: 50%;
+    height:auto;
+    max-width:200px;
+    max-height:90vh;
+    scroll-snap-align: start;
+    margin:0 0.3rem;
+}
+
+@media (max-height:400px) {
+    .preview {
+        max-height: 70vh !important;
+    }
+
+}
+
+@media (max-width:1080px) {
+
+    .preview {
+        max-height: 50vh !important;
+    }
+}

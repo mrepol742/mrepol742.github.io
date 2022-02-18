@@ -37,18 +37,18 @@ function reveal() {
   }
 }
 
-function ab56(cname, cvalue, exdays) {
+function setCookie(cname, cvalue, exdays) {
   const d = new Date();
-  d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-  let expires = "expires=" + d.toUTCString();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  let expires = "expires="+ d.toUTCString();
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
-function ac(cname) {
+function getCookie(cname) {
   let name = cname + "=";
   let decodedCookie = decodeURIComponent(document.cookie);
   let ca = decodedCookie.split(';');
-  for (let i = 0; i < ca.length; i++) {
+  for(let i = 0; i <ca.length; i++) {
     let c = ca[i];
     while (c.charAt(0) == ' ') {
       c = c.substring(1);
@@ -60,24 +60,12 @@ function ac(cname) {
   return "";
 }
 
-
-function qwer() {
-  let qw = ac("gy5");
-  if (qw == "" || qw == null) {
+let pp = getCookie("pp");
+  if (pp == "") {
     var x = document.querySelectorAll("#tst");
     x[0].style.setProperty("display", "block", "important");
   }
-}
-
-qwer();
 
 function acc() {
-  var x = document.querySelectorAll("#tst");
-  x[0].style.setProperty("display", "none", "important");
-  ab56("gy5", "56a", 99);
+  setCookie("pp", "pp", 365);
 }
-
-var toastElList = [].slice.call(document.querySelectorAll('.toast'));
-var toastList = toastElList.map(function (toastEl) {
-  return new bootstrap.Toast(toastEl, option);
-});
