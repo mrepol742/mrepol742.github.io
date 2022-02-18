@@ -32,12 +32,12 @@ items3.forEach((e3) => {
 document.getElementById("upda").innerHTML = upda;
 document.getElementById("download_btn").innerHTML = "Download Webvium Dev v" + fo;
 
-let i2 = 10;
+let i2 = 4;
 let interval;
 
 function download() {
     if (!interval) {
-        interval = setInterval(ct, 1000);
+        interval = setInterval(ct, 1500);
     }
 }
 
@@ -53,7 +53,7 @@ function ct() {
 }
 
 function resetTimer() {
-    i2 = 10;
+    i2 = 4;
     clearInterval(interval);
     interval = 0;
 }
