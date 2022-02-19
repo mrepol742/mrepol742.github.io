@@ -1,12 +1,12 @@
 {
-    "com.mrepol742.webvium": [{
-      "title" : "Webvium",
-      "content" : "Webvium to webvium.",
-      "url" : "https://mrepol742.github.io/webvium/"
-    }],
-    "com.mrepol742.webvium.dev": [{
-      "title" : "Webvium",
-      "content" : "Webvium to webvium.",
-      "url" : "https://mrepol742.github.io/webvium/"
-    }]
-  }
+  "com.mrepol742.webvium": [{
+    "title" : "Webvium",
+    "content" : "Webvium to webvium.",
+    "url" : "https://mrepol742.github.io/webvium/"
+  }],
+  "com.mrepol742.webvium.dev": [{
+    "title" : "Webvium",
+    "content" : "Webvium to webvium.",
+    "url" : "https://mrepol742.github.io/webvium/"
+  }]
+}
