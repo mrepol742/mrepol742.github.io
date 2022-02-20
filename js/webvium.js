@@ -32,7 +32,6 @@ items3.forEach((e3) => {
 });
 
 document.getElementById("upda").innerHTML = upda;
-document.getElementById("download_btn").innerHTML = "Download Webvium v" + fo;
 
 let i2 = 4;
 let interval;
@@ -45,12 +44,12 @@ function download() {
 
 function ct() {
     if (i2 <= 0) {
-        document.getElementById("download_btn").innerHTML = "Download Webvium v" + fo;
+        document.getElementById("download_btn").innerHTML = "Downloading Now";
         window.location.href = ul + fo + ab;
         resetTimer();
     } else {
         i2--;
-        document.getElementById("download_btn").innerHTML = "Download Starts in " + i2 + " secs";
+        document.getElementById("download_btn").innerHTML = "Downloading in " + i2 + " secs";
     }
 }
 

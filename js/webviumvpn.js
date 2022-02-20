@@ -32,7 +32,6 @@ items3.forEach((e3) => {
 });
 
 document.getElementById("upda").innerHTML = upda;
-document.getElementById("download_btn").innerHTML = "Download Webvium VPN v" + fo;
 
 let i2 = 4;
 let interval;
@@ -45,7 +44,7 @@ function download() {
 
 function ct() {
     if (i2 <= 0) {
-        document.getElementById("download_btn").innerHTML = "Download Webvium VPN v" + fo;
+        document.getElementById("download_btn").innerHTML = "Downloading Now";
         window.location.href = ul + fo + ab;
         resetTimer();
     } else {

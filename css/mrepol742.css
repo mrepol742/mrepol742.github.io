@@ -137,7 +137,8 @@ p.top {
 
 @media (max-width:1080px) {
     section.main {
-        margin: 4%;
+        margin-left: 4%;
+        margin-right: 4%;
         margin-top: 5% !important;
     }
 
@@ -146,12 +147,18 @@ p.top {
     }
 
     footer {
+        padding-top: 10% !important;
         padding-bottom: 10% !important;
     }
 
     .container-fluid {
         margin-left: 2%;
         margin-right: 2%;
+    }
+
+    .dropdown-menu {
+        padding: 4% !important;
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, .100) !important;
     }
 }
 
@@ -173,7 +180,7 @@ p.top {
       padding-bottom: 10px;
       padding-left: 15px;
       padding-right: 15px;
-      box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, .175);
       background-color: #ffffff;
       border-color: #ffffff;
       border-width: 0px;
@@ -238,13 +245,36 @@ p.top {
 
 footer {
     box-shadow: 0 1rem 3rem #4285f4;
-    background-color: #4285f4;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    color: #ffffff;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    background-color: #ffffff;
+    margin-top:  15%;
+    color: #212121;
+    padding: 15%;
     border-style: none;
-    padding-left: 2%;
-    padding-right: 2%;
+}
+
+.dropdown-menu {
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+    border-radius: 20px;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .175);
+    padding: 15%;
+}
+
+#download_btn {
+    border-radius: 50px;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+#download_btn:hover {
+    background-color: #ffffff;
+    border-color: #4285f4;
+    color: #4285f4;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+img:hover {
+    padding: 1%;
+    transition: all 1s ease;
 }
