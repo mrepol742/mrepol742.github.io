@@ -22,7 +22,7 @@ var ul = "https://github.com/mrepol742/released/blob/dev/Webvium-dev.apk?raw=tru
 
 let items = document.querySelectorAll('.size12');
 items.forEach((e) => {
-    e.innerHTML = "559KB";
+    e.innerHTML = "452KB";
 });
 let items3 = document.querySelectorAll('.version');
 items3.forEach((e3) => {

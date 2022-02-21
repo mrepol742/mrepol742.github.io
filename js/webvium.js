@@ -15,6 +15,7 @@
 * limitations under the License.
 */
 
+//var ins = true;
 var a = 27;
 var fo = "2.7";
 var upda = "Jan 13, 2022";
@@ -24,7 +25,7 @@ var vr = ["1.0", "1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "1.8", "1.9", 
 
 let items = document.querySelectorAll('.size12');
 items.forEach((e) => {
-    e.innerHTML = "559KB";
+    e.innerHTML = "450KB";
 });
 let items3 = document.querySelectorAll('.version');
 items3.forEach((e3) => {
@@ -45,14 +46,26 @@ function download() {
 function ct() {
     if (i2 <= 0) {
         document.getElementById("download_btn").innerHTML = "Downloading Now";
-        window.location.href = ul + fo + ab;
         resetTimer();
+       /* if (ins) {
+           window.location.href = "https://webvium-download-counter.vercel.app/api?count=0&ref=" + ul + fo + ab;
+           ins = false;
+        } else {*/
+           window.location.href = ul + fo + ab;
+      //  }
     } else {
         i2--;
         document.getElementById("download_btn").innerHTML = "Downloading in " + i2 + " secs";
     }
 }
-
+/*
+var r = new XMLHttpRequest();
+    r.open('GET', 'https://webvium-download-counter.vercel.app/api?count=1&ref=null', false);
+    r.send(null); 
+if (r.status == 200) { 
+    document.getElementById("nm0d").innerHTML = r.responseText + " Downloads.";
+}
+*/
 function resetTimer() {
     i2 = 4;
     clearInterval(interval);
@@ -71,7 +84,6 @@ for (var i = 0; i < vr.length; i++) {
 }
 
 try {
-
     if (a > Webvium.currentVersion()) {
         document.getElementById("curr").innerHTML = "<b>You are using an outdated version of Webvium.</b>";
     } else {

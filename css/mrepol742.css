@@ -163,6 +163,9 @@ p.top {
 }
 
   .tst {
+      position:fixed;
+      z-index: 999999;
+      text-align: center;
     display: none;
   }
 
@@ -248,7 +251,10 @@ footer {
     background-color: #ffffff;
     margin-top:  15%;
     color: #212121;
-    padding: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 5%;
     border-style: none;
 }
 
@@ -272,9 +278,4 @@ footer {
     color: #4285f4;
     padding-left: 8%;
     padding-right: 8%;
-}
-
-img:hover {
-    padding: 1%;
-    transition: all 1s ease;
 }
