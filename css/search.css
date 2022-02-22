@@ -101,20 +101,6 @@ a:hover {
 	text-overflow: ellipsis;
 }
 
-.foot {
-    padding-top: 30%;
-}
-
-a.footer {
-    color: #4285f4;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-a.footer:hover {
-    color: #000000;
-}
-
 .fa:hover {
     opacity: 0.7;
 }
