@@ -15,12 +15,13 @@
 * limitations under the License.
 */
 
-var a = 10;
-var fo = "1.0";
-var upda = "Dec 25, 2021";
+var a = 11;
+var fo = "1.1";
+var upda = "Feb 22, 2022";
 var ul = "https://github.com/mrepol742/released/blob/stable/Webvium%20VPN%20v";
 var ab = ".apk?raw=true";
 var vr = ["1.0"];
+var size = ["7"];
 
 let items = document.querySelectorAll('.size12');
 items.forEach((e) => {
@@ -61,14 +62,19 @@ function resetTimer() {
 }
 
 for (var i = 0; i < vr.length; i++) {
+    let list = document.createElement('li');
+    list.classList.add('list-group-item');
+ 
     let a = document.createElement('a');
     a.setAttribute('href', ul + vr[i] + ab);
     a.classList.add('btn');
-    a.classList.add('btn-outline-dark');
+
     a.classList.add('webvI');
     a.setAttribute('target', '_blank');
-    a.innerHTML = "Webvium VPN v" + vr[i];
-    versions.appendChild(a);
+    a.innerHTML = "- Webvium VPN v" + vr[i] + " " + size[i] + "MB";
+    list.appendChild(a);
+
+    versions.appendChild(list);
 }
 
 try {
