@@ -1,7 +1,7 @@
 {
-  "name": "Webvium",
+  "name": "Webvium: Lightweight, Fast, Material and Full-Featured Android Web Browser.",
   "short_name": "Webvium",
-  "description": "Lightweight, Fast, Material and Full-Featured Android Web Browser.",
+  "description": "A Project that aims to be the lightest, fastest, secured, private and full-featured android web browser. Programmed and design from Scratch.",
   "dir": "ltr",
   "lang": "en-US",
   "icons": [
@@ -24,11 +24,15 @@
   "related_applications": [
     {
       "platform": "web",
-      "url": "https://mrepol742.github.io/webvium"
+      "url": "https://mrepol742.github.io/webvium?utm_source=webmanifest"
     },
     {
-      "platform": "play",
-      "url": "https://play.google.com/store/apps/details?id=com.mrepol742.webvium&utm_source=webmanifest"
+      "platform": "web",
+      "url": "https://mrepol742.github.io/webviumdev?utm_source=webmanifest"
+    },
+    {
+      "platform": "web",
+      "url": "https://mrepol742.github.io/webviumvpn?utm_source=webmanifest"
     }
   ]
 }
