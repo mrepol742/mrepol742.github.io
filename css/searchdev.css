@@ -44,22 +44,43 @@ a:hover {
     outline: none;
 }
 
-#con {
-    text-align: center;
-    margin-top: 5%;
+body {
+    height: 100%;
 }
+.con {
+    flex-direction: column;
+    position: absolute;
+	left: 50%;
+    height: 90%;
+	transform: translate(-50%, 50%);
+    display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+h1 {
+    text-align: center;
+    padding: 9px;
+}
+
 
 #search {
     border-radius: 50px;
     border-style: solid;
     border-width: 0px;
     background: rgba(0, 0, 0, .4);
-    width: 75%;
+    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+    transition: box-shadow .3s;
+    width: 90%;
+    height: 45px;
     color: #ffffff;
     padding-left: 20px;
     padding-right: 20px;
-    height: 45px;
     font-size: 15px;
+}
+
+#search:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 }
 
 #search::placeholder {
@@ -99,16 +120,4 @@ a:hover {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa {
-    margin: 5px;
-}
-
-.site {
-    margin-top: 10%;
 }

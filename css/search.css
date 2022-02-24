@@ -54,12 +54,18 @@ a:hover {
     border-style: solid;
     border-width: 0px;
     background: rgba(0, 0, 0, .4);
+    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+    transition: box-shadow .3s;
     width: 75%;
     color: #ffffff;
     padding-left: 20px;
     padding-right: 20px;
     height: 45px;
     font-size: 15px;
+}
+
+#search:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 }
 
 #search::placeholder {
