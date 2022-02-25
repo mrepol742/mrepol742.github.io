@@ -241,6 +241,11 @@ p.top {
     margin:0 0.3rem;
 }
 
+.preview0 {
+    max-width:300px !important;
+}
+
+
 @media (max-height:400px) {
     .preview {
         max-height: 70vh !important;
