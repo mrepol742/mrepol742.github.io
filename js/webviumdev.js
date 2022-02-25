@@ -67,3 +67,12 @@ function resetTimer() {
     clearInterval(interval);
     interval = 0;
 }
+
+try {
+    if (a > WebviumVPN.currentVersion()) {
+        document.getElementById("curr").innerHTML = "<b>You are using an outdated version of Webvium VPN.</b>";
+    } else {
+        document.getElementById("curr").innerHTML = "<b>You are already using the Latest version.</b>";
+    }
+} catch (en) {
+}
