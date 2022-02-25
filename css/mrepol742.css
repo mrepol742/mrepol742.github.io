@@ -232,7 +232,7 @@ p.top {
     display: none;
 }
 
-.images .holder .preview, .preview1 {
+.images .holder .preview {
     width: 50%;
     height:auto;
     max-width:200px;
