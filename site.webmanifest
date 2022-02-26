@@ -1,17 +1,17 @@
 {
-  "name": "Webvium: Lightweight, Fast, Material and Full-Featured Android Web Browser.",
-  "short_name": "Webvium",
-  "description": "A Project that aims to be the lightest, fastest, secured, private and full-featured android web browser. Programmed and design from Scratch.",
+  "name": "Melvin Jones Repol",
+  "short_name": "Mrepol742",
+  "description": "A Software Engineer with a sound knowledge of knowledge in Web Development. Beyond 3 years of experience in this area, studying Computer Science in CS50, self taught Programmer and currently at 1st year college studying Computer Programming under the course Bachelor of Science in Information Technology at Bestlink College of the Philippines.",
   "dir": "ltr",
   "lang": "en-US",
   "icons": [
     {
-      "src": "/images/webvium-icon.png",
+      "src": "/images/mrepol742.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/images/webvium-icon-high.png",
+      "src": "/images/mrepol742.png",
       "sizes": "512x512",
       "type": "image/png"
     }
@@ -35,21 +35,6 @@
     {
       "platform": "web",
       "url": "https://mrepol742.github.io/webviumvpn?utm_source=webmanifest"
-    }
-  ],
-  "shortcuts": [
-    {
-      "short_name": "Mrepol742",
-      "name": "Melvin Jones Repol",
-      "description": "Me, I and Myself.",
-      "url": "../index.html",
-      "icons": [
-        {
-          "src": "/images/mrepol742.png",
-          "sizes": "600x600",
-          "purpose": "any maskable"
-        }
-      ]
     }
   ]
 }

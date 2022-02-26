@@ -466,6 +466,15 @@
         </style>
     </noscript>
     <script src="/js/mrepol742v2.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js').then((reg) => {
+                console.log('[ServiceWorker] Registered');
+            }).catch((err) => {
+                console.error('[ServiceWorker] failed: ', err)
+            });
+        }
+      </script>
 </body>
 
 </html>

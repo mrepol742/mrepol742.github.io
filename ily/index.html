@@ -72,6 +72,15 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js"></script>
 	<script src="/js/typed.js"></script>
 	<script src="/js/ily.js"></script>
+	<script>
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('sw.js').then((reg) => {
+				console.log('[ServiceWorker] Registered');
+			}).catch((err) => {
+				console.error('[ServiceWorker] failed: ', err)
+			});
+		}
+	  </script>
 </body>
 
 </html>
