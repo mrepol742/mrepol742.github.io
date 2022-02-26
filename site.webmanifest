@@ -19,7 +19,9 @@
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone",
-  "start_url": ".",
+  "start_url": "../index.html",
+  "scope": "/",
+  "orientation": "portrait",
   "prefer_related_applications": true,
   "related_applications": [
     {
@@ -33,6 +35,21 @@
     {
       "platform": "web",
       "url": "https://mrepol742.github.io/webviumvpn?utm_source=webmanifest"
+    }
+  ],
+  "shortcuts": [
+    {
+      "short_name": "Mrepol742",
+      "name": "Melvin Jones Repol",
+      "description": "Me, I and Myself.",
+      "url": "../index.html",
+      "icons": [
+        {
+          "src": "/images/mrepol742.png",
+          "sizes": "600x600",
+          "purpose": "any maskable"
+        }
+      ]
     }
   ]
 }

@@ -1,3 +1,6 @@
+# mrepol742.github.io
+My Portfolio
+
 ```
                                     ""#    mmmmmm    mm   mmmm 
  mmmmm   m mm   mmm   mmmm    mmm     #        #"   m"#  "   "#
@@ -7,8 +10,3 @@
                       #                                        
                       "                                        
 ```
-# 👨‍💻 Melvin Jones Repol
-
-#### A git pull a day keeps the damn merge conflict away
-
-#### https://mrepol742.github.io

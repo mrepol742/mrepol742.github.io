@@ -445,6 +445,15 @@
     crossorigin="anonymous"></script>
   <script src="/js/mrepol742.js"></script>
   <script src="/js/daysince.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js').then((reg) => {
+            console.log('[ServiceWorker] Registered');
+        }).catch((err) => {
+            console.error('[ServiceWorker] failed: ', err)
+        });
+    }
+  </script>
   <noscript>
     <style type="text/css">
       .obj {
