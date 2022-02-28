@@ -39,6 +39,10 @@
     {
       "platform": "web",
       "url": "https://mrepol742.github.io/download?utm_source=webmanifest"
+    },
+    {
+      "platform": "galaxy",
+      "url": "https://galaxy.store/webvium?utm_source=webmanifest"
     }
   ]
 }
