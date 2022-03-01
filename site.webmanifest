@@ -43,6 +43,10 @@
     {
       "platform": "galaxy",
       "url": "https://galaxy.store/webvium?utm_source=webmanifest"
+    },
+    {
+      "platform": "galaxy",
+      "url": "https://galaxy.store/webviumdm?utm_source=webmanifest"
     }
   ]
 }
