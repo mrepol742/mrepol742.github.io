@@ -41,12 +41,16 @@
       "url": "https://mrepol742.github.io/download?utm_source=webmanifest"
     },
     {
-      "platform": "galaxy",
+      "platform": "android",
       "url": "https://galaxy.store/webvium?utm_source=webmanifest"
     },
     {
-      "platform": "galaxy",
+      "platform": "android",
       "url": "https://galaxy.store/webviumdm?utm_source=webmanifest"
+    },
+    {
+      "platform": "android",
+      "url": "https://webvium.en.uptodown.com/android?utm_source=webmanifest"
     }
   ]
 }
