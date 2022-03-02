@@ -39,6 +39,7 @@ body {
     font-family: 'Maven Pro', sans-serif;
     margin: 0;
     padding: 0;
+    transition: ease-in-out 2s;
 }
 
 a {
@@ -66,9 +67,13 @@ nav {
     margin-right: 15%;
     border-radius: 50px;
     border-style: none;
+    transition: ease-in-out 3s;
 }
 
 nav:hover{
+    margin-left: 13%;
+    margin-right: 13%;
+    transition: ease-in-out 3s;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 }
 
@@ -155,6 +160,12 @@ p.top {
     nav {
         margin: 4%;
     }
+
+    
+nav:hover{
+    margin-left: 3%;
+    margin-right: 3%;
+}
 
     footer {
         padding-top: 10% !important;
