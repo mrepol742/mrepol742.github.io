@@ -138,6 +138,9 @@
       <a href="https://www.youtube.com/channel/UCDYRUXJ8Qldrvb00q9t2KDA" target="_blank"
         class="fa fa-youtube"></a><br>
         <span>2022 © Melvin Jones Repol.</span>
+        <br>
+      <a href="/404.html">404.html</a> | <a href="/ads.txt">ads.txt</a> | <a href="/humans.txt">humans.txt</a> | <a href="/sitemap.xml">sitemap.xml</a> | <a href="/site.webmanifest">site.webmanifest</a> | <a href="/.well-known/assetlinks.json">assetlinks.json</a>
+   
     </footer>
   </div>
   <script src="/js/mrepol742.js"></script>
@@ -145,11 +148,6 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script>
-    $.getJSON('https://api64.ipify.org/?format=json', (data) => {
-      document.getElementById("ip34").innerHTML = data.ip;
-    })
-  </script>
   <noscript>
     <style type="text/css">
       .obj {
@@ -159,6 +157,9 @@
     </style>
   </noscript>
   <script>
+     $.getJSON('https://api64.ipify.org/?format=json', (data) => {
+      document.getElementById("ip34").innerHTML = data.ip;
+    })
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('sw.js').then((reg) => {
             console.log('[ServiceWorker] Registered');
