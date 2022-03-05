@@ -31,7 +31,7 @@
 }
 
 body {
-    background: #ffffff !important;
+    background: #4286f40a !important;
     color: #212121;
 }
 
@@ -183,10 +183,33 @@ nav:hover{
 }
 
   .tst {
-      position:fixed;
+      position: fixed;
       z-index: 999999;
-      text-align: center;
       display: none;
+      bottom: 0%;
+      left: 0%;
+      right: 0;
+      text-align: center;
+      background-color: #212121;
+      color: #ffffff;
+      padding: 4px;
+  }
+
+   .nojs {
+    position: fixed;
+    z-index: 999999;
+    bottom: 0%;
+    left: 0%;
+    right: 0;
+    text-align: center;
+    background-color: #de5246;
+    color: #ffffff;
+    padding: 4px;
+   }
+
+  #accpt {
+      color: #ffffff;
+ 
   }
 
   .circle-png {

@@ -118,3 +118,34 @@ a:hover {
 .site {
     margin-top: 10%;
 }
+
+
+.tst {
+    position: fixed;
+    z-index: 999999;
+    display: none;
+    bottom: 0%;
+    left: 0%;
+    right: 0;
+    text-align: center;
+    background-color: #212121;
+    color: #ffffff;
+    padding: 4px;
+}
+
+ .nojs {
+  position: fixed;
+  z-index: 999999;
+  bottom: 0%;
+  left: 0%;
+  right: 0;
+  text-align: center;
+  background-color: #de5246;
+  color: #ffffff;
+  padding: 4px;
+ }
+
+#accpt {
+    color: #ffffff;
+
+}

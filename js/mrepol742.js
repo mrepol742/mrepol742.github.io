@@ -66,6 +66,8 @@ let pp = getCookie("pp");
     x[0].style.setProperty("display", "block", "important");
   }
 
-function acc() {
+document.getElementById("accpt").onclick = function() {
   setCookie("pp", "pp", 365);
+  var x = document.querySelectorAll("#tst");
+  x[0].style.setProperty("display", "none", "important");
 }

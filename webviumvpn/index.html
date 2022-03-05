@@ -133,23 +133,14 @@
                   </a>
             </div>
             <div class="tst" id="tst">
-                <div class="card" style="width: 25rem;">
-                    <div class="card-body">
-                        <h5 class="card-title">Cookie Consent</h5>
-                        <p>This website uses cookies or similar technologies, to enhance your browsing experience and
-                            provide personalized recommendations. By continuing to use our website, you agree to our <a
-                                style="color:#115cfa;" href="/privacypolicy">Privacy Policy</a></p>
-                        <a href="" class="btn btn-primary" onclick="acc()">Accept</a>
-                    </div>
-                </div>
+                This website uses cookies or similar technologies. By continuing, you agree to our <a style="color:#115cfa;"
+                    href="/privacypolicy">Privacy Policy</a>. <button class="btn" id="accpt">x</button>
+          </div>
+          <noscript>
+            <div class="nojs">
+                An error occurred. Try reloading this page, or enable JavaScript if it is disabled in your browser.
             </div>
-            <noscript>
-                <div id="con">
-                    <div class="alert alert-danger" role="alert">
-                        <b>This page required Javascipt to function.</b>
-                    </div>
-                </div>
-            </noscript>
+        </noscript>
 
             <div class="card mb-3">
                 <div class="row g-0">
@@ -162,7 +153,7 @@
                             <br>
                             <h1 class="card-title">Webvium VPN</h1>
                             <p class="card-text">Anonymous, Secured, Private and the fastest Virtual Private Network.
-                                <br> <br><small id="curr">By downloading Webvium VPN, you agree to its <a href="/webviumvpn/privacypolicy">Privacy Policy</a>.</small>
+                                <br> <br><small id="curr"></small>
                             </p>
                             <button id="download_btn" type="button" class="btn btn-primary obj" onclick="download()"
                                 title="Download The Latest Version of Webvium VPN">Download Now</button>
