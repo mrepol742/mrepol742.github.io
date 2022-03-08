@@ -1,102 +1,71 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
     <loc>https://mrepol742.github.io/</loc>
-    <lastmod>2022-03-08T17:19:34.621Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1</priority>
+    <priority>0.6</priority>
 </url>
 <url>
     <loc>https://mrepol742.github.io/webvium/</loc>
-    <lastmod>2022-03-08T17:19:34.621Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.80</priority>
+    <priority>0.6</priority>
 </url>
 <url>
     <loc>https://mrepol742.github.io/webviumdev/</loc>
-    <lastmod>2022-03-08T17:19:34.621Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.80</priority>
+    <priority>0.6</priority>
 </url>
 <url>
     <loc>https://mrepol742.github.io/viewip/</loc>
-    <lastmod>2022-03-08T17:19:34.621Z</lastmod>
-    <priority>0.80</priority>
+    <priority>0.6</priority>
 </url>
 <url>
     <loc>https://mrepol742.github.io/ily/</loc>
-    <lastmod>2022-03-08T17:19:34.621Z</lastmod>
-    <priority>0.80</priority>
+    <priority>0.6</priority>
 </url>
 <url>
     <loc>https://mrepol742.github.io/search/</loc>
-    <lastmod>2022-03-08T17:19:34.621Z</lastmod>
-    <priority>0.80</priority>
+    <priority>0.6</priority>
 </url>
 <url>
     <loc>https://mrepol742.github.io/searchdev/</loc>
-    <lastmod>2022-03-08T17:19:34.621Z</lastmod>
-    <priority>0.80</priority>
+    <priority>0.6</priority>
 </url>
 <url>
     <loc>https://mrepol742.github.io/raidshooter/</loc>
-    <lastmod>2022-03-08T17:19:34.621Z</lastmod>
-    <priority>0.80</priority>
+    <priority>0.6</priority>
 </url>
 <url>
     <loc>https://mrepol742.github.io/flowers/</loc>
-    <lastmod>2022-03-08T17:19:34.621Z</lastmod>
-    <priority>0.80</priority>
+    <priority>0.6</priority>
 </url>
 <url>
     <loc>https://mrepol742.github.io/privacypolicy/</loc>
-    <lastmod>2022-03-08T17:19:34.621Z</lastmod>
-    <priority>0.80</priority>
+    <priority>0.6</priority>
 </url>
 <url>
     <loc>https://mrepol742.github.io/webviumvpn/</loc>
-    <lastmod>2022-03-08T17:19:34.621Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.80</priority>
+    <priority>0.6</priority>
 </url>
 <url>
     <loc>https://mrepol742.github.io/webvium/privacypolicy/</loc>
-    <lastmod>2022-03-08T17:19:34.621Z</lastmod>
     <priority>0.64</priority>
 </url>
 <url>
     <loc>https://mrepol742.github.io/webviumvpn/privacypolicy/</loc>
-    <lastmod>2022-03-08T17:19:34.621Z</lastmod>
     <priority>0.64</priority>
 </url>
 <url>
-    <loc>https://mrepol742.github.io/sitemap.xml</loc>
-    <lastmod>2022-03-08T17:19:34.621Z</lastmod>
-    <priority>0.80</priority>
+    <loc>https://mrepol742.github.io/download/</loc>
+    <priority>0.6</priority>
 </url>
 <url>
-    <loc>https://mrepol742.github.io/humans.txt</loc>
-    <lastmod>2022-03-08T17:19:34.621Z</lastmod>
-    <priority>0.80</priority>
+    <loc>https://mrepol742.github.io/useragent/</loc>
+    <priority>0.6</priority>
 </url>
 <url>
-    <loc>https://mrepol742.github.io/download</loc>
-    <lastmod>2022-03-08T17:19:34.621Z</lastmod>
-    <priority>0.80</priority>
+    <loc>https://mrepol742.github.io/adstest/</loc>
+    <priority>0.6</priority>
 </url>
 <url>
-    <loc>https://mrepol742.github.io/useragent</loc>
-    <lastmod>2022-03-08T17:19:34.621Z</lastmod>
-    <priority>0.80</priority>
-</url>
-<url>
-    <loc>https://mrepol742.github.io/adstest</loc>
-    <lastmod>2022-03-08T17:19:34.621Z</lastmod>
-    <priority>0.80</priority>
-</url>
-<url>
-    <loc>https://mrepol742.github.io/how-to-install</loc>
-    <lastmod>2022-03-08T17:19:34.621Z</lastmod>
-    <priority>0.80</priority>
+    <loc>https://mrepol742.github.io/how-to-install/</loc>
+    <priority>0.6</priority>
 </url>
 </urlset>
