@@ -1,8 +1,7 @@
 /*
 !.well-known
-!/fonts/Maven-Pro.ttf
-!/webvium/favicon.png
-!sitemap.xml
+!fonts
+!sitemap0.xml
 !sw.js
 !site.webmanifest
 !404.html
@@ -13,10 +12,7 @@
 !google022983bf0cf659ae.html
 !search
 !searchdev
-!/js/mrepol742.js
-!/js/search.js
-!/js/searchdev.js
-!/css/mrepol742.css
-!/css/search.css
-!/css/searchdev.css
+!images
+!js
+!css
 !vercel.json
