@@ -326,3 +326,11 @@ footer {
     padding-left: 8%;
     padding-right: 8%;
 }
+
+.deVaaa {
+    background-color: #ffffff;
+    color: #212121;
+    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+    padding: 5px;
+    text-align: center;
+}
