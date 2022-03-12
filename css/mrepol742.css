@@ -271,12 +271,11 @@ nav:hover{
     height:auto;
     max-width:200px;
     max-height:90vh;
-    scroll-snap-align: start;
     margin:0 0.3rem;
 }
 
 .preview0 {
-    max-width:300px !important;
+    max-width:350px !important;
 }
 
 
