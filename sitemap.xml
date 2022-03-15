@@ -68,4 +68,8 @@
 <loc>https://mrepol742.github.io/how-to-install/</loc>
 <priority>0.6</priority>
 </url>
+<url>
+<loc>https://mrepol742.github.io/news/</loc>
+<priority>0.6</priority>
+</url>
 </urlset>
