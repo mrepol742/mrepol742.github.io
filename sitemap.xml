@@ -80,4 +80,8 @@
 <loc>https://mrepol742.github.io/press/</loc>
 <priority>0.6</priority>
 </url>
+<url>
+<loc>https://mrepol742.github.io/webvium/team/</loc>
+<priority>0.6</priority>
+</url>
 </urlset>
