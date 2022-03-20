@@ -15,10 +15,10 @@
 * limitations under the License.
 */
 
-const PRECACHE2 = 'precache-v2';
-const RUNTIME = 'runtime-v2';
+const PRECACHE2 = 'precache-v3';
+const RUNTIME = 'runtime-v3';
 const PRECACHE_URLS = [
-    '/'   
+    "/"
 ];
 self.addEventListener('install', event => {
     event.waitUntil(caches.open(PRECACHE2)
@@ -53,6 +53,7 @@ self.addEventListener('fetch', event => {
                     .then(cache => {
                         return fetch(event.request)
                             .then(response => {
+                                console.log(event.request);
                                 return cache.put(event.request, response.clone())
                                     .then(() => {
                                         return response;
