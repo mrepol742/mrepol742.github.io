@@ -7,11 +7,11 @@ class RSS {
     public static void main(String[] sg) {
         Runnable re = () -> {
             try {
-            File folder = new File("/rss");
+            File folder = new File("rss");
             if (!folder.exists()) {
                 folder.mkdir();
             }
-            File fe = new File("/rss/rss.xml");
+            File fe = new File("rss/rss.xml");
             URL u = new URL("https://rss.app/feeds/cxpzEpVXXhcnweds.xml");
             URLConnection is = u.openConnection();
             InputStream inputStream = is.getInputStream();
@@ -32,7 +32,7 @@ class RSS {
             fw.close();
             System.out.println("Successfully fetch RSS");
             } catch (Exception en) {
-                System.out.println("Failed to fetch RSS");
+                System.out.println("Failed to fetch RSS: " + en.getMessage());
             }
         };
         new Thread(re).start();
