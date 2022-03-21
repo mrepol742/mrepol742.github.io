@@ -36,6 +36,5 @@ class RSS {
             }
         };
         new Thread(re).start();
-        
     }
 }
