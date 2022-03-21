@@ -31,6 +31,7 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
           source-directory: rss
+          target-directory: rss
           destination-github-username: 'mrepol742'
           destination-repository-name: 'mrepol742.github.io'
           user-email: mrepol742@gmail.com
