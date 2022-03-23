@@ -15,10 +15,39 @@
 * limitations under the License.
 */
 
-const PRECACHE2 = 'precache-v3';
-const RUNTIME = 'runtime-v3';
+const PRECACHE2 = 'precache-v4';
+const RUNTIME = 'runtime-v4';
 const PRECACHE_URLS = [
-    "/"
+    "/index.html",
+    "/webvium/index.html",
+    "/webviumdev/index.html",
+    "/webviumvpn/index.html",
+    "/webvium/privacypolicy/index.html",
+    "/webviumvpn/privacypolicy/index.html",
+    "/webvium/team/index.html",
+    "/webvium/windows11/index.html",
+    "/viewip/index.html",
+    "/useragent/index.html",
+    "/searchdev/index.html",
+    "/Search/index.html",
+    "/search/index.html",
+    "/PROJECT-WEBVIUM/index.html",
+    "/PROJECT-WEBVIUM/PrivacyPolicy/index.html",
+    "/press/index.html",
+    "/ily/index.html",
+    "/how-to-install/index.html",
+    "/flowers/index.html",
+    "/download/index.html",
+    "/adstest/index.html",
+    "/privacypolicy/index.html",
+    "/humans.txt",
+    "/site.webmanifest",
+    "/404.html",
+    "/fonts",
+    "/js",
+    "/css",
+    "/images",
+    "/lib"
 ];
 self.addEventListener('install', event => {
     event.waitUntil(caches.open(PRECACHE2)
