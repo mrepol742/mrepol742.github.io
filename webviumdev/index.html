@@ -97,6 +97,23 @@
               ]
               }
               </script>
+              <script type="application/ld+json">
+                {
+                  "@context": "https://schema.org",
+                  "@type": "BreadcrumbList",
+                  "itemListElement": [{
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Download Webvium Dev",
+                    "item": "https://mrepol742.github.io/webviumdev"
+                  },{
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Privacy Policy",
+                    "item": "https://mrepol742.github.io/webvium/privacypolicy"
+                  }]
+                }
+                </script>
               <link rel="stylesheet" href="/lib/bootstrap.min.css">
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/mrepol742.css">
@@ -167,7 +184,7 @@
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="/images/webvium_transparent_icon.png" class="rounded mx-auto d-block img-fluid"
+                        <img loading="lazy" src="/images/webvium_transparent_icon.png" class="rounded mx-auto d-block img-fluid"
                             alt="Webvium" width="250px">
                     </div>
                     <div class="col-md-8">
@@ -189,18 +206,18 @@
             <div class="card obj">
                 <div class="images">
                     <div class="holder">
-                        <video class="preview0" alt="Webvium Dev" controls poster="/images/webvium22.jpg">
+                        <video loading="lazy" class="preview0" alt="Webvium Dev" controls poster="/images/webvium22.jpg">
                             <source src="/videos/Webvium%20-%20Lightweight,%20Fast,%20Material%20and%20Full-Featured%20Android%20Web%20Browser.mp4" type="video/mp4">
                             Your browser does not support the video tag. Click play to watch it directly <a href="/videos/Webvium%20-%20Lightweight,%20Fast,%20Material%20and%20Full-Featured%20Android%20Web%20Browser.mp4">Play</a>.
                         </video>
-                        <img class="preview" src="/images/webvium0.jpg" alt="Webvium Dev">
-                        <img class="preview" src="/images/webvium1.jpg" alt="Webvium Dev">
-                        <img class="preview" src="/images/webvium2.jpg" alt="Webvium Dev">
-                        <img class="preview" src="/images/webvium2.5.jpg" alt="Webvium Dev">
-                        <img class="preview" src="/images/webvium4.jpg" alt="Webvium Dev">
-                        <img class="preview" src="/images/webvium5.jpg" alt="Webvium Dev">
-                        <img class="preview" src="/images/webvium7.jpg" alt="Webvium Dev">
-                        <img class="preview" src="/images/webvium6.jpg" alt="Webvium Dev">
+                        <img loading="lazy" class="preview" src="/images/webvium0.jpg" alt="Webvium Dev">
+                        <img loading="lazy" class="preview" src="/images/webvium1.jpg" alt="Webvium Dev">
+                        <img loading="lazy" class="preview" src="/images/webvium2.jpg" alt="Webvium Dev">
+                        <img loading="lazy" class="preview" src="/images/webvium2.5.jpg" alt="Webvium Dev">
+                        <img loading="lazy" class="preview" src="/images/webvium4.jpg" alt="Webvium Dev">
+                        <img loading="lazy" class="preview" src="/images/webvium5.jpg" alt="Webvium Dev">
+                        <img loading="lazy" class="preview" src="/images/webvium7.jpg" alt="Webvium Dev">
+                        <img loading="lazy" class="preview" src="/images/webvium6.jpg" alt="Webvium Dev">
                    </div>
                  </div>
             </div>
@@ -496,8 +513,6 @@
    
         </footer>
     </div>
-    <script src="/js/ads.js"></script>
-    <script src="/lib/lozad.min.js"></script>
     <script src="/js/webviumdev.js"></script>
     <script src="/js/mrepol742.js"></script>
     <script src="/lib/bootstrap.bundle.min.js"></script>
@@ -513,7 +528,6 @@
             }
         </style>
     </noscript>
-    <script src="/js/mrepol742v2.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('sw.js').then((reg) => {
