@@ -17,7 +17,8 @@
 
 @font-face {
     font-family: 'Maven Pro';
-    src: url("/fonts/Maven-Pro.ttf");
+    src: local("sans serif"), local("sans-serif"), url("/fonts/Maven-Pro.ttf");
+    font-display: swap;
 }
 
 ::selection {
