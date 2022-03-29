@@ -63,7 +63,7 @@ const PRECACHE_URLS = [
     "/lib/console.js",
     "/lib/lozad.min.js",
     "/lib/jquery.min.css",
-    "/lib/typed.min.js",
+    "/lib/typed.js",
     "/lib/xml2json.js"
 ];
 self.addEventListener('install', event => {
