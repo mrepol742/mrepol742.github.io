@@ -2,7 +2,8 @@ name: "RSS Fetch"
 
 on:
   schedule:
-    - cron: '33 18 * * 4'
+    - cron: '30 18 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
