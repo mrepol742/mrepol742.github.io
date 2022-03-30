@@ -128,7 +128,16 @@ const PRECACHE_URLS = [
     "/images/webvium7.jpg",
     "/images/webvium22.jpg",
     "/images/webviumvpn_transparent_icon.png",
-    "/images/webviumvpn.jpg"
+    "/images/webviumvpn.jpg",
+
+    "/images/blog.png",
+    "/images/facebook.png",
+    "/images/github.png",
+    "/images/instagram.png",
+    "/images/linkedin.png",
+    "/images/pinterest.png",
+    "/images/twitter.png",
+    "/images/youtube.png"
 
 
 ];
