@@ -143,10 +143,11 @@ const PRECACHE_URLS = [
 ];
 self.addEventListener('install', event => {
     event.waitUntil(caches.open(PRECACHE2)
-        .then(cache => cache.addAll(PRECACHE_URLS))
+        .then(cache => cache.addAll(["/"]))
         .then(self.skipWaiting())
     );
 });
+
 self.addEventListener('activate', event => {
     const currentCaches = [
         PRECACHE2,
@@ -164,7 +165,8 @@ self.addEventListener('activate', event => {
         .then(() => self.clients.claim()));
 });
 self.addEventListener('fetch', event => {
-    if (event.request.url.startsWith(self.location.origin)) {
+    console.log(event.request.url);
+    if (event.request.url.startsWith(self.location.origin) && !event.request.url.startsWith("https://mrepol742.github.io/videos/")) {
         event.respondWith(caches.match(event.request)
             .then(cachedResponse => {
                 if (cachedResponse) {
