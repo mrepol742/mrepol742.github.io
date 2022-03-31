@@ -6,7 +6,7 @@ class RSS {
 
     public static void main(String[] sg) {
         Runnable re = () -> {
-            String url = "https://rss.app/feeds/cxpzEpVXXhcnweds.xml";
+            String url = "https://rss.app/feeds/omckvfQ7GFxzhIhJ.xml";
             String rss = "https://mrepol742.github.io/rss/rss.xml";
             try {
             File folder = new File("rss");
