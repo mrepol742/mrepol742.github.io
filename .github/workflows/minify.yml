@@ -18,18 +18,16 @@ jobs:
 
       - name: Minify Action
         uses: anthonyftwang/minify-action@v1.0.1
-      - name: Checking List
-        run: pwd
 
-      #- name: Push to released Repository
-      #  id: push_directory
-       # uses: cpina/github-action-push-to-another-repository@main
-        #env:
-         # API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-        #with:
-         # source-directory: "/"
-          #destination-github-username: 'mrepol742'
-          #destination-repository-name: 'mrepol742.github.io'
-          #user-email: mrepol742@gmail.com
-         # commit-message: Initial Commit
-          #target-branch: published
+      - name: Push to released Repository
+        id: push_directory
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: "/home/runner/work/mrepol742.github.io/mrepol742.github.io"
+          destination-github-username: 'mrepol742'
+          destination-repository-name: 'mrepol742.github.io'
+          user-email: mrepol742@gmail.com
+          commit-message: Initial Commit
+          target-branch: published
