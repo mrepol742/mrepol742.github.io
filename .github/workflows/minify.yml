@@ -19,7 +19,14 @@ jobs:
       - name: Minify Action
         uses: anthonyftwang/minify-action@v1.0.1
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Push to released Repository
+        id: push_directory
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          commit_message: Minify source code
-          branch: published
+          destination-github-username: 'mrepol742'
+          destination-repository-name: 'mrepol742.github.io'
+          user-email: mrepol742@gmail.com
+          commit-message: Initial Commit
+          target-branch: published
