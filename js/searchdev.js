@@ -15,7 +15,6 @@
 * limitations under the License.
 */
 
-lozad().observe();
 var defSH = "https://source.unsplash.com/";
 
 try {
