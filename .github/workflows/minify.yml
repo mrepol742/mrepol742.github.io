@@ -19,7 +19,7 @@ jobs:
       - name: Minify Action
         uses: anthonyftwang/minify-action@v1.0.1
       - name: Checking List
-        run: ls
+        run: pwd
 
       #- name: Push to released Repository
       #  id: push_directory
