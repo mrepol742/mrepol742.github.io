@@ -25,7 +25,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: "home/runner/work/mrepol742.github.io/mrepol742.github.io"
+          source-directory: "/home/runner/work/mrepol742.github.io/"
           destination-github-username: 'mrepol742'
           destination-repository-name: 'mrepol742.github.io'
           user-email: mrepol742@gmail.com
