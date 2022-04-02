@@ -19,13 +19,19 @@ jobs:
       - name: Minify Action
         uses: anthonyftwang/minify-action@v1.0.1
 
+      - name: Copy
+        run: |
+           mkdir minified-mrepol742
+           cp -RT * minified-mrepol742
+           rm -rf minified-mrepol742/minified-mrepol742
+           
       - name: Push to released Repository
         id: push_directory
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: "js"
+          source-directory: "minified-mrepol742"
           destination-github-username: 'mrepol742'
           destination-repository-name: 'mrepol742.github.io'
           user-email: mrepol742@gmail.com
