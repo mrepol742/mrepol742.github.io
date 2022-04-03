@@ -25,8 +25,11 @@ jobs:
            do
               minify ${fname} | sponge ${fname}
            done
+           
       - name: Copy
-        run: mv * minified ; cp -r minifed/*
+        run: |
+           mkdir minified
+           cp -R * minified
            
       - name: Push to released Repository
         id: push_directory
