@@ -33,10 +33,10 @@ jobs:
            mkdir minified
            find . ! -regex '.*/minified' ! -regex '.' -exec cp -r '{}' minified \;
            
-      - name: Modify last update
-        run: |
-          d=`date '+%Y-%m-%dT%H:%M:%SZ'`
-          echo $d > LAST_UPDATED
+      #- name: Modify last update
+        #run: |
+        #  d=`date '+%Y-%m-%dT%H:%M:%SZ'`
+        #  echo $d > LAST_UPDATED
           
       - name: Push
         run: |
