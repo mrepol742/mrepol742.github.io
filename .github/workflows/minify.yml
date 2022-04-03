@@ -1,0 +1,53 @@
+name: Minify Workflow
+
+on: 
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+          ref: ${{ github.ref }}
+
+      - name: Minified
+        run: |
+           npm i minify@7.0.0 -g
+           sudo apt-get update
+           sudo apt-get -y install moreutils
+           find . -type f \( -iname \*.html -o -iname \*.js -o -iname \*.css \) | while read fname
+           do
+              minify ${fname} | sponge ${fname}
+           done
+           
+      - name: Copy
+        run: |
+           mkdir minified
+           find . ! -regex '.*/minified' ! -regex '.' -exec cp -r '{}' minified \;
+           
+      #- name: Modify last update
+        #run: |
+        #  d=`date '+%Y-%m-%dT%H:%M:%SZ'`
+        #  echo $d > LAST_UPDATED
+          
+      - name: Push
+        run: |
+          git config --local user.email "mrepol742@gmail.com"
+          git config --local user.name "mrepol742"
+          git add .
+          git commit -m "Initial Commit" -a
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.API_TOKEN_GITHUB }}
+          branch: published
+          force: true
