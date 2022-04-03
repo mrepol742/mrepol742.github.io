@@ -14,6 +14,8 @@ jobs:
 
       - uses: actions/checkout@v2
         with:
+          persist-credentials: false
+          fetch-depth: 0
           ref: ${{ github.ref }}
 
       - name: Minified
@@ -31,15 +33,20 @@ jobs:
            mkdir minified
            find . ! -regex '.*/minified' ! -regex '.' -exec cp -r '{}' minified \;
            
-      - name: Push to released Repository
-        id: push_directory
-        uses: cpina/github-action-push-to-another-repository@main
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      - name: Modify last update
+        run: |
+          d=`date '+%Y-%m-%dT%H:%M:%SZ'`
+          echo $d > LAST_UPDATED
+          
+      - name: Push
+        run: |
+          git config --local user.email "mrepol742@gmail.com"
+          git config --local user.name "mrepol742"
+          git add .
+          git commit -m "Initial Commit" -a
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
-          source-directory: "minified"
-          destination-github-username: 'mrepol742'
-          destination-repository-name: 'mrepol742.github.io'
-          user-email: mrepol742@gmail.com
-          commit-message: Initial Commit
-          target-branch: published
+          github_token: ${{ secrets.API_TOKEN_GITHUB }}
+          branch: published
