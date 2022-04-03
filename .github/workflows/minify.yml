@@ -29,7 +29,7 @@ jobs:
       - name: Copy
         run: |
            mkdir minified
-           cp -R * minified
+           find . ! -regex '.*/minified' ! -regex '.' -exec cp -r '{}' minified \;
            
       - name: Push to released Repository
         id: push_directory
