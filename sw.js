@@ -40,9 +40,13 @@ self.addEventListener('activate', event => {
         })
         .then(() => self.clients.claim()));
 });
+
 self.addEventListener('fetch', event => {
-    console.log(event.request.url);
-    if (event.request.url.startsWith(self.location.origin) && !event.request.url.startsWith("/videos") && !event.request.url.contains("/rss") && !event.request.url.endsWith("sitemap.xml") && !event.request.url.containa("/sitemap")) {
+    if (event.request.url.startsWith(self.location.origin) && 
+    !(event.request.url.startsWith("/videos") || 
+    event.request.url.contains("/rss") || 
+    event.request.url.endsWith("sitemap.xml") || 
+    event.request.url.contains("/sitemap"))) {
         event.respondWith(caches.match(event.request)
             .then(cachedResponse => {
                 if (cachedResponse) {
