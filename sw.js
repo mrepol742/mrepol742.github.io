@@ -24,7 +24,6 @@ self.addEventListener('install', event => {
         .then(self.skipWaiting())
     );
 });
-
 self.addEventListener('activate', event => {
     const currentCaches = [
         PRECACHE2,
@@ -43,7 +42,7 @@ self.addEventListener('activate', event => {
 });
 self.addEventListener('fetch', event => {
     console.log(event.request.url);
-    if (event.request.url.startsWith(self.location.origin) && !event.request.url.startsWith("https://mrepol742.github.io/videos/")) {
+    if (event.request.url.startsWith(self.location.origin) && !event.request.url.startsWith("/videos") && !event.request.url.contains("/rss") && !event.request.url.endsWith("sitemap.xml") && !event.request.url.containa("/sitemap")) {
         event.respondWith(caches.match(event.request)
             .then(cachedResponse => {
                 if (cachedResponse) {
