@@ -40,6 +40,7 @@ body {
     font-family: 'Maven Pro', sans-serif;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -96,6 +97,7 @@ nav {
 
 .accordion-button:hover, .accordion-button:active {
     background-color: #4285f4;
+    color: white;
 }
 .card:hover, .accordion:hover, nav:hover {
     transition: box-shadow .3s;
