@@ -36,6 +36,11 @@ body {
     color: #212121;
 }
 
+
+hr {
+    height: 5px;
+}
+
 * {
     font-family: 'Maven Pro', sans-serif;
     margin: 0;

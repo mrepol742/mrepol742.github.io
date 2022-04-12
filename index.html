@@ -48,7 +48,7 @@
   <meta property="og:image" content="/images/mrepol742.jpg">
   <meta name="theme-color" content="#ffffff">
   <meta name="keywords"
-    content="melvin jones repol, mrepol742, software engineer, web developer, webvium, webvium vpn, self taught programmer, samiun nafis, samiunnafis, john oye, johnoye742, amos ayomide, amosayomide05, kingsley ofonime, devkay07, jay pat cano, 0x3ef8, elisha david okon, trexcruz, Kelly Daniel, Maylan jhay A. Masibay">
+    content="melvin jones repol, melvin jones gallano repol, mrepol742, software engineer, web developer, webvium, webvium vpn, self taught programmer, samiun nafis, samiunnafis, john oye, johnoye742, amos ayomide, amosayomide05, kingsley ofonime, devkay07, jay pat cano, 0x3ef8, elisha david okon, trexcruz, Kelly Daniel, Maylan jhay A. Masibay">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description"
@@ -249,7 +249,10 @@
               <a class="nav-link" href="#skills">Skills</a> 
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Notable Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#edu">Edu</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#friends">Friends</a>
@@ -258,7 +261,7 @@
               <a class="nav-link" href="#devices">Devices</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#referrals">Referrals</a>
+              <a class="nav-link" href="#referrals">Ref</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#faq">Faq</a>
@@ -293,19 +296,26 @@
             <br>
             <img src="/images/mrepol742.png" class="rounded mx-auto d-block img-fluid" alt="Melvin Jones Repol (@mrepol742)" title="Melvin Jones Repol (@mrepol742)"
               width="250px">
+              <br>
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <br>
               <h1 class="card-title" title="@mrepol742">Melvin Jones Repol</h1>
+              <hr>
               <p class="card-text">
-                I am a Software Engineer with a sound knowledge of knowledge in Web Development. Beyond 3 years of experience in this area, studying Computer Science in CS50, self taught Programmer and currently at 1st year college studying Computer Programming under the course Bachelor of Science in Information Technology at Bestlink College of the Philippines.
+                &#8226; I am a Software Engineer with a sound knowledge of knowledge in Web Development. Beyond 3 years of experience in this area, studying Computer Science in CS50, self taught Programmer and currently at 1st year college studying Computer Programming under the course Bachelor of Science in Information Technology at Bestlink College of the Philippines.</li>
+                 <br>&#8226; Caloocan City, Philippines.
+                 <br>&#8226; <span id="year">20 years old.</span>
+                 <br>&#8226; Creator of Webvium.
               </p>
-              <a href="https://docs.google.com/document/d/e/2PACX-1vT-xQCDl8prr_3Bfh7Zyl4xPRZoXZh2a2XgZK9khDrWJg6EO2_xYjXV-lknt-kAuw/pub" target="_blank" class="btn btn-primary">Resume</a>
             </div>
           </div>
-        </div>
+          <p class="text-center2">
+          Follow me on Facebook: <a href="https://fb.com/melvinjonesrepol">Melvin Jones Gallano Repol</a>, Twitter: <a href="https://twitter.com/mrepol742">@mrepol742</a>, Tiktok: <a href="https://tiktok.com/@mrepol742">@mrepopl742</a> and Github: <a href="https://github.com/mrepol742">mrepol742</a>
+       </p> </div>
       </div>
+  
     <br>
       <div class="text-center" id="skills">
         <h2 id="txt">Skills</h2>
@@ -444,6 +454,28 @@
 
       </div>
       <br>
+      <h2 class="text-center" id="edu">Education</h2><br>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Bestlink College of the Philippines</h5>
+              <p class="card-text">Bachelor of Science in Information Technology</p>
+              <p class="card-text"><small class="text-muted">2021-now</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">South East Asia Institute of Trade and Technology</h5>
+              <p class="card-text">Information Communication Technology</p>
+              <p class="card-text"><small class="text-muted">2018-2020</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
 
       <h2 class="text-center" id="friends">Friends</h2><br>
 
@@ -577,8 +609,9 @@
   
           <div class="col-sm-6">
             <div class="card obj">
+            
               <img loading="lazy" src="/images/simpleanalytics.jpg" class="rounded mx-auto d-block img-fluid"
-                alt="Simple Analytics">
+                alt="Simple Analytics" style="padding: 5px;">
   
               <div class="card-body">
                 <h5 class="card-title">Simple Analytics</h5>
@@ -827,19 +860,19 @@
             console.error('[ServiceWorker] failed: ', err)
         });
     }
-    var date1 = new Date("03/18/2020");
 
-var date = new Date();
-var m = date.getMonth() + 1;
-var d = date.getDate();
-var y = date.getFullYear();
-
-var date2 = new Date(m + "/" + d + "/" + y);
-
-var time = date2.getTime() - date1.getTime();
-var days = time / (1000 * 3600 * 24);
-
-document.getElementById("since").innerHTML = ". It's been " + days + " days since.";
+    function getDate(a) {
+        var date1 = new Date(a);
+        var date = new Date();
+        var m = date.getMonth() + 1;
+        var d = date.getDate();
+        var y = date.getFullYear();
+        var date2 = new Date(m + "/" + d + "/" + y);
+        var time = date2.getTime() - date1.getTime();
+        return time / (1000 * 3600 * 24);
+    }
+    document.getElementById("since").innerHTML = ". It's been " + getDate("03/18/2020") + " days since.";
+    document.getElementById("year").innerText =  (new Date().getFullYear() - 2002) + " Years old.";
   </script>
   <noscript>
     <style type="text/css">
