@@ -229,6 +229,7 @@ p.top {
     color: #ffffff;
     padding-left: 30px;
     padding-right: 30px;
+    transition: all 1s ease;
 }
 
 .asd {
