@@ -27,7 +27,7 @@
 
 a {
     color: #4285f4;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 a:hover {
@@ -41,7 +41,25 @@ a:hover {
 
 #con {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 20%;
+}
+
+@media (max-width:1080px) {
+
+    #con {
+        margin-top: 40% !important;
+    }
+}
+
+.obj {
+    opacity: 0;
+    transform: translateY(10%);
+    transition: all 1s ease;
+}
+
+.obj.active {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 #search {
@@ -55,11 +73,15 @@ a:hover {
     color: #ffffff;
     padding-left: 20px;
     padding-right: 20px;
-    height: 45px;
+    height: 50px;
     font-size: 15px;
+    transition: all 1s ease;
 }
 
 #search:hover {
+    transition: all 1s ease;
+    height: 55px;
+    width: 80%;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 }
 
@@ -143,4 +165,61 @@ a:hover {
 #accpt {
     color: #ffffff;
 
+}
+
+.search-widgets {
+    margin: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 50px;
+    color: #484848;
+}
+
+.search-widgets:hover {
+    background-color: #4285f4;
+    color: #ffffff;
+    padding-left: 55px !important;
+    padding-right: 55px !important;
+    transition: all 1s ease;
+}
+
+.text-center {
+    padding-top: 10%;
+  }
+  
+  .text-center2 {
+      text-align: center;
+  }
+  
+  a {
+    color: #4285f4;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #000000;
+}
+
+footer {
+    box-shadow: 0 0 5em #4286f460;
+    background-color: #ffffff;
+    margin-top:  15%;
+    color: #212121;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    border-style: none;
+}
+
+.foo-icon {
+    margin: 5px;
 }

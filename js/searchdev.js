@@ -18,7 +18,7 @@
 let a = new Date();
 let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Frday', 'Saturday'];
 let b = a.getDay();
-document.getElementById("currD").innerHTML = "<h2>" + days[b] + " | " + b + "</h2>";
+document.getElementById("currD").innerHTML = "<h1>" + days[b] + " | " + b + "</h1>";
 
 var defSH = "https://source.unsplash.com/";
 
