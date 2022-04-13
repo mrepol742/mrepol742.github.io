@@ -24,6 +24,7 @@ self.addEventListener('install', event => {
         .then(self.skipWaiting())
     );
 });
+
 self.addEventListener('activate', event => {
     const currentCaches = [
         PRECACHE2,
