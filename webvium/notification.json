@@ -1,12 +1,12 @@
 {
   "com.mrepol742.webvium": [{
-    "title" : "Welcome to Webvium",
-    "content" : "Thanks for downloading... Hope you liked the new Update...",
-    "url" : "https://mrepol742.github.io/webvium/"
+    "title" : "The Search UI",
+    "content" : "Comming soon to live. Tap to test it now",
+    "url" : "https://mrepol742.github.io/searchdev/"
   }],
   "com.mrepol742.webvium.dev": [{
-    "title" : "Welcome to Webvium Dev",
-    "content" : "Thanks for downloading... Hope you liked the new Update...",
-    "url" : "https://mrepol742.github.io/webviumdev/"
+    "title" : "The Search UI",
+    "content" : "Comming soon to live. Tap to test it now",
+    "url" : "https://mrepol742.github.io/searchdev/"
   }]
 }
