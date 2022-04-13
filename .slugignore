@@ -1,5 +1,4 @@
 /.github
-/adstest
 /download
 /flowers
 /how-to-install
@@ -15,6 +14,7 @@
 /press
 /webviumdev
 /webviumvpn
+/link-tree
 /.nojekyll
 /.vercelignore
 /ads.txt
