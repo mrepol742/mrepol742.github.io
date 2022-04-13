@@ -15,12 +15,6 @@
 * limitations under the License.
 */
 
-@font-face {
-    font-family: 'Maven Pro';
-    src: local("sans serif"), local("sans-serif"), url("/fonts/Maven-Pro.ttf");
-    font-display: swap;
-}
-
 ::selection {
     background-color: #4285f4;
     color: #ffffff;
