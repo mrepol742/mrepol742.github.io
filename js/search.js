@@ -23,7 +23,7 @@ document.getElementById("currD").innerHTML = "<h1>" + days[b] + " | " + a.getDat
 var defSH = "https://source.unsplash.com/";
 
 try {
-	if (Webvium.currentVersion() >= 28) {
+	if (Webvium.currentVersion() > 28) {
 		var bgn = WebviumThemeHelper.getBackgroundStatus();
 		if (bgn == "60z") {
 			bgde();
