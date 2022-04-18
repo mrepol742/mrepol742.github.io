@@ -90,6 +90,10 @@ nav {
     background-color: #ffffff;
 }
 
+#accpt {
+    padding: 50% !important;
+}
+
 .accordion-item, .accordion-button, .list-group-item, .navbar-toggler {
     border: none;
 }
