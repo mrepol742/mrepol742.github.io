@@ -91,7 +91,17 @@ nav {
 }
 
 #accpt {
-    padding: 50% !important;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 1s ease;
+}
+
+#accpt:hover {
+    background-color: #4285f4;
+    transition: all 1s ease;
 }
 
 .accordion-item, .accordion-button, .list-group-item, .navbar-toggler {
@@ -304,14 +314,14 @@ footer {
     border-radius: 50px;
     padding-left: 6%;
     padding-right: 6%;
+    transition: all 1s ease;
 }
 
 #download_btn:hover {
     background-color: #ffffff;
     border-color: #4285f4;
     color: #4285f4;
-    padding-left: 8%;
-    padding-right: 8%;
+    transition: all 1s ease;
 }
 
 .deVaaa {
