@@ -43,12 +43,13 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', event => {
-    if (event.request.url.startsWith(self.location.origin) && 
-    !(event.request.url.startsWith("/videos/") || 
-    event.request.url.contains("/rss/") || 
-    event.request.url.endsWith("sitemap.xml") || 
-    event.request.url.contains("/sitemap/") ||
-    event.request.url.contains("/link-tree/"))) {
+    let url = event.request.url;
+    if (url.startsWith(self.location.origin) && 
+    !(url.startsWith("/videos/") || 
+    url.includes("/rss/") || 
+    url.endsWith("sitemap.xml") || 
+    url.includes("/sitemap/") ||
+    url.includes("/link-tree/"))) {
         event.respondWith(caches.match(event.request)
             .then(cachedResponse => {
                 if (cachedResponse) {
