@@ -122,18 +122,9 @@ a:hover {
 	text-overflow: ellipsis;
 }
 
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa {
-    margin: 5px;
-}
-
 .site {
     margin-top: 10%;
 }
-
 
 .tst {
     position: fixed;
@@ -167,6 +158,7 @@ a:hover {
     margin-top: 10px;
     margin-bottom: 10px;
     transition: all 1s ease;
+    background-color: #ffffff;
 }
 
 #accpt:hover {
