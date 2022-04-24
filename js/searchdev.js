@@ -15,6 +15,15 @@
 * limitations under the License.
 */
 
+try {
+	var v = 28;
+	let vc = getCookie("vr");
+    if (vc == "" && v > Webvium.currentVersion()) {
+		Webvium.showNotification("You are using an outdated version of Webvium.", "Tap here to update or go to https://webvium.github.io", "https://webvium.github.io");
+	    setCookie("vr", v, 1);
+	}
+} catch (wer) {}
+
 let a = new Date();
 let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 let b = a.getDay();
