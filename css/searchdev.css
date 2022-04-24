@@ -220,3 +220,32 @@ footer {
 .foo-icon {
     margin: 5px;
 }
+
+.accordion {
+    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+    transition: box-shadow .3s;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.accordion {
+    background-color: #ffffff;
+}
+
+.accordion-item, .accordion-button {
+    border: none;
+}
+
+.accordion-button:hover, .accordion-button:active {
+    background-color: #4285f4;
+    color: white;
+}
+.accordion:hover {
+    transition: box-shadow .3s;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+}
+.accordion-header {
+    background: none;
+    border: none;
+}
