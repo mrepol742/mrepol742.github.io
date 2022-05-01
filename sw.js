@@ -45,7 +45,7 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
     let url = event.request.url;
     if (url.startsWith(self.location.origin) && 
-    !(url.startsWith("/videos/") || 
+    !(url.includes("/videos/") || 
     url.includes("/rss/") || 
     url.endsWith("sitemap.xml") || 
     url.includes("/sitemap/") ||
