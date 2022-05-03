@@ -15,8 +15,8 @@
 * limitations under the License.
 */
 
-const PRECACHE2 = 'precache-v4';
-const RUNTIME = 'runtime-v4';
+const PRECACHE2 = 'precache-v5';
+const RUNTIME = 'runtime-v5';
 
 self.addEventListener('install', event => {
     event.waitUntil(caches.open(PRECACHE2)
@@ -44,12 +44,13 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
     let url = event.request.url;
-    if (url.startsWith(self.location.origin) && 
-    !(url.includes("/videos/") || 
-    url.includes("/rss/") || 
-    url.endsWith("sitemap.xml") || 
-    url.includes("/sitemap/") ||
-    url.includes("/link-tree/"))) {
+    if (url.startsWith(self.location.origin) &&
+        !(url.includes("/videos/") ||
+            url.includes("/rss/") ||
+            url.endsWith("sitemap.xml") ||
+            url.includes("/sitemap/") ||
+            url.includes("/link-tree/") ||
+            url.endsWith("sw.js"))) {
         event.respondWith(caches.match(event.request)
             .then(cachedResponse => {
                 if (cachedResponse) {
