@@ -14,17 +14,6 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-/*
-var url = 'https://mrepol742.github.io/webvium/update.json';
-
-fetch(url).then(res => res.json())
-.then(out =>
-  checkU(out));
-
-function checkU(out) {
- alert(out[0][0]);
-}
-*/
 
 var a = 28;
 var fo = "2.8";

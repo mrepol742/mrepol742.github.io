@@ -16,17 +16,17 @@
 */
 
 ::selection {
-    background-color: #4285f4;
+    background-color: #de5246;
     color: #ffffff;
 }
 
 ::-moz-selection {
-    background-color: #4285f4;
+    background-color: #de5246;
     color: #ffffff;
 }
 
 body {
-    background: #4286f40a !important;
+    background: #de534638 !important;
     color: #212121;
 }
 
@@ -43,7 +43,7 @@ hr {
 }
 
 a {
-    color: #4285f4;
+    color: #de5246;
     text-decoration: none;
     cursor: pointer;
 }
@@ -100,7 +100,7 @@ nav {
 }
 
 #accpt:hover {
-    background-color: #4285f4;
+    background-color: #de5246;
     transition: all 1s ease;
 }
 
@@ -109,7 +109,7 @@ nav {
 }
 
 .accordion-button:hover, .accordion-button:active {
-    background-color: #4285f4;
+    background-color: #de5246;
     color: white;
 }
 .card:hover, .accordion:hover, nav:hover {
@@ -143,17 +143,6 @@ p.top {
 
 .fa:hover {
     opacity: 0.7;
-}
-
-.obj {
-    opacity: 0;
-    transform: translateY(10%);
-    transition: all 1s ease;
-}
-
-.obj.active {
-    opacity: 1;
-    transform: translateY(0);
 }
 
 .fa {
@@ -233,7 +222,7 @@ p.top {
 }
 
 .skill:hover {
-    background-color: #4285f4;
+    background-color: #de5246;
     color: #ffffff;
     padding-left: 30px;
     padding-right: 30px;
@@ -319,8 +308,8 @@ footer {
 
 #download_btn:hover {
     background-color: #ffffff;
-    border-color: #4285f4;
-    color: #4285f4;
+    border-color: #de5246;
+    color: #de5246;
     transition: all 1s ease;
 }
 
