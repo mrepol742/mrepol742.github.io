@@ -19,38 +19,27 @@ const PRECACHE2 = 'precache-v5';
 const RUNTIME = 'runtime-v5';
 
 self.addEventListener('install', event => {
-    event.waitUntil(caches.open(PRECACHE2)
-        .then(cache => cache.addAll(["/"]))
-        .then(self.skipWaiting())
+    event.waitUntil(caches.open(PRECACHE2).then(cache => cache.addAll(["/"])).then(self.skipWaiting())
     );
 });
 
 self.addEventListener('activate', event => {
-    const currentCaches = [
-        PRECACHE2,
-        RUNTIME
-    ];
+    const currentCaches = [PRECACHE2,RUNTIME];
     event.waitUntil(caches.keys().then(cacheNames => {
         return cacheNames.filter(cacheName => !currentCaches.includes(cacheName));
-    })
-        .then(cachesToDelete => {
+    }).then(cachesToDelete => {
             return Promise.all(cachesToDelete.map(cacheToDelete => {
                 return caches.delete(cacheToDelete);
             }
-            ));
-        })
-        .then(() => self.clients.claim()));
+        ));
+    }).then(() => self.clients.claim()));
 });
 
 self.addEventListener('fetch', event => {
     let url = event.request.url;
     if (url.startsWith(self.location.origin) &&
-        !(url.includes("/videos/") ||
-            url.includes("/rss/") ||
-            url.endsWith("sitemap.xml") ||
-            url.includes("/sitemap/") ||
-            url.includes("/link-tree/") ||
-            url.endsWith("sw.js"))) {
+        !(url.includes(".html") || url.includes(".css") || url.endsWith(".xml") ||
+        (url.includes(".js") && !url.includes("/lib/") && !url.includes("/dist/")))) {
         event.respondWith(caches.match(event.request)
             .then(cachedResponse => {
                 if (cachedResponse) {
