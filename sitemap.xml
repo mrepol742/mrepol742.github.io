@@ -1,103 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 <loc>https://mrepol742.github.io/</loc>
-<priority>0.6</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
 <url>
 <loc>https://mrepol742.github.io/webvium/</loc>
-<priority>0.6</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
 <url>
 <loc>https://mrepol742.github.io/webviumdev/</loc>
-<priority>0.6</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
 <url>
 <loc>https://mrepol742.github.io/viewip/</loc>
-<priority>0.6</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
 <url>
 <loc>https://mrepol742.github.io/ily/</loc>
-<priority>0.6</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
 <url>
 <loc>https://mrepol742.github.io/search/</loc>
-<priority>0.6</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
 <url>
 <loc>https://mrepol742.github.io/searchdev/</loc>
-<priority>0.6</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
 <url>
 <loc>https://mrepol742.github.io/flowers/</loc>
-<priority>0.6</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
 <url>
 <loc>https://mrepol742.github.io/privacypolicy/</loc>
-<priority>0.6</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
 <url>
 <loc>https://mrepol742.github.io/webviumvpn/</loc>
-<priority>0.6</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
 <url>
 <loc>https://mrepol742.github.io/webvium/privacypolicy/</loc>
-<priority>0.64</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
 <url>
 <loc>https://mrepol742.github.io/webviumvpn/privacypolicy/</loc>
-<priority>0.64</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
 <url>
 <loc>https://mrepol742.github.io/download/</loc>
-<priority>0.6</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
 <url>
 <loc>https://mrepol742.github.io/useragent/</loc>
-<priority>0.6</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
 <url>
 <loc>https://mrepol742.github.io/how-to-install/</loc>
-<priority>0.6</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
 <url>
 <loc>https://mrepol742.github.io/news/</loc>
-<priority>0.6</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
 <url>
 <loc>https://mrepol742.github.io/sitemap/</loc>
-<priority>0.6</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
 <url>
 <loc>https://mrepol742.github.io/press/</loc>
-<priority>0.6</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
 <url>
 <loc>https://mrepol742.github.io/webvium/team/</loc>
-<priority>0.6</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
 <url>
 <loc>https://mrepol742.github.io/link-tree/</loc>
-<priority>0.6</priority>
-<changefreq>daily</changefreq>
+<lastmod>2022-05-06</lastmod>
 </url>
+
+<url>
+     <loc>https://mrepol742.github.io/webvium/</loc>
+     <video:video>
+       <video:thumbnail_loc>https://mrepol742.github.io/images/webvium22.jpg</video:thumbnail_loc>
+       <video:title>Webvium: Lightweight, Fast, Material and Full-Featured Android Web Browser</video:title>
+       <video:description>A Project that aims to be the lightest, fastest, secured, private and full-featured android web browser. Programmed and design from Scratch.</video:description>
+       <video:content_loc>https://mrepol742.github.io/videos/Webvium%20-%20Lightweight,%20Fast,%20Material%20and%20Full-Featured%20Android%20Web%20Browser.mp4</video:content_loc>
+       <video:duration>27</video:duration>
+       <video:rating>5.0</video:rating>
+       <video:view_count>50</video:view_count>
+       <video:publication_date>2022-02-25T19:20:30+08:00</video:publication_date>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://mrepol742.github.io/">Melvin Jones Repol</video:uploader>
+       <video:live>no</video:live>
+     </video:video>
+   </url>
+
+   <url>
+     <loc>https://mrepol742.github.io/webviumvpn/</loc>
+     <video:video>
+       <video:thumbnail_loc>https://mrepol742.github.io/images/webvium22.jpg</video:thumbnail_loc>
+       <video:title>Webvium VPN: Anonymous, Secured, Private and the fastest Virtual Private Network.</video:title>
+       <video:description>Inspired from Webvium, Webvium VPN is a lightweight android VPN app focuses in speed, simplicity, security and privacy.</video:description>
+       <video:content_loc>https://mrepol742.github.io/videos/Webvium%20VPN%20-%20Anonymous,%20Secured,%20Private%20and%20the%20fastest%20Virtual%20Private%20Network.mp4</video:content_loc>
+       <video:duration>23</video:duration>
+       <video:rating>5.0</video:rating>
+       <video:view_count>50</video:view_count>
+       <video:publication_date>2022-02-25T19:20:30+08:00</video:publication_date>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:requires_subscription>no</video:requires_subscription>
+       <video:uploader info="https://mrepol742.github.io/">Melvin Jones Repol</video:uploader>
+       <video:live>no</video:live>
+     </video:video>
+   </url>
 </urlset>
