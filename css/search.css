@@ -16,17 +16,17 @@
 */
 
 ::selection {
-    background-color: #de5246;
+    background-color: #4285f4;
     color: #ffffff;
 }
 
 ::-moz-selection {
-    background-color: #de5246;
+    background-color: #4285f4;
     color: #ffffff;
 }
 
 a {
-    color: #de5246;
+    color: #4285f4;
     text-decoration: none !important;
 }
 
@@ -152,7 +152,7 @@ a:hover {
 }
 
 #accpt:hover {
-    background-color: #de5246;
+    background-color: #4285f4;
     transition: all 1s ease;
 }
 
@@ -172,7 +172,7 @@ a:hover {
 }
 
 .search-widgets:hover {
-    background-color: #de5246;
+    background-color: #4285f4;
     color: #ffffff;
     transition: all 1s ease;
 }
@@ -186,7 +186,7 @@ a:hover {
   }
   
   a {
-    color: #de5246;
+    color: #4285f4;
     text-decoration: none;
     cursor: pointer;
 }
@@ -228,7 +228,7 @@ footer {
 }
 
 .accordion-button:hover, .accordion-button:active {
-    background-color: #de5246;
+    background-color: #4285f4;
     color: white;
 }
 .accordion:hover {

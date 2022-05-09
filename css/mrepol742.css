@@ -16,17 +16,17 @@
 */
 
 ::selection {
-    background-color: #de5246;
+    background-color: #4285f4;
     color: #ffffff;
 }
 
 ::-moz-selection {
-    background-color: #de5246;
+    background-color: #4285f4;
     color: #ffffff;
 }
 
 body {
-    background: #de534638 !important;
+    background: #ffffff !important;
     color: #212121;
 }
 
@@ -43,7 +43,7 @@ hr {
 }
 
 a {
-    color: #de5246;
+    color: #4285f4;
     text-decoration: none;
     cursor: pointer;
 }
@@ -100,7 +100,7 @@ nav {
 }
 
 #accpt:hover {
-    background-color: #de5246;
+    background-color: #4285f4;
     transition: all 1s ease;
 }
 
@@ -109,7 +109,7 @@ nav {
 }
 
 .accordion-button:hover, .accordion-button:active {
-    background-color: #de5246;
+    background-color: #4285f4;
     color: white;
 }
 .card:hover, .accordion:hover, nav:hover {
@@ -222,7 +222,7 @@ p.top {
 }
 
 .skill:hover {
-    background-color: #de5246;
+    background-color: #4285f4;
     color: #ffffff;
     padding-left: 30px;
     padding-right: 30px;
@@ -308,8 +308,8 @@ footer {
 
 #download_btn:hover {
     background-color: #ffffff;
-    border-color: #de5246;
-    color: #de5246;
+    border-color: #4285f4;
+    color: #4285f4;
     transition: all 1s ease;
 }
 
