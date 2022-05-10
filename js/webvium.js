@@ -14,83 +14,39 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-
-//var ins = true;
-var a = 28;
-var fo = "2.8";
-var upda = "Feb 22, 2022";
-var ul = "https://github.com/mrepol742/released/blob/stable/Webvium%20v";
-var ab = ".apk?raw=true";
-var vr = ["1.0", "1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "1.8", "1.8.1", "1.9", "2.0", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7"];
-var size = ["600", "585", "590", "589", "577", "585", "585", "590", "552", "552", "485", "485", "488", "490", "486", "574", "486", "488", "494"];
+let vr = ["1.0", "1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7", "1.8", "1.8.1", "1.9", "2.0", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7"];
+let size = ["600", "585", "590", "589", "577", "585", "585", "590", "552", "552", "485", "485", "488", "490", "486", "574", "486", "488", "494"];
 
 let items = document.querySelectorAll('.size12');
 items.forEach((e) => {
-    e.innerHTML = "490KB";
+    e.innerHTML = updateSize;
 });
 let items3 = document.querySelectorAll('.version');
 items3.forEach((e3) => {
-    e3.innerHTML = fo;
+    e3.innerHTML = latestVersionName;
 });
 
-document.getElementById("upda").innerHTML = upda;
-
-let i2 = 4;
-let interval;
+document.getElementById("upda").innerHTML = updateDate;
 
 function download() {
-    if (!interval) {
-        interval = setInterval(ct, 1500);
-    }
-}
-
-function ct() {
-    if (i2 <= 0) {
-        document.getElementById("download_btn").innerHTML = "Downloading Now";
-        resetTimer();
-       /* if (ins) {
-           window.location.href = "https://webvium-download-counter.vercel.app/api?count=0&ref=" + ul + fo + ab;
-           ins = false;
-        } else {*/
-           window.location.href = ul + fo + ab;
-      //  }
-    } else {
-        i2--;
-        document.getElementById("download_btn").innerHTML = "Downloading in " + i2 + " secs";
-    }
-}
-/*
-var r = new XMLHttpRequest();
-    r.open('GET', 'https://webvium-download-counter.vercel.app/api?count=1&ref=null', false);
-    r.send(null); 
-if (r.status == 200) { 
-    document.getElementById("nm0d").innerHTML = r.responseText + " Downloads.";
-}
-*/
-function resetTimer() {
-    i2 = 4;
-    clearInterval(interval);
-    interval = 0;
+    window.location.href = downloadUrlPrefix + latestVersionName;
 }
 
 for (var i = 0; i < vr.length; i++) {
     let list = document.createElement('li');
     list.classList.add('list-group-item');
- 
     let a = document.createElement('a');
-    a.setAttribute('href', ul + vr[i] + ab);
+    a.setAttribute('href', downloadUrlPrefix + vr[i] + ".apk?raw=true");
     a.classList.add('btn');
-
     a.classList.add('webvI');
     a.setAttribute('target', '_blank');
     a.innerHTML = "- Webvium v" + vr[i] + " " + size[i] + "KB";
     list.appendChild(a);
-
     versions.appendChild(list);
 }
 
 try {
-    if (a > Webvium.currentVersion()) {
+    if (latestVersionCode > Webvium.currentVersion()) {
         document.getElementById("curr").innerHTML = "<b>You are using an outdated version of Webvium.</b>";
     } else {
         document.getElementById("curr").innerHTML = "<b>You are already using the Latest version.</b>";
