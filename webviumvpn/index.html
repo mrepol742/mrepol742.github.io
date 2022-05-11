@@ -605,7 +605,7 @@ items3.forEach((e3) => {
 document.getElementById("upda").innerHTML = updateDateVPN;
 
 function download() {
-    window.location.href = downloadUrlPrefixVPN + latestVersionNameVPN;
+  window.location.href = downloadUrlPrefixVPN.replace("%WEBVIUM%", latestVersionNameVPN);
 }
 
 for (var i = 0; i < versionListVPN.length; i++) {
@@ -620,6 +620,7 @@ for (var i = 0; i < versionListVPN.length; i++) {
     list.appendChild(a);
     versions.appendChild(list);
 }
+
   </script>
 </body>
 

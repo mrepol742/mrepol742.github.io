@@ -710,7 +710,7 @@ items3.forEach((e3) => {
 document.getElementById("upda").innerHTML = updateDate;
 
 function download() {
-    window.location.href = downloadUrlPrefix + latestVersionName;
+    window.location.href = downloadUrlPrefix.replace("%WEBVIUM%", latestVersionName);
 }
 
 for (var i = 0; i < versionList.length; i++) {
