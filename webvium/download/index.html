@@ -174,7 +174,7 @@
         let urlParams = new URLSearchParams(queryString);
         let version = urlParams.get('version');
         if (version == null) {
-            let nonNullUrl = "https://github.com/mrepol742/released/blob/stable/Webvium%20" + latestVersionName + ".apk?raw=true";
+            let nonNullUrl = "https://github.com/mrepol742/released/blob/stable/Webvium%20v" + latestVersionName + ".apk?raw=true";
             window.location.href = nonNullUrl;
             document.getElementById("retry-download").href = nonNullUrl;
         } else {
