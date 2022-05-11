@@ -687,7 +687,7 @@
 
     </footer>
   </div>
-  <script src="/js/webviumdev.js"></script>
+  <script src="/webvium/update.js"></script>
   <script src="/js/mrepol742.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
@@ -699,6 +699,18 @@
       }).catch((err) => {
         console.error('[ServiceWorker] failed: ', err)
       });
+    }
+    let items = document.querySelectorAll('.size12');
+    items.forEach((e) => {
+        e.innerHTML = updateSizeDev;
+    });
+    let items3 = document.querySelectorAll('.version');
+    items3.forEach((e3) => {
+        e3.innerHTML = updateVersionNameDev;
+    });
+    document.getElementById("upda").innerHTML = updateDateDev;
+    function download() {
+        window.location.href = "https://mrepol742.github.io/webviumdev/download/";
     }
   </script>
 </body>
