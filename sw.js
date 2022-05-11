@@ -38,7 +38,7 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
     let url = event.request.url;
     if (url.startsWith(self.location.origin) &&
-        !(url.includes(".html") || url.includes(".css") || url.endsWith(".xml") ||
+        !(url.includes(".html") || url.includes(".css") || url.endsWith(".xml") || url.endsWith(".mp4") ||
         (url.includes(".js") && !url.includes("/lib/") && !url.includes("/dist/")))) {
         event.respondWith(caches.match(event.request)
             .then(cachedResponse => {
