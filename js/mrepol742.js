@@ -15,23 +15,6 @@
 * limitations under the License.
 */
 
-window.addEventListener('scroll', reveal);
-reveal();
-function reveal() {
-  let items = document.querySelectorAll('.obj');
-  for (let i = 0; i < items.length; i++) {
-    let windowHeight = window.innerHeight;
-    let revealTop = items[i].getBoundingClientRect().top;
-    let distance = 30;
-
-    if (revealTop < windowHeight - distance) {
-      items[i].classList.add('active');
-    } else {
-      items[i].classList.remove('active');
-    }
-  }
-}
-
 function setCookie(cname, cvalue, exdays) {
   const d = new Date();
   d.setTime(d.getTime() + (exdays*24*60*60*1000));

@@ -19,7 +19,7 @@
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone",
-  "start_url": "../index.html",
+  "start_url": "/index.html",
   "scope": "/",
   "orientation": "portrait",
   "prefer_related_applications": true,
@@ -41,28 +41,32 @@
       "url": "https://mrepol742.github.io/download?utm_source=webmanifest"
     },
     {
-      "platform": "android",
+      "platform": "galaxy_store",
       "url": "https://galaxy.store/webvium?utm_source=webmanifest"
     },
     {
-      "platform": "android",
+      "platform": "galaxy_store",
       "url": "https://galaxy.store/webviumdm?utm_source=webmanifest"
     },
     {
-      "platform": "android",
+      "platform": "uptodown",
       "url": "https://webvium.en.uptodown.com/android?utm_source=webmanifest"
     },
     {
-      "platform": "android",
-      "url": "https://www.amazon.com/dp/B09TLFJ86L"
+      "platform": "amazon",
+      "url": "https://www.amazon.com/dp/B09TLFJ86L?utm_source=webmanifest"
     },
     {
-      "platform": "android",
-      "url": "https://webvium-vpn.en.uptodown.com/android"
+      "platform": "uptodown",
+      "url": "https://webvium-vpn.en.uptodown.com/android?utm_source=webmanifest"
     },
     {
-      "platform": "android",
-      "url": "https://www.amazon.com/dp/B09TRT8PGF"
+      "platform": "amazon",
+      "url": "https://www.amazon.com/dp/B09TRT8PGF?utm_source=webmanifest"
+    },
+    {
+      "platform": "getjar",
+      "url": "https://www.getjar.com/categories/productivity-apps/browser/Webvium-The-Privacy-Friendly-Web-Browser-990692?utm_source=webmanifest"
     }
   ]
 }
