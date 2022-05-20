@@ -16,6 +16,14 @@
 */
 
 try {
+	if (Webvium.currentVersion() < 29) {
+		let load = document.createElement("script");
+        load.setAttribute("src", "https://mrepol742.github.io/lib/xml2json.js");
+        document.body.appendChild(load);
+	}
+} catch (asd) {}
+
+try {
 	var v = 28;
 	let vc = getCookie("vr");
     if (vc == "" && v > Webvium.currentVersion()) {
@@ -169,11 +177,14 @@ search.addEventListener('input', () => {
 				}
 
 				sug.style.display = 'flex';
+				/*
 				var doc = WebviumSearchSuggestion.getResponse(search.value);
 				var jsonString = xml2json($.parseXML(doc)).split('undefined').join('');
 				var json = JSON.parse(jsonString);
 				var topLevel = json.toplevel;
 				var comsug = topLevel.CompleteSuggestion;
+				*/
+				var comsug = getSuggestions();
 				var data = "";
 
 				for (let i = 0; i < comsug.length; i++) {
@@ -205,6 +216,18 @@ search.addEventListener('input', () => {
 		}
 	} catch (ex) { }
 });
+
+function getSuggestions() {
+	if (Webvium.currentVersion() < 29) {
+	    var doc = WebviumSearchSuggestion.getResponse(search.value);
+	    var jsonString = xml2json($.parseXML(doc)).split('undefined').join('');
+		var json = JSON.parse(jsonString);
+		var topLevel = json.toplevel;
+		return topLevel.CompleteSuggestion;
+	} else {
+        return WebviumSearchSuggestion.getResponse(search.value);
+	}
+}
 
 function find(query) {
 	try {
