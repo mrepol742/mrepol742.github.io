@@ -16,19 +16,6 @@
 */
 
 try {
-	if (Webvium.currentVersion() < 29) {
-		let load0 = document.createElement("script");
-        load0.setAttribute("src", "https://code.jquery.com/jquery-3.6.0.min.js");
-		load0.setAttribute("integrity", "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=");
-		load0.setAttribute("crossorigin", "anonymous");
-        document.body.appendChild(load0);
-		let load = document.createElement("script");
-        load.setAttribute("src", "https://mrepol742.github.io/lib/xml2json.js");
-        document.body.appendChild(load);
-	}
-} catch (asd) {}
-
-try {
 	var v = 28;
 	let vc = getCookie("vr");
     if (vc == "" && v > Webvium.currentVersion()) {
