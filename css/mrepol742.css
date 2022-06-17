@@ -134,13 +134,6 @@ p.top {
     font-size: 1.2em;
 }
 
-.col-sm-6 {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
 .fa:hover {
     opacity: 0.7;
 }
@@ -328,4 +321,26 @@ footer {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
+}
+
+::-webkit-scrollbar {
+	width: 13px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+	border: none;
+	background-color: #4285f4;
+	border-radius: 0.5em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #3a76d8;
+}
+
+html {
+	scroll-behavior: smooth;
 }

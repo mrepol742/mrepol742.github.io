@@ -238,3 +238,25 @@ footer {
     background: none;
     border: none;
 }
+
+::-webkit-scrollbar {
+	width: 13px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+	border: none;
+	background-color: #4285f4;
+	border-radius: 0.5em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #3a76d8;
+}
+
+html {
+	scroll-behavior: smooth;
+}
