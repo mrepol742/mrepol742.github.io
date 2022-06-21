@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<meta property="og:type" content="website" />
+    <meta charset="utf-8">
+    <meta property="og:image:alt" content="Webvium">
+    <meta property="twitter:image:src" content="/images/webvium22.jpg"/>
+    <meta property="twitter:title" content="Webvium for Developers - API Docs"/>
+    <meta property="twitter:description" content="Documentation for Webvium, WebviumPrintHelper, WebviumHashHelper, WebviumSearchSuggestion, WebviumSearchHelper and WebviumThemeHelper."/>  
+    <meta property="og:title" content="Webvium for Developers - API Docs">
+    <meta property="og:url" content="https://mrepol742.github.io/webvium/api/">
+    
+    <meta property="og:site_name" content="Webvium for Developers - API Docs">
+    
+    <meta property="og:description" content="Documentation for Webvium, WebviumPrintHelper, WebviumHashHelper, WebviumSearchSuggestion, WebviumSearchHelper and WebviumThemeHelper.">
+    <meta property="og:image" content="/images/webvium22.jpg">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Documentation for Webvium, WebviumPrintHelper, WebviumHashHelper, WebviumSearchSuggestion, WebviumSearchHelper and WebviumThemeHelper.">
+    <meta name="author" content="Melvin Jones Repol">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="author" href="/humans.txt" />
+    
+    <meta name="keywords"
+        content="webvium, webvium api">
+   
+    <meta name="hostname" content="mrepol742.github.io">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5077097159223655"
+        crossorigin="anonymous"></script>
+    
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TFD9TXR');</script>
+          
+    
+    <meta property="og:type" content="website">
+    <link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+<link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+         <link rel="shortcut icon" href="/webvium/favicon.png">
+    <link rel="apple-touch-icon" href="/webvium/favicon.png">
+    <link rel="stylesheet" href="/css/mrepol742.css">
+    <title>Webvium for Developers - API Docs</title>
+</head>
+
+<body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFD9TXR" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <header>
+        <div class="deVaaa">
+            <span></span>
+          </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/webvium/api/">Webvium for Developers</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/webvium/">Webvium</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/webvium/privacypolicy/">Privacy Policy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/webvium/team/">Team</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="main">
+        <style>
+            .function {
+                color: #4285f4;
+                background-color: #4286f438;
+                border-radius: 20px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            .return-type {
+                color: #000000;
+                background-color: #00000015;
+                border-radius: 20px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        </style>
+        <article>
+            <div class="tst" id="tst">
+                This site uses Google cookies to provide services and analyze traffic. <a href="/privacypolicy/" id="learnmore">Learn more</a><button class="btn" id="accpt">Yup</button>
+              </div>
+
+              <div class="card">
+              
+                <div class="card-body">
+                    <h1 class="card-title text-center2">API Docs</h1>
+                  <h2 class="card-title">Webvium</h2>
+                  <p class="card-text">
+                    <span class="return-type">void</span> <span class="function">showToast(message)</span> <p> 
+                        <script src="https://gist.github.com/mrepol742/b2da189860d6d35956706d991093f321.js"></script>
+                    </p>
+                    <span class="return-type">void</span> <span class="function">showToast(message, length)</span> <p>
+                        <script src="https://gist.github.com/mrepol742/611e21accfa8889afd6442e6f994e50a.js"></script>
+                    </p>
+                    <span class="return-type">void</span> <span class="function">showToastError(message)</span> <p>
+                        <script src="https://gist.github.com/mrepol742/a0b4726b5f7dfd008f0c111edbdb10eb.js"></script>
+                    </p>
+                    <span class="return-type">void</span> <span class="function">showToastError(essage, length)</span> <p>
+                        <script src="https://gist.github.com/mrepol742/2fbf878a4aadd5569291976e88e450f3.js"></script>
+                    </p>
+                    <span class="return-type">void</span> <span class="function">showToastSuccess(message)</span> <p>
+                        <script src="https://gist.github.com/mrepol742/7306b45254cdb876fc1f97fce9c967b8.js"></script>
+                    </p>
+                    <span class="return-type">void</span> <span class="function">showToastSuccess(message, length)</span> <p>
+                        <script src="https://gist.github.com/mrepol742/d215dad4039d0bc65ec1d07502ff36a4.js"></script>
+                    </p>
+                    <span class="return-type">void</span> <span class="function">vibrate(length)</span> <p>
+                        <script src="https://gist.github.com/mrepol742/c3754e203fb037836dd71ca94f22e12b.js"></script>
+                    </p>
+                    <span class="return-type">int</span> <span class="function">currentVersion()</span> <p>
+                        <script src="https://gist.github.com/mrepol742/cf0ac17df9f07f2fe04c75579b7d33a6.js"></script>
+                    </p>
+                    <span class="return-type">boolean</span> <span class="function">isAmazon()</span> <p>
+                        <script src="https://gist.github.com/mrepol742/a42efe5ef67524a575d8dde56643231e.js"></script>
+                    </p>
+                    <span class="return-type">void</span> <span class="function">showNotification(title, content, url)</span> <p>
+                        <script src="https://gist.github.com/mrepol742/a50f7d77e3b9195a2042892510b560d6.js"></script>
+                    </p>
+                
+                </div>
+              </div>
+              <br>
+              <div class="card">
+              
+                <div class="card-body">
+                  <h2 class="card-title">WebviumPrintHelper</h2>
+                  <p class="card-text">
+                    <span class="return-type">void</span> <span class="function">print()</span> <p>
+                        <script src="https://gist.github.com/mrepol742/2be90b61b1d170da6db96747d313ffa3.js"></script>
+                    </p>
+                   
+                </div>
+              </div>
+<br>
+              <div class="card">
+              
+                <div class="card-body">
+                  <h2 class="card-title">WebviumHashHelper</h2>
+                  <p class="card-text">
+                    <span class="return-type">string</span> <span class="function">encodeMD5(text, isRandom)</span> <p>
+                        <script src="https://gist.github.com/mrepol742/9240bde2294b39c6ae1e4b2449af1766.js"></script>
+                    </p>
+                    <span class="return-type">string</span> <span class="function">encodeSHA(algorithm, text, isRandom)</span> <p>
+                        <script src="https://gist.github.com/mrepol742/5fddf2003a000c2a5f7f9b33f7b024d1.js"></script>
+                    </p>
+                    <span class="return-type">string</span> <span class="function">encodeXOR(text, key)</span> <p>
+                        <script src="https://gist.github.com/mrepol742/00e6b71f3aae4d2808847901de5cf93b.js"></script>
+                    </p>
+                    <span class="return-type">string</span> <span class="function">encodeCaesar(text, padding)</span> <p>
+                        <script src="https://gist.github.com/mrepol742/0e6d79b40622976bf58a73bd44eec1e0.js"></script>
+                    </p>
+                   
+                </div>
+              </div>
+           
+              <br>
+              <div class="card">
+              
+                <div class="card-body">
+                  <h2 class="card-title">WebviumSearchSuggestion</h2>
+                  <p class="card-text">
+                    <span class="return-type">boolean</span> <span class="function">isSearchSuggestionsEnabled()</span> <p>
+                        <script src="https://gist.github.com/mrepol742/d9d2fa18909bbb393fcecc616d848a19.js"></script>
+                    </p>
+                    <span class="return-type">string</span> <span class="function">getResponse(query)</span> <p>
+                        <script src="https://gist.github.com/mrepol742/6ff1837e26f2cd5514dfd9ff1044aa4b.js"></script>
+                    </p>
+                   
+                </div>
+              </div>
+              <br>
+              <br>
+              <div class="card">
+              
+                <div class="card-body">
+                  <h2 class="card-title">WebviumSearchHelper</h2>
+                  <p class="card-text">
+                    <span class="return-type">void</span> <span class="function">saveQuery(query)</span> <p>
+                        <script src="https://gist.github.com/mrepol742/bc3042ddfcea754e3ff6911595713ebe.js"></script>
+                    </p>
+                    <span class="return-type">boolean</span> <span class="function">isValidDomain(query)</span> <p>
+                        <script src="https://gist.github.com/mrepol742/d841e67ab8d32169f7f6b4633c9453de.js"></script>
+                    </p>
+                    <span class="return-type">string</span> <span class="function">getSearchEngine()</span> <p>
+                        <script src="https://gist.github.com/mrepol742/2785076f42adbc831c601ff995ea7882.js"></script>
+                    </p>
+                   
+                </div>
+              </div>
+              <br>
+              <div class="card">
+              
+                <div class="card-body">
+                  <h2 class="card-title">WebviumThemeHelper</h2>
+                  <p class="card-text">
+                    <span class="return-type">boolean</span> <span class="function">isCustomBackgroundEnabled()</span> <p>
+                        <script src="https://gist.github.com/mrepol742/73e1d3440aef52be22b75933a887abe7.js"></script>
+                    </p>
+                    <span class="return-type">boolean</span> <span class="function">isDarkModeEnabled()</span> <p>
+                        <script src="https://gist.github.com/mrepol742/969bf9e4e9284734b2841a7dcff83f34.js"></script>
+                    </p>
+                    <span class="return-type">string</span> <span class="function">getQuality()</span> <p>
+                        <script src="https://gist.github.com/mrepol742/1ce92a76e4937df1110c3656ca485a73.js"></script>
+                    </p>
+                    <span class="return-type">string</span> <span class="function">getBackgroundStats()</span> <p>
+                        <script src="https://gist.github.com/mrepol742/a6ec7c4eddad05cd93cc33fb3b0fc6e0.js"></script>
+                    </p>
+                   
+                </div>
+              </div>
+        </article>
+    </section>
+    <footer class="footer">
+        <div class="container">
+          <div class="row footer-row">
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                  <h5>Melvin Jones Repol</h5>
+                  <ul class="nav flex-column">
+                      <li class="nav-item">
+                          <a class="nav-link" href="/news/">News</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="/press/">Press</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/sitemap/">Sitemap</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/link-tree/">Link Tree</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/rss/rss.xml">RSS Feed</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/programming-stats/2021/">Programming Stats</a>
+              </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/privacypolicy/">Privacy Policy</a>
+              </li>
+                  </ul>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                  <h5>Services</h5>
+                  <ul class="nav flex-column">
+                      <li class="nav-item">
+                          <a class="nav-link active" href="/webvium/">Webvium</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="/webviumdev/">Webvium Dev</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/search/">Webvium Search</a>
+                         </li>
+                         <li class="nav-item">
+                          <a class="nav-link" href="/searchdev/">Webvium Search Dev</a>
+                           </li>
+                                   <li class="nav-item">
+                                  <a class="nav-link" href="/webviumvpn/">Webvium VPN</a>
+                                 </li>
+                    
+                  </ul>
+  
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <h5>Support Me</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.buymeacoffee.com/mrepol742">Buy Me a Coffee</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.patreon.com/melvinjonesrepol">Patreon</a>
+                  </li>
+                </ul>
+                <br>
+                <h5>Blogs</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://mrepol742.hashnode.dev">Hashnode</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://mrepol742.blogspot.com">Blogpost</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://mrepol742.medium.com">Medium</a>
+                </li>
+                </ul>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+              <h5>Tools</h5>
+              <ul class="nav flex-column">
+                  <li class="nav-item">
+                      <a class="nav-link" href="/viewip/">View IP</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/useragent/">User Agent</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/qrcode/">QR Code</a>
+                </li>
+                </ul>
+      <br>
+      <h5>Documentation</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/how-to-install/">How to Install</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/webvium/api/">API Docs</a>
+                  </li>
+                </ul>
+          </div>
+          </div>
+          <br>
+          <a href="https://facebook.com/melvinjonesrepol" target="_blank">
+            <img src="/images/facebook.png" alt="Melvin Jones Repol Facebook" class="foo-icon" />
+          </a>
+          <a href="https://instagram.com/melvinjonesrepol" target="_blank">
+            <img src="/images/instagram.png" alt="Melvin Jones Repol Instagram" class="foo-icon" />
+          </a>
+          <a href="https://pinterest.com/mrepol742" target="_blank">
+            <img src="/images/pinterest.png" alt="Melvin Jones Repol Pinterest" class="foo-icon" />
+          </a>
+          <a href="https://twitter.com/mrepol742" target="_blank">
+            <img src="/images/twitter.png" alt="Melvin Jones Repol Twitter" class="foo-icon" />
+          </a>
+          <a href="https://github.com/mrepol742" target="_blank">
+            <img src="/images/github.png" alt="Melvin Jones Repol Github" class="foo-icon" />
+          </a>
+          <a href="https://linkedin.com/in/mrepol742" target="_blank">
+            <img src="/images/linkedin.png" alt="Melvin Jones Repol LinkedIn" class="foo-icon" />
+          </a>
+          <a href="https://www.youtube.com/channel/UCDYRUXJ8Qldrvb00q9t2KDA">
+            <img src="/images/youtube.png" alt="Melvin Jones Repol Youtube" class="foo-icon" />
+          </a>
+          <br>
+          <span>©2022 Melvin Jones Repol</span>
+      </div>
+  
+     </footer>
+    <script src="/js/mrepol742.js"></script>
+    <script src="/js/webvium.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js').then((reg) => {
+                console.log('[ServiceWorker] Registered');
+            }).catch((err) => {
+                console.error('[ServiceWorker] failed: ', err)
+            });
+        }
+      </script>
+</body>
+
+</html>
