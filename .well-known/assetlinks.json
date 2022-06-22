@@ -1,9 +1,54 @@
 [{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.mrepol742.webvium",
+      "sha256_cert_fingerprints":
+      ["69:FF:DB:A1:2A:69:24:AB:0C:3F:BA:64:5E:AE:45:7E:FF:5C:CC:F8:1F:90:B8:01:C5:C7:FE:3B:E0:2A:3E:8C"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.mrepol742.webvium.dev",
+      "sha256_cert_fingerprints":
+      ["69:FF:DB:A1:2A:69:24:AB:0C:3F:BA:64:5E:AE:45:7E:FF:5C:CC:F8:1F:90:B8:01:C5:C7:FE:3B:E0:2A:3E:8C"]
+    }
+},
+{
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.droidmj.webvium",
+    "package_name": "com.mrepol742.webviumvpn",
     "sha256_cert_fingerprints":
-    ["A5:D6:18:52:B4:F5:4A:1B:F6:8C:55:BE:03:49:A9:B9:32:5A:5C:84:A7:26:79:A4:06:84:F6:8A:3C:CF:1C:87"]
+    ["69:FF:DB:A1:2A:69:24:AB:0C:3F:BA:64:5E:AE:45:7E:FF:5C:CC:F8:1F:90:B8:01:C5:C7:FE:3B:E0:2A:3E:8C"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.mrepol742.webviumvpn.dev",
+    "sha256_cert_fingerprints":
+    ["69:FF:DB:A1:2A:69:24:AB:0C:3F:BA:64:5E:AE:45:7E:FF:5C:CC:F8:1F:90:B8:01:C5:C7:FE:3B:E0:2A:3E:8C"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.mrepol742",
+    "sha256_cert_fingerprints":
+    ["69:FF:DB:A1:2A:69:24:AB:0C:3F:BA:64:5E:AE:45:7E:FF:5C:CC:F8:1F:90:B8:01:C5:C7:FE:3B:E0:2A:3E:8C"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.mrepol742.dev",
+    "sha256_cert_fingerprints":
+    ["69:FF:DB:A1:2A:69:24:AB:0C:3F:BA:64:5E:AE:45:7E:FF:5C:CC:F8:1F:90:B8:01:C5:C7:FE:3B:E0:2A:3E:8C"]
   }
 }]

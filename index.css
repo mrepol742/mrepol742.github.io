@@ -1,6 +1,6 @@
 @font-face {
     font-family: Maven-Pro;
-    src: url("D:/2021/mrepol742.github.io/fonts/Maven%20Pro.ttf");
+    src: url("/fonts/Maven%20Pro.ttf");
 }
 
 ::selection {
@@ -159,7 +159,6 @@ table {
 
 a:hover {
     color: #212121;
-    text-decoration: underline;
 }
 
 * {
@@ -190,6 +189,5 @@ li {
     padding-right: 15px;
     padding-left: 15px;
     border-radius: 50px;
-    text-transform: uppercase;
 
 }
