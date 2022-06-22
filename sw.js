@@ -20,7 +20,7 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
     let url = event.request.url;
-    if (url.startsWith(self.location.origin) && !url.endsWith(".mp4")) {
+    if (url.startsWith(self.location.origin) && !url.endsWith(".mp4") && (url.startsWith("https://mrepol742.github.io") || url.startsWith("https://cdn.jsdelivr.net"))) {
         event.respondWith(caches.match(event.request)
             .then(cachedResponse => {
                 if (cachedResponse) {
