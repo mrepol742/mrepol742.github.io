@@ -21,6 +21,7 @@ body {
 a {
     color: #4285f4;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .header {
@@ -29,6 +30,8 @@ a {
     font-weight: bolder;
     line-height: 119%;
     top: 300%;
+    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+    transition: box-shadow .3s;
 }
 
 #splashScreen {
@@ -171,6 +174,8 @@ a:hover {
     font-weight: lighter;
     line-height: 119%;
     top: 300%;
+    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+    transition: box-shadow .3s;
 }
 
 ul {
@@ -178,16 +183,44 @@ ul {
 }
 
 li {
-    margin: 20px;
-    font-size: 14.5pt;
+    margin: 10px;
+    font-size: 20px;
     font-weight: normal;
     float: right;
     background-color: #ffffff;
-    box-shadow: 1px 1px 1px 1px #888888;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
     border-radius: 50px;
+    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+    transition: box-shadow .3s;
+}
 
+li:hover {
+  transition: box-shadow .3s;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+}
+
+.header:hover, .footer:hover {
+  transition: text-shadow .3s;
+    text-shadow: 1rem 1rem rgba(0, 0, 0, .175);
+}
+
+::-webkit-scrollbar {
+	width: 13px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+	border: none;
+	background-color: #4285f4;
+	border-radius: 0.5em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #3a76d8;
 }
