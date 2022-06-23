@@ -272,16 +272,16 @@
         let queryString = window.location.search;
         let urlParams = new URLSearchParams(queryString);
         let version = urlParams.get('version');
-        let url;
-        if (version == null) {
-            url = "https://github.com/mrepol742/released/blob/stable/Webvium%20VPN%20v" + latestVersionNameVPN + ".apk?raw=true";
-        } else if (version.replace(".", "") > latestVersionCodeVPN || version.replace(".", "") < 0) {
-            window.location.href = "https://mrepol742.github.io/404.html?utm_source=mrepol742.github.io&utm_medium=versionnotfound&utm_campaigns=webviumvpn"
-        } else {
-            url = "https://github.com/mrepol742/released/blob/stable/Webvium%20VPN%20" + version + ".apk?raw=true";
-        }
+        let url = getUrl(version);
         window.location.href = url;
         document.getElementById("retry-download").href = url
+        
+        function getUrl(v) {
+          if (version == null) {
+            return "https://github.com/mrepol742/released/blob/stable/Webvium%20VPN%20v" + latestVersionNameVPN + ".apk?raw=true";
+          }
+          return "https://github.com/mrepol742/released/blob/stable/Webvium%20VPN%20" + version + ".apk?raw=true";
+        }
       </script>
 </body>
 
