@@ -280,14 +280,8 @@
         } else {
             url = "https://github.com/mrepol742/released/blob/stable/Webvium%20VPN%20" + version + ".apk?raw=true";
         }
-        newTab(url);
+        window.location.href = url;
         document.getElementById("retry-download").href = url
-        
-        function newTab(link) {
-            setTimeout(function() {
-                window.open(link, "_blank");
-            }, 500);
-        }
       </script>
 </body>
 
