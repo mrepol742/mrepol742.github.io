@@ -76,6 +76,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="/webviumvpn/">Webvium VPN</a>
                                 </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="/webviumvpn/privacypolicy/">Privacy Policy</a>
+                              </li>
                             </ul>
                         </div>
                     </div>
@@ -269,14 +272,21 @@
         let queryString = window.location.search;
         let urlParams = new URLSearchParams(queryString);
         let version = urlParams.get('version');
+        let url;
         if (version == null) {
-            let nonNullUrl = "https://github.com/mrepol742/released/blob/stable/Webvium%20VPN%20v" + latestVersionNameVPN + ".apk?raw=true";
-            window.location.href = nonNullUrl;
-            document.getElementById("retry-download").href = nonNullUrl;
+            url = "https://github.com/mrepol742/released/blob/stable/Webvium%20VPN%20v" + latestVersionNameVPN + ".apk?raw=true";
+        } else if (version > latestVersionNameVPN || version < 0) {
+            window.location.href = "https://mrepol742.github.io/404.html?utm_source=mrepol742.github.io&utm_medium=versionnotfound&utm_campaigns=webviumvpn"
         } else {
-            let url = "https://github.com/mrepol742/released/blob/stable/Webvium%20VPN%20" + version + ".apk?raw=true";
-            document.getElementById("retry-download").href = url;
-            window.location.href = url;
+            url = "https://github.com/mrepol742/released/blob/stable/Webvium%20VPN%20" + version + ".apk?raw=true";
+        }
+        newTab(url);
+        document.getElementById("retry-download").href = url
+        
+        function newTab(link) {
+            setTimeout(function() {
+                window.open(link, "_blank");
+            }, 500);
         }
       </script>
 </body>
