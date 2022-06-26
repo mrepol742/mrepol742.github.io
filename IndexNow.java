@@ -3,8 +3,9 @@ import java.util.*;
 import java.io.*;
 
 class IndexNow {
-    static String[] sg = new String[]{"/news/", "/", "/sitemap/", "/webvium/", "/webviumdev/", "/webviumvpn/", "/download/", "/rss/rss.xml", "/sitemap.xml", "/link-tree/"};
-    static String format = "https://bing.com/indexnow?url=https://mrepol742.github.io%1$s&key=f20756182df645f9b8cf6254654dd5da";
+    private static String[] sg = new String[]{"/news/", "/", "/sitemap/", "/webvium/", "/webviumdev/", "/webviumvpn/", "/download/", "/rss/rss.xml", "/sitemap.xml", "/link-tree/"};
+    private static String format = "https://bing.com/indexnow?url=https://mrepol742.github.io%1$s&key=f20756182df645f9b8cf6254654dd5da";
+
     public static void main(String[] sga) throws IOException {
         for (String da: sg) {
             url(String.format(format, da));
