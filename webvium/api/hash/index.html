@@ -122,9 +122,16 @@
                     <h5 class="card-header">MD5</h5>
                     <div class="card-body">
                       <p class="card-text">
-                        Webvium is designed to be the most lightweight app possible. Lightweight means faster
-                        installation time, faster download time, better app experience. Share this app to your
-                        friends within fraction of a seconds.
+                        <label class="sr-only" for="inlineFormInput1">Input here</label><br>
+                        <input type="text" class="form-control mb-2" id="inlineFormInput1" placeholder="Lorem...">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked1" checked>
+                            <label class="form-check-label" for="flexCheckChecked1">
+                              Random
+                            </label>
+                          </div>
+                      <br>
+                      <p><b>MD5</b>: <span id="md5"></span></p>
                       </p>
                     </div>
                   </div>
@@ -134,9 +141,18 @@
                     <h5 class="card-header">XOR</h5>
                     <div class="card-body">
                       <p class="card-text">
-                        Immerse yourself in new and awesome browser fully material based designed. The colors
-                        and icons are carefully picked for you, and it uses one of the coolest fonts ever The
-                        Maven Pro from Google Fonts. Easier UI Navigation and modern based UI designs.
+                        <label class="sr-only" for="inlineFormInput11">Encode</label><br>
+                        <input type="text" class="form-control mb-2" id="inlineFormInput11" placeholder="Lorem...">
+                        <label class="sr-only" for="inlineFormInput11n">Key</label><br>
+                        <input type="number" class="form-control mb-2" id="inlineFormInput11n" placeholder="">
+                    
+                      <p><b>XOR</b>: <span id="xor"></span></p><br>
+                      <label class="sr-only" for="inlineFormInput11a">Decode</label><br>
+                      <input type="text" class="form-control mb-2" id="inlineFormInput11a">
+                      <label class="sr-only" for="inlineFormInput11an">Key</label><br>
+                      <input type="number" class="form-control mb-2" id="inlineFormInput11an" placeholder="">
+                    
+                      <p><b>XOR</b>: <span id="xora"></span>
                       </p>
                     </div>
                   </div>
@@ -146,13 +162,46 @@
                     <h5 class="card-header">Caesar</h5>
                     <div class="card-body">
                       <p class="card-text">
-                        Here you can customize your all of web settings preferences if you wanted anytime.
-                        Webvium guaranteed that your the admin(super-user) of the app.
+                        <label class="sr-only" for="inlineFormInput111">Encode</label><br>
+                        <input type="text" class="form-control mb-2" id="inlineFormInput111" placeholder="Lorem...">
+                        <label class="sr-only" for="inlineFormInput111n">Key</label><br>
+                        <input type="number" class="form-control mb-2" id="inlineFormInput111n" placeholder="">
+                    
+                      <p><b>Caesar</b>: <span id="caesar"></span></p><br>
+                      <label class="sr-only" for="inlineFormInput111a">Decode</label><br>
+                      <input type="text" class="form-control mb-2" id="inlineFormInput111a">
+                      <label class="sr-only" for="inlineFormInput111an">Key</label><br>
+                      <input type="number" class="form-control mb-2" id="inlineFormInput111an" placeholder="">
+                    
+                      <p><b>Caesar</b>: <span id="caesara"></span>
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
+
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h4 class="modal-title">Webvium is not detected!</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        This page required the Webvium browser to be installed else this page wont gonna run.
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary custom-modal-button d-flex flex-grow-1">Open Webvium</button>
+        <button type="button" class="btn btn-secondary custom-modal-button d-flex flex-grow-1">Install Webvium</button>
+        <button type="button" class="btn btn-danger custom-modal-button d-flex flex-grow-1" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
         </article>
     </section>
     <footer class="footer">
@@ -288,6 +337,7 @@
   
      </footer>
     <script src="/js/mrepol742.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <script src="/js/api-hash.js"></script>
 </body>
