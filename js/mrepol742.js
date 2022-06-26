@@ -1,3 +1,11 @@
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js').then((reg) => {
+    console.log('[ServiceWorker] Registered');
+  }).catch((err) => {
+    console.error('[ServiceWorker] failed: ', err)
+  });
+}
+
 function setCookie(cname, cvalue, exdays) {
   const d = new Date();
   d.setTime(d.getTime() + (exdays*24*60*60*1000));

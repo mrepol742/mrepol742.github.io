@@ -261,32 +261,7 @@
     <script src="/webvium/update.js"></script>
     <script src="/js/mrepol742.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js').then((reg) => {
-                console.log('[ServiceWorker] Registered');
-            }).catch((err) => {
-                console.error('[ServiceWorker] failed: ', err)
-            });
-        }
-        let queryString = window.location.search;
-        let urlParams = new URLSearchParams(queryString);
-        let version = urlParams.get('version');
-        let url = getUrl(version);
-        window.location.href = url;
-        document.getElementById("retry-download").href = url
-
-        function getUrl(v) {
-          if (version == null) {
-             return "https://github.com/mrepol742/released/blob/stable/Webvium%20VPN%20v" + latestVersionNameVPN + ".apk?raw=true";
-          }
-          let versionF = version.replace("v", "").replace(".", "");
-          if (versionF > latestVersionCodeVPN || versionListVPN[0] > versionF) {
-             return "https://mrepol742.github.io/404.html?utm_source=mrepol742.github.io&utm_medium=vnf&utm_campaigns=webviumvpn";
-          }
-          return "https://github.com/mrepol742/released/blob/stable/Webvium%20VPN%20" + version + ".apk?raw=true";
-        }
-      </script>
+    <script src="/js/webviumvpndownload.js"></script>
 </body>
 
 </html>

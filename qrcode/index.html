@@ -259,13 +259,6 @@
     var url = document.getElementById("inlineFormInput").value;
     qrCode.src = "https://api.qrserver.com/v1/create-qr-code/?size=360x360&data=" + url;
   }
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js').then((reg) => {
-            console.log('[ServiceWorker] Registered');
-        }).catch((err) => {
-            console.error('[ServiceWorker] failed: ', err)
-        });
-    }
   </script>
 </body>
 

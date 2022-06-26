@@ -51,33 +51,7 @@
   <link rel="dns-prefetch" href="//www.googletagmanager.com">
   <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
   <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
-  <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Melvin Jones Repol",
-    "gender": "Male",
-    "nationality": "Filipino",
-    "hasOccupation": {
-      "@type": "JobPosting",
-      "name": "Software Engineer",
-      "educationRequirements": "BS in Information Technology"
-    },
-    "email": "mailto:mrepol742@gmail.com",
-    "birthDate": "2002-06-13",
-    "birthPlace": "Quezon City",
-    "url": "https://mrepol742.github.io/",
-    "image": "https://mrepol742.github.io/images/mrepol742.png",
-    "description": "I'm a Software Engineer with experience in Web Development, SEO, Data Analyst and Computer Troubleshooting. The creator of Webvium. A Self Taught Programer.",
-    "sameAs": [
-    "https://www.facebook.com/melvinjonesrepol",
-    "https://pinterest.com/mrepol742",
-    "https://twitter.com/mrepol742",
-    "https://github.com/mrepol742",
-    "https://linkedin.com/in/mrepol742"
-    ]
-    }
-    </script>
+  <script type="application/ld+json">{    "@context": "https://schema.org",    "@type": "Person",    "name": "Melvin Jones Repol",    "gender": "Male",    "nationality": "Filipino",    "jobTitle": "Software Engineer",    "email": "mailto:mrepol742@gmail.com",    "birthDate": "2002-06-13",    "birthPlace": "Quezon City",    "url": "https://mrepol742.github.io/",    "image": "https://mrepol742.github.io/images/mrepol742.png",    "description": "I'm a Software Engineer with experience in Web Development, SEO, Data Analyst and Computer Troubleshooting. The creator of Webvium. A Self Taught Programer.",    "sameAs": [    "https://www.facebook.com/melvinjonesrepol",    "https://pinterest.com/mrepol742",    "https://twitter.com/mrepol742",    "https://github.com/mrepol742",    "https://linkedin.com/in/mrepol742"    ]    }</script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <meta name="hostname" content="mrepol742.github.io">
@@ -537,13 +511,13 @@
               class="btn btn-light">Youtube</a>
           </div>
         </div>
-        <div class="card asd " id="kellydaniel" style="border-radius: 10px;">
+        <div class="card asd " id="kellydaniel" style="background-color: #4285f4; color: #ffffff; border-radius: 10px;">
           <br>
           <img loading="lazy" src="https://avatars.githubusercontent.com/u/62848979?v=4" class="rounded mx-auto d-block img-fluid circle-png"
             alt="Techh Jork" title="Techh Jork" width="170">
           <div class="card-body">
             <p class="card-text">Techh Jork is a software developer and content creator, who builds engaging websites like this one and makes Meme's about computer science & software engineering.</p>
-            <p class="card-text"><small class="text-muted">@techhjork</small></p>
+            <p class="card-text"><small class="text-muted" style="color: #ffffff !important;">@techhjork</small></p>
             <a href="https://github.com/techhjork" rel="nofollow" target="_blank"
               class="btn btn-light">Github</a>
               <a href="https://www.facebook.com/Techhjork" rel="nofollow" target="_blank"
@@ -834,28 +808,7 @@
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
   <script src="/js/mrepol742.js"></script>
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('/sw.js').then((reg) => {
-        console.log('[ServiceWorker] Registered');
-      }).catch((err) => {
-        console.error('[ServiceWorker] failed: ', err)
-      });
-    }
-
-    function getDate(a) {
-      var date1 = new Date(a);
-      var date = new Date();
-      var m = date.getMonth() + 1;
-      var d = date.getDate();
-      var y = date.getFullYear();
-      var date2 = new Date(m + "/" + d + "/" + y);
-      var time = date2.getTime() - date1.getTime();
-      return time / (1000 * 3600 * 24);
-    }
-    document.getElementById("since").innerHTML = ". It's been " + getDate("03/18/2020") + " days since.";
-    document.getElementById("year").innerText = (new Date().getFullYear() - 2002) + " Years old.";
-  </script>
+  <script src="/js/mrepol742date.js"></script>
   <noscript>
   </noscript>
 </body>
