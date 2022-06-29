@@ -30,6 +30,7 @@ try {
   if (latestVersionCode > Webvium.currentVersion()) {
     if ((Webvium.currentVersion() + 1) != latestVersionCode) {
        document.getElementById("download_btn").style.backgroundColor = "#DB4437";
+       document.getElementById("download_btn").style.borderColor = "#DB4437";
     }
     document.getElementById("download_btn").innerHTML = "Update Now";
   } 
