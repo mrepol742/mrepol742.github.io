@@ -30,13 +30,13 @@ function getCookie(cname) {
 }
 
 let pp = getCookie("pp");
-  if (pp == "") {
-    var x = document.querySelectorAll("#tst");
-    x[0].style.setProperty("display", "block", "important");
-  }
+let bsAlert = new  bootstrap.Toast(document.getElementById("privacypolicy"));
+
+if (pp == "") {
+    bsAlert.show();
+}
 
 document.getElementById("accpt").onclick = function() {
+  bsAlert.hide();
   setCookie("pp", "pp", 365);
-  var x = document.querySelectorAll("#tst");
-  x[0].style.setProperty("display", "none", "important");
 }

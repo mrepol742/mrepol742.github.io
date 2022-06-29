@@ -31,7 +31,7 @@ a {
 }
 
 a:hover {
-    color: #f1f1f1;
+    color: #000000;
 }
 
 * {
@@ -44,10 +44,27 @@ a:hover {
     margin-top: 20%;
 }
 
+section.main {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 @media (max-width:1080px) {
 
     #con {
         margin-top: 40% !important;
+    }
+
+    section.main {
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 5% !important;
+    }
+
+    footer {
+        padding-top: 10% !important;
+        padding-bottom: 10% !important;
     }
 }
 
@@ -115,20 +132,6 @@ a:hover {
     margin-top: 10%;
 }
 
-
-.tst {
-    position: fixed;
-    z-index: 999999;
-    display: none;
-    bottom: 0%;
-    left: 0%;
-    right: 0;
-    text-align: center;
-    background-color: #212121;
-    color: #ffffff;
-    padding: 4px;
-}
-
  .nojs {
   position: fixed;
   z-index: 999999;
@@ -140,21 +143,6 @@ a:hover {
   color: #ffffff;
   padding: 4px;
  }
-
- #accpt {
-    border-radius: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    transition: all 1s ease;
-    background-color: #ffffff;
-}
-
-#accpt:hover {
-    background-color: #4285f4;
-    transition: all 1s ease;
-}
 
 .search-widgets {
     margin: 7px;
@@ -184,16 +172,7 @@ a:hover {
   .text-center2 {
       text-align: center;
   }
-  
-  a {
-    color: #4285f4;
-    text-decoration: none;
-    cursor: pointer;
-}
 
-a:hover {
-    color: #000000;
-}
 
 footer {
     box-shadow: 0 0 5em #4286f460;
@@ -211,10 +190,12 @@ footer {
     margin: 5px;
 }
 
-.accordion {
+.card, .accordion, .modal-content, .toast {
     box-shadow: 0 0 5em rgba(0, 0, 0, .1);
     transition: box-shadow .3s;
     padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 10px;
     border: none;
 }
@@ -223,7 +204,16 @@ footer {
     background-color: #ffffff;
 }
 
-.accordion-item, .accordion-button {
+.custom-modal-button, #accpt {
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: none;
+}
+
+.accordion-item, .accordion-button, .list-group-item, .navbar-toggler {
     border: none;
 }
 
@@ -231,11 +221,12 @@ footer {
     background-color: #4285f4;
     color: white;
 }
-.accordion:hover {
+.card:hover, .accordion:hover {
     transition: box-shadow .3s;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 }
-.accordion-header {
+
+.card-header, .accordion-header {
     background: none;
     border: none;
 }

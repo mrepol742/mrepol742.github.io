@@ -45,8 +45,6 @@
         j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-TFD9TXR');</script>
-
-  <link rel="stylesheet" href="/css/search.css">
   <script type="application/ld+json">{      "@context": "https://schema.org",      "@type": "SoftwareApplication",      "name": "Webvium Search",      "operatingSystem": "ANDROID",      "applicationCategory": "CommunicationApplication",      "aggregateRating": {        "@type": "AggregateRating",        "ratingValue": "5.0",        "ratingCount": "3"      },      "offers": {        "@type": "Offer",        "price": "0"      }    }</script>
   <script type="application/ld+json">{      "@context": "https://schema.org",      "@type": "FAQPage",      "mainEntity": [{        "@type": "Question",        "name": "How to change search engine?",        "acceptedAnswer": {          "@type": "Answer",          "text": "Open Webvium Settings > go to Search and Search Providers."        }      }, {        "@type": "Question",        "name": "How to change background images?",        "acceptedAnswer": {          "@type": "Answer",          "text": "Go to Webvium Settings > and Interface to apply your own preference in Webvium Search Background."        }      }, {        "@type": "Question",        "name": "How to use custom images as Background?",        "acceptedAnswer": {          "@type": "Answer",          "text": "Go to Webvium Settings > and Interface and select Custom Background in list of options in Background."        }      }, {        "@type": "Question",        "name": "How to change Webvium Homepage?",        "acceptedAnswer": {          "@type": "Answer",          "text": "Go to Webvium Settings > and General, select Home and choose on list of options."        }      }]    }</script>
   <meta property="og:type" content="website">
@@ -57,6 +55,7 @@
   <link rel="dns-prefetch" href="//cse.google.com">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/search.css">
   <link rel="shortcut icon" href="/search/favicon.png">
   <link rel="apple-touch-icon" href="/search/favicon.png">
   <script async src="https://cse.google.com/cse.js?cx=73588df73bd303c41"></script>
@@ -67,15 +66,25 @@
 <body>
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFD9TXR" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
-  <div class="tst" id="tst">
-    This site uses Google cookies to provide services and analyze traffic. <a href="/privacypolicy/"
-      id="learnmore">Learn more</a><button class="btn" id="accpt">Yup</button>
-  </div>
+  
+      <div class="toast" id="privacypolicy" style="position: fixed; bottom: 0; right: 0; z-index: 9999; float: right; margin: 3%;" data-bs-autohide="false">
+        <div class="toast-body">
+          <p>This site uses Google cookies to provide services and analyze traffic. <a href="/privacypolicy/"
+            id="learnmore">Learn more</a></p>
+            <div class="mt-2 pt-2">
+              <button type="button" class="btn btn-primary btn-sm" id="accpt">Accept</button>
+            </div>
+        </div>
+      </div>
+          
   <noscript>
     <div class="nojs">
       An error occurred. Try reloading this page, or enable JavaScript if it is disabled in your browser.
     </div>
   </noscript>
+
+<section class="main">
+  <article>
 
 
   <div id="con">
@@ -139,7 +148,7 @@
       <div id="panelsStayOpen-collapseOne2323" class="accordion-collapse collapse show"
         aria-labelledby="panelsStayOpen-headingOne2323">
         <div class="accordion-body">
-          <p class="text-center2">Open Webvium Settings > go to Search and Search Providers.</p>
+          <p>Open Webvium Settings > go to Search and Search Providers.</p>
         </div>
       </div>
     </div>
@@ -189,6 +198,9 @@
       </div>
     </div>
   </div>
+</article>
+</section>
+
   <footer class="footer">
     <div class="container">
       <div class="row footer-row">
@@ -327,7 +339,7 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="/lib/xml2json.js"></script>
-  <script src="/js/mrepol742.js"></script>
+   <script src="/js/mrepol742.js"></script>
   <script src="/js/search.js"></script>
 </body>
 
