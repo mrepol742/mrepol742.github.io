@@ -28,9 +28,10 @@ for (var i = 0; i < versionList.length; i++) {
 
 try {
   if (latestVersionCode > Webvium.currentVersion()) {
-      document.getElementById("curr").innerHTML = "<b>You are using an outdated version of Webvium.</b>";
-  } else {
-      document.getElementById("curr").innerHTML = "<b>You are already using the Latest version.</b>";
-  }
+    if ((Webvium.currentVersion() + 1) != latestVersionCode) {
+       document.getElementById("download_btn").style.backgroundColor = "#DB4437";
+    }
+    document.getElementById("download_btn").innerHTML = "Update Now";
+  } 
 } catch (en) {
 }
