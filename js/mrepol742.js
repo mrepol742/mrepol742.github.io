@@ -40,3 +40,5 @@ document.getElementById("accpt").onclick = function() {
   bsAlert.hide();
   setCookie("pp", "pp", 365);
 }
+
+window.history.replaceState(null, null, window.location.pathname);

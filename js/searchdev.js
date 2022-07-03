@@ -243,3 +243,5 @@ if (sq != '') {
 		find(sq);
 	}
 }
+
+window.history.replaceState(null, null, window.location.pathname);
