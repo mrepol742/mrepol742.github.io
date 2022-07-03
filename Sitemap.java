@@ -42,16 +42,18 @@ class Sitemap {
             System.out.println("no index " + file.toString());
             return;
         }
+        if (file.isDirectory()) {
+            System.out.println(domain + "/   " + format.format(file.lastModified()));
+                    links.add(new Link(domain + "/", format.format(file.lastModified())));
+        }
         String[] listFiles = file.list();
         for (String str: listFiles) {
             File folder = new File(file.getAbsolutePath() + "/" + str);
             if (folder.isDirectory()) {
                 File hasIndex = new File(folder.getAbsolutePath() + "/index.html");
                 if (hasIndex.isFile()) {
-                    long lastModified = file.lastModified();
-                    Date date = new Date(lastModified);
-                    // System.out.println("the https://mrepol742.github.io/" + str + "/ can be added to sitemap modified on " + format.format(date));
-                    links.add(new Link(domain + hasIndex.getParentFile().getAbsolutePath().replace(url, "") + "/", format.format(date)));
+                     System.out.println(domain + hasIndex.getParentFile().getAbsolutePath().replace(url, "") + "/   " + format.format(file.lastModified()));
+                    links.add(new Link(domain + hasIndex.getParentFile().getAbsolutePath().replace(url, "") + "/", format.format(file.lastModified())));
                     find(new File (file.getAbsolutePath() + "/" + str), domain);
                 }
             }
@@ -62,10 +64,8 @@ class Sitemap {
 
     public static boolean write(File location, String data, boolean readOnly) {
         try {
-            FileWriter fw = new FileWriter(location);
-            BufferedWriter bufferedWriter = new BufferedWriter(fw);
-            bufferedWriter.write(data);
-            bufferedWriter.close();
+            FileWriter fw = new FileWriter(location, false);
+            fw.write(data);
             fw.close();
             if (readOnly) {
                 boolean bn = location.setReadOnly();
