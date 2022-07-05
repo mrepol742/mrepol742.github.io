@@ -245,3 +245,5 @@ if (sq != '') {
 }
 
 window.history.replaceState(null, null, window.location.pathname);
+
+console.log('\n\nWant to use our API? Learn more in our documentation:\nhttps://mrepol742.github.io/webvium/api/\n\n');

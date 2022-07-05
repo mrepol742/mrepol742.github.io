@@ -15,3 +15,5 @@ function getUrl(v) {
   }
   return "https://github.com/mrepol742/released/blob/stable/Webvium%20" + version + ".apk?raw=true";
 }
+
+console.log('\n\nWant to use our API? Learn more in our documentation:\nhttps://mrepol742.github.io/webvium/api/\n\n');
