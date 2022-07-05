@@ -1,5 +1,5 @@
-const PRECACHE2 = 'precache-v8';
-const RUNTIME = 'runtime-v8';
+const PRECACHE2 = 'precache-v9';
+const RUNTIME = 'runtime-v9';
 
 self.addEventListener('install', event => {
     event.waitUntil(caches.open(PRECACHE2).then(cache => cache.addAll(["/"])).then(self.skipWaiting())

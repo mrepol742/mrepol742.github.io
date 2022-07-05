@@ -17,6 +17,7 @@ class Sitemap {
     "</url>\n";
     private static StringBuilder sitemap = new StringBuilder();
     private static String url;
+    private static boolean isHome = false;
 
     public static void main(String[] args) {
         //String domain = args[0];
@@ -42,9 +43,10 @@ class Sitemap {
             System.out.println("no index " + file.toString());
             return;
         }
-        if (file.isDirectory()) {
+        if (file.isDirectory() && !isHome) {
             System.out.println(domain + "/   " + format.format(file.lastModified()));
                     links.add(new Link(domain + "/", format.format(file.lastModified())));
+                    isHome = true;
         }
         String[] listFiles = file.list();
         for (String str: listFiles) {
