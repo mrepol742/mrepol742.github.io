@@ -217,7 +217,7 @@ p.top {
 }
 
 .preview0 {
-    max-width:350px !important;
+    max-width:600px !important;
 }
 
 @media (max-height:400px) {
@@ -225,12 +225,20 @@ p.top {
     .preview {
         max-height: 70vh !important;
     }
+    .preview0 {
+        max-width:200px !important;
+    }
+
 }
 
 @media (max-width:1080px) {
 
     .preview {
         max-height: 50vh !important;
+    }
+
+    .preview0 {
+        max-width:300px !important;
     }
 }
 
@@ -273,10 +281,6 @@ footer{
     box-shadow: 0 0 5em rgba(0, 0, 0, .1);
     padding: 5px;
     text-align: center;
-}
-
-.foo-icon {
-    margin: 5px;
 }
 
 .grid-container {
