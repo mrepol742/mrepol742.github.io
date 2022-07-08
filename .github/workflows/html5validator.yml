@@ -17,7 +17,9 @@ jobs:
       - name: HTML5Validator
         uses: Cyb3r-Jak3/html5validator-action@v7.1.1
         with:
+          root: /
           css: true
+        continue-on-error: true
       - uses: actions/upload-artifact@v3
         with:
           name: log
