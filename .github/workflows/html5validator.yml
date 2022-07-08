@@ -20,16 +20,14 @@ jobs:
           root: /
           css: true
         continue-on-error: true
-      - name: Push to released Repository
-        id: push_directory
-        uses: cpina/github-action-push-to-another-repository@main
+      - name: Update logs
+        uses: dmnemec/copy_file_to_another_repo_action@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: log.log
-          destination-github-username: 'mrepol742'
-          destination-repository-name: 'mrepol742.github.io'
-          user-email: mrepol742@gmail.com
-          commit-message: Initial Commit
-          target-branch: master
-          target-directory: log
+          source_file: 'log.log'
+          destination_repo: 'mrepol742/mrepol742.github.io'
+          destination_folder: 'log'
+          user_email: 'mrepol742@gmail.com'
+          user_name: 'mrepol742'
+          commit_message: 'Initial Commit'
