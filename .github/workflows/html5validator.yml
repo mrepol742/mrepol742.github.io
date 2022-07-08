@@ -15,10 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: HTML5Validator
-        uses: Cyb3r-Jak3/html5validator-action
+        uses: Cyb3r-Jak3/html5validator-action@v7.1.1
         with:
           root: /
       - uses: actions/upload-artifact@v3
         with:
-        name: log
-        path: log.log
+          name: log
+          path: log.log
