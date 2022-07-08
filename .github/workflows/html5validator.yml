@@ -1,0 +1,24 @@
+name: "HTML5 Validator"
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: HTML5Validator
+        uses: Cyb3r-Jak3/html5validator-action
+        with:
+          root: /
+      - uses: actions/upload-artifact@v3
+        with:
+        name: log
+        path: log.log
