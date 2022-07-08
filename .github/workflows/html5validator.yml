@@ -20,7 +20,15 @@ jobs:
           root: /
           css: true
         continue-on-error: true
-      - uses: actions/upload-artifact@v3
+      - name: Update logs
+        uses: dmnemec/copy_file_to_another_repo_action@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          name: log
-          path: log.log
+          source_file: 'log.log'
+          destination_repo: 'mrepol742/mrepol742.github.io'
+          destination_folder: 'log'
+          user_email: 'mrepol742@gmail.com'
+          user_name: 'mrepol742'
+          commit_message: 'Initial Commit'
+          destination_branch: master
