@@ -1,2 +1,1 @@
-User-agent: *
-Disallow:
+Sitemap: https://mrepol742.github.io/sitemap.xml
