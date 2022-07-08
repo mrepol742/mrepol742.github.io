@@ -1,5 +1,5 @@
-const PRECACHE2 = 'precache-v9';
-const RUNTIME = 'runtime-v9';
+const PRECACHE2 = 'precache-v10';
+const RUNTIME = 'runtime-v10';
 
 self.addEventListener('install', event => {
     event.waitUntil(caches.open(PRECACHE2).then(cache => cache.addAll(["/"])).then(self.skipWaiting())
@@ -20,7 +20,7 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
     let url = event.request.url;
-    if (url.startsWith(self.location.origin) && !url.endsWith(".mp4") && (url.startsWith("https://mrepol742.github.io") || url.startsWith("https://cdn.jsdelivr.net"))) {
+    if (url.startsWith(self.location.origin) && !url.endsWith(".mp4") && !url.endsWith(".log") && (url.startsWith("https://mrepol742.github.io") || url.startsWith("https://cdn.jsdelivr.net"))) {
         event.respondWith(caches.match(event.request)
             .then(cachedResponse => {
                 if (cachedResponse) {
