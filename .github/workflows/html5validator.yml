@@ -31,3 +31,4 @@ jobs:
           user_email: 'mrepol742@gmail.com'
           user_name: 'mrepol742'
           commit_message: 'Initial Commit'
+          destination_branch: master
