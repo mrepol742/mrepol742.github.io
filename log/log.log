@@ -64,17 +64,7 @@
 "file:/github/workspace/css/searchdev.css":2.30-2.30: error: CSS: "backdrop-filter": Property "backdrop-filter" doesn't exist.
 "file:/github/workspace/css/search.css":2.30-2.30: error: CSS: "backdrop-filter": Property "backdrop-filter" doesn't exist.
 "file:/github/workspace/css/mrepol742.css":204.22-204.25: error: CSS: "scrollbar-width": Property "scrollbar-width" doesn't exist.
-"file:/github/workspace/programming-stats/index.html":106.17-106.108: error: Element "img" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-"file:/github/workspace/programming-stats/index.html":116.171-116.171: error: Element "img" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-"file:/github/workspace/programming-stats/index.html":129.17-129.137: error: Element "img" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-"file:/github/workspace/programming-stats/index.html":139.205-139.205: error: Element "img" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-"file:/github/workspace/programming-stats/index.html":152.21-152.135: error: Element "img" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-"file:/github/workspace/programming-stats/index.html":162.17-162.160: error: Element "img" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-"file:/github/workspace/programming-stats/index.html":174.17-174.202: error: Element "img" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-"file:/github/workspace/programming-stats/index.html":185.17-185.225: error: Element "img" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/webviumvpn/index.html":371.85-371.100: error: Duplicate ID "upda".
-"file:/github/workspace/qrcode/index.html":109.13-109.99: error: Bad value "" for attribute "src" on element "img": Must be non-empty.
-"file:/github/workspace/qrcode/index.html":116.5-116.14: error: Stray end tag "article".
 "file:/github/workspace/news/index.html":388.9-388.31: error: Element "style" not allowed as child of element "noscript" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/viewip/index.html":222.9-222.119: error: Start tag "a" seen but an element of the same type was already open.
 "file:/github/workspace/webvium/index.html":455.85-455.100: error: Duplicate ID "upda".
@@ -82,7 +72,6 @@
 "file:/github/workspace/webvium/api/hash/index.html":138.15-138.18: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/api/hash/index.html":155.15-155.18: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/api/hash/index.html":172.15-172.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/flowers/index.html":1.17-2.6: error: Stray start tag "html".
 "file:/github/workspace/lib/console.css":39.43-39.43: error: CSS: "animation": Parse Error.
 "file:/github/workspace/lib/console.css":0.0-0.0: error: CSS: The value "break-word" is deprecated
 "file:/github/workspace/lib/console.css":277.2-278.1: error: CSS: Parse Error.
