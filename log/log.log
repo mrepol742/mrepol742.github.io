@@ -60,18 +60,30 @@
 "file:/github/workspace/pinterest-326fc.html":0.4183-0.4201: error: The "align" attribute on the "td" element is obsolete. Use CSS instead.
 "file:/github/workspace/pinterest-326fc.html":0.4426-0.4464: error: The "font" element is obsolete. Use CSS instead.
 "file:/github/workspace/pinterest-326fc.html":0.4652-0.4690: error: The "font" element is obsolete. Use CSS instead.
-"file:/github/workspace/webviumdev/index.html":458.87-458.102: error: Duplicate ID "upda".
-"file:/github/workspace/css/searchdev.css":2.30-2.30: error: CSS: "backdrop-filter": Property "backdrop-filter" doesn't exist.
-"file:/github/workspace/css/search.css":2.30-2.30: error: CSS: "backdrop-filter": Property "backdrop-filter" doesn't exist.
-"file:/github/workspace/css/mrepol742.css":204.22-204.25: error: CSS: "scrollbar-width": Property "scrollbar-width" doesn't exist.
+"file:/github/workspace/webviumdev/index.html":458.85-458.100: error: Duplicate ID "upda".
+"file:/github/workspace/css/mrepol742.css":212.22-212.25: error: CSS: "scrollbar-width": Property "scrollbar-width" doesn't exist.
 "file:/github/workspace/webviumvpn/index.html":371.85-371.100: error: Duplicate ID "upda".
-"file:/github/workspace/news/index.html":388.9-388.31: error: Element "style" not allowed as child of element "noscript" in this context. (Suppressing further errors from this subtree.)
-"file:/github/workspace/viewip/index.html":222.9-222.119: error: Start tag "a" seen but an element of the same type was already open.
-"file:/github/workspace/webvium/index.html":455.85-455.100: error: Duplicate ID "upda".
-"file:/github/workspace/webvium/api/hash/index.html":119.15-119.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/api/hash/index.html":138.15-138.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/api/hash/index.html":155.15-155.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/assets/bootstrap.min.css":6.1971-6.1974: error: CSS: "text-decoration-skip-ink": Property "text-decoration-skip-ink" doesn't exist.
+"file:/github/workspace/assets/bootstrap.min.css":6.4710-6.4729: error: CSS: Unknown pseudo-element or pseudo-class "::file-selector-button".
+"file:/github/workspace/assets/bootstrap.min.css":6.23091-6.23110: error: CSS: Unknown pseudo-element or pseudo-class "::file-selector-button".
+"file:/github/workspace/assets/bootstrap.min.css":6.23548-6.23567: error: CSS: Unknown pseudo-element or pseudo-class "::file-selector-button".
+"file:/github/workspace/assets/bootstrap.min.css":6.23638-6.23657: error: CSS: Unknown pseudo-element or pseudo-class "::file-selector-button".
+"file:/github/workspace/assets/bootstrap.min.css":6.23817-6.23822: error: CSS: "margin-inline-end": Property "margin-inline-end" doesn't exist.
+"file:/github/workspace/assets/bootstrap.min.css":6.23962-6.23964: error: CSS: "border-inline-end-width": Property "border-inline-end-width" doesn't exist.
+"file:/github/workspace/assets/bootstrap.min.css":6.24898-6.24917: error: CSS: Unknown pseudo-element or pseudo-class "::file-selector-button".
+"file:/github/workspace/assets/bootstrap.min.css":6.25142-6.25146: error: CSS: "margin-inline-end": Property "margin-inline-end" doesn't exist.
+"file:/github/workspace/assets/bootstrap.min.css":6.25278-6.25297: error: CSS: Unknown pseudo-element or pseudo-class "::file-selector-button".
+"file:/github/workspace/assets/bootstrap.min.css":6.25511-6.25514: error: CSS: "margin-inline-end": Property "margin-inline-end" doesn't exist.
+"file:/github/workspace/assets/bootstrap.min.css":6.27723-6.27727: error: CSS: "color-adjust": Property "color-adjust" doesn't exist.
+"file:/github/workspace/assets/bootstrap.min.css":6.73532-6.73535: error: CSS: "overflow-anchor": Property "overflow-anchor" doesn't exist.
+"file:/github/workspace/assets/bootstrap.min.css":0.0-0.0: error: CSS: The value "break-word" is deprecated
+"file:/github/workspace/assets/console.css":39.43-39.43: error: CSS: "animation": Parse Error.
+"file:/github/workspace/assets/console.css":0.0-0.0: error: CSS: The value "break-word" is deprecated
+"file:/github/workspace/assets/console.css":277.2-278.1: error: CSS: Parse Error.
+"file:/github/workspace/news/index.html":397.9-397.31: error: Element "style" not allowed as child of element "noscript" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/viewip/index.html":218.9-218.119: error: Start tag "a" seen but an element of the same type was already open.
+"file:/github/workspace/webvium/index.html":458.85-458.100: error: Duplicate ID "upda".
+"file:/github/workspace/webvium/api/hash/index.html":115.15-115.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/api/hash/index.html":134.15-134.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/api/hash/index.html":153.15-153.18: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/api/hash/index.html":172.15-172.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/lib/console.css":39.43-39.43: error: CSS: "animation": Parse Error.
-"file:/github/workspace/lib/console.css":0.0-0.0: error: CSS: The value "break-word" is deprecated
-"file:/github/workspace/lib/console.css":277.2-278.1: error: CSS: Parse Error.
