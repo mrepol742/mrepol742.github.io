@@ -6,7 +6,7 @@
 	<meta property="og:type" content="website" />
     <meta charset="utf-8">
     <meta property="og:image:alt" content="Webvium">
-    <meta property="twitter:image:src" content="/images/webvium22.jpg"/>
+    <meta property="twitter:image:src" content="/images/webvium22.png"/>
     <meta property="twitter:title" content="Search - Webvium"/>
     <meta property="twitter:description" content="A search page specifically designed for Webvium."/> 
     <meta property="og:title" content="Search - Webvium">
@@ -16,7 +16,7 @@
     
     <meta property="og:description"
     content="A search page specifically designed for Webvium.">
-<meta property="og:image" content="/images/webvium22.jpg">
+<meta property="og:image" content="/images/webvium22.png">
     <meta name="theme-color" content="#ffffff">
     <meta charset="UTF-8">
   

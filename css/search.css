@@ -2,6 +2,14 @@
     backdrop-filter: blur(5px);
 }*/
 
+@font-face {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/assets/MavenPro.woff2") format('woff2');
+}
+
 ::selection {
     background-color: #4285f4;
     color: #ffffff;

@@ -6,12 +6,12 @@
   "lang": "en-US",
   "icons": [
     {
-      "src": "/images/mrepol742.png",
+      "src": "/favicon.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/images/mrepol742.png",
+      "src": "/favicon.png",
       "sizes": "512x512",
       "type": "image/png"
     }
@@ -22,7 +22,7 @@
   "start_url": "/index.html",
   "scope": "/",
   "orientation": "portrait",
-  "prefer_related_applications": true,
+  "prefer_related_applications": false,
   "related_applications": [
     {
       "platform": "web",
