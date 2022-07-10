@@ -1,6 +1,6 @@
-body {
+/*body {
     backdrop-filter: blur(5px);
-}
+}*/
 
 ::selection {
     background-color: #4285f4;
