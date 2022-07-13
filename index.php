@@ -27,9 +27,9 @@
     <link rel="author" href="/humans.txt" />
     
     <meta name="twitter:site" content="@mrepol742" />
-<meta name="twitter:creator" content="@mrepol742" />
+<meta name="twitter:site" content="@mrepol742" />
    
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
     
  
     <link rel="shortcut icon" href="/search/favicon.png">
