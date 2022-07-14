@@ -79,7 +79,7 @@
 "file:/github/workspace/assets/bootstrap.min.css":0.0-0.0: error: CSS: The value "break-word" is deprecated
 "file:/github/workspace/viewip/index.html":218.9-218.119: error: Start tag "a" seen but an element of the same type was already open.
 "file:/github/workspace/webviumvpn/index.html":371.85-371.100: error: Duplicate ID "upda".
-"file:/github/workspace/news/index.html":396.9-396.31: error: Element "style" not allowed as child of element "noscript" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/news/index.html":407.9-407.31: error: Element "style" not allowed as child of element "noscript" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/css/mrepol742.css":212.22-212.25: error: CSS: "scrollbar-width": Property "scrollbar-width" doesn't exist.
 "file:/github/workspace/webviumdev/index.html":458.85-458.100: error: Duplicate ID "upda".
 "file:/github/workspace/webvium/index.html":458.85-458.100: error: Duplicate ID "upda".
