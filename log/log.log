@@ -77,12 +77,12 @@
 "file:/github/workspace/assets/bootstrap.min.css":6.27723-6.27727: error: CSS: "color-adjust": Property "color-adjust" doesn't exist.
 "file:/github/workspace/assets/bootstrap.min.css":6.73532-6.73535: error: CSS: "overflow-anchor": Property "overflow-anchor" doesn't exist.
 "file:/github/workspace/assets/bootstrap.min.css":0.0-0.0: error: CSS: The value "break-word" is deprecated
-"file:/github/workspace/viewip/index.html":218.9-218.119: error: Start tag "a" seen but an element of the same type was already open.
-"file:/github/workspace/webviumvpn/index.html":371.85-371.100: error: Duplicate ID "upda".
-"file:/github/workspace/news/index.html":407.9-407.31: error: Element "style" not allowed as child of element "noscript" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/viewip/index.html":222.9-222.119: error: Start tag "a" seen but an element of the same type was already open.
+"file:/github/workspace/webviumvpn/index.html":380.85-380.100: error: Duplicate ID "upda".
+"file:/github/workspace/news/index.html":411.9-411.31: error: Element "style" not allowed as child of element "noscript" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/css/mrepol742.css":212.22-212.25: error: CSS: "scrollbar-width": Property "scrollbar-width" doesn't exist.
-"file:/github/workspace/webviumdev/index.html":458.85-458.100: error: Duplicate ID "upda".
-"file:/github/workspace/webvium/index.html":458.85-458.100: error: Duplicate ID "upda".
+"file:/github/workspace/webviumdev/index.html":467.85-467.100: error: Duplicate ID "upda".
+"file:/github/workspace/webvium/index.html":467.85-467.100: error: Duplicate ID "upda".
 "file:/github/workspace/webvium/api/hash/index.html":115.15-115.18: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/api/hash/index.html":134.15-134.18: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/api/hash/index.html":153.15-153.18: error: No "p" element in scope but a "p" end tag seen.
