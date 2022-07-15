@@ -1,3 +1,5 @@
+var search = true;
+
 try {
 	var v = 28;
 	let vc = getCookie("vr");
