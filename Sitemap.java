@@ -44,8 +44,9 @@ class Sitemap {
             return;
         }
         if (file.isDirectory() && !isHome) {
-            System.out.println(domain + "/   " + format.format(file.lastModified()));
-                    links.add(new Link(domain + "/", format.format(file.lastModified())));
+            File root = new File(url+"/index.html");
+            System.out.println(domain + "/   " + format.format(root.lastModified()));
+                    links.add(new Link(domain + "/", format.format(root.lastModified())));
                     isHome = true;
         }
         String[] listFiles = file.list();
@@ -54,8 +55,8 @@ class Sitemap {
             if (folder.isDirectory()) {
                 File hasIndex = new File(folder.getAbsolutePath() + "/index.html");
                 if (hasIndex.isFile()) {
-                     System.out.println(domain + hasIndex.getParentFile().getAbsolutePath().replace(url, "") + "/   " + format.format(file.lastModified()));
-                    links.add(new Link(domain + hasIndex.getParentFile().getAbsolutePath().replace(url, "") + "/", format.format(file.lastModified())));
+                     System.out.println(domain + hasIndex.getParentFile().getAbsolutePath().replace(url, "") + "/   " + format.format(hasIndex.lastModified()));
+                    links.add(new Link(domain + hasIndex.getParentFile().getAbsolutePath().replace(url, "") + "/", format.format(hasIndex.lastModified())));
                     find(new File (file.getAbsolutePath() + "/" + str), domain);
                 }
             }
