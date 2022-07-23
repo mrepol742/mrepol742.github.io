@@ -1,4 +1,4 @@
-var search = true;
+var isSearch = true;
 
 try {
 	var v = 28;
@@ -142,7 +142,7 @@ try {
 	}
 } catch (a) { }
 
-search.addEventListener('input', () => {
+node.addEventListener('input', () => {
 	try {
 		if (WebviumSearchSuggestion.isSearchSuggestionsEnabled()) {
 			var inp = search.value;
@@ -211,7 +211,7 @@ function find(query) {
 			WebviumSearchHelper.saveQuery(query);
 		}
 	} catch (qw) {
-		if (query.trim().length != 0) {
+		if (query.trim() !== 'undefined' || query.trim().length != 0) {
 			const aq = query.toLowerCase();
 			if (aq.startsWith("https://") || aq.startsWith("http://")) {
 				window.location.href = query;

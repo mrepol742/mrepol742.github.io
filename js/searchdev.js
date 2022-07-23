@@ -1,4 +1,4 @@
-var search = true;
+var isSearch = true;
 
 try {
 	var v = 28;

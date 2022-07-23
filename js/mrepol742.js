@@ -41,15 +41,15 @@ document.getElementById("accpt").onclick = function() {
   setCookie("pp", "pp", 365);
 }
 
-function isSearch() {
-  if (typeof search === 'undefined') {
+function isSearchPage() {
+  if (typeof isSearch === 'undefined') {
     return false;
   }
-  return search;
+  return isSearch;
 }
 
 let theme = getCookie("pa");
-if (theme == "pa" && !isSearch()) {
+if (theme == "pa" && !isSearchPage()) {
   updateTheme();
   document.getElementById("theme").setAttribute('style', 'fill: white');
 }
@@ -57,7 +57,7 @@ if (theme == "pa" && !isSearch()) {
 function changeTheme() {
   let theme = getCookie("pa");
   updateTheme();
-  if ((theme == "" || theme == "pb" ) && !isSearch()) {
+  if ((theme == "" || theme == "pb" ) && !isSearchPage()) {
       setCookie("pa", "pa", 365);
       document.getElementById("theme").setAttribute('style', 'fill: white');
   } else {
