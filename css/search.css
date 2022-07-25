@@ -34,6 +34,28 @@ a:hover {
     outline: none;
 }
 
+.form-control, .input-group-text {
+    background-color: #212121;
+    border-width: 9px;
+    border-style: solid;
+    height: 60px;
+    color: #ffffff;
+}
+
+.form-control {
+    border-right: 0;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.input-group-text {
+    border-left: 0;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
 #con {
     text-align: center;
     margin-top: 20%;
@@ -63,30 +85,6 @@ section.main {
     }
 }
 
-#search {
-    border-radius: 50px;
-    border-style: solid;
-    border-width: 0px;
-    background: rgba(0, 0, 0, .4);
-    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
-    transition: box-shadow .3s;
-    width: 75%;
-    color: #ffffff;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 50px;
-    font-size: 15px;
-    transition: all 1s ease;
-}
-
-#search:hover {
-    transition: all 1s ease;
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
-}
-
-#search::placeholder {
-    color: #f1f1f1;
-}
 
 #sug {
 	display: none;
@@ -123,9 +121,6 @@ section.main {
 	text-overflow: ellipsis;
 }
 
-.site {
-    margin-top: 10%;
-}
 
  .nojs {
   position: fixed;
@@ -138,27 +133,6 @@ section.main {
   color: #ffffff;
   padding: 4px;
  }
-
-.search-widgets {
-    margin: 7px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 35px !important;
-    padding-right: 35px !important;
-    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
-    background-color: #ffffff;
-    border-color: #ffffff;
-    border-width: 0px;
-    border-style: solid;
-    border-radius: 50px;
-    color: #484848;
-}
-
-.search-widgets:hover {
-    background-color: #4285f4;
-    color: #ffffff;
-    transition: all 1s ease;
-}
 
 .text-center {
     padding-top: 10%;
@@ -179,10 +153,6 @@ footer {
     padding-top: 10%;
     padding-bottom: 5%;
     border-style: none;
-}
-
-.foo-icon {
-    margin: 5px;
 }
 
 .card, .accordion, .modal-content, .toast {
@@ -231,7 +201,7 @@ footer {
 }
 
 ::-webkit-scrollbar-track {
-	background-color: #ffffff;
+	background-color: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
