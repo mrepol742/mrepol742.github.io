@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+   <url>
+     <loc>https://mrepol742.github.io/webvium/</loc>
+     <video:video>
+       <video:thumbnail_loc>https://mrepol742.github.io/images/webvium22.png</video:thumbnail_loc>
+       <video:title>Download Webvium - Lightweight, Fast, Material and Full-Featured Android Web Browser.</video:title>
+       <video:description>A Project that aims to be the lightest, fastest, secured, private and full-featured android web browser. Programmed and design from Scratch.</video:description>
+       <video:content_loc>
+          https://mrepol742.github.io/videos/Webvium%20-%20Lightweight,%20Fast,%20Material%20and%20Full-Featured%20Android%20Web%20Browser.mp4</video:content_loc>
+       <video:duration>600</video:duration>
+       <video:rating>4.5</video:rating>
+       <video:view_count>12345</video:view_count>
+       <video:publication_date>2007-11-05T19:20:30+08:00</video:publication_date>
+       <video:family_friendly>yes</video:family_friendly>
+       <video:uploader
+         info="https://mrepol742.github.io/">Melvin Jones Repol
+       </video:uploader>
+       <video:live>no</video:live>
+     </video:video>
+   </url>
+</urlset>

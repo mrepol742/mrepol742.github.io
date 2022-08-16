@@ -88,6 +88,11 @@ node.addEventListener("keyup", function (event) {
 	}
 });
 
+const findAA = document.getElementById("search-addon");
+findAA.addEventListener("click", 
+		alert("asdad")
+);
+
 /*
  * Roses are red
  * Violets are blue

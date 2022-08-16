@@ -34,20 +34,20 @@ a:hover {
     outline: none;
 }
 
+
 .form-control, .input-group-text {
-    background-color: #212121;
-    border-width: 9px;
-    border-style: solid;
-    height: 60px;
+    background-color: rgba(0, 0, 0, .4);
+    height: 55px;
     color: #ffffff;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .form-control {
     border-right: 0;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .input-group-text {
@@ -68,6 +68,11 @@ section.main {
 }
 
 @media (max-width:1080px) {
+
+    
+.form-control, .input-group-text {
+    height: 45px;
+}
 
     #con {
         margin-top: 40% !important;
