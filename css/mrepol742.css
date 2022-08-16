@@ -317,3 +317,7 @@ footer{
 html {
 	scroll-behavior: smooth;
 }
+
+.nav-link,.nav-item {
+    color: #212121  !important;
+}
