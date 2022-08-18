@@ -9,6 +9,11 @@ try {
 	}
 } catch (wer) {}
 
+let a = new Date();
+let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+let b = a.getDay();
+document.getElementById("currD").innerHTML = "<h1>" + days[b] + " | " + a.getDate() + "</h1>";
+
 var defSH = "https://source.unsplash.com/";
 
 try {
@@ -87,11 +92,6 @@ node.addEventListener("keyup", function (event) {
 		find(search.value);
 	}
 });
-
-const findAA = document.getElementById("search-addon");
-findAA.addEventListener("click", 
-		alert("asdad")
-);
 
 /*
  * Roses are red
