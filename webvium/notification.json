@@ -1,7 +1,10 @@
 {"com.mrepol742.webvium":[{
-"title":"Announcement",
-"content":"The development of newer version come into many months of delay. We will update the app as soon as possible. Thank you for understanding.",
+"title":"Hello World",
+"content":"Test Webvium features. The feedback you gave will help us to identify and address future issues, and make Webvium even better.",
 "url":"https://mrepol742.github.io/webvium/"}],"com.mrepol742.webvium.dev": [{
-"title":"Thank you for Choosing Webvium Dev",
+"title":"Thank you for downloading the indev version of Webvium",
 "content":"This version includes performance and improvements in Webvium Search and other areas of the app on the internet.",
-"url":"https://mrepol742.github.io/webviumdev/"}]}
+"url":"https://mrepol742.github.io/webviumdev/"}],"com.mrepol742.webvium.beta": [{
+    "title":"Thank you for downloading Webvium",
+    "content":"This version of webvium includes releases from the dev.",
+    "url":"https://mrepol742.github.io/webviumbeta/"}]}
