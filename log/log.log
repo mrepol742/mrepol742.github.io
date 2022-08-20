@@ -81,12 +81,12 @@
 "file:/github/workspace/assets/bootstrap.min.css":6.73532-6.73535: error: CSS: "overflow-anchor": Property "overflow-anchor" doesn't exist.
 "file:/github/workspace/assets/bootstrap.min.css":0.0-0.0: error: CSS: The value "break-word" is deprecated
 "file:/github/workspace/webviumbeta/index.html":462.85-462.100: error: Duplicate ID "upda".
-"file:/github/workspace/viewip/index.html":228.9-228.119: error: Start tag "a" seen but an element of the same type was already open.
+"file:/github/workspace/viewip/index.html":248.9-248.119: error: Start tag "a" seen but an element of the same type was already open.
 "file:/github/workspace/css/mrepol742.css":212.22-212.25: error: CSS: "scrollbar-width": Property "scrollbar-width" doesn't exist.
 "file:/github/workspace/news/index.html":405.9-405.31: error: Element "style" not allowed as child of element "noscript" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/webvium/index.html":484.85-484.100: error: Duplicate ID "upda".
-"file:/github/workspace/webvium/api/hash/index.html":115.15-115.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/api/hash/index.html":134.15-134.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/api/hash/index.html":153.15-153.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/api/hash/index.html":172.15-172.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/api/hash/index.html":135.15-135.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/api/hash/index.html":154.15-154.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/api/hash/index.html":173.15-173.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/api/hash/index.html":192.15-192.18: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webviumvpn/index.html":399.85-399.100: error: Duplicate ID "upda".
