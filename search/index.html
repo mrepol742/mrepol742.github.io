@@ -15,7 +15,7 @@
   <meta property="og:url" content="https://mrepol742.github.io/search/">
   <meta property="og:site_name" content="Webvium Search - Search Engine that being borned.">
   <meta property="og:description"
-    content="Webvium - A static, fast, secure and a new way to Search. Build for Webvium.">
+    content="A Search Engine from Webvium Project that's currently under development progress. The default homepage for the Webvium Browser with style.">
   <meta property="og:image" content="/images/webviumsearch.png">
   <meta name="theme-color" content="#ffffff">
   <meta name="keywords" content="webvium, webvium search">
@@ -51,8 +51,33 @@
   <link rel="stylesheet" href="/css/search.css">
   <link rel="shortcut icon" href="/search/favicon.png">
   <link rel="apple-touch-icon" href="/search/favicon.png">
-  <script async src="https://cse.google.com/cse.js?cx=73588df73bd303c41"></script>
+
   <title>Webvium Search - Search Engine that being borned.</title>
+  <style>
+    .search-widgets {
+      margin: 7px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 35px !important;
+      padding-right: 35px !important;
+      background: rgba(0, 0, 0, .6);
+    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+    transition: box-shadow .9s;
+      border-width: 0px;
+      border-style: solid;
+      border-radius: 50px;
+      color: #ffff;
+      transition: all 1s ease;
+    }
+
+    .search-widgets:hover {
+      background-color: #4285f4;
+      color: #ffffff;
+      padding-left: 55px !important;
+      padding-right: 55px !important;
+      transition: all 1s ease;
+    }
+  </style>
 </head>
 
 
@@ -73,41 +98,6 @@
       An error occurred. Try reloading this page, or enable JavaScript if it is disabled in your browser.
     </div>
   </noscript>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="/useragent/">View IP</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/useragent/">User Agent</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/qrcode/">QR Code</a>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Development
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="/webviumbeta/">Webvium Beta</a></li> 
-                <li><a class="dropdown-item" href="/webviumdev/">Webvium Dev</a></li>
-                <li><a class="dropdown-item" href="/webvium/api/">API Docs</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
   <section class="main">
     <article>
       <div id="con">
@@ -117,6 +107,7 @@
         <datalist id="suggestions"></datalist>
         <div id="sug"></div>
       </div>
+
       <br>
       <div class="text-center">
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5077097159223655"
@@ -127,15 +118,27 @@
           (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
       </div>
+
       <br>
-      <div class="text-center ">
-        <h4>A Search Engine from Webvium Project that's currently under development progress. The default homepage for the Webvium Browser with style..</h4>
-        <div style="text-align: start;">
-        Follow us on Facebook: <a href="https://fb.com/com.mrepol742.webviumsearch">Webvium Search</a> <br>
-        Pinterest: <a href="https://www.pinterest.ph/mrepol742/webvium">Webvium</a><br>
-        Hashnode: <a href="https://mrepol742.hashnode.dev/webvium">Webvium</a>
-        </div>
-      </div>
+     
+      <h2 class="text-center" id="more">Tools</h2><br>
+      <div class="text-center2">
+        <a class="btn btn-secondary search-widgets" href="/viewip/">View IP Address</a>
+        <a class="btn btn-secondary search-widgets" href="/useragent/">View Browser UserAget</a>
+      <a class="btn btn-secondary search-widgets" href="/qrcode/">Generate QR Code</a>
+      </div> 
+      <br>
+      <h2 class="text-center" id="webvium">The Project Webvium</h2><br>
+      <div class="text-center2">
+      <a class="btn btn-secondary search-widgets" href="/webvium">
+        <img src="/images/h5.png" width="30" alt="Webvium browser" />Webvium</a>
+        <a class="btn btn-secondary search-widgets" href="/webviumbeta">
+          <img src="/images/h5.png" width="30" alt="Webvium browser" />Webvium Beta</a>
+          <a class="btn btn-secondary search-widgets" href="/webviumdev">
+            <img src="/images/h5.png" width="30" alt="Webvium browser" />Webvium Dev</a>
+              <a class="btn btn-secondary search-widgets" href="/webviumvpn">
+                <img src="/images/h5.png" width="30" alt="Webvium browser" />Webvium VPN</a>
+                </div>
       <br>
       <h2 class="text-center" id="faq">Faq</h2><br>
       <div class="accordion " id="accordion-faq">
@@ -144,11 +147,26 @@
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#panelsStayOpen-collapseOne2323" aria-expanded="true"
               aria-controls="panelsStayOpen-collapseOne2323">
-              How to change search engine?
+              What is Webvium Search?
             </button>
           </h2>
           <div id="panelsStayOpen-collapseOne2323" class="accordion-collapse collapse show"
             aria-labelledby="panelsStayOpen-headingOne2323">
+            <div class="accordion-body">
+              <p>A Search Engine from Webvium Project that's currently under development progress. The default homepage for the Webvium Browser with style.</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne2323as">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne2323as" aria-expanded="true"
+              aria-controls="panelsStayOpen-collapseOne2323as">
+              How to change search engine?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne2323as" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingOne2323as">
             <div class="accordion-body">
               <p>Open Webvium Settings > go to Search and Search Providers.</p>
             </div>

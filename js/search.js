@@ -216,7 +216,7 @@ function find(query) {
 			if (aq.startsWith("https://") || aq.startsWith("http://")) {
 				window.location.href = query;
 			} else {
-				window.location.href = "https://google.com/search?q=" + query;
+				window.location.href = atob("aHR0cHM6Ly9nb29nbGUuY29tL3NlYXJjaD9xPQ==") + query;
 			}
 		}
 	}

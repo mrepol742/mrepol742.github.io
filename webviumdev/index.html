@@ -384,36 +384,9 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6" id="other_v">
-          <div class="accordion " id="accordionPanelsStayOpenExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="panelsStayOpen-headingOne244">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapseOne244" aria-expanded="true"
-                  aria-controls="panelsStayOpen-collapseOne244">
-                  Other version's
-                </button>
-              </h2>
-              <div id="panelsStayOpen-collapseOne244" class="accordion-collapse collapse show"
-                aria-labelledby="panelsStayOpen-headingOne244">
-                <div class="accordion-body">
-                  <ul class="list-group list-group-flush" id="versions">
-                    <li class="list-group-item">You can download Webvium Dev other versions at its Github Repository
-                      in Dev branch <a href="https://github.com/mrepol742/released/tree/dev"
-                        target="_blank">https://github.com/mrepol742/released/tree/dev</a></li>
-                  </ul>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">When installed on older and newer Android devices, the old version of
-                      Webvium Dev is known to cause bugs. Due to system incompatibilities or other reasons, subsequent
-                      versions of Webvium Dev may not work with your device. Any version of Webvium Dev available on
-                      this site is virus-free and absolutely free to download.</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+        
         </div>
-      </div>
+ 
       <br>
       <h5 class="text-center">advertisement</h5><br>
       <div>
@@ -714,7 +687,7 @@
     });
     let items3 = document.querySelectorAll('.version');
     items3.forEach((e3) => {
-      e3.innerHTML = updateVersionNameDev;
+      e3.innerHTML = latestVersionNameDev;
     });
     document.getElementById("upda").innerHTML = updateDateDev;
     function download() {

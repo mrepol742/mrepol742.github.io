@@ -1,7 +1,8 @@
 /*body {
-    backdrop-filter: blur(5px);
-}*/
+    backdrop-filter: grayscale(6px);
 
+}
+*/
 @font-face {
     font-family: 'Maven Pro';
     font-style: normal;
@@ -36,11 +37,11 @@ a:hover {
 
 #con {
     text-align: center;
-    margin-top: 20%;
+    padding-top: 20%;
 }
 
 section.main {
-    margin-top: 5%;
+    padding-top: 5%;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -48,13 +49,13 @@ section.main {
 @media (max-width:1080px) {
 
     #con {
-        margin-top: 40% !important;
+        padding-top: 40% !important;
     }
 
     section.main {
         margin-left: 4%;
         margin-right: 4%;
-        margin-top: 5% !important;
+        padding-top: 5% !important;
     }
 
     footer {

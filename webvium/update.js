@@ -9,7 +9,12 @@ let sizeList = ["600", "585", "590", "589", "577", "585", "585", "590", "552", "
 let latestVersionCodeDev = 28;
 let latestVersionNameDev = "2.8 dev";
 let updateDateDev = "Daily";
-let updateSizeDev = "700KB";
+let updateSizeDev = "490KB";
+
+let latestVersionCodeBeta = 28;
+let latestVersionNameBeta = "2.8 beta";
+let updateDateBeta = "Weekly";
+let updateSizeBeta = "490KB";
 
 let latestVersionCodeVPN = 11;
 let latestVersionNameVPN = "1.1";
