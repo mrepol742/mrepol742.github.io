@@ -62,7 +62,7 @@
 "file:/github/workspace/google022983bf0cf659ae.html":0.1-0.52: error: Element "head" is missing a required instance of child element "title".
 "file:/github/workspace/qkdq6zub0hw6o6acpoiylfrrf5e7g1.html":0.1-0.30: error: Non-space characters found without seeing a doctype first. Expected "<!DOCTYPE html>".
 "file:/github/workspace/qkdq6zub0hw6o6acpoiylfrrf5e7g1.html":0.1-0.30: error: Element "head" is missing a required instance of child element "title".
-"file:/github/workspace/webviumdev/index.html":443.85-443.100: error: Duplicate ID "upda".
+"file:/github/workspace/webviumdev/index.html":463.85-463.100: error: Duplicate ID "upda".
 "file:/github/workspace/assets/console.css":39.43-39.43: error: CSS: "animation": Parse Error.
 "file:/github/workspace/assets/console.css":0.0-0.0: error: CSS: The value "break-word" is deprecated
 "file:/github/workspace/assets/console.css":277.2-278.1: error: CSS: Parse Error.
@@ -80,13 +80,13 @@
 "file:/github/workspace/assets/bootstrap.min.css":6.27723-6.27727: error: CSS: "color-adjust": Property "color-adjust" doesn't exist.
 "file:/github/workspace/assets/bootstrap.min.css":6.73532-6.73535: error: CSS: "overflow-anchor": Property "overflow-anchor" doesn't exist.
 "file:/github/workspace/assets/bootstrap.min.css":0.0-0.0: error: CSS: The value "break-word" is deprecated
-"file:/github/workspace/webviumbeta/index.html":442.85-442.100: error: Duplicate ID "upda".
+"file:/github/workspace/webviumbeta/index.html":462.85-462.100: error: Duplicate ID "upda".
 "file:/github/workspace/viewip/index.html":228.9-228.119: error: Start tag "a" seen but an element of the same type was already open.
 "file:/github/workspace/css/mrepol742.css":212.22-212.25: error: CSS: "scrollbar-width": Property "scrollbar-width" doesn't exist.
 "file:/github/workspace/news/index.html":405.9-405.31: error: Element "style" not allowed as child of element "noscript" in this context. (Suppressing further errors from this subtree.)
-"file:/github/workspace/webvium/index.html":464.85-464.100: error: Duplicate ID "upda".
+"file:/github/workspace/webvium/index.html":484.85-484.100: error: Duplicate ID "upda".
 "file:/github/workspace/webvium/api/hash/index.html":115.15-115.18: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/api/hash/index.html":134.15-134.18: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/api/hash/index.html":153.15-153.18: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/api/hash/index.html":172.15-172.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webviumvpn/index.html":380.85-380.100: error: Duplicate ID "upda".
+"file:/github/workspace/webviumvpn/index.html":399.85-399.100: error: Duplicate ID "upda".
