@@ -65,7 +65,14 @@ function changeTheme() {
     document.getElementById("theme").setAttribute('style', 'fill: black');
   }
 }
-window.history.replaceState(null, null, window.location.pathname);
+
+let stateCheck = setInterval(() => {
+  if (document.readyState === 'complete') {
+    window.history.replaceState(null, null, window.location.pathname);
+    clearInterval(stateCheck);
+  }
+}, 100);
+
 
 var mrepol742 = "                                               \n" +
 "                                    \"\"#    mmmmmm    mm   mmmm \n" +
