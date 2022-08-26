@@ -11,7 +11,6 @@ class IndexNow {
             url(String.format(format, da));
             System.out.println(String.format(format, da));
         }
-      
     }
 
     private static void url(String url) throws IOException {
