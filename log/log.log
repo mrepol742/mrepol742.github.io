@@ -80,7 +80,7 @@
 "file:/github/workspace/assets/bootstrap.min.css":6.73532-6.73535: error: CSS: "overflow-anchor": Property "overflow-anchor" doesn't exist.
 "file:/github/workspace/assets/bootstrap.min.css":0.0-0.0: error: CSS: The value "break-word" is deprecated
 "file:/github/workspace/viewip/index.html":248.9-248.119: error: Start tag "a" seen but an element of the same type was already open.
-"file:/github/workspace/css/mrepol742.css":212.22-212.25: error: CSS: "scrollbar-width": Property "scrollbar-width" doesn't exist.
+"file:/github/workspace/css/mrepol742.css":218.22-218.25: error: CSS: "scrollbar-width": Property "scrollbar-width" doesn't exist.
 "file:/github/workspace/news/index.html":405.9-405.31: error: Element "style" not allowed as child of element "noscript" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/webvium/index.html":495.85-495.100: error: Duplicate ID "upda".
 "file:/github/workspace/webvium/index.html":743.5-743.14: error: End tag "article" seen, but there were open elements.
