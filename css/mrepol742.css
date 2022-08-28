@@ -182,7 +182,13 @@ p.top {
     border-radius: 50px;
     color: #484848;
     transition: all 1s ease;
+    list-style: none;
 }
+
+.mrepol742-skills {
+    display: flex;  
+    flex-wrap: wrap;
+  }
 
 .skill:hover {
     background-color: #4285f4;
