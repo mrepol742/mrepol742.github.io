@@ -83,7 +83,7 @@
 "file:/github/workspace/css/mrepol742.css":218.22-218.25: error: CSS: "scrollbar-width": Property "scrollbar-width" doesn't exist.
 "file:/github/workspace/news/index.html":405.9-405.31: error: Element "style" not allowed as child of element "noscript" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/webvium/index.html":495.85-495.100: error: Duplicate ID "upda".
-"file:/github/workspace/webvium/index.html":743.5-743.14: error: End tag "article" seen, but there were open elements.
+"file:/github/workspace/webvium/index.html":777.5-777.14: error: End tag "article" seen, but there were open elements.
 "file:/github/workspace/webvium/index.html":452.7-452.49: error: Unclosed element "div".
 "file:/github/workspace/webvium/api/hash/index.html":135.15-135.18: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/api/hash/index.html":154.15-154.18: error: No "p" element in scope but a "p" end tag seen.
