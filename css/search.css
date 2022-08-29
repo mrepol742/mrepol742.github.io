@@ -75,6 +75,7 @@ section.main {
     display: flex;
     justify-content: space-between;
 }
+
 .search-container > svg{
     height: 24px;
     min-width: 50px;
