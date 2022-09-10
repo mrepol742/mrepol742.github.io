@@ -99,9 +99,7 @@
 "file:/github/workspace/news/index.html":241.17-241.20: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/news/index.html":419.9-419.31: error: Element "style" not allowed as child of element "noscript" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/webvium/index.html":495.85-495.100: error: Duplicate ID "upda".
-"file:/github/workspace/webvium/index.html":788.11-788.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/index.html":791.5-791.14: error: End tag "article" seen, but there were open elements.
-"file:/github/workspace/webvium/index.html":452.7-452.49: error: Unclosed element "div".
+"file:/github/workspace/webvium/index.html":789.11-789.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/privacypolicy/index.html":137.11-137.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/api/index.html":283.11-283.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/api/hash/index.html":135.15-135.18: error: No "p" element in scope but a "p" end tag seen.
