@@ -60,7 +60,7 @@
 "file:/github/workspace/yandex_b229053f47e9b4b5.html":3.5-3.11: error: Element "head" is missing a required instance of child element "title".
 "file:/github/workspace/google022983bf0cf659ae.html":0.1-0.52: error: Non-space characters found without seeing a doctype first. Expected "<!DOCTYPE html>".
 "file:/github/workspace/google022983bf0cf659ae.html":0.1-0.52: error: Element "head" is missing a required instance of child element "title".
-"file:/github/workspace/index.html":807.11-807.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/index.html":855.11-855.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/404.html":92.11-92.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/qkdq6zub0hw6o6acpoiylfrrf5e7g1.html":0.1-0.30: error: Non-space characters found without seeing a doctype first. Expected "<!DOCTYPE html>".
 "file:/github/workspace/qkdq6zub0hw6o6acpoiylfrrf5e7g1.html":0.1-0.30: error: Element "head" is missing a required instance of child element "title".
