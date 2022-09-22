@@ -341,3 +341,12 @@ html {
 .nav-link,.nav-item {
     color: #212121  !important;
 }
+
+#apptag {
+    color: #4285f4;
+    background-color: #4286f438;
+    
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
