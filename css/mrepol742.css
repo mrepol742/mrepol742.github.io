@@ -88,13 +88,27 @@ nav {
 }
 
 .accordion-item, .accordion-button, .list-group-item, .navbar-toggler {
-    border: none;
+    border: none !important;
 }
 
-.accordion-button:hover, .accordion-button:active {
-    background-color: #4285f4;
-    color: white;
+.accordion-button:not(.collapsed) {
+    color: #212121;
+    background-color: #ffffff;
+    border: none !important;
 }
+
+.accordion-button:focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
+.accordion-button:hover, .accordion-button:active, .accordion-header:hover, .accordion-header:active{
+    background-color: #4285f4 !important;
+    color: white;
+    border-radius: 5px !important;
+    border: none !important;
+}
+
 .card:hover, .accordion:hover {
     transition: box-shadow .3s;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
