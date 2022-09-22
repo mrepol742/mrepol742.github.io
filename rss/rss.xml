@@ -2,10 +2,10 @@
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
 	<channel>
 		<title>
-			<![CDATA[Melvin Jones Repol - Software Engineer - Webvium | mrepol742]]>
+			<![CDATA[Melvin Jones Repol]]>
 		</title>
 		<description>
-			<![CDATA[A Software Engineer with a sound knowledge of knowledge in Web Development. Beyond 3 years of experience in this area, studying Computer Science in CS50, self taught Programmer and currently at 1st year college studying Computer Programming under the course Bachelor of Science in Information Technology at Bestlink College of the Philippines.]]>
+			<![CDATA[I'm a Software Engineer with experience in Web Development, SEO, Data Analyst and Computer Troubleshooting. Studied Computer System Servicing in Senior High School, currently studying Information Technology at a College School.]]>
 		</description>
 		<link>
 			https://mrepol742.github.io/
@@ -15,7 +15,7 @@
 				https://mrepol742.github.io/favicon.png
 			</url>
 			<title>
-				Melvin Jones Repol - Software Engineer - Webvium | mrepol742
+				Melvin Jones Repol
 			</title>
 			<link>
 				https://mrepol742.github.io/
@@ -31,38 +31,6 @@
 		<language>
 			<![CDATA[en]]>
 		</language>
-		<item>
-			<title>
-				<![CDATA[Calculator - Melvin Jones Repol]]>
-			</title>
-			<description>
-				<![CDATA[<div><img src="https://mrepol742.github.io/images/mrepol742.png" style="width: 100%;"><div>A simple calculator for Webvium.</div></div>]]>
-			</description>
-			<link>
-				https://mrepol742.github.io/calculator/
-			</link>
-			<guid isPermaLink="false">
-				f5bf31a30cd047ed8a12aea196d1fb44
-			</guid>
-			<creator>
-				<![CDATA[Calculator - Melvin Jones Repol]]>
-			</creator>
-			<content medium="image" url="https://mrepol742.github.io/images/mrepol742.png" />
-		</item>
-		<item>
-			<title>
-				<![CDATA[https://mrepol742.github.io/privacypolicy]]>
-			</title>
-			<link>
-				https://mrepol742.github.io/privacypolicy/
-			</link>
-			<guid isPermaLink="false">
-				636d6aa840b81d533bf32655643e503e
-			</guid>
-			<creator>
-				<![CDATA[mrepol742.github.io]]>
-			</creator>
-		</item>
 		<item>
 			<title>
 				<![CDATA[Download Webvium - Lightweight, Fast, Material and Full-Featured Android Web Browser.]]>
@@ -101,24 +69,6 @@
 		</item>
 		<item>
 			<title>
-				<![CDATA[Download Mrepol742 - Web App]]>
-			</title>
-			<description>
-				<![CDATA[<div><img src="https://mrepol742.github.io/images/webviumvpn.png" style="width: 100%;"><div>A Software Engineer with a sound knowledge of knowledge in Web Development.</div></div>]]>
-			</description>
-			<link>
-				https://mrepol742.github.io/download/
-			</link>
-			<guid isPermaLink="false">
-				138ae6ed2ee6827cc61b59b41d3d728a
-			</guid>
-			<creator>
-				<![CDATA[Download Mrepol742 - Web App]]>
-			</creator>
-			<content medium="image" url="https://mrepol742.github.io/images/webviumvpn.png" />
-		</item>
-		<item>
-			<title>
 				<![CDATA[Download Webvium VPN - Anonymous, Secured, Private and the fastest Virtual Private Network.]]>
 			</title>
 			<description>
@@ -134,59 +84,6 @@
 				<![CDATA[Download Webvium VPN - Anonymous, Secured, Private and the fastest Virtual Private Network.]]>
 			</creator>
 			<content medium="image" url="https://mrepol742.github.io/images/webviumvpn.png" />
-		</item>
-		<item>
-			<title>
-				<![CDATA[View Ip - Webvium]]>
-			</title>
-			<description>
-				<![CDATA[<div><img src="https://mrepol742.github.io/images/webvium22.png" style="width: 100%;"><div>A view ip page specifically designed for Webvium.</div></div>]]>
-			</description>
-			<link>
-				https://mrepol742.github.io/viewip/
-			</link>
-			<guid isPermaLink="false">
-				f78903858047cd6296ec4e1b3420fd26
-			</guid>
-			<creator>
-				<![CDATA[View Ip - Webvium]]>
-			</creator>
-			<content medium="image" url="https://mrepol742.github.io/images/webvium22.png" />
-		</item>
-		<item>
-			<title>
-				<![CDATA[I Love You - Melvin Jones Repol]]>
-			</title>
-			<description>
-				<![CDATA[<div>I Love You...</div>]]>
-			</description>
-			<link>
-				https://mrepol742.github.io/ily/
-			</link>
-			<guid isPermaLink="false">
-				724b997e4cee687e35a30cf55a4d97fe
-			</guid>
-			<creator>
-				<![CDATA[I Love You - Melvin Jones Repol]]>
-			</creator>
-		</item>
-		<item>
-			<title>
-				<![CDATA[User Agent - Webvium]]>
-			</title>
-			<description>
-				<![CDATA[<div><img src="https://mrepol742.github.io/images/webvium22.png" style="width: 100%;"><div>A user agent page specifically designed for Webvium.</div></div>]]>
-			</description>
-			<link>
-				https://mrepol742.github.io/useragent/
-			</link>
-			<guid isPermaLink="false">
-				f18fde5d5472ebfd9b68539832141ac1
-			</guid>
-			<creator>
-				<![CDATA[User Agent - Webvium]]>
-			</creator>
-			<content medium="image" url="https://mrepol742.github.io/images/webvium22.png" />
 		</item>
 	</channel>
 </rss>
