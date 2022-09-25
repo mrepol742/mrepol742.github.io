@@ -100,8 +100,6 @@
 "file:/github/workspace/search/index.html":259.11-259.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/privacypolicy/index.html":122.17-122.20: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/css/mrepol742.css":232.22-232.25: error: CSS: "scrollbar-width": Property "scrollbar-width" doesn't exist.
-"file:/github/workspace/whois/index.html":149.11-149.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/whois/index.html":276.9-276.119: error: Start tag "a" seen but an element of the same type was already open.
 "file:/github/workspace/news/index.html":241.17-241.20: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/news/index.html":419.9-419.31: error: Element "style" not allowed as child of element "noscript" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/webvium/index.html":159.47-159.64: error: Duplicate ID "apptag".
