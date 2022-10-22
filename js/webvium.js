@@ -7,6 +7,8 @@ items3.forEach((e3) => {
   e3.innerHTML = latestVersionName;
 });
 
+
+
 document.getElementById("upda").innerHTML = updateDate;
 
 function download() {
