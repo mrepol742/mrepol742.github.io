@@ -1,0 +1,40 @@
+input[type="range"] {
+    -webkit-appearance: none;
+    height: 10px;
+    width: 50%;
+    border-radius: 50px;
+    outline: none;
+    margin: 5px;
+}
+  
+/* CSS property for slider thumb */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 25px;
+    width: 25px;
+    background: #222;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
+
+#box {
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #222;
+    padding: 10px;
+    margin: 9px;
+}
