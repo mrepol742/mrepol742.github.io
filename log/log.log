@@ -70,15 +70,16 @@
 "file:/github/workspace/webviumbeta/index.html":154.79-154.96: error: Duplicate ID "apptag".
 "file:/github/workspace/webviumbeta/index.html":438.11-438.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webviumbeta/download/index.html":148.11-148.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/useragent/index.html":143.11-143.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/qrcode/index.html":151.11-151.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/useragent/index.html":146.11-146.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/qrcode/index.html":154.11-154.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webviumdev/index.html":154.47-154.64: error: Duplicate ID "apptag".
 "file:/github/workspace/webviumdev/index.html":154.79-154.96: error: Duplicate ID "apptag".
 "file:/github/workspace/webviumdev/index.html":439.11-439.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webviumdev/download/index.html":148.11-148.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/how-to-install/index.html":269.17-269.20: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/sitemap/index.html":130.11-130.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/sitemap/index.html":131.11-131.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/press/index.html":98.25-98.28: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/rgbcalculator/index.html":150.11-150.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/css/mrepol742.css":232.22-232.25: error: CSS: "scrollbar-width": Property "scrollbar-width" doesn't exist.
 "file:/github/workspace/webviumvpn/index.html":153.39-153.56: error: Duplicate ID "apptag".
 "file:/github/workspace/webviumvpn/index.html":410.85-410.100: error: Duplicate ID "upda".
@@ -118,11 +119,11 @@
 "file:/github/workspace/webvium/team/index.html":193.11-193.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/privacypolicy/index.html":137.11-137.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/download/index.html":163.11-163.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/search/index.html":138.7-138.40: error: Duplicate ID "more".
-"file:/github/workspace/search/index.html":245.11-245.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/search/index.html":259.11-259.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/viewip/index.html":144.11-144.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/viewip/index.html":271.9-271.119: error: Start tag "a" seen but an element of the same type was already open.
+"file:/github/workspace/search/index.html":139.7-139.40: error: Duplicate ID "more".
+"file:/github/workspace/search/index.html":246.11-246.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/search/index.html":260.11-260.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/viewip/index.html":147.11-147.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/viewip/index.html":274.9-274.119: error: Start tag "a" seen but an element of the same type was already open.
 "file:/github/workspace/privacypolicy/index.html":122.17-122.20: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/assets/console.css":39.43-39.43: error: CSS: "animation": Parse Error.
 "file:/github/workspace/assets/console.css":0.0-0.0: error: CSS: The value "break-word" is deprecated
