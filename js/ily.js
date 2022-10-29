@@ -98,10 +98,12 @@ var typed = new Typed('#txt', {
         "ja ciabie kachaju",
         "Kei te aroha au ki a koe",
         "ndiyakuthanda",
-        "Hav tukka Mog Karta"
-
-    ],
-    typeSpeed: 100
+        "Hav tukka Mog Karta"],
+    typeSpeed: 50,
+    loop: true,
+    loopCount: Infinity,
+    showCursor: false,
+    fadeOut: true
 });
 
 

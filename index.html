@@ -954,6 +954,10 @@
           </p>
         </div>
       </div>
+      <br>
+      <div class="text-center">
+        <h1 id="endM"></h1>
+      </div>
     </article>
   </section>
   <footer class="footer">
@@ -1127,7 +1131,26 @@
   <script src="/assets/bootstrap.min.js"></script>
   <script src="/assets/lozad.min.js"></script>
   <script src="/js/mrepol742.js"></script>
+  <script src="/assets/typed.js"></script>
   <script>
+    var typed = new Typed('#endM', {
+    strings: [
+        "This site was ",
+        "hosted using ",
+        "Github Pages 🔥",
+        "This site was ",
+        "hosted using ",
+        "Github Pages 🔥",
+        "This site was ",
+        "hosted using ",
+        "Github Pages 🔥",
+      "This site was using Github Pages 🔥"],
+        typeSpeed: 50,
+        loop: true,
+        loopCount: Infinity,
+        showCursor: false,
+        fadeOut: true
+    });
     const observer = lozad();
     observer.observe();
     function getDate(a) {
