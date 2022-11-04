@@ -144,3 +144,4 @@
 "file:/github/workspace/assets/bootstrap.min.css":0.0-0.0: error: CSS: The value "break-word" is deprecated
 "file:/github/workspace/news/index.html":241.17-241.20: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/news/index.html":419.9-419.31: error: Element "style" not allowed as child of element "noscript" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/interestcalculator/index.html":151.11-151.14: error: No "p" element in scope but a "p" end tag seen.
