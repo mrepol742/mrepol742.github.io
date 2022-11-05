@@ -115,8 +115,10 @@ function updateTheme() {
         head.appendChild(style);
 }
 
+/*
 window.addEventListener('click', function (evt) {
   if (evt.detail === 3) {
      updateTheme();
   }
 });
+*/

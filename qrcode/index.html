@@ -72,6 +72,15 @@
    window.__h82AlnkH6D91__("WyJwdWItNTA3NzA5NzE1OTIyMzY1NSIsW251bGwsbnVsbCxudWxsLCJodHRwczovL2Z1bmRpbmdjaG9pY2VzbWVzc2FnZXMuZ29vZ2xlLmNvbS9iL3B1Yi01MDc3MDk3MTU5MjIzNjU1Il0sbnVsbCxudWxsLCJodHRwczovL2Z1bmRpbmdjaG9pY2VzbWVzc2FnZXMuZ29vZ2xlLmNvbS9lbC9BR1NLV3hWdnV0d1FfUTMwNmlZOWxDVVEyMEU4cWN3d180ZnZHdFZIdXNzZERGUjdrTzFyTHRpZjdKZjNVeEFjR3IxMGxYSVN2VEFkWVZVMDE2dGdseXZBRUU1WnRRXHUwMDNkXHUwMDNkP3RlXHUwMDNkVE9LRU5fRVhQT1NFRCIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFZoLWx1M0tVMTc1dWZBQlFidzBLZHFPUDhYdEdaWlRMdERyY19YTkYzamE3Sl9YU3J0NVhyU3RENEhzUjVNTVJTSzBORnRfRkdFdk1obDUwUFVwVzVycEFcdTAwM2RcdTAwM2Q/YWJcdTAwM2QxXHUwMDI2c2JmXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFdWMVExT1kyVTVwU3d0VGhKcXZXdUxYcnhNcjNTZUhNUk05cjVRUVpGQlREaktMc01pUGpnMHNuVEZrM3A1TWl6U19SWlpiQXBZU1hKdE02ZkZVTW5qNmdcdTAwM2RcdTAwM2Q/YWJcdTAwM2QyXHUwMDI2c2JmXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2VsL0FHU0tXeFd5WFlrRTBnYUtqQ0NmWXMyaDVQYU5VemhRWWNJRV94aUdGWHlLMW45ZGpOZjE3cUt5RGg5NDd3SHVKZ1JzZkFjeUNINU80dFJYcnZ5X24wWl82enEwSmdcdTAwM2RcdTAwM2Q/c2JmXHUwMDNkMiIsImRpdi1ncHQtYWQiLDIwLDEwMCwiY0hWaUxUVXdOemN3T1RjeE5Ua3lNak0yTlRVXHUwMDNkIixbbnVsbCxudWxsLG51bGwsImh0dHBzOi8vd3d3LmdzdGF0aWMuY29tLzBlbW4vZi9wL3B1Yi01MDc3MDk3MTU5MjIzNjU1LmpzP3VzcXBcdTAwM2RDQW8iXSwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vZWwvQUdTS1d4VktnRFlfS3dCMmZzei0tZ1VwOEIxcm5fY0toRGp1YVFzSC1vbFVoWTdEUENpaUxXN2d1NWRYaW5RZmtIbXdYdjFVejlQYVRqelpHdjlpWFpLOGVSSm9Md1x1MDAzZFx1MDAzZCJd");</script>
   
   <title>Generate QR Code - Create QR Codes for Free</title>
+  <style>
+    input {
+      width: 90%;
+      padding: 10px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+    }
+    </style>
 </head>
 
 <body>
@@ -118,30 +127,42 @@
           An error occurred. Try reloading this page, or enable JavaScript if it is disabled in your browser.
         </div>
       </noscript>
-      <div class="card ">
-        <div class="card-body text-center2">
-          <div class="form-row align-items-center">
-            <div class="col-auto">
-              <label class="sr-only" for="inlineFormInput" style="float: left;">Input here</label><br>
-              <input type="text" class="form-control mb-2" id="inlineFormInput"
-                placeholder="https://mrepol742.github.io">
-            </div> 
-            <br>
-            <img class="rounded mx-auto d-block img-fluid" id="qrCode" src="/images/qrcode.png" alt="QRCode image" width="200" />
-            <div class="col-auto"><br>
-              <button class="btn btn-primary mb-2" onclick="generateQRCode()">Generate</button>
+
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card mb-3 ">
+            <div class="card-body">
+                <fieldset>
+                <legend>Input here</legend>
+                <input type="text" placeholder="Enter anything you wanted to encode to qrcode." id="inp">
+                </fieldset>
+              <br>
+              <img class="rounded mx-auto d-block img-fluid" id="qrCode" src="/images/qrcode.png" alt="QRCode image" width="200" />
+              <br>
+              <div class="text-center2">
+                <button class="btn btn-primary mb-2" onclick="generateQRCode()">Generate</button>
+                </div>
             </div>
           </div>
         </div>
-      </div>
-      <br>
-      <div class="card ">
-        <div class="card-body">
-          <h5 class="card-title">What is QR Code?</h5>
-          <p class="card-text">
-            A QR Code is a two-dimensional variant of a barcode consisting of black and white pixel patterns.
-          </p>
+        <div class="col-sm-6">
+          <div class="card mb-3 ">
+            <h5 class="card-header">What is QR Code?</h5>
+            <div class="card-body">
+              <p class="card-text">
+                A QR Code is a two-dimensional variant of a barcode consisting of black and white pixel patterns.
+              </p>
+            </div>
+          </div>
         </div>
+        <div class="col-sm-6">
+          <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-6m+dm+13-7k+j4"
+          data-ad-client="ca-pub-5077097159223655" data-ad-slot="7153881967"></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+        </div>
+
       </div>
       <br>
       <div class="card ">
@@ -331,8 +352,10 @@
   <script src="/js/mrepol742.js"></script>
   <script>
     function generateQRCode() {
-      var url = document.getElementById("inlineFormInput").value;
-      qrCode.src = "https://api.qrserver.com/v1/create-qr-code/?size=360x360&data=" + url;
+      let url = document.getElementById("inp").value;
+      if (url.trim()) {
+      qrCode.src = "https://api.qrserver.com/v1/create-qr-code/?size=480x480&data=" + url;
+      }
     }
   </script>
 </body>

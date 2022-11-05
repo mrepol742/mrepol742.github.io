@@ -21,6 +21,19 @@ body {
     color: #212121;
 }
 
+fieldset, legend {
+    all: revert;
+}
+
+legend {
+    padding: 10px;
+}
+
+fieldset {
+    border-radius: 5px;
+    border-style: solid;
+}
+
 
 hr {
     height: 5px;

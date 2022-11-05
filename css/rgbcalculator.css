@@ -1,7 +1,7 @@
 input[type="range"] {
     -webkit-appearance: none;
     height: 10px;
-    width: 50%;
+    width: 70%;
     border-radius: 50px;
     outline: none;
     margin: 5px;
@@ -37,4 +37,9 @@ input[type="range"]::-webkit-slider-thumb {
     border-color: #222;
     padding: 10px;
     margin: 9px;
+}
+
+label {
+    float: left;
+    padding-left: 15%;
 }
