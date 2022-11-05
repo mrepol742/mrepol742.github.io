@@ -71,7 +71,7 @@
 "file:/github/workspace/webviumbeta/index.html":440.11-440.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webviumbeta/download/index.html":151.11-151.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/useragent/index.html":148.11-148.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/qrcode/index.html":156.11-156.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/qrcode/index.html":177.11-177.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webviumdev/index.html":156.47-156.64: error: Duplicate ID "apptag".
 "file:/github/workspace/webviumdev/index.html":156.79-156.96: error: Duplicate ID "apptag".
 "file:/github/workspace/webviumdev/index.html":441.11-441.14: error: No "p" element in scope but a "p" end tag seen.
@@ -79,8 +79,9 @@
 "file:/github/workspace/how-to-install/index.html":271.17-271.20: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/sitemap/index.html":133.11-133.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/press/index.html":100.25-100.28: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/rgbcalculator/index.html":152.11-152.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/css/mrepol742.css":232.22-232.25: error: CSS: "scrollbar-width": Property "scrollbar-width" doesn't exist.
+"file:/github/workspace/rgbcalculator/index.html":175.11-175.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/css/mrepol742.css":25.10-25.15: error: CSS: "all": Property "all" doesn't exist.
+"file:/github/workspace/css/mrepol742.css":245.22-245.25: error: CSS: "scrollbar-width": Property "scrollbar-width" doesn't exist.
 "file:/github/workspace/webviumvpn/index.html":155.39-155.56: error: Duplicate ID "apptag".
 "file:/github/workspace/webviumvpn/index.html":412.85-412.100: error: Duplicate ID "upda".
 "file:/github/workspace/webviumvpn/index.html":498.11-498.14: error: No "p" element in scope but a "p" end tag seen.
