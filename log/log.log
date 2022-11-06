@@ -80,6 +80,7 @@
 "file:/github/workspace/sitemap/index.html":133.11-133.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/press/index.html":100.25-100.28: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/rgbcalculator/index.html":175.11-175.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/css/search.css":227.30-227.30: error: CSS: "backdrop-filter": Property "backdrop-filter" doesn't exist.
 "file:/github/workspace/css/mrepol742.css":25.10-25.15: error: CSS: "all": Property "all" doesn't exist.
 "file:/github/workspace/css/mrepol742.css":245.22-245.25: error: CSS: "scrollbar-width": Property "scrollbar-width" doesn't exist.
 "file:/github/workspace/webviumvpn/index.html":155.39-155.56: error: Duplicate ID "apptag".
@@ -120,9 +121,9 @@
 "file:/github/workspace/webvium/team/index.html":196.11-196.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/privacypolicy/index.html":140.11-140.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/download/index.html":166.11-166.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/search/index.html":141.7-141.40: error: Duplicate ID "more".
-"file:/github/workspace/search/index.html":248.11-248.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/search/index.html":262.11-262.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/search/index.html":120.13-120.17: error: Text not allowed in element "ul" in this context.
+"file:/github/workspace/search/index.html":127.12-127.21: error: Text not allowed in element "ul" in this context.
+"file:/github/workspace/search/index.html":249.11-249.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/viewip/index.html":149.11-149.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/viewip/index.html":276.9-276.119: error: Start tag "a" seen but an element of the same type was already open.
 "file:/github/workspace/privacypolicy/index.html":124.17-124.20: error: No "p" element in scope but a "p" end tag seen.
