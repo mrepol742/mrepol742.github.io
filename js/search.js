@@ -9,10 +9,12 @@ try {
 	}
 } catch (wer) {}
 
+/* DISABLE 
 let a = new Date();
 let days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 let b = a.getDay();
 document.getElementById("currD").innerHTML = "<h1>" + days[b] + " " + a.getHours() + ":" + a.getMinutes() + "</h1>";
+*/
 
 var defSH = "https://source.unsplash.com/";
 
