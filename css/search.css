@@ -220,8 +220,8 @@ footer {
     border-style: solid;
     border-width: 0px;
     border-radius: 20px;
-    padding: 5%;
-    margin: 3px;
+    padding: 10%;
+    margin: 5px;
     box-shadow: 0 0 5em rgba(0, 0, 0, .9);
  
     backdrop-filter: blur(2px);
