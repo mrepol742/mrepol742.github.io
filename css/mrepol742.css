@@ -363,3 +363,15 @@ html {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.progress {
+    height: 25px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.progress-bar {
+    text-align: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
