@@ -6,7 +6,8 @@
 "file:/github/workspace/qkdq6zub0hw6o6acpoiylfrrf5e7g1.html":0.1-0.30: error: Element "head" is missing a required instance of child element "title".
 "file:/github/workspace/google022983bf0cf659ae.html":0.1-0.52: error: Non-space characters found without seeing a doctype first. Expected "<!DOCTYPE html>".
 "file:/github/workspace/google022983bf0cf659ae.html":0.1-0.52: error: Element "head" is missing a required instance of child element "title".
-"file:/github/workspace/index.html":988.11-988.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/index.html":323.9-323.21: error: Duplicate ID "txt".
+"file:/github/workspace/index.html":993.11-993.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/pinterest-326fc.html":0.294-0.301: error: Element "title" must not be empty.
 "file:/github/workspace/pinterest-326fc.html":0.458-0.571: error: Attribute "background" not allowed on element "table" at this point.
 "file:/github/workspace/pinterest-326fc.html":0.458-0.571: error: The "cellspacing" attribute on the "table" element is obsolete. Use CSS instead.
@@ -72,8 +73,10 @@
 "file:/github/workspace/contactme/index.html":136.51-136.115: error: Attribute "type" not allowed on element "textarea" at this point.
 "file:/github/workspace/contactme/index.html":155.11-155.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/contactme/thankyou.html":137.11-137.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/programming-stats/index.html":199.7-199.10: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/programming-stats/2021/index.html":257.7-257.10: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/programming-stats/index.html":202.7-202.10: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/programming-stats/2021/index.html":129.30-129.50: error: Element "li" not allowed as child of element "div" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/programming-stats/2021/index.html":259.7-259.10: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/programming-stats/2022/index.html":263.7-263.10: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webviumdev/index.html":156.47-156.64: error: Duplicate ID "apptag".
 "file:/github/workspace/webviumdev/index.html":156.79-156.96: error: Duplicate ID "apptag".
 "file:/github/workspace/webviumdev/index.html":441.11-441.14: error: No "p" element in scope but a "p" end tag seen.
