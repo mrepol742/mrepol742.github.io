@@ -375,3 +375,30 @@ html {
     padding-right: 10px;
     padding-left: 10px;
 }
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("/images/menu.svg");
+    background-size: 100%;
+    background-position: center center;
+    width: 25px;
+    height: 25px;
+    display: flex;
+ }
+
+ .navbar-inverse .navbar-toggler-icon {
+    background-image: url("/images/menu.svg");
+    background-size: 100%;
+    background-position: center center;
+    width: 25px;
+    height: 25px;
+    display: flex;
+ }
+
+ .custom-toggler .navbar-toggler-icon {
+    background-image: url("/images/menu.svg");
+    background-size: 100%;
+    background-position: center center;
+    width: 25px;
+    height: 25px;
+    display: flex;
+  }
