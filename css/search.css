@@ -64,7 +64,7 @@ section.main {
     justify-content: space-between;
 }
 
-.search-container > svg{
+.search-container > svg {
     height: 24px;
     min-width: 70px;
     align-self: center;
@@ -72,9 +72,8 @@ section.main {
 }
 
 .container {
-    padding-top: 20% !important;
+    padding-top: 15% !important;
 }
-
 
 #search {
     border-width: 0px;
@@ -101,7 +100,6 @@ section.main {
     color: #ffffff;
     position: absolute;
     left: 50%;
-    height: 90%;
     transform: translate(-50%, -5%);
     padding: 0 5px;
     overflow-y: scroll;
