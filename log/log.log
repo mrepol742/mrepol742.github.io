@@ -6,8 +6,8 @@
 "file:/github/workspace/qkdq6zub0hw6o6acpoiylfrrf5e7g1.html":0.1-0.30: error: Element "head" is missing a required instance of child element "title".
 "file:/github/workspace/google022983bf0cf659ae.html":0.1-0.52: error: Non-space characters found without seeing a doctype first. Expected "<!DOCTYPE html>".
 "file:/github/workspace/google022983bf0cf659ae.html":0.1-0.52: error: Element "head" is missing a required instance of child element "title".
-"file:/github/workspace/index.html":323.9-323.21: error: Duplicate ID "txt".
-"file:/github/workspace/index.html":993.11-993.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/index.html":320.9-320.21: error: Duplicate ID "txt".
+"file:/github/workspace/index.html":990.11-990.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/pinterest-326fc.html":0.294-0.301: error: Element "title" must not be empty.
 "file:/github/workspace/pinterest-326fc.html":0.458-0.571: error: Attribute "background" not allowed on element "table" at this point.
 "file:/github/workspace/pinterest-326fc.html":0.458-0.571: error: The "cellspacing" attribute on the "table" element is obsolete. Use CSS instead.
@@ -87,7 +87,6 @@
 "file:/github/workspace/project-orion/index.html":411.13-411.16: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/project-orion/index.html":414.5-414.14: error: End tag "article" seen, but there were open elements.
 "file:/github/workspace/project-orion/index.html":146.7-146.23: error: Unclosed element "div".
-"file:/github/workspace/css/search.css":227.30-227.30: error: CSS: "backdrop-filter": Property "backdrop-filter" doesn't exist.
 "file:/github/workspace/css/mrepol742.css":25.10-25.15: error: CSS: "all": Property "all" doesn't exist.
 "file:/github/workspace/css/mrepol742.css":245.22-245.25: error: CSS: "scrollbar-width": Property "scrollbar-width" doesn't exist.
 "file:/github/workspace/how-to-install/index.html":271.17-271.20: error: No "p" element in scope but a "p" end tag seen.
@@ -142,7 +141,8 @@
 "file:/github/workspace/webvium/api/hash/index.html":231.11-231.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/privacypolicy/index.html":140.11-140.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/download/index.html":166.11-166.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/search/index.html":225.11-225.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/search/index.html":104.7-104.14: error: The "center" element is obsolete. Use CSS instead.
+"file:/github/workspace/search/index.html":227.11-227.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webviumbeta/index.html":156.47-156.64: error: Duplicate ID "apptag".
 "file:/github/workspace/webviumbeta/index.html":156.79-156.96: error: Duplicate ID "apptag".
 "file:/github/workspace/webviumbeta/index.html":440.11-440.14: error: No "p" element in scope but a "p" end tag seen.
