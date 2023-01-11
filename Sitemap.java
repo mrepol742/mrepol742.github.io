@@ -22,7 +22,7 @@ class Sitemap {
     public static void main(String[] args) {
         //String domain = args[0];
         //String url = args[1];
-        url = "/home/mrepol742/VSCodeProjects/mrepol742.github.io";
+        url = "/home/alexaguno/Documents/mrepol742.github.io";
         String domain = "https://mrepol742.github.io";
         find(new File(url), domain);
 

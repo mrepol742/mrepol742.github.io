@@ -267,7 +267,7 @@ p.top {
         max-height: 70vh !important;
     }
     .preview0 {
-        max-width:200px !important;
+        max-width:150px !important;
     }
 
 }
@@ -279,7 +279,7 @@ p.top {
     }
 
     .preview0 {
-        max-width:300px !important;
+        max-width:250px !important;
     }
 }
 
@@ -358,10 +358,8 @@ html {
 #apptag {
     color: #4285f4;
     background-color: #4286f438;
-    
     border-radius: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 8px;
 }
 
 .progress {
