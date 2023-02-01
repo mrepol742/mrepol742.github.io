@@ -1,0 +1,15 @@
+_______  Project Orion Root  _______
+<br>|
+<br>|   ⦿ stop
+<br>|   ⦿ resume
+<br>|   ⦿ restart
+<br>|   ⦿ notify
+<br>|   ⦿ refreshGroup
+<br>|   ⦿ setMaxImage [integer]
+<br>|   ⦿ setTimezone [timezone]
+<br>|   ⦿ setTextComplextion [complextion]
+<br>|   ⦿ setMaxTokens [integer]
+<br>|   ⦿ setTemperature [integer]
+<br>|   ⦿ setFrequencyPenalty [integer]
+<br>|   ⦿ setProbabilityMass [integer]
+<br>|____________________________________
