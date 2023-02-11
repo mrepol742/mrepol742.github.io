@@ -58,7 +58,7 @@ a:hover {
 }
 
 section.main {
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -66,12 +66,25 @@ section.main {
 nav {
     box-shadow: 0 0 5em #4286f460;
     background-color: #ffffff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.imgc {
+    border: none;
+    border-radius: 10px;
+}
+
+#me {
+    padding: 20px !important;
 }
 
 .container-fluid {
-    margin-left: 15%;
-    margin-right: 15%;
-    padding: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1.2%;
 }
 
 #friends, #sm {
@@ -162,8 +175,12 @@ p.top {
     }
 
     nav {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-left: 4%;
+        margin-right: 4%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
     }
 
     footer {
@@ -172,8 +189,8 @@ p.top {
     }
 
     .container-fluid {
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-left: 8%;
+        margin-right: 8%;
     }
 
     .dropdown-menu {
@@ -291,8 +308,8 @@ footer{
     color: #212121;
     padding-left: 15%;
     padding-right: 15%;
-    padding-top: 10%;
-    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 2%;
 }
 
 .dropdown-menu {
