@@ -1,5 +1,12 @@
 "file:/usr/local/lib/python3.10/idlelib/help.html":979.5-979.42: error: Duplicate ID "cpython-language-and-version".
-"file:/github/workspace/index.html":944.11-944.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/index.html":226.15-226.141: error: Duplicate ID "navbarDropdown".
+"file:/github/workspace/index.html":237.15-237.141: error: Duplicate ID "navbarDropdown".
+"file:/github/workspace/index.html":241.17-241.65: error: Element "a" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/index.html":245.17-245.67: error: Element "a" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/index.html":249.17-249.54: error: Element "a" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/index.html":250.137-250.137: error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
+"file:/github/workspace/index.html":253.17-253.54: error: Element "a" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/index.html":980.11-980.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/qkdq6zub0hw6o6acpoiylfrrf5e7g1.html":0.1-0.30: error: Non-space characters found without seeing a doctype first. Expected "<!DOCTYPE html>".
 "file:/github/workspace/qkdq6zub0hw6o6acpoiylfrrf5e7g1.html":0.1-0.30: error: Element "head" is missing a required instance of child element "title".
 "file:/github/workspace/yandex_b229053f47e9b4b5.html":0.1-0.6: error: Start tag seen without seeing a doctype first. Expected "<!DOCTYPE html>".
@@ -65,52 +72,52 @@
 "file:/github/workspace/google022983bf0cf659ae.html":0.1-0.52: error: Non-space characters found without seeing a doctype first. Expected "<!DOCTYPE html>".
 "file:/github/workspace/google022983bf0cf659ae.html":0.1-0.52: error: Element "head" is missing a required instance of child element "title".
 "file:/github/workspace/privacypolicy/index.html":124.17-124.20: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/viewip/index.html":149.11-149.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/viewip/index.html":279.9-279.119: error: Start tag "a" seen but an element of the same type was already open.
+"file:/github/workspace/viewip/index.html":152.11-152.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/viewip/index.html":282.9-282.119: error: Start tag "a" seen but an element of the same type was already open.
 "file:/github/workspace/css/mrepol742.css":25.10-25.15: error: CSS: "all": Property "all" doesn't exist.
 "file:/github/workspace/css/mrepol742.css":263.22-263.25: error: CSS: "scrollbar-width": Property "scrollbar-width" doesn't exist.
 "file:/github/workspace/sitemap/index.html":158.11-158.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webviumvpn/index.html":155.39-155.56: error: Duplicate ID "apptag".
-"file:/github/workspace/webviumvpn/index.html":275.137-275.137: error: Attribute "akt" not allowed on element "img" at this point.
-"file:/github/workspace/webviumvpn/index.html":275.137-275.137: error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-"file:/github/workspace/webviumvpn/index.html":458.85-458.100: error: Duplicate ID "upda".
-"file:/github/workspace/webviumvpn/index.html":544.11-544.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webviumvpn/index.html":158.39-158.56: error: Duplicate ID "apptag".
+"file:/github/workspace/webviumvpn/index.html":278.137-278.137: error: Attribute "akt" not allowed on element "img" at this point.
+"file:/github/workspace/webviumvpn/index.html":278.137-278.137: error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
+"file:/github/workspace/webviumvpn/index.html":461.85-461.100: error: Duplicate ID "upda".
+"file:/github/workspace/webviumvpn/index.html":547.11-547.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webviumvpn/privacypolicy/index.html":136.11-136.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webviumvpn/download/index.html":169.11-169.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webviumbeta/index.html":156.47-156.64: error: Duplicate ID "apptag".
-"file:/github/workspace/webviumbeta/index.html":156.79-156.96: error: Duplicate ID "apptag".
-"file:/github/workspace/webviumbeta/index.html":351.137-351.137: error: Attribute "akt" not allowed on element "img" at this point.
-"file:/github/workspace/webviumbeta/index.html":351.137-351.137: error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-"file:/github/workspace/webviumbeta/index.html":486.11-486.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webviumbeta/index.html":162.47-162.64: error: Duplicate ID "apptag".
+"file:/github/workspace/webviumbeta/index.html":162.79-162.96: error: Duplicate ID "apptag".
+"file:/github/workspace/webviumbeta/index.html":357.137-357.137: error: Attribute "akt" not allowed on element "img" at this point.
+"file:/github/workspace/webviumbeta/index.html":357.137-357.137: error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
+"file:/github/workspace/webviumbeta/index.html":492.11-492.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webviumbeta/download/index.html":151.11-151.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/news/index.html":628.17-628.20: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/news/index.html":806.9-806.31: error: Element "style" not allowed as child of element "noscript" in this context. (Suppressing further errors from this subtree.)
-"file:/github/workspace/webvium/index.html":197.47-197.64: error: Duplicate ID "apptag".
-"file:/github/workspace/webvium/index.html":197.79-197.96: error: Duplicate ID "apptag".
-"file:/github/workspace/webvium/index.html":387.139-387.139: error: Attribute "akt" not allowed on element "img" at this point.
-"file:/github/workspace/webvium/index.html":387.139-387.139: error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-"file:/github/workspace/webvium/index.html":570.78-570.81: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/index.html":580.15-580.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/index.html":605.15-605.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/index.html":629.15-629.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/index.html":653.15-653.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/index.html":677.15-677.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/index.html":686.15-686.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/index.html":203.47-203.64: error: Duplicate ID "apptag".
+"file:/github/workspace/webvium/index.html":203.79-203.96: error: Duplicate ID "apptag".
+"file:/github/workspace/webvium/index.html":393.139-393.139: error: Attribute "akt" not allowed on element "img" at this point.
+"file:/github/workspace/webvium/index.html":393.139-393.139: error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
+"file:/github/workspace/webvium/index.html":576.78-576.81: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/index.html":586.15-586.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/index.html":611.15-611.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/index.html":635.15-635.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/index.html":659.15-659.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/index.html":683.15-683.18: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/index.html":692.15-692.18: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/index.html":698.15-698.18: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/index.html":704.15-704.18: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/index.html":710.15-710.18: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/index.html":716.15-716.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/index.html":740.15-740.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/index.html":748.15-748.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/index.html":755.15-755.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/index.html":777.15-777.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/index.html":722.15-722.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/index.html":746.15-746.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/index.html":754.15-754.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/index.html":761.15-761.18: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/index.html":783.15-783.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/index.html":795.15-795.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/index.html":804.15-804.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/index.html":818.15-818.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/index.html":843.15-843.18: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/webvium/index.html":860.11-860.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/index.html":789.15-789.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/index.html":801.15-801.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/index.html":810.15-810.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/index.html":824.15-824.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/index.html":849.15-849.18: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/index.html":866.11-866.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/privacypolicy/index.html":140.11-140.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/team/index.html":196.11-196.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webvium/download/index.html":166.11-166.14: error: No "p" element in scope but a "p" end tag seen.
@@ -125,32 +132,32 @@
 "file:/github/workspace/contactme/index.html":136.51-136.115: error: Attribute "type" not allowed on element "textarea" at this point.
 "file:/github/workspace/contactme/index.html":155.11-155.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/contactme/thankyou.html":137.11-137.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/rgbcalculator/index.html":175.11-175.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/rgbcalculator/index.html":178.11-178.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/interestcalculator/index.html":153.11-153.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/programming-stats/index.html":202.7-202.10: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/programming-stats/2022/index.html":263.7-263.10: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/programming-stats/2021/index.html":129.30-129.50: error: Element "li" not allowed as child of element "div" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/programming-stats/2021/index.html":259.7-259.10: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/useragent/index.html":148.11-148.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/useragent/index.html":151.11-151.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/assets/bootstrap.min.css":0.0-0.0: error: CSS: org.w3c.css.values.CssNumber cannot be cast to org.w3c.css.values.CssCalc.
 "file:/github/workspace/assets/console.css":39.43-39.43: error: CSS: "animation": Parse Error.
 "file:/github/workspace/assets/console.css":0.0-0.0: error: CSS: The value "break-word" is deprecated
 "file:/github/workspace/assets/console.css":277.2-278.1: error: CSS: Parse Error.
-"file:/github/workspace/webviumdev/index.html":156.47-156.64: error: Duplicate ID "apptag".
-"file:/github/workspace/webviumdev/index.html":156.79-156.96: error: Duplicate ID "apptag".
-"file:/github/workspace/webviumdev/index.html":352.137-352.137: error: Attribute "akt" not allowed on element "img" at this point.
-"file:/github/workspace/webviumdev/index.html":352.137-352.137: error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-"file:/github/workspace/webviumdev/index.html":489.11-489.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webviumdev/index.html":162.47-162.64: error: Duplicate ID "apptag".
+"file:/github/workspace/webviumdev/index.html":162.79-162.96: error: Duplicate ID "apptag".
+"file:/github/workspace/webviumdev/index.html":358.137-358.137: error: Attribute "akt" not allowed on element "img" at this point.
+"file:/github/workspace/webviumdev/index.html":358.137-358.137: error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
+"file:/github/workspace/webviumdev/index.html":495.11-495.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/webviumdev/download/index.html":151.11-151.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/qrcode/index.html":177.11-177.14: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/project-orion/index.html":115.18-115.23: error: Text not allowed in element "ul" in this context.
-"file:/github/workspace/project-orion/index.html":115.24-115.29: error: Text not allowed in element "ul" in this context.
-"file:/github/workspace/project-orion/index.html":151.71-151.75: error: End tag "h2" seen, but there were open elements.
-"file:/github/workspace/project-orion/index.html":161.59-161.63: error: End tag "h2" seen, but there were open elements.
-"file:/github/workspace/project-orion/index.html":171.65-171.69: error: End tag "h2" seen, but there were open elements.
-"file:/github/workspace/project-orion/index.html":193.137-193.137: error: Attribute "akt" not allowed on element "img" at this point.
-"file:/github/workspace/project-orion/index.html":193.137-193.137: error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
-"file:/github/workspace/project-orion/index.html":580.13-580.16: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/qrcode/index.html":180.11-180.14: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/project-orion/index.html":120.13-120.18: error: Text not allowed in element "ul" in this context.
+"file:/github/workspace/project-orion/index.html":120.19-120.24: error: Text not allowed in element "ul" in this context.
+"file:/github/workspace/project-orion/index.html":156.71-156.75: error: End tag "h2" seen, but there were open elements.
+"file:/github/workspace/project-orion/index.html":166.59-166.63: error: End tag "h2" seen, but there were open elements.
+"file:/github/workspace/project-orion/index.html":176.65-176.69: error: End tag "h2" seen, but there were open elements.
+"file:/github/workspace/project-orion/index.html":198.137-198.137: error: Attribute "akt" not allowed on element "img" at this point.
+"file:/github/workspace/project-orion/index.html":198.137-198.137: error: An "img" element must have an "alt" attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.
+"file:/github/workspace/project-orion/index.html":619.13-619.16: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/search/index.html":106.7-106.14: error: The "center" element is obsolete. Use CSS instead.
 "file:/github/workspace/search/index.html":229.11-229.14: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/how-to-install/index.html":271.17-271.20: error: No "p" element in scope but a "p" end tag seen.
