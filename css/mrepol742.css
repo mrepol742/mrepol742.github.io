@@ -66,10 +66,7 @@ section.main {
 nav {
     box-shadow: 0 0 5em #4286f460;
     background-color: #ffffff;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-bottom: 6%;
 }
 
 .imgc {
@@ -172,15 +169,6 @@ p.top {
         margin-left: 4%;
         margin-right: 4%;
         margin-top: 5% !important;
-    }
-
-    nav {
-        padding-left: 10%;
-        padding-right: 10%;
-        margin-left: 4%;
-        margin-right: 4%;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
     }
 
     footer {
