@@ -144,17 +144,15 @@ section.main {
     text-align: center;
 }
 
-
-footer {
+footer{
     box-shadow: 0 0 5em #4286f460;
     background-color: #ffffff;
-    margin-top: 15%;
+    margin-top:  10%;
     color: #212121;
     padding-left: 15%;
     padding-right: 15%;
-    padding-top: 10%;
-    padding-bottom: 5%;
-    border-style: none;
+    padding-top: 5%;
+    padding-bottom: 2%;
 }
 
 .card,

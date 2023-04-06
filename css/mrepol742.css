@@ -21,10 +21,6 @@ body {
     color: #212121;
 }
 
-fieldset, legend {
-    all: revert;
-}
-
 legend {
     padding: 10px;
 }
@@ -248,7 +244,6 @@ p.top {
     scroll-snap-type: x mandatory;
     width: 100%;
     -ms-overflow-style: none;
-    scrollbar-width: none;
 }
 
 .images .holder::-webkit-scrollbar { 
@@ -361,7 +356,7 @@ html {
     color: #212121  !important;
 }
 
-#apptag {
+.apptag {
     color: #4285f4;
     background-color: #4286f438;
     border-radius: 20px;

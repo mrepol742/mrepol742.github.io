@@ -38,5 +38,3 @@ try {
   } 
 } catch (en) {
 }
-
-console.log('\n\nWant to use our API? Learn more in our documentation:\nhttps://mrepol742.github.io/webvium/api/\n\n');
