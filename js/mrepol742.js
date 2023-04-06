@@ -30,11 +30,13 @@ function getCookie(cname) {
 }
 
 let pp = getCookie("pp");
+try {
 let bsAlert = new  bootstrap.Toast(document.getElementById("privacypolicy"));
 
 if (pp == "") {
     bsAlert.show();
 }
+} catch (err) {}
 
 document.getElementById("accpt").onclick = function() {
   bsAlert.hide();
