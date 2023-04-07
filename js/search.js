@@ -62,20 +62,30 @@ if (!mediaQuery.matches) {
 }
 }
 
-// 1280x720
-// 640x480
 function bgde() {
 	if (!WebviumThemeHelper.isCustomBackgroundEnabled()) {
 		if (WebviumThemeHelper.isDarkModeEnabled()) {
-			setBg(defSH + WebviumThemeHelper.getQuality() + "?night");
+			setBg(defSH + getFixedSize() + "?night");
 		} else {
-			setBg(defSH + WebviumThemeHelper.getQuality() + "?day");
+			setBg(defSH + getFixedSize() + "?day");
 		}
 	} else {
 		trans();
 	}
 }
 
+function getFixedSize() {
+	let currentSize = WebviumThemeHelper.getQuality();
+	const mediaQuery = window.matchMedia('(max-width: 1080px)')
+if (!mediaQuery.matches) {
+	if (currentSize == "1280x720") {
+		return "720x1280";
+	}
+	return "480x640"
+} else {
+	return currentSize;
+}
+}
 
 
 function setBg(a) {WebviumThemeHelper.getQuality()
@@ -115,7 +125,7 @@ try {
 			sugItem.setAttribute('class', 'sug-item');
 
 			let icon = document.createElement('span');
-			icon.setAttribute('class', 'fa fa-search');
+			//icon.setAttribute('class', 'fa fa-search');
 
 			let text = document.createElement('span');
 			text.setAttribute('class', 'text');
