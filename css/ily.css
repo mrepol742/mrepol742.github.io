@@ -28,7 +28,7 @@ h1 {
     color: #ffffff;
     text-shadow: 2px 2px #484848;
 }
-  
+
 .a {
     position: absolute;
     top: 50%;
@@ -49,17 +49,17 @@ h1 {
     padding: 4px;
 }
 
- .nojs {
-  position: fixed;
-  z-index: 999999;
-  bottom: 0%;
-  left: 0%;
-  right: 0;
-  text-align: center;
-  background-color: #de5246;
-  color: #ffffff;
-  padding: 4px;
- }
+.nojs {
+    position: fixed;
+    z-index: 999999;
+    bottom: 0%;
+    left: 0%;
+    right: 0;
+    text-align: center;
+    background-color: #de5246;
+    color: #ffffff;
+    padding: 4px;
+}
 
 #accpt {
     color: #ffffff;

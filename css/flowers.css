@@ -1,27 +1,30 @@
 body {
-	margin: 0;
+    margin: 0;
     padding: 0;
-	overflow: hidden;
+    overflow: hidden;
 }
 
 svg {
-	width:100vw;
-    height:100vh;
+    width: 100vw;
+    height: 100vh;
 }
 
-.fc1 { 
-    fill: #6495ED;  
+.fc1 {
+    fill: #6495ED;
 }
-.fc2 { 
-    fill: #ADD8E6; 
+
+.fc2 {
+    fill: #ADD8E6;
 }
-.fc3 { 
+
+.fc3 {
     fill: #87CEEB;
 }
-.fc4 { 
-    fill: #87CEFA; 
+
+.fc4 {
+    fill: #87CEFA;
 }
 
 svg path {
-	fill: inherit;
+    fill: inherit;
 }

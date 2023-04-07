@@ -5,7 +5,7 @@
     font-display: swap;
     src: url("/assets/MavenPro.woff2") format('woff2');
 }
-  
+
 ::selection {
     background-color: #4285f4;
     color: #ffffff;
@@ -80,11 +80,15 @@ nav {
     padding: 1.2%;
 }
 
-#friends, #sm {
+#friends,
+#sm {
     margin-top: 2%;
 }
 
-.card, .accordion, .modal-content, .toast {
+.card,
+.accordion,
+.modal-content,
+.toast {
     box-shadow: 0 0 5em rgba(0, 0, 0, .1);
     transition: box-shadow .3s;
     padding: 10px;
@@ -98,7 +102,8 @@ nav {
     background-color: #ffffff;
 }
 
-.custom-modal-button, #accpt {
+.custom-modal-button,
+#accpt {
     border-radius: 50px;
     margin-left: 5px;
     margin-right: 5px;
@@ -107,7 +112,10 @@ nav {
     border: none;
 }
 
-.accordion-item, .accordion-button, .list-group-item, .navbar-toggler {
+.accordion-item,
+.accordion-button,
+.list-group-item,
+.navbar-toggler {
     border: none !important;
 }
 
@@ -122,25 +130,30 @@ nav {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
 }
 
-.accordion-button:hover, .accordion-button:active, .accordion-header:hover, .accordion-header:active{
+.accordion-button:hover,
+.accordion-button:active,
+.accordion-header:hover,
+.accordion-header:active {
     background-color: #4285f4 !important;
     color: white;
     border-radius: 5px !important;
     border: none !important;
 }
 
-.card:hover, .accordion:hover {
+.card:hover,
+.accordion:hover {
     transition: box-shadow .3s;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 }
 
-.card-header, .accordion-header {
+.card-header,
+.accordion-header {
     background: none;
     border: none;
 }
 
 .text-center {
-  padding-top: 10%;
+    padding-top: 10%;
 }
 
 .text-center2 {
@@ -181,7 +194,8 @@ p.top {
         padding: 4% !important;
     }
 }
-   .nojs {
+
+.nojs {
     position: fixed;
     z-index: 999999;
     bottom: 0%;
@@ -191,11 +205,11 @@ p.top {
     background-color: #de5246;
     color: #ffffff;
     padding: 4px;
-   }
+}
 
-  .circle-png {
-      border-radius: 50% !important;
-  }
+.circle-png {
+    border-radius: 50% !important;
+}
 
 .skill {
     margin: 5px;
@@ -215,9 +229,9 @@ p.top {
 }
 
 .mrepol742-skills {
-    display: flex;  
+    display: flex;
     flex-wrap: wrap;
-  }
+}
 
 .skill:hover {
     background-color: #4285f4;
@@ -239,27 +253,27 @@ p.top {
 
 .images .holder {
     overflow-x: scroll;
-    overflow-y:hidden;
+    overflow-y: hidden;
     display: flex;
     scroll-snap-type: x mandatory;
     width: 100%;
     -ms-overflow-style: none;
 }
 
-.images .holder::-webkit-scrollbar { 
+.images .holder::-webkit-scrollbar {
     display: none;
 }
 
 .images .holder .preview {
     width: 50%;
-    height:auto;
-    max-width:200px;
-    max-height:90vh;
-    margin:0 0.3rem;
+    height: auto;
+    max-width: 200px;
+    max-height: 90vh;
+    margin: 0 0.3rem;
 }
 
 .preview0 {
-    max-width:600px !important;
+    max-width: 600px !important;
 }
 
 @media (max-height:400px) {
@@ -267,8 +281,9 @@ p.top {
     .preview {
         max-height: 70vh !important;
     }
+
     .preview0 {
-        max-width:150px !important;
+        max-width: 150px !important;
     }
 
 }
@@ -280,14 +295,14 @@ p.top {
     }
 
     .preview0 {
-        max-width:250px !important;
+        max-width: 250px !important;
     }
 }
 
-footer{
+footer {
     box-shadow: 0 0 5em #4286f460;
     background-color: #ffffff;
-    margin-top:  10%;
+    margin-top: 10%;
     color: #212121;
     padding-left: 15%;
     padding-right: 15%;
@@ -331,29 +346,30 @@ footer{
 }
 
 ::-webkit-scrollbar {
-	width: 13px;
+    width: 13px;
 }
 
 ::-webkit-scrollbar-track {
-	background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 ::-webkit-scrollbar-thumb {
-	border: none;
-	background-color: #4285f4;
-	border-radius: 0.5em;
+    border: none;
+    background-color: #4285f4;
+    border-radius: 0.5em;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background-color: #3a76d8;
+    background-color: #3a76d8;
 }
 
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
-.nav-link,.nav-item {
-    color: #212121  !important;
+.nav-link,
+.nav-item {
+    color: #212121 !important;
 }
 
 .apptag {
@@ -382,22 +398,22 @@ html {
     width: 25px;
     height: 25px;
     display: flex;
- }
+}
 
- .navbar-inverse .navbar-toggler-icon {
+.navbar-inverse .navbar-toggler-icon {
     background-image: url("/images/menu.svg");
     background-size: 100%;
     background-position: center center;
     width: 25px;
     height: 25px;
     display: flex;
- }
+}
 
- .custom-toggler .navbar-toggler-icon {
+.custom-toggler .navbar-toggler-icon {
     background-image: url("/images/menu.svg");
     background-size: 100%;
     background-position: center center;
     width: 25px;
     height: 25px;
     display: flex;
-  }
+}

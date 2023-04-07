@@ -64,7 +64,7 @@ section.main {
     justify-content: space-between;
 }
 
-.search-container > svg {
+.search-container>svg {
     height: 24px;
     min-width: 70px;
     align-self: center;
@@ -150,10 +150,10 @@ section.main {
     text-align: center;
 }
 
-footer{
+footer {
     box-shadow: 0 0 5em #4286f460;
     background-color: #ffffff;
-    margin-top:  10%;
+    margin-top: 10%;
     color: #212121;
     padding-left: 15%;
     padding-right: 15%;
