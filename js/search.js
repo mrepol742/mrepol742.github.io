@@ -11,13 +11,6 @@ try {
 	 
 }
 
-/* DISABLE 
-let a = new Date();
-let days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-let b = a.getDay();
-document.getElementById("currD").innerHTML = "<h1>" + days[b] + " " + a.getHours() + ":" + a.getMinutes() + "</h1>";
-*/
-
 var defSH = "https://source.unsplash.com/";
 
 try {
@@ -61,9 +54,16 @@ try {
 		bgde();
 	}
 } catch (a) {
+	const mediaQuery = window.matchMedia('(max-width: 1080px)')
+if (!mediaQuery.matches) {
+	setBg(defSH + "1920x1080?day");
+} else {
 	setBg(defSH + "640x480?day");
 }
+}
 
+// 1280x720
+// 640x480
 function bgde() {
 	if (!WebviumThemeHelper.isCustomBackgroundEnabled()) {
 		if (WebviumThemeHelper.isDarkModeEnabled()) {
@@ -76,7 +76,9 @@ function bgde() {
 	}
 }
 
-function setBg(a) {
+
+
+function setBg(a) {WebviumThemeHelper.getQuality()
 	document.body.style.background = "url('" + a + "') no-repeat fixed center";
 	document.body.style.backgroundSize = "cover";
 }
@@ -243,4 +245,38 @@ if (sq != '') {
 
 window.history.replaceState(null, null, window.location.pathname);
 
-console.log('\n\nWant to use our API? Learn more in our documentation:\nhttps://mrepol742.github.io/webvium/api/\n\n');
+let time = document.getElementById("time");
+let qoute = document.getElementById("qoute");
+let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+updateTime();
+setInterval(function() {
+	updateTime();
+}, 60000)
+
+updateQoute();
+
+setInterval(function() {
+    updateQoute();
+}, 300000)
+
+function updateQoute() {
+	$.ajax({
+		method: 'GET',
+		url: 'https://api.quotable.io/random',
+		contentType: 'application/json',
+		success: function(result) {
+			qoute.innerHTML = "<blockquote>" + result.content + "</blockquote> - " + result.author;
+		},
+		error: function ajaxError(jqXHR) {
+			console.error('Error: ', jqXHR.responseText);
+		}
+	});
+}
+
+function updateTime() {
+	let date = new Date();
+    time.innerHTML = "<h2>Today is <b>" + days[date.getDay()] + "</b>, " + months[date.getMonth()] + " " + date.getDate() + "</h2>";
+	time.innerHTML += "<h4>" + date.getHours() + ":" + date.getMinutes(); + "</h4>";
+}
