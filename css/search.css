@@ -90,6 +90,12 @@ section.main {
     color: #f1f1f1;
 }
 
+@media (max-width:1080px) {
+    .search-container {
+        width: 100% !important;
+    }
+}
+
 #sug {
     display: none;
     flex-direction: column;

@@ -36,12 +36,13 @@ let bsAlert = new  bootstrap.Toast(document.getElementById("privacypolicy"));
 if (pp == "") {
     bsAlert.show();
 }
-} catch (err) {}
-
 document.getElementById("accpt").onclick = function() {
   bsAlert.hide();
   setCookie("pp", "pp", 365);
 }
+
+} catch (err) {}
+
 
 function isSearchPage() {
   if (typeof isSearch === 'undefined') {
