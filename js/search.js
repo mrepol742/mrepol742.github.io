@@ -88,7 +88,7 @@ if (!mediaQuery.matches) {
 }
 
 
-function setBg(a) {WebviumThemeHelper.getQuality()
+function setBg(a) {
 	document.body.style.background = "url('" + a + "') no-repeat fixed center";
 	document.body.style.backgroundSize = "cover";
 }
