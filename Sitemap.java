@@ -13,7 +13,7 @@ class Sitemap {
     private static String footer = "</urlset>";
     private static String body = "<url>\n" +
     "  <loc>%1$s</loc>\n" +
-    "  <lastmod>%2$s</lastmod>\n" +
+    "  %2$s\n" +
     "</url>\n";
     private static StringBuilder sitemap = new StringBuilder();
     private static String url;
@@ -45,8 +45,8 @@ class Sitemap {
         }
         if (file.isDirectory() && !isHome) {
             File root = new File(url+"/index.html");
-            System.out.println(domain + "/   " + format.format(root.lastModified()));
-                    links.add(new Link(domain + "/", format.format(root.lastModified())));
+            System.out.println(domain);
+                    links.add(new Link(domain, "<priority>0.6</priority>"));
                     isHome = true;
         }
         String[] listFiles = file.list();
@@ -55,8 +55,8 @@ class Sitemap {
             if (folder.isDirectory()) {
                 File hasIndex = new File(folder.getAbsolutePath() + "/index.html");
                 if (hasIndex.isFile()) {
-                     System.out.println(domain + hasIndex.getParentFile().getAbsolutePath().replace(url, "") + "/   " + format.format(hasIndex.lastModified()));
-                    links.add(new Link(domain + hasIndex.getParentFile().getAbsolutePath().replace(url, "") + "/", format.format(hasIndex.lastModified())));
+                     System.out.println(domain + hasIndex.getParentFile().getAbsolutePath().replace(url, ""));
+                    links.add(new Link(domain + hasIndex.getParentFile().getAbsolutePath().replace(url, ""), "<priority>0.6</priority>"));
                     find(new File (file.getAbsolutePath() + "/" + str), domain);
                 }
             }
