@@ -9,6 +9,14 @@
   <priority>0.6</priority>
 </url>
 <url>
+  <loc>https://mrepol742.github.io/project-orion/privacypolicy</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://mrepol742.github.io/project-orion/status</loc>
+  <priority>0.6</priority>
+</url>
+<url>
   <loc>https://mrepol742.github.io/link-tree</loc>
   <priority>0.6</priority>
 </url>
