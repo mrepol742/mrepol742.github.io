@@ -6,10 +6,6 @@
     src: url("/assets/MavenPro.woff2") format('woff2');
 }
 
-* {
-    outline: none;
-}
-
 a {
     text-decoration: none;
     cursor: pointer;
@@ -20,6 +16,10 @@ a {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    outline: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .root {
@@ -92,7 +92,9 @@ body {
     word-break: break-all;
     max-width: 80vw;
     hyphens: auto;
-    max-height: 300px;
+    -webkit-user-select: auto;
+    -ms-user-select: auto;
+    user-select:auto;
 }
 
 .chats .me {
@@ -109,6 +111,9 @@ body {
     word-break: break-all;
     max-width: 80vw;
     hyphens: auto;
+    -webkit-user-select: all;
+    -ms-user-select: all;
+    user-select:all;
 }
 
 .edittxt {
