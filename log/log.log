@@ -67,9 +67,10 @@
 "file:/github/workspace/webvium/index.html":335.19-335.25: error: Element "title" not allowed as child of element "a" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/webvium/index.html":343.19-343.25: error: Element "title" not allowed as child of element "a" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/webvium/index.html":597.78-597.81: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/search/index.html":104.7-104.14: error: The "center" element is obsolete. Use CSS instead.
-"file:/github/workspace/search/index.html":230.11-230.16: error: End tag "div" seen, but there were open elements.
-"file:/github/workspace/search/index.html":222.13-222.34: error: Unclosed element "ul".
+"file:/github/workspace/search/index.html":79.7-79.14: error: The "center" element is obsolete. Use CSS instead.
+"file:/github/workspace/search/index.html":205.11-205.16: error: End tag "div" seen, but there were open elements.
+"file:/github/workspace/search/index.html":197.13-197.34: error: Unclosed element "ul".
+"file:/github/workspace/project-orion/chat/index.html":270.11-270.48: error: Element "div" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/assets/console.css":39.43-39.43: error: CSS: "animation": Parse Error.
 "file:/github/workspace/assets/console.css":0.0-0.0: error: CSS: The value "break-word" is deprecated
 "file:/github/workspace/assets/console.css":277.2-278.1: error: CSS: Parse Error.
