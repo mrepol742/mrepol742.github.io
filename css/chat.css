@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/assets/MavenPro.woff2") format('woff2');
+}
+
+* {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+* {
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.root {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    flex: 1;
+}
+
+:root {
+    --et-height: 4rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link,
+.nav-item {
+    color: #212121 !important;
+}
+
+nav {
+    box-shadow: 0 0 5em #4286f460;
+    background-color: #ffffff;
+}
+
+body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chats {
+    padding: 1rem 0;
+    list-style: none;
+    top: 0;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: scroll;
+    flex: 1;
+    height: calc(94vh - 4rem);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.card-group {
+    height: 50vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.chats .mj {
+    background: #ececec;
+    width: auto;
+    margin: 5px;
+    padding: 10px 20px 10px 20px;
+    color: #000;
+    border-radius: 0 30px 30px 30px;
+    clear: both;
+    float: left;
+    position: relative;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    max-width: 80vw;
+    hyphens: auto;
+    max-height: 300px;
+}
+
+.chats .me {
+    background: #4285f4;
+    color: #fff;
+    width: auto;
+    margin: 5px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px 30px 0px 30px;
+    clear: both;
+    float: right;
+    position: relative;
+    overflow-wrap: break-word;
+    word-break: break-all;
+    max-width: 80vw;
+    hyphens: auto;
+}
+
+.edittxt {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: var(--et-height);
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 5em #4286f460;
+    background-color: #ffffff;
+}
+
+.edittxt .txt {
+    height: 100%;
+    flex: 1;
+    border: none;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.edittxt .send {
+    height: 100%;
+    background: #fff;
+    border: none;
+    box-sizing: border-box;
+    padding: 1rem;
+    font-size: 1.4rem;
+    color: #0078ff;
+    display: flex;
+    align-items: center;
+}
+
+textarea {
+    resize: none;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("/images/menu.svg");
+    background-size: 100%;
+    background-position: center center;
+    width: 25px;
+    height: 25px;
+    display: flex;
+}
+
+.navbar-inverse .navbar-toggler-icon {
+    background-image: url("/images/menu.svg");
+    background-size: 100%;
+    background-position: center center;
+    width: 25px;
+    height: 25px;
+    display: flex;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("/images/menu.svg");
+    background-size: 100%;
+    background-position: center center;
+    width: 25px;
+    height: 25px;
+    display: flex;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    border: none;
+    background-color: #4285f4;
+    border-radius: 0.5em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #3a76d8;
+}
+
+.nojs {
+    position: fixed;
+    z-index: 999999;
+    bottom: 0%;
+    left: 0%;
+    right: 0;
+    text-align: center;
+    background-color: #de5246;
+    color: #ffffff;
+    padding: 4px;
+}
+
+.toast {
+    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+    transition: box-shadow .3s;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.text-center {
+    padding-top: 10%;
+}

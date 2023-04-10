@@ -35,10 +35,10 @@ let bsAlert = new  bootstrap.Toast(document.getElementById("privacypolicy"));
 
 if (pp == "") {
     bsAlert.show();
-}
 document.getElementById("accpt").onclick = function() {
   bsAlert.hide();
   setCookie("pp", "pp", 365);
+}
 }
 
 } catch (err) {}

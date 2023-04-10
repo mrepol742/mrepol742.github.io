@@ -119,6 +119,10 @@ nav {
     border: none !important;
 }
 
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 .accordion-button:not(.collapsed) {
     color: #212121;
     background-color: #ffffff;
@@ -370,13 +374,6 @@ html {
 .nav-link,
 .nav-item {
     color: #212121 !important;
-}
-
-.apptag {
-    color: #4285f4;
-    background-color: #4286f438;
-    border-radius: 20px;
-    padding: 8px;
 }
 
 .progress {
