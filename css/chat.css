@@ -95,6 +95,17 @@ body {
     -webkit-user-select: auto;
     -ms-user-select: auto;
     user-select:auto;
+    animation: fadeIn 2s;
+}
+
+.chats .attch {
+    width: auto;
+    border-radius: 0 30px 30px 30px;
+    clear: both;
+    float: left;
+    position: relative;
+    max-width: 80vw;
+    animation: fadeIn 2s;
 }
 
 .chats .me {
@@ -114,6 +125,7 @@ body {
     -webkit-user-select: all;
     -ms-user-select: all;
     user-select:all;
+    animation: fadeIn 2s;
 }
 
 .edittxt {
@@ -229,3 +241,8 @@ textarea {
 .text-center {
     padding-top: 10%;
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
