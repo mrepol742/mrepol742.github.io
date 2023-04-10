@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://mrepol742.github.io/nfom/</loc><priority>0.6</priority></url><url><loc>https://mrepol742.github.io/sketch/</loc><priority>0.6</priority></url><url><loc>https://mrepol742.github.io/wallpaper/</loc><priority>0.6</priority></url><url><loc>https://mrepol742.github.io/calculator/</loc><priority>0.6</priority></url><url><loc>https://mrepol742.github.io/calendar/</loc><priority>0.6</priority></url>
 <url>
   <loc>https://mrepol742.github.io</loc>
   <priority>0.6</priority>
@@ -22,6 +23,10 @@
 </url>
 <url>
   <loc>https://mrepol742.github.io/link-tree</loc>
+  <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://mrepol742.github.io/helloworld</loc>
   <priority>0.6</priority>
 </url>
 <url>
