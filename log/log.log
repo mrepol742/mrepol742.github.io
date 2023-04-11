@@ -67,7 +67,7 @@
 "file:/github/workspace/webvium/index.html":338.19-338.25: error: Element "title" not allowed as child of element "a" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/webvium/index.html":346.19-346.25: error: Element "title" not allowed as child of element "a" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/webvium/index.html":600.78-600.81: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/search/index.html":97.7-97.14: error: The "center" element is obsolete. Use CSS instead.
+"file:/github/workspace/search/index.html":90.7-90.14: error: The "center" element is obsolete. Use CSS instead.
 "file:/github/workspace/search/index.html":228.11-228.16: error: End tag "div" seen, but there were open elements.
 "file:/github/workspace/search/index.html":220.13-220.34: error: Unclosed element "ul".
 "file:/github/workspace/search/index.html":232.9-232.14: error: Stray end tag "div".
