@@ -59,9 +59,8 @@ section.main {
 
 .search-container {
     width: 80%;
-    border-color: #fff;
+    border: none;
     border-radius: 50px;
-    border-style: solid;
     background: rgba(0, 0, 0, .5);
     display: flex;
     justify-content: space-between;
@@ -81,7 +80,7 @@ section.main {
     color: #ffffff;
     padding-left: 20px;
     padding-right: 20px;
-    height: 45px;
+    height: 50px;
     font-size: 14px;
 }
 
@@ -161,18 +160,15 @@ footer {
 }
 
 .wid {
-    width: 80% !important;
+    width: 80%;
     background-color: rgba(0, 0, 0, .5);
     border-radius: 10px;
-    border-style: solid;
+    border: none;
     color: #fff;
 }
 
 .cards {
     width: 80%;
-    border-color: #fff !important;
-    border-width: 4px !important;
-    border-style: solid !important;
     color: #f1f1f1;
     background: rgba(0, 0, 0, .5);
 }
@@ -238,29 +234,6 @@ color: #fff !important;
     color: #fff;
     text-shadow: 0px 0px 4px rgb(73, 67, 67);
     padding-top: 20px;
-}
-
-.chat {
-	position:fixed;
-	width:50px;
-	height:50px;
-	bottom:30px;
-	right:30px;
-	background-color:#4285f4;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-	box-shadow: 2px 2px 3px #4285f4;
-    z-index: 99999;
-}
-
-.chat:hover, .chat:focus{
-    background-color:#454545;
-    box-shadow: 2px 2px 3px #454545;
-}
-
-.chat-icon {
-	margin-top:15px;
 }
 
 .fav {

@@ -370,8 +370,8 @@ function s222(q) {
 
 function updateTime() {
 	let date = new Date();
-    time.innerHTML = "<h2>Today is <b>" + days[date.getDay()] + "</b>, " + months[date.getMonth()] + " " + date.getDate() + "</h2>";
-	time.innerHTML += "<h4>" + date.getHours() + ":" + date.getMinutes(); + "</h4>";
+    currD.innerHTML = "<h1>Today is <b>" + days[date.getDay()] + "</b>, " + months[date.getMonth()] + " " + date.getDate() + "</h1>";
+	time.innerHTML = "<h2>" + date.getHours() + ":" + date.getMinutes(); + "</h2>";
 }
 
 var mrepol742 = "                                               \n" +
