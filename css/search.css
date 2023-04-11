@@ -94,7 +94,7 @@ section.main {
 }
 
 @media (max-width:1080px) {
-    .search-container {
+    .search-container, .cards, #footer{
         width: 100% !important;
     }
 }
@@ -162,6 +162,17 @@ footer {
     padding-right: 15%;
     padding-top: 5%;
     padding-bottom: 2%;
+}
+
+#footer {
+    width: 80% !important;
+}
+
+.cards {
+    width: 80%;
+    border-style: solid;
+    color: #f1f1f1;
+    background: rgba(0, 0, 0, .5);
 }
 
 .card,

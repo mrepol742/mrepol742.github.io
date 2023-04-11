@@ -255,7 +255,8 @@ function find(query) {
 			if (aq.startsWith("https://") || aq.startsWith("http://")) {
 				window.location.href = query;
 			} else {
-				window.location.href = atob("aHR0cHM6Ly9nb29nbGUuY29tL3NlYXJjaD9xPQ==") + query;
+				//window.location.href = atob("aHR0cHM6Ly9nb29nbGUuY29tL3NlYXJjaD9xPQ==") + query;
+				s222(query) 
 			}
 		}
 	}
@@ -300,6 +301,69 @@ function updateQoute() {
 			console.error('Error: ', jqXHR.responseText);
 		}
 	});
+}
+
+function s222(q) {
+	$.ajax({
+        url: "https://project-orion.mrepol853.repl.co/search?" + q,
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        type: "GET",
+        success: function (result) {
+			$('#root').empty();
+			let footer = document.getElementById('footer');
+			footer.style.backgroundColor = "rgba(0, 0, 0, .5)";
+			footer.style.color = "#f1f1f1";
+			footer.style.borderRadius = "15px";
+			let root = document.getElementById('root');
+			let i;
+			for (i = 0; i < result.length; i++) {
+                let card = document.createElement('div');
+				card.setAttribute('class', 'card cards');
+                let body = document.createElement('div');
+				body.setAttribute('class', 'card-body');
+				body.setAttribute('style', 'text-align: left !important;')
+				card.appendChild(body);
+
+                let title = document.createElement('div');
+				title.setAttribute('class', 'row card-title');
+
+				let div = document.createElement('div');
+				div.setAttribute('class', 'col-md-1');
+				let img = document.createElement('img');
+				img.setAttribute('src', result[i].favicons.low_res);
+				img.setAttribute('alt', result[i].title);
+				div.appendChild(img);
+
+				let title1 = document.createElement('h5');
+				title1.innerText = result[i].title;
+				let div1 = document.createElement('div');
+				div1.setAttribute('class', 'col-md-9');
+				div1.appendChild(title1);
+
+
+				title.appendChild(div);
+				title.appendChild(div1);
+			    body.appendChild(title);
+
+				let text = document.createElement('p');
+				text.setAttribute('class', 'card-text');
+				text.innerText = result[i].description;
+				let br = document.createElement('br');
+				text.appendChild(br);
+				let url = document.createElement('a');
+				url.setAttribute('href', result[i].url);
+				url.innerText = result[i].url;
+				text.appendChild(url);
+				body.appendChild(text);
+				root.appendChild(card);
+			}
+        },
+        error: function (result) {
+            console.log(result);
+        }
+    });
 }
 
 function updateTime() {
