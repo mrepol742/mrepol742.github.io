@@ -13,14 +13,23 @@ async function sendMsg() {
     let li = document.createElement('li')
     li.setAttribute('class', 'me')
     li.innerText = txtInp;
-    if (messages.length == 1) {
+    if (messages.length > 1) {
         messages.shift();
     }
+   console.log(JSON.stringify(messages))
     chats.appendChild(li);
     document.getElementById('txt').value = ''
-
+    let construct = "";
+    if (!(messages[0] === undefined)) {
+        construct += messages[0];
+    }
+    if (!(messages[1] === undefined)) {
+        construct += "\nUser:" + messages[1];
+    }
+    construct += "%jk__lio%" + txtInp;
+    console.log(construct)
     $.ajax({
-        url: "https://project-orion.mrepol853.repl.co/chat?" + messages[0] + "%jk__lio%" + txtInp,
+        url: "https://project-orion.mrepol853.repl.co/chat?" + construct,
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
         },
@@ -46,7 +55,7 @@ async function sendMsg() {
                 result = result.replace("\n", "")
             }
             li1.innerText = result;
-            messages.push(result);
+            messages.push(txtInp);
             chats.appendChild(li1);
         }
             $('#chats').animate({
