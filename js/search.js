@@ -218,7 +218,6 @@ node.addEventListener('input', () => {
 					
 					sugItem.addEventListener('click', () => {
 						search.value = comsug[i].suggestion.data;
-						sug.style.display = 'none';
 						find(comsug[i].suggestion.data);
 					});
 				}
@@ -231,6 +230,7 @@ node.addEventListener('input', () => {
 });
 
 function find(query) {
+	sug.style.display = 'none';
 	try {
 		if (query.trim().length != 0) {
 			const aq = query.toLowerCase();
@@ -238,15 +238,23 @@ function find(query) {
 				if (WebviumSearchHelper.isValidDomain(aq)) {
 					window.location.href = query;
 				} else {
-					//window.location.href = WebviumSearchHelper.getSearchEngine() + query;
-					s222(query) 
+					if (Webvium.isDev()) {
+						s222(query);
+						return;
+					}
+					window.location.href = WebviumSearchHelper.getSearchEngine() + query;
+			
 				}
 			} else {
 				if (WebviumSearchHelper.isValidDomain(aq)) {
 					window.location.href = "https://" + query;
 				} else {
-					//window.location.href = WebviumSearchHelper.getSearchEngine() + query;
-					s222(query) 
+					if (Webvium.isDev()) {
+						s222(query);
+						return;
+					}
+					window.location.href = WebviumSearchHelper.getSearchEngine() + query;
+				
 				}
 			}
 			WebviumSearchHelper.saveQuery(query);
@@ -257,8 +265,11 @@ function find(query) {
 			if (aq.startsWith("https://") || aq.startsWith("http://")) {
 				window.location.href = query;
 			} else {
-				//window.location.href = atob("aHR0cHM6Ly9nb29nbGUuY29tL3NlYXJjaD9xPQ==") + query;
-				s222(query) 
+				if (Webvium.isDev()) {
+					s222(query);
+					return;
+				}
+				window.location.href = atob("aHR0cHM6Ly9nb29nbGUuY29tL3NlYXJjaD9xPQ==") + query;
 			}
 		}
 	}
