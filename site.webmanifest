@@ -1,7 +1,7 @@
 {
-  "name": "Melvin Jones Repol",
-  "short_name": "Mrepol742",
-  "description": "I'm a Software Engineer with experience in Web Development, SEO, Data Analyst and Computer Troubleshooting. The creator of Webvium. A Self Taught Programer.",
+  "name": "Melvin Jones Repol - Software Engineer",
+  "short_name": "Melvin Jones Repol",
+  "description": "Software Engineer with experience in variety of fields and projects. I love helping and contributing to open source code, programming is one of my passion.",
   "dir": "ltr",
   "lang": "en-US",
   "icons": [
@@ -16,12 +16,35 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#ffffff",
+  "theme_color": "#4285f4",
   "background_color": "#ffffff",
   "display": "standalone",
-  "start_url": "/index.html",
+  "start_url": "/index.html?utm_source=webmanifest",
   "scope": "/",
-  "orientation": "portrait",
+  "shortcuts": [
+    {
+      "name": "Chat - Project Orion",
+      "short_name": "Chat",
+      "description": "Chat is a feature of Project Orion where you can interact with its AI without using messenger.",
+      "url": "/project-orion/chat?utm_source=webmanifest",
+      "icons": [{ "src": "/favicon.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Webvium Search - Search Engine that being borned.",
+      "short_name": "Search",
+      "description": "A Search Engine from Webvium Project that's currently under development progress. The default homepage for the Webvium Browser with style.",
+      "url": "/search?utm_source=webmanifest",
+      "icons": [{ "src": "/search/favicon.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/myportfolio.png",
+      "type": "image/png",
+      "sizes": "1329x629",
+      "form_factor": "wide"
+    }
+  ],
   "prefer_related_applications": false,
   "related_applications": [
     {
@@ -34,38 +57,38 @@
     },
     {
       "platform": "web",
+      "url": "https://mrepol742.github.io/webviumbeta?utm_source=webmanifest"
+    },
+    {
+      "platform": "web",
       "url": "https://mrepol742.github.io/webviumvpn?utm_source=webmanifest"
     },
     {
       "platform": "web",
-      "url": "https://mrepol742.github.io/download?utm_source=webmanifest"
-    },
-    {
-      "platform": "galaxy_store",
       "url": "https://galaxy.store/webvium?utm_source=webmanifest"
     },
     {
-      "platform": "galaxy_store",
+      "platform": "web",
       "url": "https://galaxy.store/webviumdm?utm_source=webmanifest"
     },
     {
-      "platform": "uptodown",
+      "platform": "web",
       "url": "https://webvium.en.uptodown.com/android?utm_source=webmanifest"
     },
     {
-      "platform": "amazon",
+      "platform": "web",
       "url": "https://www.amazon.com/dp/B09TLFJ86L?utm_source=webmanifest"
     },
     {
-      "platform": "uptodown",
+      "platform": "web",
       "url": "https://webvium-vpn.en.uptodown.com/android?utm_source=webmanifest"
     },
     {
-      "platform": "amazon",
+      "platform": "web",
       "url": "https://www.amazon.com/dp/B09TRT8PGF?utm_source=webmanifest"
     },
     {
-      "platform": "getjar",
+      "platform": "web",
       "url": "https://www.getjar.mobi/mobile/990692/Webvium-Browser-Fast-and-Lightweight?utm_source=webmanifest"
     }
   ]
