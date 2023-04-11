@@ -16,7 +16,6 @@ async function sendMsg() {
     if (messages.length > 1) {
         messages.shift();
     }
-   console.log(JSON.stringify(messages))
     chats.appendChild(li);
     document.getElementById('txt').value = ''
     let construct = "";
@@ -27,7 +26,6 @@ async function sendMsg() {
         construct += "\nUser:" + messages[1];
     }
     construct += "%jk__lio%" + txtInp;
-    console.log(construct)
     $.ajax({
         url: "https://project-orion.mrepol853.repl.co/chat?" + construct,
         headers: {
