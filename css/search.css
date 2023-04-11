@@ -42,7 +42,7 @@ section.main {
 @media (max-width:1080px) {
 
     .container {
-        padding-top: 40% !important;
+        padding-top: 25% !important;
     }
 
     section.main {
@@ -59,7 +59,7 @@ section.main {
 
 .search-container {
     width: 80%;
-    border-width: 0px;
+    border-color: #fff;
     border-radius: 50px;
     border-style: solid;
     background: rgba(0, 0, 0, .5);
@@ -72,10 +72,6 @@ section.main {
     min-width: 70px;
     align-self: center;
     color: #cecece;
-}
-
-.container {
-    padding-top: 15% !important;
 }
 
 #search {
@@ -94,7 +90,7 @@ section.main {
 }
 
 @media (max-width:1080px) {
-    .search-container, .cards, #footer{
+    .search-container, .cards, .wid {
         width: 100% !important;
     }
 }
@@ -164,15 +160,25 @@ footer {
     padding-bottom: 2%;
 }
 
-#footer {
+.wid {
     width: 80% !important;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    border-style: solid;
+    color: #fff;
 }
 
 .cards {
     width: 80%;
-    border-style: solid;
+    border-color: #fff !important;
+    border-width: 4px !important;
+    border-style: solid !important;
     color: #f1f1f1;
     background: rgba(0, 0, 0, .5);
+}
+
+.accordion, .accordion-header, .accordion-item, .accordion-button {
+color: #fff !important;
 }
 
 .card,
@@ -255,4 +261,8 @@ footer {
 
 .chat-icon {
 	margin-top:15px;
+}
+
+.fav {
+    max-width: 20px;
 }

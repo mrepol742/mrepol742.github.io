@@ -258,7 +258,8 @@ function find(query) {
 			if (aq.startsWith("https://") || aq.startsWith("http://")) {
 				window.location.href = query;
 			} else {
-				window.location.href = atob("aHR0cHM6Ly9nb29nbGUuY29tL3NlYXJjaD9xPQ==") + query;
+				s222(query);
+				//window.location.href = atob("aHR0cHM6Ly9nb29nbGUuY29tL3NlYXJjaD9xPQ==") + query;
 			}
 		}
 	}
@@ -314,19 +315,14 @@ function s222(q) {
         type: "GET",
         success: function (result) {
 			$('#root').empty();
-			let footer = document.getElementById('footer');
-			footer.style.backgroundColor = "rgba(0, 0, 0, .5)";
-			footer.style.color = "#f1f1f1";
-			footer.style.borderRadius = "15px";
 			let root = document.getElementById('root');
+			let card = document.createElement('div');
+			card.setAttribute('class', 'card cards');
 			let i;
 			for (i = 0; i < result.length; i++) {
-                let card = document.createElement('div');
-				card.setAttribute('class', 'card cards');
                 let body = document.createElement('div');
 				body.setAttribute('class', 'card-body');
 				body.setAttribute('style', 'text-align: left !important;')
-				card.appendChild(body);
 
                 let title = document.createElement('div');
 				title.setAttribute('class', 'row card-title');
@@ -334,6 +330,7 @@ function s222(q) {
 				let div = document.createElement('div');
 				div.setAttribute('class', 'col-md-1');
 				let img = document.createElement('img');
+				img.setAttribute('class', 'fav');
 				img.setAttribute('src', result[i].favicons.low_res);
 				img.setAttribute('alt', result[i].title);
 				div.appendChild(img);
@@ -342,6 +339,7 @@ function s222(q) {
 				title1.innerText = result[i].title;
 				let div1 = document.createElement('div');
 				div1.setAttribute('class', 'col-md-9');
+				div1.setAttribute('style', 'margin-left: -40px !important');
 				div1.appendChild(title1);
 
 
@@ -359,8 +357,10 @@ function s222(q) {
 				url.innerText = result[i].url;
 				text.appendChild(url);
 				body.appendChild(text);
-				root.appendChild(card);
+				card.appendChild(body);
 			}
+			root.appendChild(card);
+			window.location.href = "#oppp"
         },
         error: function (result) {
             console.log(result);
