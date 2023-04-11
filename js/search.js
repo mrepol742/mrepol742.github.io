@@ -265,10 +265,6 @@ function find(query) {
 			if (aq.startsWith("https://") || aq.startsWith("http://")) {
 				window.location.href = query;
 			} else {
-				if (Webvium.isDev()) {
-					s222(query);
-					return;
-				}
 				window.location.href = atob("aHR0cHM6Ly9nb29nbGUuY29tL3NlYXJjaD9xPQ==") + query;
 			}
 		}
