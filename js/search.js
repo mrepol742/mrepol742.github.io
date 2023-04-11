@@ -238,13 +238,15 @@ function find(query) {
 				if (WebviumSearchHelper.isValidDomain(aq)) {
 					window.location.href = query;
 				} else {
-					window.location.href = WebviumSearchHelper.getSearchEngine() + query;
+					//window.location.href = WebviumSearchHelper.getSearchEngine() + query;
+					s222(query) 
 				}
 			} else {
 				if (WebviumSearchHelper.isValidDomain(aq)) {
 					window.location.href = "https://" + query;
 				} else {
-					window.location.href = WebviumSearchHelper.getSearchEngine() + query;
+					//window.location.href = WebviumSearchHelper.getSearchEngine() + query;
+					s222(query) 
 				}
 			}
 			WebviumSearchHelper.saveQuery(query);
