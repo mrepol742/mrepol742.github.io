@@ -4,26 +4,9 @@ try {
 	var v = 28;
 	let vc = getCookie("vr");
     if (vc == "" && v > Webvium.currentVersion()) {
-		try {
-		    if (Webvium.isDev()) {
-				Webvium.showNotification("You are using an outdated version of Webvium Dev.", "Tap here to update or go to https://mrepol742.github.io/webviumdev", "https://mrepol742.github.io/webviumdev");
-			} else if (Webvium.isBeta()) {
-				Webvium.showNotification("You are using an outdated version of Webvium Beta.", "Tap here to update or go to https://mrepol742.github.io/webviumbeta", "https://mrepol742.github.io/webviumbeta");
-			} else {
-				Webvium.showNotification("You are using an outdated version of Webvium.", "Tap here to update or go to https://mrepol742.github.io/webvium", "https://mrepol742.github.io/webvium");
-			}
-		} catch (err) {
-			Webvium.showNotification("You are using an outdated version of Webvium.", "Tap here to update or go to https://mrepol742.github.io/webvium", "https://mrepol742.github.io/webvium");
-		}
+		Webvium.showNotification("You are using an outdated version of Webvium.", "Tap here to update or go to https://mrepol742.github.io/webvium", "https://mrepol742.github.io/webvium");
 		setCookie("vr", v, 1);
 	}
-
-	let prrr = getCookie("prrr");
-	if (prrr == "") {
-		Webvium.showNotification("John Paul Caigas & Marvin we have a meeting.", "Come inbox now!", "https://mrepol742.github.io/project-orion/chat/");
-	    setCookie("prrr", v, 1);
-	}
-
 } catch (wer) {
 	 
 }
