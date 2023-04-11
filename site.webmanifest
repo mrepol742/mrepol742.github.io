@@ -49,6 +49,14 @@
   "related_applications": [
     {
       "platform": "web",
+      "url": "https://mrepol742.github.io/project-orion/chat?utm_source=webmanifest"
+    },
+    {
+      "platform": "web",
+      "url": "https://mrepol742.github.io/search?utm_source=webmanifest"
+    },
+    {
+      "platform": "web",
       "url": "https://mrepol742.github.io/webvium?utm_source=webmanifest"
     },
     {

@@ -373,15 +373,3 @@ function updateTime() {
     currD.innerHTML = "<h1>Today is <b>" + days[date.getDay()] + "</b>, " + months[date.getMonth()] + " " + date.getDate() + "</h1>";
 	time.innerHTML = "<h2>" + date.getHours() + ":" + date.getMinutes(); + "</h2>";
 }
-
-var mrepol742 = "                                               \n" +
-"                                    \"\"#    mmmmmm    mm   mmmm \n" +
-" mmmmm   m mm   mmm   mmmm    mmm     #        #\"   m\"#  \"   \"# \n" +
-" # # #   #\"  \" #\"  #  #\" \"#  #\" \"#    #       m\"   #\" #      m\" \n" +
-" # # #   #     #\"\"\"\"  #   #  #   #    #      m\"   #mmm#m   m\"   \n" +
-" # # #   #     \"#mm\"  ##m#\"  \"#m#\"    \"mm   m\"        #  m#mmmm \n" +
-"                      #                                         \n" +
-                      "                                          \n" +
-"                      ";
-
-console.log(mrepol742, '\nHello World,\n\nCool to see you here!\nWe hope you find what you are looking for.\nFeel free to ask us any questions:\nhttps://facebook.com/melvinjonesrepol\n\nHave a bugless day!\n\n');

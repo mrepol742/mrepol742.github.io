@@ -1,1 +1,10 @@
+User-agent: *
+Disallow: /log/
+
+User-agent: bingbot
+Crawl-delay: 60
+
 Sitemap: https://mrepol742.github.io/sitemap.xml
+Sitemap: https://mrepol742.github.io/sitemap-img.xml
+Sitemap: https://mrepol742.github.io/sitemap-vid.xml
+Sitemap: https://mrepol742.github.io/rss/rss.xml
