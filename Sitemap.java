@@ -9,7 +9,7 @@ class Sitemap {
 
     private static List<Link> links = new ArrayList<>();
     private static SimpleDateFormat format =  new SimpleDateFormat("yyyy-MM-dd", Locale.US);
-    private static String header = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url><loc>https://mrepol742.github.io/nfom/</loc><priority>0.6</priority></url><url><loc>https://mrepol742.github.io/sketch/</loc><priority>0.6</priority></url><url><loc>https://mrepol742.github.io/wallpaper/</loc><priority>0.6</priority></url><url><loc>https://mrepol742.github.io/calculator/</loc><priority>0.6</priority></url><url><loc>https://mrepol742.github.io/calendar/</loc><priority>0.6</priority></url>\n";
+    private static String header = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url><loc>https://mrepol742.github.io/valentines/</loc><priority>0.6</priority></url><url><loc>https://mrepol742.github.io/nfom/</loc><priority>0.6</priority></url><url><loc>https://mrepol742.github.io/sketch/</loc><priority>0.6</priority></url><url><loc>https://mrepol742.github.io/wallpaper/</loc><priority>0.6</priority></url><url><loc>https://mrepol742.github.io/calculator/</loc><priority>0.6</priority></url><url><loc>https://mrepol742.github.io/calendar/</loc><priority>0.6</priority></url>\n";
     private static String footer = "</urlset>";
     private static String body = "<url>\n" +
     "  <loc>%1$s</loc>\n" +
