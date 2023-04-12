@@ -25,7 +25,7 @@
     {
       "name": "Chat - Project Orion",
       "short_name": "Chat",
-      "description": "Chat is a feature of Project Orion where you can interact with its AI without using messenger.",
+      "description": "Chat is a feature of Project Orion that's currently under development where in you can interact with the project AI. If you found any issues please let us know.",
       "url": "/project-orion/chat?utm_source=webmanifest",
       "icons": [{ "src": "/favicon.png", "sizes": "192x192" }]
     },
