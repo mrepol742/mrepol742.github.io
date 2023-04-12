@@ -72,7 +72,4 @@
 "file:/github/workspace/search/index.html":220.13-220.34: error: Unclosed element "ul".
 "file:/github/workspace/search/index.html":232.9-232.14: error: Stray end tag "div".
 "file:/github/workspace/project-orion/chat/index.html":283.11-283.48: error: Element "div" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-"file:/github/workspace/assets/console.css":39.43-39.43: error: CSS: "animation": Parse Error.
-"file:/github/workspace/assets/console.css":0.0-0.0: error: CSS: The value "break-word" is deprecated
-"file:/github/workspace/assets/console.css":277.2-278.1: error: CSS: Parse Error.
 "file:/github/workspace/assets/bootstrap.min.css":0.0-0.0: error: CSS: org.w3c.css.values.CssNumber cannot be cast to org.w3c.css.values.CssCalc.
