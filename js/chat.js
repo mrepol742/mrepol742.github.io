@@ -90,3 +90,9 @@ input.addEventListener("keypress", function(evt) {
         document.getElementById("send").click();
     }
 });
+
+var sq = location.search.split('msg=')[1] ? location.search.split('msg=')[1] : '';
+if (sq != '') {
+    document.getElementById('txt').innerText = sq;
+    sendMsg();
+}

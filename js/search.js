@@ -248,16 +248,14 @@ function find(query) {
 	}
 }
 
-var sq = location.search.split('q=')[1] ? location.search.split('q=')[1] : '';
-var re = location.search.split('r=')[1] ? location.search.split('r=')[1] : false;
+var sq = location.search.split('query=')[1] ? location.search.split('query=')[1] : '';
+var re = location.search.split('rd=')[1] ? location.search.split('rd=')[1] : false;
 if (sq != '') {
 	document.getElementById("search").value = sq;
 	if (re) {
 		find(sq);
 	}
 }
-
-window.history.replaceState(null, null, window.location.pathname);
 
 let time = document.getElementById("time");
 let qoute = document.getElementById("qoute");

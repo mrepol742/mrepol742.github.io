@@ -145,5 +145,3 @@ function setCookie(cname, cvalue, exdays) {
     var x = document.querySelectorAll("#tst");
     x[0].style.setProperty("display", "none", "important");
   }
-  
-  window.history.replaceState(null, null, window.location.pathname);

@@ -69,12 +69,15 @@ function changeTheme() {
   }
 }
 
+/*
+doesnt need anymore but comment out just incase i need it back 
 let stateCheck = setInterval(() => {
   if (document.readyState === 'complete') {
     window.history.replaceState(null, null, window.location.pathname);
     clearInterval(stateCheck);
   }
 }, 100);
+*/
 
 
 var mrepol742 = "                                               \n" +
@@ -87,4 +90,4 @@ var mrepol742 = "                                               \n" +
                       "                                          \n" +
 "                      ";
 
-console.log(mrepol742, '\nHello World,\n\nCool to see you here!\nWe hope you find what you are looking for.\nFeel free to ask us any questions:\nhttps://facebook.com/melvinjonesrepol\n\nHave a bugless day!\n\n');
+console.log(mrepol742, '\nHello World,\n\nCool to see you here!\nWe hope you find what you are looking for.\nThis site is open source https://github.com/mrepol742/mrepol742.github.io if you have new ideas, changes or if you found a bug let me know.\n\nHave a bugless day ahead!\n-mrepol742\n\n');

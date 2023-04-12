@@ -1,7 +1,19 @@
 User-agent: *
 Disallow: /log/
-
-User-agent: bingbot
+Disallow: /?
+DIsallow: /index.html?
+Allow: /?hl=
+Disallow: /search?
+Allow: /search?hl=
+Disallow: /search/?
+Disallow: /search/index.html?
+Disallow: /project-orion/chat?
+Disallow: /project-orion/chat/?
+Disallow: /project-orion/chat/index.html?
+Disallow: /*/download?
+Disallow: /*/download/?
+Disallow: /*/download/index.html?
+Disallow: /*.json
 Crawl-delay: 60
 
 Sitemap: https://mrepol742.github.io/sitemap.xml
