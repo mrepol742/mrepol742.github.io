@@ -296,13 +296,31 @@ function s222(q) {
         type: "GET",
         success: function (result) {
 			$('#root').empty();
+			s223(q);
 			let root = document.getElementById('root');
 			let card = document.createElement('div');
 			card.setAttribute('class', 'card cards');
+			let divimg = document.createElement('div');
+			divimg.setAttribute('class', 'images');
+			let divimgh = document.createElement('div');
+			divimgh.setAttribute('class', 'holder');
+			divimgh.setAttribute('id', 'root1');
+			divimg.appendChild(divimgh);
+			card.appendChild(divimg);
 			let i;
 			for (i = 0; i < result.length; i++) {
+                if (i == 4) {
+					let divimg = document.createElement('div');
+			        divimg.setAttribute('class', 'images');
+			        let divimgh = document.createElement('div');
+			        divimgh.setAttribute('class', 'holder');
+			        divimgh.setAttribute('id', 'root2');
+			        divimg.appendChild(divimgh);
+			        card.appendChild(divimg);
+				}
                 let body = document.createElement('div');
 				body.setAttribute('class', 'card-body');
+				body.setAttribute('id', 'cardbbb');
 				body.setAttribute('style', 'text-align: left !important;')
 
                 let title = document.createElement('div');
@@ -343,6 +361,35 @@ function s222(q) {
 			root.appendChild(card);
 			window.location.href = "#oppp"
         },
+        error: function (result) {
+            console.log(result);
+        }
+    });
+}
+
+function s223(q) {
+	$.ajax({
+        url: "https://project-orion.mrepol853.repl.co/searchimg?" + q,
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        type: "GET",
+        success: function (result) {
+			let root = document.getElementById('root1');
+			let second = document.getElementById('root2');
+			for (i = 0; i < 40 && i < result.length;  i++) {
+				let img = document.createElement('img');
+				img.setAttribute('class', 'preview');
+				img.setAttribute('loading', 'lazy');
+				img.setAttribute('src', result[i].url);
+				img.setAttribute('alt', result[i].origin.title);
+				if (i % 2 === 0) {
+					root.appendChild(img);
+				} else {
+					second.appendChild(img);
+				}
+			}
+		},
         error: function (result) {
             console.log(result);
         }
