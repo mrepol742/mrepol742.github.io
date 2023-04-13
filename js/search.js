@@ -249,12 +249,9 @@ function find(query) {
 }
 
 var sq = location.search.split('query=')[1] ? location.search.split('query=')[1] : '';
-var re = location.search.split('rd=')[1] ? location.search.split('rd=')[1] : false;
 if (sq != '') {
 	document.getElementById("search").value = sq;
-	if (re) {
-		find(sq);
-	}
+	find(sq);
 }
 
 let time = document.getElementById("time");
@@ -288,6 +285,7 @@ function updateQoute() {
 }
 
 function s222(q) {
+	document.title = q + " | Webvium Search";
 	$.ajax({
         url: "https://project-orion.mrepol853.repl.co/search?" + q,
         headers: {
