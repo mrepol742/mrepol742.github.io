@@ -318,6 +318,7 @@ function s222(q) {
 				}
                 let body = document.createElement('div');
 				body.setAttribute('class', 'card-body');
+				body.setAttribute('onclick', '$(\'#url' + i + '\')[0].click();')
 				body.setAttribute('id', 'cardbbb');
 				body.setAttribute('style', 'text-align: left !important;')
 
@@ -336,7 +337,7 @@ function s222(q) {
 				title1.innerText = result[i].title;
 				let div1 = document.createElement('div');
 				div1.setAttribute('class', 'col-md-9');
-				div1.setAttribute('style', 'margin-left: -40px !important');
+			//	div1.setAttribute('style', 'margin-left: -40px !important');
 				div1.appendChild(title1);
 
 
@@ -351,6 +352,7 @@ function s222(q) {
 				text.appendChild(br);
 				let url = document.createElement('a');
 				url.setAttribute('href', result[i].url);
+				url.setAttribute('id', "url" + i);
 				url.innerText = result[i].url;
 				text.appendChild(url);
 				body.appendChild(text);

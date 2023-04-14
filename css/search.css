@@ -316,3 +316,11 @@ color: #fff !important;
 ::-webkit-scrollbar-thumb:hover {
     background-color: #3a76d8;
 }
+
+.col-md-1 {
+width: 24px;
+}
+
+.col-md-9 {
+    width: auto;
+}
