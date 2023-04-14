@@ -9,6 +9,12 @@
 a {
     text-decoration: none;
     cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+a:hover {
+    color: #000000;
+    transition: all 0.5s ease;
 }
 
 * {
@@ -171,26 +177,8 @@ textarea {
     box-shadow: none;
 }
 
-.navbar-light .navbar-toggler-icon {
-    background-image: url("/images/menu.svg");
-    background-size: 100%;
-    background-position: center center;
-    width: 25px;
-    height: 25px;
-    display: flex;
-}
-
-.navbar-inverse .navbar-toggler-icon {
-    background-image: url("/images/menu.svg");
-    background-size: 100%;
-    background-position: center center;
-    width: 25px;
-    height: 25px;
-    display: flex;
-}
-
-.custom-toggler .navbar-toggler-icon {
-    background-image: url("/images/menu.svg");
+.navbar-toggler-icon {
+    background-image: url("/images/chevron-down.svg");
     background-size: 100%;
     background-position: center center;
     width: 25px;
@@ -199,7 +187,7 @@ textarea {
 }
 
 ::-webkit-scrollbar {
-    width: 13px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -209,7 +197,7 @@ textarea {
 ::-webkit-scrollbar-thumb {
     border: none;
     background-color: #4285f4;
-    border-radius: 0.5em;
+    border-radius: 0.2em;
 }
 
 ::-webkit-scrollbar-thumb:hover {

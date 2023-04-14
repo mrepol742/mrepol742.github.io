@@ -87,6 +87,9 @@
     <image:loc>https://mrepol742.github.io/images/myportfolio.png</image:loc>
 </image:image>
  <image:image>
+    <image:loc>https://mrepol742.github.io/images/chevron-down.svg</image:loc>
+</image:image>
+ <image:image>
     <image:loc>https://mrepol742.github.io/images/319740793_675470854050375_5531461446004254416_n.jpg</image:loc>
 </image:image>
  <image:image>
@@ -105,6 +108,9 @@
     <image:loc>https://mrepol742.github.io/images/androidstudio.jpg</image:loc>
 </image:image>
  <image:image>
+    <image:loc>https://mrepol742.github.io/images/chevron-up.svg</image:loc>
+</image:image>
+ <image:image>
     <image:loc>https://mrepol742.github.io/images/ZeroTeaTime.png</image:loc>
 </image:image>
  <image:image>
@@ -112,9 +118,6 @@
 </image:image>
  <image:image>
     <image:loc>https://mrepol742.github.io/images/webvium-4.jpg</image:loc>
-</image:image>
- <image:image>
-    <image:loc>https://mrepol742.github.io/images/menu.svg</image:loc>
 </image:image>
  <image:image>
     <image:loc>https://mrepol742.github.io/images/webvium_transparent_icon.png</image:loc>

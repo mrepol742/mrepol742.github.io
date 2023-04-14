@@ -19,10 +19,12 @@
 a {
     color: #4285f4;
     text-decoration: none !important;
+    transition: all 0.5s ease;
 }
 
 a:hover {
     color: #000000;
+    transition: all 0.5s ease;
 }
 
 * {
@@ -64,13 +66,12 @@ section.main {
     background: rgba(0, 0, 0, .5);
     display: flex;
     justify-content: space-between;
+    transition: all 1s ease;
 }
 
 .search-container:hover {
-    background: rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, .7);
     transition: all 1s ease;
-    border-radius: 10px;
-    border: none;
 }
 
 .search-container>svg {
@@ -191,6 +192,11 @@ footer {
 color: #fff !important;
 }
 
+.card-header, .accordion-button, .accordion-header {
+    transition: all 0.5s ease;
+}
+
+
 .card,
 .accordion,
 .modal-content,
@@ -300,7 +306,7 @@ color: #fff !important;
 }
 
 ::-webkit-scrollbar {
-    width: 13px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -310,7 +316,7 @@ color: #fff !important;
 ::-webkit-scrollbar-thumb {
     border: none;
     background-color: #4285f4;
-    border-radius: 0.5em;
+    border-radius: 0.2em;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -324,3 +330,61 @@ width: 24px;
 .col-md-9 {
     width: auto;
 }
+
+@keyframes ld {
+    0%{
+    margin-left: 0px;
+    }
+    
+    10%{
+    margin-left: 41px;
+    }
+    
+    20%{
+    margin-left: 0px;
+    }
+    
+    30%{
+    margin-left: 164px;
+    }
+    
+    40%{
+    margin-left: 328px;
+    }
+    
+    50%{
+    margin-left: 164px;
+    }
+    
+    60%{
+    margin-left: 0px;
+    }
+    
+    70%{
+    margin-left: 200px;
+    }
+    
+    80%{
+    margin-left: 328px;
+    }
+    
+    90%{
+    margin-left: 0px;
+    }
+    
+    100%{
+    margin-left: 480px;
+    }
+    }
+    
+    .lo2 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    color: #ffffff;
+    height: 5px;
+    right: 0%;
+    background-color: transparent;
+    animation:ld 5s linear infinite;
+    animation-play-state:running;
+    }

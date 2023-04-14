@@ -79,6 +79,19 @@ let stateCheck = setInterval(() => {
 }, 100);
 */
 
+try {
+  
+let isShow = true;
+qwe111.addEventListener("click", function() {
+    if (isShow) {
+        isShow = false;
+        qwe.style.background = 'url("/images/chevron-up.svg")';
+    } else {
+        isShow = true;
+        qwe.style.background = 'url("/images/chevron-down.svg")';
+    }
+});
+} catch (er) {}
 
 var mrepol742 = "                                               \n" +
 "                                    \"\"#    mmmmmm    mm   mmmm \n" +

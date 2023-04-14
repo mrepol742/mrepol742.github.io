@@ -42,15 +42,30 @@ hr {
     scroll-behavior: smooth;
 }
 
-
 a {
     color: #4285f4;
     text-decoration: none;
     cursor: pointer;
+    transition: all 0.5s ease;
 }
 
 a:hover {
     color: #000000;
+    transition: all 0.5s ease;
+}
+
+.nav-link, .navbar-brand{
+    color: #000;
+    transition: all 0.5s ease;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+     background-color: rgba(0, 0, 0, .3);
+     padding-left: 17px;
+     padding-right: 17px;
+     border-radius: 8px;
+     border: none;
+     transition: all 0.5s ease;
 }
 
 section.main {
@@ -62,7 +77,6 @@ section.main {
 nav {
     box-shadow: 0 0 5em #4286f460;
     background-color: #ffffff;
-    margin-bottom: 6%;
 }
 
 .imgc {
@@ -134,6 +148,10 @@ nav {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
 }
 
+.card-header, .accordion-button, .accordion-header {
+    transition: all 0.5s ease;
+}
+
 .accordion-button:hover,
 .accordion-button:active,
 .accordion-header:hover,
@@ -142,12 +160,14 @@ nav {
     color: white;
     border-radius: 5px !important;
     border: none !important;
+    transition: all 1s ease;
 }
 
 .card:hover,
 .accordion:hover {
     transition: box-shadow .3s;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+    transition: all 0.5s ease;
 }
 
 .card-header,
@@ -350,7 +370,7 @@ footer {
 }
 
 ::-webkit-scrollbar {
-    width: 13px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -360,7 +380,7 @@ footer {
 ::-webkit-scrollbar-thumb {
     border: none;
     background-color: #4285f4;
-    border-radius: 0.5em;
+    border-radius: 0.2em;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -388,8 +408,8 @@ html {
     padding-left: 10px;
 }
 
-.navbar-light .navbar-toggler-icon {
-    background-image: url("/images/menu.svg");
+.navbar-toggler-icon {
+    background-image: url("/images/chevron-down.svg");
     background-size: 100%;
     background-position: center center;
     width: 25px;
@@ -397,20 +417,6 @@ html {
     display: flex;
 }
 
-.navbar-inverse .navbar-toggler-icon {
-    background-image: url("/images/menu.svg");
-    background-size: 100%;
-    background-position: center center;
-    width: 25px;
-    height: 25px;
-    display: flex;
-}
-
-.custom-toggler .navbar-toggler-icon {
-    background-image: url("/images/menu.svg");
-    background-size: 100%;
-    background-position: center center;
-    width: 25px;
-    height: 25px;
-    display: flex;
+#qwe {
+    transition: all 0.7s ease;
 }
