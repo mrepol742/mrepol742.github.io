@@ -102,12 +102,15 @@ body {
 }
 
 .chats .attch {
+    background-color: transparent !important;
+    padding: 0 !important;
+    margin-left: 5px;
     width: auto;
     border-radius: 3px 20px 20px 20px;
     clear: both;
     float: left;
     position: relative;
-    max-width: 90vw;
+    max-width: 80vw;
     transition: all 1s ease;
 }
 
