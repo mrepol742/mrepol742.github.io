@@ -85,7 +85,7 @@ body {
 }
 
 .chats .mj {
-    background: #ececec;
+    background: #f3f3f3;
     width: auto;
     margin: 5px;
     padding: 10px 20px 10px 20px;
@@ -98,7 +98,7 @@ body {
     -webkit-user-select: auto;
     -ms-user-select: auto;
     user-select:auto;
-    animation: fadeIn 2s;
+    transition: all 1s ease;
 }
 
 .chats .attch {
@@ -108,7 +108,7 @@ body {
     float: left;
     position: relative;
     max-width: 80vw;
-    animation: fadeIn 2s;
+    transition: all 1s ease;
 }
 
 .chats .me {
@@ -125,7 +125,7 @@ body {
     -webkit-user-select: all;
     -ms-user-select: all;
     user-select:all;
-    animation: fadeIn 2s;
+    transition: all 1s ease;
 }
 
 @media (max-width:1080px) {
@@ -226,11 +226,26 @@ textarea {
     border: none;
 }
 
+.chats .mj:hover, .chats .attch:hover, .chats .me:hover, .toast:hover {
+    transition: box-shadow .3s;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+    transition: all 0.5s ease;
+}
+
 .text-center {
     padding-top: 10%;
 }
 
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
+.btn {
+    border-radius: 7px;
+    padding-left: 6%;
+    padding-right: 6%;
+    transition: all 1s ease;
+}
+
+.btn:focus {
+    background-color: #ffffff;
+    border-color: #4285f4;
+    color: #4285f4;
+    transition: all 1s ease;
+}

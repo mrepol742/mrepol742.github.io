@@ -181,7 +181,7 @@ footer {
     background: rgba(0, 0, 0, .5);
 }
 
-#cardbbb:hover {
+#cardbbb:hover, .images .holder .preview:hover {
     background: rgba(0, 0, 0, .5);
     border-radius: 7px;
     border: none;
@@ -195,7 +195,6 @@ color: #fff !important;
 .card-header, .accordion-button, .accordion-header {
     transition: all 0.5s ease;
 }
-
 
 .card,
 .accordion,
@@ -283,16 +282,9 @@ color: #fff !important;
 .images .holder .preview {
     height: auto; 
     width: auto; 
-    max-width: 200px; 
-    max-height: 200px;
+    max-width: 1000px; 
+    max-height: 250px;
     margin: 0 0.3rem;
-}
-
-.images .holder .preview:hover {
-    padding: 5px;
-    transition: all 1s ease;
-    max-width: 300px; 
-    max-height: 300px;
 }
 
 .preview {
@@ -330,61 +322,3 @@ width: 24px;
 .col-md-9 {
     width: auto;
 }
-
-@keyframes ld {
-    0%{
-    margin-left: 0px;
-    }
-    
-    10%{
-    margin-left: 41px;
-    }
-    
-    20%{
-    margin-left: 0px;
-    }
-    
-    30%{
-    margin-left: 164px;
-    }
-    
-    40%{
-    margin-left: 328px;
-    }
-    
-    50%{
-    margin-left: 164px;
-    }
-    
-    60%{
-    margin-left: 0px;
-    }
-    
-    70%{
-    margin-left: 200px;
-    }
-    
-    80%{
-    margin-left: 328px;
-    }
-    
-    90%{
-    margin-left: 0px;
-    }
-    
-    100%{
-    margin-left: 480px;
-    }
-    }
-    
-    .lo2 {
-    position: absolute;
-    left: 0%;
-    top: 0%;
-    color: #ffffff;
-    height: 5px;
-    right: 0%;
-    background-color: transparent;
-    animation:ld 5s linear infinite;
-    animation-play-state:running;
-    }

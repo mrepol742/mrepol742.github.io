@@ -91,7 +91,7 @@ input.addEventListener("keypress", function(evt) {
     }
 });
 
-var sq = location.search.split('msg=')[1] ? location.search.split('msg=')[1] : '';
+var sq = decodeURI(location.search.split('msg=')[1] ? location.search.split('msg=')[1] : '');
 if (sq != '') {
     document.getElementById('txt').innerText = sq;
     sendMsg();

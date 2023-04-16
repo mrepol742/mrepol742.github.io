@@ -164,7 +164,7 @@ nav {
 }
 
 .card:hover,
-.accordion:hover {
+.accordion:hover, .toast:hover {
     transition: box-shadow .3s;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
     transition: all 0.5s ease;
@@ -342,14 +342,14 @@ footer {
     padding: 15%;
 }
 
-#download_btn {
-    border-radius: 50px;
+.btn {
+    border-radius: 7px;
     padding-left: 6%;
     padding-right: 6%;
     transition: all 1s ease;
 }
 
-#download_btn:hover {
+.btn:focus {
     background-color: #ffffff;
     border-color: #4285f4;
     color: #4285f4;

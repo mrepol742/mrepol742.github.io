@@ -213,7 +213,9 @@ node.addEventListener('input', () => {
 });
 
 function find(query) {
+	query = decodeURI(query)
 	sug.style.display = 'none';
+	$('#root').empty();
 	try {
 		if (query.trim().length != 0) {
 			const aq = query.toLowerCase();
@@ -248,7 +250,7 @@ function find(query) {
 	}
 }
 
-var sq = location.search.split('query=')[1] ? location.search.split('query=')[1] : '';
+var sq = decodeURI(location.search.split('query=')[1] ? location.search.split('query=')[1] : '');
 if (sq != '') {
 	document.getElementById("search").value = sq;
 	find(sq);
@@ -293,13 +295,15 @@ function s222(q) {
         },
         type: "GET",
         success: function (result) {
-			$('#root').empty();
 			s223(q);
 			let root = document.getElementById('root');
 			let card = document.createElement('div');
 			card.setAttribute('class', 'card cards');
 			let divimg = document.createElement('div');
 			divimg.setAttribute('class', 'images');
+			let h3 = document.createElement('h3');
+			h3.innerText = "Images for " + search.value;
+			card.appendChild(h3);
 			let divimgh = document.createElement('div');
 			divimgh.setAttribute('class', 'holder');
 			divimgh.setAttribute('id', 'root1');
@@ -308,6 +312,9 @@ function s222(q) {
 			let i;
 			for (i = 0; i < result.length; i++) {
                 if (i == 4) {
+					let h3 = document.createElement('h3');
+			h3.innerText = "Images for " + search.value;
+			card.appendChild(h3);
 					let divimg = document.createElement('div');
 			        divimg.setAttribute('class', 'images');
 			        let divimgh = document.createElement('div');
@@ -359,7 +366,6 @@ function s222(q) {
 				card.appendChild(body);
 			}
 			root.appendChild(card);
-			window.location.href = "#oppp"
         },
         error: function (result) {
             console.log(result);
