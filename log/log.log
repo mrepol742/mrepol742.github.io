@@ -67,9 +67,9 @@
 "file:/github/workspace/webvium/index.html":339.19-339.25: error: Element "title" not allowed as child of element "a" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/webvium/index.html":347.19-347.25: error: Element "title" not allowed as child of element "a" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/webvium/index.html":601.78-601.81: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/search/index.html":92.7-92.14: error: The "center" element is obsolete. Use CSS instead.
-"file:/github/workspace/search/index.html":230.11-230.16: error: End tag "div" seen, but there were open elements.
-"file:/github/workspace/search/index.html":222.13-222.34: error: Unclosed element "ul".
-"file:/github/workspace/search/index.html":234.9-234.14: error: Stray end tag "div".
+"file:/github/workspace/search/index.html":91.7-91.14: error: The "center" element is obsolete. Use CSS instead.
+"file:/github/workspace/search/index.html":229.11-229.16: error: End tag "div" seen, but there were open elements.
+"file:/github/workspace/search/index.html":221.13-221.34: error: Unclosed element "ul".
+"file:/github/workspace/search/index.html":233.9-233.14: error: Stray end tag "div".
 "file:/github/workspace/project-orion/chat/index.html":284.11-284.48: error: Element "div" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/assets/bootstrap.min.css":0.0-0.0: error: CSS: org.w3c.css.values.CssNumber cannot be cast to org.w3c.css.values.CssCalc.
