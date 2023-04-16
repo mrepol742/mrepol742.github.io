@@ -68,8 +68,12 @@
 "file:/github/workspace/webvium/index.html":382.19-382.25: error: Element "title" not allowed as child of element "a" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/webvium/index.html":636.78-636.81: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/search/index.html":91.7-91.14: error: The "center" element is obsolete. Use CSS instead.
-"file:/github/workspace/search/index.html":229.11-229.16: error: End tag "div" seen, but there were open elements.
-"file:/github/workspace/search/index.html":221.13-221.34: error: Unclosed element "ul".
-"file:/github/workspace/search/index.html":233.9-233.14: error: Stray end tag "div".
+"file:/github/workspace/search/index.html":231.19-231.67: error: Element "a" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/search/index.html":236.19-236.69: error: Element "a" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/search/index.html":241.19-241.56: error: Element "a" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/search/index.html":246.19-246.56: error: Element "a" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/search/index.html":250.11-250.16: error: End tag "div" seen, but there were open elements.
+"file:/github/workspace/search/index.html":230.13-230.34: error: Unclosed element "ul".
+"file:/github/workspace/search/index.html":254.9-254.14: error: Stray end tag "div".
 "file:/github/workspace/project-orion/chat/index.html":285.11-285.48: error: Element "div" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/assets/bootstrap.min.css":0.0-0.0: error: CSS: org.w3c.css.values.CssNumber cannot be cast to org.w3c.css.values.CssCalc.
