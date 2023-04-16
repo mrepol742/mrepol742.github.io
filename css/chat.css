@@ -90,7 +90,7 @@ body {
     margin: 5px;
     padding: 10px 20px 10px 20px;
     color: #000;
-    border-radius: 0 30px 30px 30px;
+    border-radius: 3px 20px 20px 20px;
     clear: both;
     float: left;
     position: relative;
@@ -103,11 +103,11 @@ body {
 
 .chats .attch {
     width: auto;
-    border-radius: 0 30px 30px 30px;
+    border-radius: 3px 20px 20px 20px;
     clear: both;
     float: left;
     position: relative;
-    max-width: 80vw;
+    max-width: 90vw;
     transition: all 1s ease;
 }
 
@@ -117,7 +117,7 @@ body {
     width: auto;
     margin: 5px;
     padding: 10px 20px 10px 20px;
-    border-radius: 30px 30px 0px 30px;
+    border-radius: 20px 20px 3px 20px;
     clear: both;
     float: right;
     position: relative; 
