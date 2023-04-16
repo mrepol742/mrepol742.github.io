@@ -366,6 +366,7 @@ function s222(q) {
 				card.appendChild(body);
 			}
 			root.appendChild(card);
+			wid1.style.display = 'none';
         },
         error: function (result) {
             console.log(result);
