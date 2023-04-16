@@ -1,6 +1,6 @@
 "file:/usr/local/lib/python3.10/idlelib/help.html":979.5-979.42: error: Duplicate ID "cpython-language-and-version".
-"file:/github/workspace/index.html":984.11-984.83: error: Duplicate ID "panelsStayOpen-headingOne232323m12ab4g".
-"file:/github/workspace/index.html":991.11-992.69: error: Duplicate ID "panelsStayOpen-collapseOne232323m12ab4g".
+"file:/github/workspace/index.html":987.11-987.83: error: Duplicate ID "panelsStayOpen-headingOne232323m12ab4g".
+"file:/github/workspace/index.html":994.11-995.69: error: Duplicate ID "panelsStayOpen-collapseOne232323m12ab4g".
 "file:/github/workspace/pinterest-326fc.html":0.294-0.301: error: Element "title" must not be empty.
 "file:/github/workspace/pinterest-326fc.html":0.458-0.571: error: Attribute "background" not allowed on element "table" at this point.
 "file:/github/workspace/pinterest-326fc.html":0.458-0.571: error: The "cellspacing" attribute on the "table" element is obsolete. Use CSS instead.
@@ -64,9 +64,9 @@
 "file:/github/workspace/yandex_b229053f47e9b4b5.html":3.5-3.11: error: Element "head" is missing a required instance of child element "title".
 "file:/github/workspace/google022983bf0cf659ae.html":0.1-0.52: error: Non-space characters found without seeing a doctype first. Expected "<!DOCTYPE html>".
 "file:/github/workspace/google022983bf0cf659ae.html":0.1-0.52: error: Element "head" is missing a required instance of child element "title".
-"file:/github/workspace/webvium/index.html":339.19-339.25: error: Element "title" not allowed as child of element "a" in this context. (Suppressing further errors from this subtree.)
-"file:/github/workspace/webvium/index.html":347.19-347.25: error: Element "title" not allowed as child of element "a" in this context. (Suppressing further errors from this subtree.)
-"file:/github/workspace/webvium/index.html":601.78-601.81: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/index.html":374.19-374.25: error: Element "title" not allowed as child of element "a" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/webvium/index.html":382.19-382.25: error: Element "title" not allowed as child of element "a" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/webvium/index.html":636.78-636.81: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/search/index.html":91.7-91.14: error: The "center" element is obsolete. Use CSS instead.
 "file:/github/workspace/search/index.html":229.11-229.16: error: End tag "div" seen, but there were open elements.
 "file:/github/workspace/search/index.html":221.13-221.34: error: Unclosed element "ul".
