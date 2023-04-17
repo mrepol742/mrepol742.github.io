@@ -1,6 +1,6 @@
 "file:/usr/local/lib/python3.10/idlelib/help.html":979.5-979.42: error: Duplicate ID "cpython-language-and-version".
-"file:/github/workspace/index.html":987.11-987.83: error: Duplicate ID "panelsStayOpen-headingOne232323m12ab4g".
-"file:/github/workspace/index.html":994.11-995.69: error: Duplicate ID "panelsStayOpen-collapseOne232323m12ab4g".
+"file:/github/workspace/index.html":996.11-996.83: error: Duplicate ID "panelsStayOpen-headingOne232323m12ab4g".
+"file:/github/workspace/index.html":1003.11-1004.69: error: Duplicate ID "panelsStayOpen-collapseOne232323m12ab4g".
 "file:/github/workspace/pinterest-326fc.html":0.294-0.301: error: Element "title" must not be empty.
 "file:/github/workspace/pinterest-326fc.html":0.458-0.571: error: Attribute "background" not allowed on element "table" at this point.
 "file:/github/workspace/pinterest-326fc.html":0.458-0.571: error: The "cellspacing" attribute on the "table" element is obsolete. Use CSS instead.
