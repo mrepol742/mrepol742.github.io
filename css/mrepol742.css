@@ -68,7 +68,7 @@ a:hover {
      transition: all 0.5s ease;
 }
 
-section.main {
+main {
     margin-top: 2%;
     margin-left: 15%;
     margin-right: 15%;
@@ -198,7 +198,7 @@ p.top {
 
 @media (max-width:1080px) {
 
-    section.main {
+    main {
         margin-left: 4%;
         margin-right: 4%;
         margin-top: 5% !important;

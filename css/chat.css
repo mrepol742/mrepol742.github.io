@@ -23,9 +23,6 @@ a:hover {
     padding: 0;
     scroll-behavior: smooth;
     outline: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 .root {
@@ -37,10 +34,6 @@ a:hover {
 
 :root {
     --et-height: 4rem;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 .nav-link,
@@ -95,9 +88,6 @@ body {
     float: left;
     position: relative;
     max-width: 65vw; 
-    -webkit-user-select: auto;
-    -ms-user-select: auto;
-    user-select:auto;
     transition: all 1s ease;
 }
 
@@ -125,9 +115,6 @@ body {
     float: right;
     position: relative; 
     max-width: 65vw; 
-    -webkit-user-select: all;
-    -ms-user-select: all;
-    user-select:all;
     transition: all 1s ease;
 }
 
