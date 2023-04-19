@@ -31,7 +31,7 @@ class Sitemap {
             sitemap.append(String.format(body, link.url, link.date));
         }
         sitemap.append(footer);
-        if (write(new File(url + "/sitemap.xml"), sitemap.toString(), false)) {
+        if (write(new File(url + "/sitemap-pages.xml"), sitemap.toString(), false)) {
             System.out.println("Sitemap generated for " + domain);
         } else {
             System.out.println("Failed to generate sitemap.");
