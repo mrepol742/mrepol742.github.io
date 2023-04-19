@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.google.com/schemas/sitemap/0.84">
   <sitemap>
@@ -10,7 +9,7 @@
   <sitemap>
     <loc>https://mrepol742.github.io/sitemap-vid.xml</loc>
   </sitemap>
-    <sitemap>
+ <sitemap>
     <loc>https://mrepol742.github.io/sitemap-wayback.xml</loc>
   </sitemap>
 </sitemapindex>
