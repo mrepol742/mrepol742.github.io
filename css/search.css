@@ -36,7 +36,7 @@ a:hover {
 }
 
 main {
-    padding-top: 5%;
+    padding-top: 2%;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -45,6 +45,11 @@ main {
 
     .container {
         padding-top: 25% !important;
+    }
+
+    .container-fluid {
+        margin-left: 8%;
+        margin-right: 8%;
     }
 
     main {
@@ -97,7 +102,7 @@ main {
 }
 
 @media (max-width:1080px) {
-    .search-container, .cards, .wid {
+    .search-container, .wid {
         width: 100% !important;
     }
 }
@@ -176,16 +181,19 @@ footer {
 }
 
 .cards {
-    width: 80%;
-    color: #f1f1f1;
-    background: rgba(0, 0, 0, .5);
+    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+    transition: box-shadow .3s;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
 }
 
 #cardbbb:hover, .images .holder .preview:hover {
-    background: rgba(0, 0, 0, .5);
-    border-radius: 7px;
-    border: none;
-    transition: all 1s ease;
+    transition: box-shadow .3s;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+    transition: all 0.5s ease;
 }
 
 .accordion, .accordion-header, .accordion-item, .accordion-button {
@@ -329,4 +337,54 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   transition: background-color 5000s ease-in-out 0s;
   -webkit-text-fill-color: #fff !important;
+}
+
+.nav-link, .navbar-brand{
+    color: #000;
+    transition: all 0.5s ease;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+     background-color: rgba(0, 0, 0, .3);
+     padding-left: 17px;
+     padding-right: 17px;
+     border-radius: 8px;
+     border: none;
+     transition: all 0.5s ease;
+}
+
+nav {
+    box-shadow: 0 0 5em #4286f460;
+    background-color: #ffffff;
+}
+
+.container-fluid {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1.2%;
+}
+
+.form-inline {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.igtt {
+    margin: 1%;
+}
+
+#search1 {
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+}
+
+.navbar-toggler-icon {
+    background-image: url("/images/chevron-down.svg");
+    background-size: 100%;
+    background-position: center center;
+    width: 25px;
+    height: 25px;
+    display: flex;
 }

@@ -101,11 +101,15 @@ function setColor(a) {
 	document.body.style.backgroundColor = a;
 }
 
-const node = document.getElementById("search");
-
-node.addEventListener("keyup", function (event) {
+search.addEventListener("keyup", function (event) {
 	if (event.key === "Enter") {
 		find(search.value);
+	}
+});
+
+search1.addEventListener("keyup", function (event) {
+	if (event.key === "Enter") {
+		find(search1.value);
 	}
 });
 
@@ -158,12 +162,11 @@ try {
 	} 
 } catch (a) { }
 
-let but = document.getElementById("but");
 but.addEventListener('click', () => {
 	find(search.value);
 });
 
-node.addEventListener('input', () => {
+search.addEventListener('input', () => {
 	try {
 		if (WebviumSearchSuggestion.isSearchSuggestionsEnabled()) {
 			var inp = search.value;
@@ -213,9 +216,12 @@ node.addEventListener('input', () => {
 });
 
 function find(query) {
-	query = decodeURI(query)
+	query = decodeURI(query);
+	document.body.style.background = "#fff";
 	sug.style.display = 'none';
-	$('#root').empty();
+	page1.style.display = 'none';
+	page2.style.display = 'block';
+	header2.style.display = 'block';
 	try {
 		if (query.trim().length != 0) {
 			const aq = query.toLowerCase();
@@ -302,7 +308,8 @@ function s222(q) {
 			let divimg = document.createElement('div');
 			divimg.setAttribute('class', 'images');
 			let h3 = document.createElement('h3');
-			h3.innerText = "Images for " + search.value;
+			h3.setAttribute('class', 'igtt');
+			h3.innerText = "Images for " + q;
 			card.appendChild(h3);
 			let divimgh = document.createElement('div');
 			divimgh.setAttribute('class', 'holder');
@@ -313,8 +320,9 @@ function s222(q) {
 			for (i = 0; i < result.length; i++) {
                 if (i == 4) {
 					let h3 = document.createElement('h3');
-			h3.innerText = "Images for " + search.value;
-			card.appendChild(h3);
+			        h3.innerText = "Images for " + q;
+			        h3.setAttribute('class', 'igtt')
+			        card.appendChild(h3);
 					let divimg = document.createElement('div');
 			        divimg.setAttribute('class', 'images');
 			        let divimgh = document.createElement('div');
@@ -365,6 +373,7 @@ function s222(q) {
 				body.appendChild(text);
 				card.appendChild(body);
 			}
+			$('#root').empty();
 			root.appendChild(card);
 			wid1.style.display = 'none';
         },
