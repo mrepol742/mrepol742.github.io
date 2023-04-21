@@ -67,13 +67,14 @@
 "file:/github/workspace/webvium/index.html":341.17-341.23: error: Element "title" not allowed as child of element "a" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/webvium/index.html":349.17-349.23: error: Element "title" not allowed as child of element "a" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/webvium/index.html":606.76-606.79: error: No "p" element in scope but a "p" end tag seen.
-"file:/github/workspace/search/index.html":89.5-89.12: error: The "center" element is obsolete. Use CSS instead.
-"file:/github/workspace/search/index.html":231.17-231.65: error: Element "a" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-"file:/github/workspace/search/index.html":237.17-237.67: error: Element "a" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-"file:/github/workspace/search/index.html":243.17-243.54: error: Element "a" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-"file:/github/workspace/search/index.html":249.17-249.54: error: Element "a" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
-"file:/github/workspace/search/index.html":254.13-254.18: error: End tag "div" seen, but there were open elements.
-"file:/github/workspace/search/index.html":230.15-230.36: error: Unclosed element "ul".
-"file:/github/workspace/search/index.html":258.7-258.12: error: Stray end tag "div".
+"file:/github/workspace/search/index.html":119.13-119.37: error: Element "div" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/search/index.html":146.5-146.12: error: The "center" element is obsolete. Use CSS instead.
+"file:/github/workspace/search/index.html":284.17-284.65: error: Element "a" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/search/index.html":290.17-290.67: error: Element "a" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/search/index.html":296.17-296.54: error: Element "a" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/search/index.html":302.17-302.54: error: Element "a" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
+"file:/github/workspace/search/index.html":307.13-307.18: error: End tag "div" seen, but there were open elements.
+"file:/github/workspace/search/index.html":283.15-283.36: error: Unclosed element "ul".
+"file:/github/workspace/search/index.html":311.7-311.12: error: Stray end tag "div".
 "file:/github/workspace/project-orion/chat/index.html":254.9-254.46: error: Element "div" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/assets/bootstrap.min.css":0.0-0.0: error: CSS: org.w3c.css.values.CssNumber cannot be cast to org.w3c.css.values.CssCalc.
