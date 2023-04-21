@@ -60,11 +60,7 @@ a:hover {
 }
 
 .nav-link:hover, .navbar-brand:hover {
-     background-color: rgba(0, 0, 0, .3);
-     padding-left: 17px;
-     padding-right: 17px;
-     border-radius: 8px;
-     border: none;
+    color: #4285f4 !important;
      transition: all 0.5s ease;
 }
 
@@ -145,22 +141,20 @@ nav {
 
 .accordion-button:focus {
     outline: 0 !important;
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+    box-shadow: none !important;
 }
 
-.card-header, .accordion-button, .accordion-header {
+.accordion-button {
     transition: all 0.5s ease;
 }
 
 .accordion-button:hover,
-.accordion-button:active,
-.accordion-header:hover,
-.accordion-header:active {
+.accordion-button:active {
     background-color: #4285f4 !important;
     color: white;
     border-radius: 5px !important;
     border: none !important;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
 }
 
 .card:hover,
@@ -248,7 +242,7 @@ p.top {
     border-style: solid;
     border-radius: 50px;
     color: #484848;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
     list-style: none;
 }
 
@@ -262,7 +256,7 @@ p.top {
     color: #ffffff;
     padding-left: 30px;
     padding-right: 30px;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
 }
 
 .asd {
@@ -346,14 +340,14 @@ footer {
     border-radius: 7px;
     padding-left: 6%;
     padding-right: 6%;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
 }
 
 .btn:focus {
     background-color: #ffffff;
     border-color: #4285f4;
     color: #4285f4;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
 }
 
 .deVaaa {

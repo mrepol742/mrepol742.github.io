@@ -1,8 +1,6 @@
-var isSearch = true;
-
 try {
 	var v = 28;
-	let vc = getCookie("vr");
+	var vc = getCookie("vr");
     if (vc == "" && v > Webvium.currentVersion()) {
 		Webvium.showNotification("You are using an outdated version of Webvium.", "Tap here to update or go to https://mrepol742.github.io/webvium", "https://mrepol742.github.io/webvium");
 		setCookie("vr", v, 1);
@@ -75,7 +73,7 @@ function bgde() {
 }
 
 function getFixedSize() {
-	let currentSize = WebviumThemeHelper.getQuality();
+	var currentSize = WebviumThemeHelper.getQuality();
 	const mediaQuery = window.matchMedia('(max-width: 1080px)')
 if (!mediaQuery.matches) {
 	if (currentSize == "1280x720") {
@@ -124,14 +122,14 @@ search1.addEventListener("keyup", function (event) {
 try {
 	var su = WebviumSearchHelper.query().split(":");
 	if (su != "null") {
-		for (let i = 0; i < su.length; i++) {
-			let sugItem = document.createElement('div');
+		for (var i = 0; i < su.length; i++) {
+			var sugItem = document.createElement('div');
 			sugItem.setAttribute('class', 'sug-item');
 
-			let icon = document.createElement('span');
+			var icon = document.createElement('span');
 			//icon.setAttribute('class', 'fa fa-search');
 
-			let text = document.createElement('span');
+			var text = document.createElement('span');
 			text.setAttribute('class', 'text');
 			text.textContent = atob(su[i]);
 
@@ -171,9 +169,9 @@ search.addEventListener('input', () => {
 		if (WebviumSearchSuggestion.isSearchSuggestionsEnabled()) {
 			var inp = search.value;
 			if (inp.trim().length != 0) {
-				let divs = document.querySelectorAll('.sug-item');
+				var divs = document.querySelectorAll('.sug-item');
 
-				for (let i = 0; i < divs.length; i++) {
+				for (var i = 0; i < divs.length; i++) {
 					sug.removeChild(divs[i]);
 				}
 
@@ -185,16 +183,16 @@ search.addEventListener('input', () => {
 				var comsug = topLevel.CompleteSuggestion;
 				var data = "";
 
-				for (let i = 0; i < comsug.length; i++) {
+				for (var i = 0; i < comsug.length; i++) {
 					data += comsug[i].suggestion.data + "<br>";
-					let sugItem = document.createElement('div');
+					var sugItem = document.createElement('div');
 					sugItem.setAttribute('class', 'sug-item');
 
 					
-					let icon = document.createElement('span');
+					var icon = document.createElement('span');
 					icon.textContent = '';
 
-					let text = document.createElement('span');
+					var text = document.createElement('span');
 					text.setAttribute('class', 'text');
 					text.textContent = comsug[i].suggestion.data;
 
@@ -262,10 +260,10 @@ if (sq != '') {
 	find(sq);
 }
 
-let time = document.getElementById("time");
-let qoute = document.getElementById("qoute");
-let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+var time = document.getElementById("time");
+var qoute = document.getElementById("qoute");
+var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 updateTime();
 setInterval(function() {
@@ -302,55 +300,55 @@ function s222(q) {
         type: "GET",
         success: function (result) {
 			s223(q);
-			let root = document.getElementById('root');
-			let card = document.createElement('div');
+			var root = document.getElementById('root');
+			var card = document.createElement('div');
 			card.setAttribute('class', 'card cards');
-			let divimg = document.createElement('div');
+			var divimg = document.createElement('div');
 			divimg.setAttribute('class', 'images');
-			let h3 = document.createElement('h3');
+			var h3 = document.createElement('h3');
 			h3.setAttribute('class', 'igtt');
 			h3.innerText = "Images for " + q;
 			card.appendChild(h3);
-			let divimgh = document.createElement('div');
+			var divimgh = document.createElement('div');
 			divimgh.setAttribute('class', 'holder');
 			divimgh.setAttribute('id', 'root1');
 			divimg.appendChild(divimgh);
 			card.appendChild(divimg);
-			let i;
+			var i;
 			for (i = 0; i < result.length; i++) {
                 if (i == 4) {
-					let h3 = document.createElement('h3');
+					var h3 = document.createElement('h3');
 			        h3.innerText = "Images for " + q;
 			        h3.setAttribute('class', 'igtt')
 			        card.appendChild(h3);
-					let divimg = document.createElement('div');
+					var divimg = document.createElement('div');
 			        divimg.setAttribute('class', 'images');
-			        let divimgh = document.createElement('div');
+			        var divimgh = document.createElement('div');
 			        divimgh.setAttribute('class', 'holder');
 			        divimgh.setAttribute('id', 'root2');
 			        divimg.appendChild(divimgh);
 			        card.appendChild(divimg);
 				}
-                let body = document.createElement('div');
+                var body = document.createElement('div');
 				body.setAttribute('class', 'card-body');
 				body.setAttribute('onclick', '$(\'#url' + i + '\')[0].click();')
 				body.setAttribute('id', 'cardbbb');
 				body.setAttribute('style', 'text-align: left !important;')
 
-                let title = document.createElement('div');
+                var title = document.createElement('div');
 				title.setAttribute('class', 'row card-title');
 
-				let div = document.createElement('div');
+				var div = document.createElement('div');
 				div.setAttribute('class', 'col-md-1');
-				let img = document.createElement('img');
+				var img = document.createElement('img');
 				img.setAttribute('class', 'fav');
 				img.setAttribute('src', result[i].favicons.low_res);
 				img.setAttribute('alt', result[i].title);
 				div.appendChild(img);
 
-				let title1 = document.createElement('h5');
+				var title1 = document.createElement('h5');
 				title1.innerText = result[i].title;
-				let div1 = document.createElement('div');
+				var div1 = document.createElement('div');
 				div1.setAttribute('class', 'col-md-9');
 			//	div1.setAttribute('style', 'margin-left: -40px !important');
 				div1.appendChild(title1);
@@ -360,12 +358,12 @@ function s222(q) {
 				title.appendChild(div1);
 			    body.appendChild(title);
 
-				let text = document.createElement('p');
+				var text = document.createElement('p');
 				text.setAttribute('class', 'card-text');
 				text.innerText = result[i].description;
-				let br = document.createElement('br');
+				var br = document.createElement('br');
 				text.appendChild(br);
-				let url = document.createElement('a');
+				var url = document.createElement('a');
 				url.setAttribute('href', result[i].url);
 				url.setAttribute('id', "url" + i);
 				url.innerText = result[i].url;
@@ -391,10 +389,10 @@ function s223(q) {
         },
         type: "GET",
         success: function (result) {
-			let root = document.getElementById('root1');
-			let second = document.getElementById('root2');
+			var root = document.getElementById('root1');
+			var second = document.getElementById('root2');
 			for (i = 0; i < 40 && i < result.length;  i++) {
-				let img = document.createElement('img');
+				var img = document.createElement('img');
 				img.setAttribute('class', 'preview');
 				img.setAttribute('loading', 'lazy');
 				img.setAttribute('src', result[i].url);
@@ -413,7 +411,7 @@ function s223(q) {
 }
 
 function updateTime() {
-	let date = new Date();
-    currD.innerHTML = "<h1>Today is <b>" + days[date.getDay()] + "</b>, " + months[date.getMonth()] + " " + date.getDate() + "</h1>";
+	var date = new Date();
+    currD.innerHTML = "<h1>" + days[date.getDay()] + " " + months[date.getMonth()] + " " + date.getDate() + "</h1>";
 	time.innerHTML = "<h2>" + date.getHours() + ":" + date.getMinutes(); + "</h2>";
 }

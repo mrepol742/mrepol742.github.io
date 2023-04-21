@@ -1,16 +1,16 @@
-let isLoaded = true;
-let chats = document.getElementById('chats')
-let messages = [];
-let hasChat = true;
+var isLoaded = true;
+var chats = document.getElementById('chats')
+var messages = [];
+var hasChat = true;
 
 async function sendMsg() {
-    let txtInp = document.getElementById('txt').value;
+    var txtInp = document.getElementById('txt').value;
     
     if (txtInp.trim().length == 0) {
         return;
     }
 
-    let li = document.createElement('li')
+    var li = document.createElement('li')
     li.setAttribute('class', 'me')
     li.innerText = txtInp;
     if (messages.length > 1) {
@@ -18,7 +18,7 @@ async function sendMsg() {
     }
     chats.appendChild(li);
     document.getElementById('txt').value = ''
-    let construct = "";
+    var construct = "";
     if (!(messages[0] === undefined)) {
         construct += messages[0];
     }
@@ -35,8 +35,8 @@ async function sendMsg() {
         success: function (result) {
             if (/\[url=/.test(result)) {
                 try {
-                let qq = result.match(/\[(.*?)\]/)[1]
-                let img = document.createElement('img');
+                var qq = result.match(/\[(.*?)\]/)[1]
+                var img = document.createElement('img');
                 img.setAttribute('src', qq.replace("url=", ""));
                 img.setAttribute('class', 'attch w-50 p-3');
                 result = result.replaceAll("[" + qq + "]", "");
@@ -47,7 +47,7 @@ async function sendMsg() {
                 }
             }
             if (result.trim().length != 0) {
-            let li1 = document.createElement('li')
+            var li1 = document.createElement('li')
             li1.setAttribute('class', 'mj')
             if (result.startsWith("\n")) {
                 result = result.replace("\n", "")
@@ -83,7 +83,7 @@ if (isLoaded) {
     isLoaded = false;
 }
 
-let input =  document.getElementById('txt');
+var input =  document.getElementById('txt');
 input.addEventListener("keypress", function(evt) {
     if (evt.key === "Enter" && !evt.shiftKey){
         evt.preventDefault();

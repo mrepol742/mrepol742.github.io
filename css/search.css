@@ -71,12 +71,12 @@ main {
     background: rgba(0, 0, 0, .5);
     display: flex;
     justify-content: space-between;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
 }
 
 .search-container:hover {
     background: rgba(0, 0, 0, .7);
-    transition: all 1s ease;
+    transition: all 0.5s ease;
 }
 
 .search-container>svg {
@@ -196,11 +196,11 @@ footer {
     transition: all 0.5s ease;
 }
 
-.accordion, .accordion-header, .accordion-item, .accordion-button {
+.accordion {
 color: #fff !important;
 }
 
-.card-header, .accordion-button, .accordion-header {
+.card-header, .accordion-button  {
     transition: all 0.5s ease;
 }
 

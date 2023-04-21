@@ -1,13 +1,11 @@
-let items = document.querySelectorAll('.size12');
+var items = document.querySelectorAll('.size12');
 items.forEach((e) => {
   e.innerHTML = updateSize;
 });
-let items3 = document.querySelectorAll('.version');
+var items3 = document.querySelectorAll('.version');
 items3.forEach((e3) => {
   e3.innerHTML = latestVersionName;
 });
-
-
 
 document.getElementById("upda").innerHTML = updateDate;
 
@@ -16,9 +14,9 @@ function download() {
 }
 
 for (var i = 0; i < versionList.length; i++) {
-  let list = document.createElement('li');
+  var list = document.createElement('li');
   list.classList.add('list-group-item');
-  let a = document.createElement('a');
+  var a = document.createElement('a');
   a.setAttribute('href', downloadUrlPrefix.replace("%WEBVIUM%", versionList[i]));
   a.classList.add('btn');
   a.classList.add('webvI');

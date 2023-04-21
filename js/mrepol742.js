@@ -9,16 +9,16 @@ if ('serviceWorker' in navigator) {
 function setCookie(cname, cvalue, exdays) {
   const d = new Date();
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
-  let expires = "expires="+ d.toUTCString();
+  var expires = "expires="+ d.toUTCString();
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
 function getCookie(cname) {
-  let name = cname + "=";
-  let decodedCookie = decodeURIComponent(document.cookie);
-  let ca = decodedCookie.split(';');
-  for(let i = 0; i <ca.length; i++) {
-    let c = ca[i];
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i <ca.length; i++) {
+    var c = ca[i];
     while (c.charAt(0) == ' ') {
       c = c.substring(1);
     }
@@ -29,9 +29,9 @@ function getCookie(cname) {
   return "";
 }
 
-let pp = getCookie("pp");
+var pp = getCookie("pp");
 try {
-let bsAlert = new  bootstrap.Toast(document.getElementById("privacypolicy"));
+var bsAlert = new  bootstrap.Toast(document.getElementById("privacypolicy"));
 
 if (pp == "") {
     bsAlert.show();
@@ -40,48 +40,10 @@ document.getElementById("accpt").onclick = function() {
   setCookie("pp", "pp", 365);
 }
 }
-
 } catch (err) {}
 
-
-function isSearchPage() {
-  if (typeof isSearch === 'undefined') {
-    return false;
-  }
-  return isSearch;
-}
-
-let theme = getCookie("pa");
-if (theme == "pa" && !isSearchPage()) {
-  updateTheme();
-  document.getElementById("theme").setAttribute('style', 'fill: white');
-}
-
-function changeTheme() {
-  let theme = getCookie("pa");
-  updateTheme();
-  if ((theme == "" || theme == "pb" ) && !isSearchPage()) {
-      setCookie("pa", "pa", 365);
-      document.getElementById("theme").setAttribute('style', 'fill: white');
-  } else {
-    setCookie("pa", "pb", 365);
-    document.getElementById("theme").setAttribute('style', 'fill: black');
-  }
-}
-
-/*
-doesnt need anymore but comment out just incase i need it back 
-let stateCheck = setInterval(() => {
-  if (document.readyState === 'complete') {
-    window.history.replaceState(null, null, window.location.pathname);
-    clearInterval(stateCheck);
-  }
-}, 100);
-*/
-
 try {
-  
-let isShow = true;
+var isShow = true;
 qwe111.addEventListener("click", function() {
     if (isShow) {
         isShow = false;
@@ -92,15 +54,3 @@ qwe111.addEventListener("click", function() {
     }
 });
 } catch (er) {}
-
-var mrepol742 = "                                               \n" +
-"                                    \"\"#    mmmmmm    mm   mmmm \n" +
-" mmmmm   m mm   mmm   mmmm    mmm     #        #\"   m\"#  \"   \"# \n" +
-" # # #   #\"  \" #\"  #  #\" \"#  #\" \"#    #       m\"   #\" #      m\" \n" +
-" # # #   #     #\"\"\"\"  #   #  #   #    #      m\"   #mmm#m   m\"   \n" +
-" # # #   #     \"#mm\"  ##m#\"  \"#m#\"    \"mm   m\"        #  m#mmmm \n" +
-"                      #                                         \n" +
-                      "                                          \n" +
-"                      ";
-
-console.log(mrepol742, '\nHello World,\n\nCool to see you here!\nWe hope you find what you are looking for.\nThis site is open source https://github.com/mrepol742/mrepol742.github.io if you have new ideas, changes or if you found a bug let me know.\n\nHave a bugless day ahead!\n-mrepol742\n\n');

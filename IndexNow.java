@@ -14,7 +14,7 @@ class IndexNow {
     }
 
     private static void url(String url) throws IOException {
-		URL obj = new URL(url);
+		URL = new URL(url);
 		HttpURLConnection con = (HttpURLConnection) obj.openConnection();
 		int responseCode = con.getResponseCode();
 		System.out.println("POST Response Code :: " + responseCode);
