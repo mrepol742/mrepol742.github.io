@@ -1,6 +1,6 @@
 "file:/usr/local/lib/python3.10/idlelib/help.html":979.5-979.42: error: Duplicate ID "cpython-language-and-version".
-"file:/github/workspace/index.html":997.9-997.81: error: Duplicate ID "panelsStayOpen-headingOne232323m12ab4g".
-"file:/github/workspace/index.html":1004.9-1005.67: error: Duplicate ID "panelsStayOpen-collapseOne232323m12ab4g".
+"file:/github/workspace/index.html":950.9-950.81: error: Duplicate ID "panelsStayOpen-headingOne232323m12ab4g".
+"file:/github/workspace/index.html":957.9-958.67: error: Duplicate ID "panelsStayOpen-collapseOne232323m12ab4g".
 "file:/github/workspace/pinterest-326fc.html":0.294-0.301: error: Element "title" must not be empty.
 "file:/github/workspace/pinterest-326fc.html":0.458-0.571: error: Attribute "background" not allowed on element "table" at this point.
 "file:/github/workspace/pinterest-326fc.html":0.458-0.571: error: The "cellspacing" attribute on the "table" element is obsolete. Use CSS instead.
@@ -66,7 +66,7 @@
 "file:/github/workspace/google022983bf0cf659ae.html":0.1-0.52: error: Element "head" is missing a required instance of child element "title".
 "file:/github/workspace/webvium/index.html":341.17-341.23: error: Element "title" not allowed as child of element "a" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/webvium/index.html":349.17-349.23: error: Element "title" not allowed as child of element "a" in this context. (Suppressing further errors from this subtree.)
-"file:/github/workspace/webvium/index.html":606.76-606.79: error: No "p" element in scope but a "p" end tag seen.
+"file:/github/workspace/webvium/index.html":602.76-602.79: error: No "p" element in scope but a "p" end tag seen.
 "file:/github/workspace/search/index.html":119.13-119.37: error: Element "div" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/search/index.html":146.5-146.12: error: The "center" element is obsolete. Use CSS instead.
 "file:/github/workspace/search/index.html":284.17-284.65: error: Element "a" not allowed as child of element "ul" in this context. (Suppressing further errors from this subtree.)
