@@ -15,11 +15,12 @@
   <meta property="og:url" content="https://mrepol742.github.io/project-orion/chat">
   <meta property="og:site_name" content="Chat - Project Orion">
   <link rel="license" href="https://raw.githubusercontent.com/mrepol742/mrepol742.github.io/master/LICENSE">
-<link rel="sitemap" type="application/xml" title="Melvin Jones Repol » Sitemap" href="/sitemap.xml">
+  <link rel="sitemap" type="application/xml" title="Melvin Jones Repol » Sitemap" href="/sitemap.xml">
   <link rel="canonical" href="https://mrepol742.github.io/project-orion/chat">
   <link rel="alternate" type="application/rss+xml" title="Melvin Jones Repol » Feed"
     href="https://mrepol742.github.io/rss/rss.xml">
-  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Melvin Jones Repol » Webvium Search">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml"
+    title="Melvin Jones Repol » Webvium Search">
   <meta property="og:description"
     content="Chat is a feature of Project Orion that's currently under development where in you can interact with the project AI. If you found any issues please let us know.">
   <meta property="og:image" content="/images/orion-banner.png">
@@ -78,13 +79,30 @@
   <header>
     <nav class="navbar navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/project-orion/chat/">
-          <img src="/favicon.png" alt="Logo" width="24" class="d-inline-block align-text-top">
+
+        <div class="navbar-brand">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"><title>Menu</title><path fill="#484848" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
+          <img src="/favicon.png" alt="Logo" width="22" class="d-inline-block align-text-top">
           Chat
-        </a>
-        <button class="btn btn-outline-primary" id="newchat" onclick="location.reload();" style="display: none;">
-          New Chat
-        </button>
+          <div class="dropdown">
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li class="dropdown-item" id="clear">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24">
+                  <title>New Chat</title>
+                  <path fill="#484848"
+                    d="M20,4C21.11,4 22,4.89 22,6V18C22,19.11 21.11,20 20,20H4C2.89,20 2,19.11 2,18V6C2,4.89 2.89,4 4,4H20M8.5,15V9H7.25V12.5L4.75,9H3.5V15H4.75V11.5L7.3,15H8.5M13.5,10.26V9H9.5V15H13.5V13.75H11V12.64H13.5V11.38H11V10.26H13.5M20.5,14V9H19.25V13.5H18.13V10H16.88V13.5H15.75V9H14.5V14A1,1 0 0,0 15.5,15H19.5A1,1 0 0,0 20.5,14Z" />
+                </svg>
+                New Chat</li>
+              <li class="dropdown-item">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"><title>Change AI</title><path d="M21,9L17,5V8H10V10H17V13M7,11L3,15L7,19V16H14V14H7V11Z" /></svg>
+                Change AI
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
           aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" id="qwe111">
@@ -251,42 +269,43 @@
       </div>
     </noscript>
     <div id="root" class="root">
-      <ul id="chats" class="chats">
-        <div class="text-center" id="welcome">
-          <h1>Hello, welcome to Project Orion!</h1>
-          <h4>Start conversation by entering your message.</h4>
-          <div style="margin: 1%;">
-            <a href="https://www.buymeacoffee.com/mrepol742">
-              <img loading="lazy"
-                src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"
-                alt="BuyMeACoffee">
-            </a>
+      <div class="text-center" id="welcome">
+        <h1>Hello, welcome to Project Orion!</h1>
+        <h4>Start conversation by entering your message.</h4>
+        <div style="margin: 1%;">
+          <a href="https://www.buymeacoffee.com/mrepol742">
+            <img loading="lazy"
+              src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"
+              alt="BuyMeACoffee">
+          </a>
 
-            <a href="https://www.patreon.com/melvinjonesrepol">
-              <img loading="lazy"
-                src="https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white"
-                alt="Patreon">
-            </a>
+          <a href="https://www.patreon.com/melvinjonesrepol">
+            <img loading="lazy"
+              src="https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white"
+              alt="Patreon">
+          </a>
 
-            <a href="https://paypal.me/mrepol742">
-              <img loading="lazy"
-                src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white"
-                alt="PayPal">
-            </a>
+          <a href="https://paypal.me/mrepol742">
+            <img loading="lazy"
+              src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white"
+              alt="PayPal">
+          </a>
 
-            <a href="https://ko-fi.com/mrepol742">
-              <img loading="lazy"
-                src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white"
-                alt="Ko-Fi">
-            </a>
-          </div>
-          <p><a href="/">mrepol742.github.io</a></p>
+          <a href="https://ko-fi.com/mrepol742">
+            <img loading="lazy"
+              src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white"
+              alt="Ko-Fi">
+          </a>
         </div>
+        <p><a href="/">mrepol742.github.io</a></p>
+      </div>
+      <ul id="chats" class="chats">
+       
       </ul>
 
       <div class="edittxt">
         <textarea id="txt" class="txt" placeholder="Type your message"></textarea>
-        | <button class="send" id="send" onclick="sendMsg()">➤</button>
+        <button class="send" id="send" onclick="sendMsg()"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30"><title>Send</title><path fill="#4285f4" d="M3 20V4L22 12M5 17L16.85 12L5 7V10.5L11 12L5 13.5M5 17V7 13.5Z" /></svg></button>
       </div>
     </div>
   </main>

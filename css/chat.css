@@ -77,21 +77,22 @@ body {
     overflow-y: auto;
 }
 
-.chats .mj {
+.mj {
     background: #f3f3f3;
     width: auto;
     margin: 5px;
     padding: 10px 20px 10px 20px;
     color: #000;
-    border-radius: 3px 20px 20px 20px;
+    border-radius: 3px 15px 15px 15px;
     clear: both;
     float: left;
     position: relative;
     max-width: 65vw; 
-    transition: all 1s ease;
+    min-width: 5vw;
+    transition: all 0.5s ease;
 }
 
-.chats .attch {
+.attch {
     background-color: transparent !important;
     padding: 0 !important;
     margin-left: 5px;
@@ -101,25 +102,47 @@ body {
     float: left;
     position: relative;
     max-width: 80vw;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
 }
 
-.chats .me {
+.me {
     background: #4285f4;
     color: #fff;
     width: auto;
     margin: 5px;
     padding: 10px 20px 10px 20px;
-    border-radius: 20px 20px 3px 20px;
+    border-radius: 15px 15px 3px 15px;
     clear: both;
     float: right;
     position: relative; 
     max-width: 65vw; 
-    transition: all 1s ease;
+    min-width: 5vw;
+    transition: all 0.5s ease;
+}
+
+.time1 {
+    color: #000;
+    width: auto;
+    clear: both;
+    float: right;
+    font-size: 12px;
+    margin-right: 13px;
+    position: relative; 
+}
+
+
+.time2 {
+    color: #000;
+    width: auto;
+    clear: both;
+    float: left;
+    font-size: 12px;
+    margin-left: 13px;
+    position: relative; 
 }
 
 @media (max-width:1080px) {
-    .chats .mj, .chats .me {
+    .mj, .me {
         max-width: 80vw; 
     }
 }
@@ -216,10 +239,23 @@ textarea {
     border: none;
 }
 
-.chats .mj:hover, .chats .attch:hover, .chats .me:hover, .toast:hover {
+.toast:hover {
     transition: box-shadow .3s;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+}
+
+.me:hover {
+    color: #4285f4;
+    background-color: #fff;
     transition: all 0.5s ease;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+}
+
+.mj:hover {
+    color: #fff;
+    background-color: #4285f4;
+    transition: all 0.5s ease;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 }
 
 .text-center {
@@ -246,4 +282,11 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   transition: background-color 5000s ease-in-out 0s;
   -webkit-text-fill-color: #fff !important;
+}
+
+.dropdown-menu {
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+    border-radius: 20px;
+    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
 }

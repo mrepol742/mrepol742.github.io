@@ -16,7 +16,12 @@ async function sendMsg() {
     if (messages.length > 1) {
         messages.shift();
     }
+    var li3 = document.createElement('li')
+    li3.setAttribute('class', 'time1')
+    li3.innerText = getTime();
+    
     chats.appendChild(li);
+    chats.appendChild(li3);
     document.getElementById('txt').value = ''
     var construct = "";
     if (!(messages[0] === undefined)) {
@@ -53,8 +58,12 @@ async function sendMsg() {
                 result = result.replace("\n", "")
             }
             li1.innerText = result;
+            var li2 = document.createElement('li')
+            li2.setAttribute('class', 'time2')
+            li2.innerText = getTime();
             messages.push(txtInp);
             chats.appendChild(li1);
+            chats.appendChild(li2);
         }
             $('#chats').animate({
                 scrollTop: $("#chats")[0].scrollHeight
@@ -65,7 +74,6 @@ async function sendMsg() {
         }
     });
     if (hasChat) {
-        document.getElementById('newchat').style.display = 'block';
         document.getElementById('welcome').style.display = 'none';
         hasChat = false;
     }
@@ -83,16 +91,35 @@ if (isLoaded) {
     isLoaded = false;
 }
 
-var input =  document.getElementById('txt');
-input.addEventListener("keypress", function(evt) {
+txt.addEventListener("keypress", function(evt) {
     if (evt.key === "Enter" && !evt.shiftKey){
         evt.preventDefault();
         document.getElementById("send").click();
     }
 });
 
+
+clear.onclick = function() {  
+clear();
+    };  
+
 var sq = decodeURI(location.search.split('msg=')[1] ? location.search.split('msg=')[1] : '');
 if (sq != '') {
     document.getElementById('txt').innerText = sq;
     sendMsg();
+}
+
+function getTime() {
+    let options = {
+        hour: 'numeric',
+        minute: 'numeric'
+      },
+    formatter = new Intl.DateTimeFormat([], options);
+    return formatter.format(new Date());
+}
+
+function clear() {
+    document.getElementById('welcome').style.display = 'none';
+    hasChat = true;
+    $('chats').empty();
 }

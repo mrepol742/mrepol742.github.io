@@ -101,12 +101,6 @@ main {
     color: #f1f1f1;
 }
 
-@media (max-width:1080px) {
-    .search-container, .wid {
-        width: 100% !important;
-    }
-}
-
 #sug {
     display: none;
     flex-direction: column;
@@ -324,7 +318,7 @@ color: #fff !important;
 }
 
 .col-md-1 {
-width: 24px;
+    width: 24px;
 }
 
 .col-md-9 {
@@ -339,20 +333,7 @@ input:-webkit-autofill:active {
   -webkit-text-fill-color: #fff !important;
 }
 
-.nav-link, .navbar-brand{
-    color: #000;
-    transition: all 0.5s ease;
-}
-
-.nav-link:hover, .navbar-brand:hover {
-     background-color: rgba(0, 0, 0, .3);
-     padding-left: 17px;
-     padding-right: 17px;
-     border-radius: 8px;
-     border: none;
-     transition: all 0.5s ease;
-}
-
+ 
 nav {
     box-shadow: 0 0 5em #4286f460;
     background-color: #ffffff;
@@ -375,9 +356,11 @@ nav {
 
 #search1 {
     width: 100%;
-    border: none;
-    border-radius: 7px;
-    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    border-color: #cecece;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .navbar-toggler-icon {
@@ -387,4 +370,19 @@ nav {
     width: 25px;
     height: 25px;
     display: flex;
+}
+
+.navbar-brand {
+    width: 20% !important;
+    font-size: 15px;
+}
+
+@media (max-width:1080px) {
+    .search-container, .wid {
+        width: 100% !important;
+    }
+
+    .navbar-brand {
+        width: 50% !important;
+    }
 }
