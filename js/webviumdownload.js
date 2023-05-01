@@ -2,7 +2,11 @@ var queryString = window.location.search;
 var urlParams = new URLSearchParams(queryString);
 var version = urlParams.get('version');
 var url = getUrl(version);
+
+setTimeout(function() {
 window.location.href = url;
+}, 3000);
+
 document.getElementById("retry-download").href = url
 
 function getUrl(v) {

@@ -36,7 +36,7 @@ a:hover {
 }
 
 main {
-    padding-top: 2%;
+    padding-top: 7% !important;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -55,12 +55,16 @@ main {
     main {
         margin-left: 4%;
         margin-right: 4%;
-        padding-top: 5% !important;
+        padding-top: 15% !important;
     }
 
     footer {
         padding-top: 10% !important;
         padding-bottom: 10% !important;
+    }
+
+    .dropdown-menu {
+        padding: 4% !important;
     }
 }
 
@@ -185,9 +189,10 @@ footer {
 }
 
 #cardbbb:hover, .images .holder .preview:hover {
-    transition: box-shadow .3s;
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
-    transition: all 0.5s ease;
+     background-color: rgba(0, 0, 0, .1);
+     transition: background-color .3s;
+     border-radius: 10px;
+     border: none;
 }
 
 .accordion {
@@ -355,12 +360,20 @@ nav {
 }
 
 #search1 {
-    width: 100%;
     border-radius: 10px;
-    border-color: #cecece;
+    border-color: #484848;
     border-style: solid;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    transition: all 0.5s ease;
+}
+
+#search1:hover {
+    border-radius: 50px;
+    transition: all 0.5s ease;
+    border-color: #4285f4;
 }
 
 .navbar-toggler-icon {
@@ -385,4 +398,23 @@ nav {
     .navbar-brand {
         width: 50% !important;
     }
+}
+
+.scrolled-down {
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.dropdown-menu {
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+    border-radius: 20px;
+    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+    padding: 15%;
 }

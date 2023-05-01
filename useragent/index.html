@@ -60,8 +60,7 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="autohide navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="/useragent/">User Agent</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -95,7 +94,6 @@
         </div>
       </div>
     </nav>
-  </header>
   <main>
     <div class="toast" id="privacypolicy"
       style="position: fixed; bottom: 0; right: 0; z-index: 9999; float: right; margin: 3%;" data-bs-autohide="false">
@@ -111,6 +109,7 @@
         An error occurred. Try reloading this page, or enable JavaScript if it is disabled in your browser.
       </div>
     </noscript>
+    <header>
     <div class="card ">
       <div class="card-body text-center2" style="padding:40px;">
         <h1 class="card-title">Your browser user agent is</h1>
@@ -119,6 +118,7 @@
         <button class="btn btn-dark" onclick="refreshIp()">Refresh</button>
       </div>
     </div>
+    </header>
     <br>
     <div class="card ">
       <div class="card-body">

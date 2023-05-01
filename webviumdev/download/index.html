@@ -61,8 +61,7 @@
 <body>
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFD9TXR" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="autohide navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="/webviumdev/download/">Download</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -81,7 +80,6 @@
         </div>
       </div>
     </nav>
-  </header>
   <main>
     <div class="toast" id="privacypolicy"
       style="position: fixed; bottom: 0; right: 0; z-index: 9999; float: right; margin: 3%;" data-bs-autohide="false">
@@ -97,11 +95,13 @@
         An error occurred. Try reloading this page, or enable JavaScript if it is disabled in your browser.
       </div>
     </noscript>
+    <header>
     <h1 class="text-center2">Thank you for downloading Webvium Dev.</h1><br>
+    </header>
     <div class="card ">
       <div class="card-body">
         <p>Within a few seconds, your download should begin automatically. If it doesn't, please
-          start the <a href="/webviumdev/" id="retry-download">download using this link.</a></p>
+          start the <a href="https://github.com/mrepol742/released/blob/dev/Webvium-dev.apk?raw=true" id="retry-download" target="_blank">download using this link.</a></p>
         <br>
         <div class="grid-container">
           <div class="grid-item">
@@ -339,11 +339,13 @@
       <span>© 2023 Melvin Jones Repol | mrepol742</span>
     </div>
   </footer>
-  <script src="/webvium/update.js"></script>
   <script src="/assets/bootstrap.min.js"></script>
   <script src="/js/mrepol742.js"></script>
   <script>
-    window.location.href = "https://github.com/mrepol742/released/blob/dev/Webvium-dev.apk?raw=true";
+    setTimeout(function() {
+    window.location.href = 'https://github.com/mrepol742/released/blob/dev/Webvium-dev.apk?raw=true'
+    }, 3000);
+ 
   </script>
 </body>
 
