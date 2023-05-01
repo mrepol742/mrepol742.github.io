@@ -18,9 +18,6 @@
     <image:loc>https://mrepol742.github.io/images/webvium-2.jpg</image:loc>
 </image:image>
  <image:image>
-    <image:loc>https://mrepol742.github.io/images/simpleanalytics.png</image:loc>
-</image:image>
- <image:image>
     <image:loc>https://mrepol742.github.io/images/login-system.png</image:loc>
 </image:image>
  <image:image>
@@ -28,6 +25,9 @@
 </image:image>
  <image:image>
     <image:loc>https://mrepol742.github.io/images/webvium-vpn-main-dark.jpg</image:loc>
+</image:image>
+ <image:image>
+    <image:loc>https://mrepol742.github.io/images/online-catering-system.png</image:loc>
 </image:image>
  <image:image>
     <image:loc>https://mrepol742.github.io/images/webvium22.png</image:loc>
@@ -90,9 +90,6 @@
     <image:loc>https://mrepol742.github.io/images/webviumvpn.png</image:loc>
 </image:image>
  <image:image>
-    <image:loc>https://mrepol742.github.io/images/canva.png</image:loc>
-</image:image>
- <image:image>
     <image:loc>https://mrepol742.github.io/images/305620973_197705909297536_1418418276482485489_n.jpg</image:loc>
 </image:image>
  <image:image>
@@ -148,9 +145,6 @@
 </image:image>
  <image:image>
     <image:loc>https://mrepol742.github.io/images/webviumbeta.png</image:loc>
-</image:image>
- <image:image>
-    <image:loc>https://mrepol742.github.io/images/hCaptcha.jpg</image:loc>
 </image:image>
  <image:image>
     <image:loc>https://mrepol742.github.io/images/terminal.png</image:loc>
