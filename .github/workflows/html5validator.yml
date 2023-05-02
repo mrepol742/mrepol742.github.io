@@ -27,8 +27,7 @@ jobs:
         with:
           source_file: 'log.log'
           destination_repo: 'mrepol742/mrepol742.github.io'
-          destination_folder: 'log'
           user_email: 'mrepol742@gmail.com'
           user_name: 'mrepol742'
           commit_message: 'Initial Commit'
-          destination_branch: master
+          destination_branch: log
