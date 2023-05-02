@@ -94,8 +94,6 @@ async function sendMsg() {
                 if (result.startsWith("\n")) {
                     result = result.replace("\n", "")
                 }
-                let li1 = document.createElement('li')
-                li1.setAttribute('class', 'mj')
         
                 li1.innerText = result 
             
