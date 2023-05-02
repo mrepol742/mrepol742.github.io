@@ -64,8 +64,13 @@
 "file:/github/workspace/yandex_b229053f47e9b4b5.html":3.5-3.11: error: Element "head" is missing a required instance of child element "title".
 "file:/github/workspace/index.html":956.9-956.81: error: Duplicate ID "panelsStayOpen-headingOne232323m12ab4g".
 "file:/github/workspace/index.html":963.9-964.67: error: Duplicate ID "panelsStayOpen-collapseOne232323m12ab4g".
-"file:/github/workspace/project-orion/chat/index.html":83.11-83.145: error: Attribute "type" not allowed on element "svg" at this point.
+"file:/github/workspace/project-orion/chat/index.html":29.5-29.25: error: A "charset" attribute on a "meta" element found after the first 1024 bytes.
+"file:/github/workspace/project-orion/chat/index.html":126.21-126.155: error: Attribute "type" not allowed on element "svg" at this point.
 "file:/github/workspace/assets/bootstrap.min.css":0.0-0.0: error: CSS: org.w3c.css.values.CssNumber cannot be cast to org.w3c.css.values.CssCalc.
+"file:/github/workspace/css/chat.css":122.6-122.6: error: CSS: Parse Error.
+"file:/github/workspace/css/chat.css":123.2-124.1: error: CSS: Parse Error.
+"file:/github/workspace/css/chat.css":131.6-131.6: error: CSS: Parse Error.
+"file:/github/workspace/css/chat.css":132.2-135.22: error: CSS: Parse Error.
 "file:/github/workspace/webvium/index.html":345.17-345.23: error: Element "title" not allowed as child of element "a" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/webvium/index.html":353.17-353.23: error: Element "title" not allowed as child of element "a" in this context. (Suppressing further errors from this subtree.)
 "file:/github/workspace/webvium/index.html":603.76-603.79: error: No "p" element in scope but a "p" end tag seen.
