@@ -6,6 +6,14 @@
     src: url("/assets/MavenPro.woff2") format('woff2');
 }
 
+.flex-left {
+    align-self: flex-start;
+}
+
+.flex-right {
+    align-self: flex-end;
+}
+
 a {
     text-decoration: none;
     cursor: pointer;
@@ -23,6 +31,7 @@ a:hover {
     padding: 0;
     scroll-behavior: smooth;
     outline: none;
+    box-sizing: border-box;
 }
 
 .root {
@@ -47,25 +56,35 @@ nav {
 }
 
 body {
+    height: 100vh;
+    width: 100%;
     background: #fff;
     margin: 0;
     padding: 0;
     position: fixed;
-    width: 100%;
     display: flex;
     flex-direction: column;
+}
+
+main {
+    height: 80%;
+    width: 100%;
 }
 
 .chats {
     padding: 1rem 0;
     list-style: none;
     top: 0;
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     width: 100%;
     box-sizing: border-box;
     overflow: scroll;
     flex: 1;
-    height: calc(94vh - 4rem);
+    /*height: calc(94vh - 4rem);*/
+    height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -85,12 +104,88 @@ body {
     color: #000;
     border-radius: 3px 15px 15px 15px;
     clear: both;
-    float: left;
+/*    float: left; */
+    align-self: flex-start;
     position: relative;
     max-width: 65vw; 
     min-width: 5vw;
     transition: all 0.5s ease;
+    animation-fill-mode: forwards;
 }
+
+@keyframes mjinsert {
+    0% {
+        transform: translateX(-1000px);
+    }
+    44 % {
+        transform: translateX(0);
+    }
+}
+
+@keyframes meinsert {
+    0% {
+        transform: translateY(1000px);
+    }
+    44 % {
+        transform: translateX(0);
+    }
+}
+
+/* Typing/Incoming response animation */
+/* ---- START ---- */
+.chat-bubble {
+  background-color:#f3f3f3;
+  padding:12px 22px;
+  margin: 5px;
+  border-radius: 3px 15px 15px 15px;
+  display:inline-block;
+}
+.typing {
+  align-items: center;
+  display: flex;
+  height: 17px;
+}
+.typing .dot {
+  animation: mercuryTypingAnimation 1.8s infinite ease-in-out;
+  background-color: #f3f3f3; 
+  border-radius: 50%;
+  height: 7px;
+  margin-right: 4px;
+  vertical-align: middle;
+  width: 7px;
+  display: inline-block;
+}
+.typing .dot:nth-child(1) {
+  animation-delay: 200ms;
+}
+.typing .dot:nth-child(2) {
+  animation-delay: 300ms;
+}
+.typing .dot:nth-child(3) {
+  animation-delay: 400ms;
+}
+.typing .dot:last-child {
+  margin-right: 0;
+}
+
+
+
+@keyframes mercuryTypingAnimation {
+  0% {
+    transform: translateY(0px);
+    background-color:#f3f3f3; /* rgba(20,105,69,.7); */
+  }
+  28% {
+    transform: translateY(-7px);
+    background-color:#f3f3f3; /*rgba(20,105,69,.4);*/
+  }
+  44% {
+    transform: translateY(0px);
+    background-color: #d1cdcd; /*rgba(20,105,69,.2);*/
+  }
+}
+/* Typing/Incoming response animation */
+/* ---- END ---- */
 
 .attch {
     background-color: transparent !important;
@@ -113,11 +208,14 @@ body {
     padding: 10px 20px 10px 20px;
     border-radius: 15px 15px 3px 15px;
     clear: both;
-    float: right;
+/*    float: right; */
+    align-self: flex-end;
     position: relative; 
     max-width: 65vw; 
     min-width: 5vw;
     transition: all 0.5s ease;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
 }
 
 .time1 {
@@ -165,7 +263,9 @@ body {
     box-sizing: border-box;
     padding: 1rem;
 }
-
+/*
+svg fill = #4285f4
+*/
 .edittxt .send {
     height: 100%;
     background: #fff;
@@ -176,6 +276,8 @@ body {
     color: #0078ff;
     display: flex;
     align-items: center;
+    opacity: 0.7;
+    fill: #757575;
 }
 
 textarea {
@@ -243,7 +345,8 @@ textarea {
     transition: box-shadow .3s;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 }
-
+/* Would not suggest changes on hover but you can keep it if you want */
+/***
 .me:hover {
     color: #4285f4;
     background-color: #fff;
@@ -257,6 +360,8 @@ textarea {
     transition: all 0.5s ease;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 }
+**/
+
 
 .text-center {
     padding-top: 10%;
