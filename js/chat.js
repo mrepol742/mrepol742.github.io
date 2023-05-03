@@ -3,8 +3,6 @@ let chats = document.getElementById('chats')
 let messages = [];
 let hasChat = true;
 
-//alert(69)
-
 const changeBtnClr = () => {
     if (txt.value.trim().length == 0) {
         sendsvg.style.fill = '#757575'

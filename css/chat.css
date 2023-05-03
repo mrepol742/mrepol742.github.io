@@ -75,10 +75,9 @@ main {
     padding: 1rem 0;
     list-style: none;
     top: 0;
-    /* display: inline-block; */
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     width: 100%;
     box-sizing: border-box;
     overflow: scroll;
@@ -104,10 +103,10 @@ main {
     color: #000;
     border-radius: 3px 15px 15px 15px;
     clear: both;
-/*    float: left; */
+    /*    float: left; */
     align-self: flex-start;
     position: relative;
-    max-width: 65vw; 
+    max-width: 65vw;
     min-width: 5vw;
     transition: all 0.5s ease;
     animation-fill-mode: forwards;
@@ -117,7 +116,8 @@ main {
     0% {
         transform: translateX(-1000px);
     }
-    44 % {
+
+    44% {
         transform: translateX(0);
     }
 }
@@ -126,66 +126,74 @@ main {
     0% {
         transform: translateY(1000px);
     }
-    44 % {
+
+    44% {
         transform: translateX(0);
     }
 }
 
-/* Typing/Incoming response animation */
-/* ---- START ---- */
 .chat-bubble {
-  background-color:#f3f3f3;
-  padding:12px 22px;
-  margin: 5px;
-  border-radius: 3px 15px 15px 15px;
-  display:inline-block;
+    background-color: #f3f3f3;
+    padding: 12px 22px;
+    margin: 5px;
+    border-radius: 3px 15px 15px 15px;
+    display: inline-block;
 }
+
 .typing {
-  align-items: center;
-  display: flex;
-  height: 17px;
+    align-items: center;
+    display: flex;
+    height: 17px;
 }
+
 .typing .dot {
-  animation: mercuryTypingAnimation 1.8s infinite ease-in-out;
-  background-color: #f3f3f3; 
-  border-radius: 50%;
-  height: 7px;
-  margin-right: 4px;
-  vertical-align: middle;
-  width: 7px;
-  display: inline-block;
+    animation: mercuryTypingAnimation 1.8s infinite ease-in-out;
+    background-color: #f3f3f3;
+    border-radius: 50%;
+    height: 7px;
+    margin-right: 4px;
+    vertical-align: middle;
+    width: 7px;
+    display: inline-block;
 }
+
 .typing .dot:nth-child(1) {
-  animation-delay: 200ms;
+    animation-delay: 200ms;
 }
+
 .typing .dot:nth-child(2) {
-  animation-delay: 300ms;
+    animation-delay: 300ms;
 }
+
 .typing .dot:nth-child(3) {
-  animation-delay: 400ms;
+    animation-delay: 400ms;
 }
+
 .typing .dot:last-child {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 
 
 @keyframes mercuryTypingAnimation {
-  0% {
-    transform: translateY(0px);
-    background-color:#f3f3f3; /* rgba(20,105,69,.7); */
-  }
-  28% {
-    transform: translateY(-7px);
-    background-color:#f3f3f3; /*rgba(20,105,69,.4);*/
-  }
-  44% {
-    transform: translateY(0px);
-    background-color: #d1cdcd; /*rgba(20,105,69,.2);*/
-  }
+    0% {
+        transform: translateY(0px);
+        background-color: #f3f3f3;
+        /* rgba(20,105,69,.7); */
+    }
+
+    28% {
+        transform: translateY(-7px);
+        background-color: #f3f3f3;
+        /*rgba(20,105,69,.4);*/
+    }
+
+    44% {
+        transform: translateY(0px);
+        background-color: #d1cdcd;
+        /*rgba(20,105,69,.2);*/
+    }
 }
-/* Typing/Incoming response animation */
-/* ---- END ---- */
 
 .attch {
     background-color: transparent !important;
@@ -208,10 +216,10 @@ main {
     padding: 10px 20px 10px 20px;
     border-radius: 15px 15px 3px 15px;
     clear: both;
-/*    float: right; */
+    /*    float: right; */
     align-self: flex-end;
-    position: relative; 
-    max-width: 65vw; 
+    position: relative;
+    max-width: 65vw;
     min-width: 5vw;
     transition: all 0.5s ease;
     animation-fill-mode: forwards;
@@ -225,7 +233,7 @@ main {
     float: right;
     font-size: 12px;
     margin-right: 13px;
-    position: relative; 
+    position: relative;
 }
 
 
@@ -236,12 +244,14 @@ main {
     float: left;
     font-size: 12px;
     margin-left: 13px;
-    position: relative; 
+    position: relative;
 }
 
 @media (max-width:1080px) {
-    .mj, .me {
-        max-width: 80vw; 
+
+    .mj,
+    .me {
+        max-width: 80vw;
     }
 }
 
@@ -249,25 +259,23 @@ main {
     position: fixed;
     bottom: 0%;
     width: 100%;
-    height: var(--et-height);
     display: flex;
     align-items: center;
     box-shadow: 0 0 2em #2121215e;
     background-color: #ffffff;
 }
 
-.edittxt .txt {
-    height: 100%;
+ .txt {
     flex: 1;
     border: none;
     box-sizing: border-box;
     padding: 1rem;
 }
+
 /*
 svg fill = #4285f4
 */
 .edittxt .send {
-    height: 100%;
     background: #fff;
     border: none;
     box-sizing: border-box;
@@ -345,23 +353,6 @@ textarea {
     transition: box-shadow .3s;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 }
-/* Would not suggest changes on hover but you can keep it if you want */
-/***
-.me:hover {
-    color: #4285f4;
-    background-color: #fff;
-    transition: all 0.5s ease;
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
-}
-
-.mj:hover {
-    color: #fff;
-    background-color: #4285f4;
-    transition: all 0.5s ease;
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
-}
-**/
-
 
 .text-center {
     padding-top: 10%;
@@ -385,8 +376,8 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-  transition: background-color 5000s ease-in-out 0s;
-  -webkit-text-fill-color: #fff !important;
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff !important;
 }
 
 .dropdown-menu {
