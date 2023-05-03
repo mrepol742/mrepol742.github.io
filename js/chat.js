@@ -2,9 +2,17 @@ let isLoaded = true;
 let chats = document.getElementById('chats')
 let messages = [];
 let hasChat = true;
+(function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } })();
+
+let navbar = document.querySelector('header')
+let root = document.querySelector(':root')
+let navHeight = getComputedStyle(navbar).getComputedStyle('height')
+
+root.style.setProperty('--nav-height', navHeight)
 
 //alert(69)
-
+//alert(chats.parentNode.className)
+//alert(document.querySelector('main').parentNode.tagName)
 const changeBtnClr = () => {
     if (txt.value.trim().length == 0) {
         sendsvg.style.fill = '#757575'
@@ -94,19 +102,19 @@ async function sendMsg() {
                 if (result.startsWith("\n")) {
                     result = result.replace("\n", "")
                 }
-        
-                li1.innerText = result 
-            
+
+                li1.innerText = result
+
                 let li2 = document.createElement('li')
                 li2.setAttribute('class', 'time2')
-               
+
                 let time = getTime()
                 li2.innerText = 'Now';
-                
+
                 setTimeout(function() {
                     li2.innerText = time
                 }, 60*1000);
-                
+
                 messages.push(txtInp);
 
                 chats.appendChild(li1);
@@ -119,7 +127,7 @@ async function sendMsg() {
         },
         error: function (result) {
             console.log(result);
-            }
+        }
     });
     if (hasChat) {
         document.getElementById('welcome').style.display = 'none';

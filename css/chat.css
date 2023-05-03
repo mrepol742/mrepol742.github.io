@@ -34,13 +34,6 @@ a:hover {
     box-sizing: border-box;
 }
 
-.root {
-    height: 100%;
-    width: 100%;
-    background: transparent;
-    flex: 1;
-}
-
 :root {
     --et-height: 4rem;
 }
@@ -55,40 +48,61 @@ nav {
     background-color: #ffffff;
 }
 
+header {
+    position: sticky;
+    /**
+    position: sticky;
+    bottom: env(safe-area-inset-bottom, 0);
+    bottom: 0;
+    /**/
+    top: env(safe-area-inset-top, 0);
+    width: 100%;
+    z-index: 10;
+}
+
 body {
     height: 100vh;
     width: 100%;
     background: #fff;
     margin: 0;
     padding: 0;
-    position: fixed;
     display: flex;
     flex-direction: column;
 }
-
+/**/
 main {
-    height: 80%;
+    height: auto;
+    flex-grow: 1;
     width: 100%;
+    overflow: hidden;
+    display: flex;
+    margin-top: var(--nav-height);
 }
+/**/
+.root {
+    height: auto;
+    flex-grow: 1;
+    width: 100%;
+    background: transparent;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+   
+    /*display: none;*/
+}
+/**/
 
 .chats {
     padding: 1rem 0;
     list-style: none;
     top: 0;
-    /* display: inline-block; */
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     width: 100%;
-    box-sizing: border-box;
+    height: 80%;
     overflow: scroll;
-    flex: 1;
-    /*height: calc(94vh - 4rem);*/
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
 }
-
+/**/
 .card-group {
     height: 50vh;
     overflow: scroll;
@@ -247,12 +261,13 @@ main {
 
 .edittxt {
     position: fixed;
-    bottom: 0%;
+    bottom: 0;
     width: 100%;
     height: var(--et-height);
     display: flex;
-    align-items: center;
-    box-shadow: 0 0 2em #2121215e;
+    align-items: flex-start;
+    align-self: flex-end;
+    box-shadow: 0 0 2em #05121215;
     background-color: #ffffff;
 }
 
