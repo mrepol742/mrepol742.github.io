@@ -2,17 +2,12 @@ let isLoaded = true;
 let chats = document.getElementById('chats')
 let messages = [];
 let hasChat = true;
-(function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } })();
-
 let navbar = document.querySelector('header')
 let root = document.querySelector(':root')
 let navHeight = getComputedStyle(navbar).getComputedStyle('height')
 
 root.style.setProperty('--nav-height', navHeight)
 
-//alert(69)
-//alert(chats.parentNode.className)
-//alert(document.querySelector('main').parentNode.tagName)
 const changeBtnClr = () => {
     if (txt.value.trim().length == 0) {
         sendsvg.style.fill = '#757575'

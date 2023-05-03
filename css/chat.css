@@ -50,11 +50,6 @@ nav {
 
 header {
     position: sticky;
-    /**
-    position: sticky;
-    bottom: env(safe-area-inset-bottom, 0);
-    bottom: 0;
-    /**/
     top: env(safe-area-inset-top, 0);
     width: 100%;
     z-index: 10;
@@ -69,7 +64,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-/**/
+
 main {
     height: auto;
     flex-grow: 1;
@@ -102,7 +97,7 @@ main {
     height: 80%;
     overflow: scroll;
 }
-/**/
+
 .card-group {
     height: 50vh;
     overflow: scroll;
