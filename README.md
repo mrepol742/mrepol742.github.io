@@ -1,5 +1,5 @@
 # mrepol742.github.io
-I :heart_on_fire: Open source. This is my site source code. Feel free to suggest anything.
+A website to showcase my skills, projects and also where the source codes of Project Orion Chat, Webvium Search, Landing Pages, and other future web projects is are been created.
 
 <a href="https://mrepol742.github.io">
 <img src="https://github.com/mrepol742/mrepol742.github.io/blob/master/images/myportfolio.png?raw=true" alt="Melvin Jones Repol" />
