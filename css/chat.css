@@ -71,7 +71,7 @@ main {
     width: 100%;
     overflow: hidden;
     display: flex;
-    margin-top: var(--nav-height);
+    /*margin-top: var(--nav-height);*/
 }
 /**/
 .root {
@@ -93,9 +93,11 @@ main {
     top: 0;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     width: 100%;
-    height: 80%;
+    height: 100%;
     overflow: scroll;
+    margin-bottom: var(--et-height);
 }
 
 .card-group {

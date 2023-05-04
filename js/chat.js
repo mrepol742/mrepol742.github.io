@@ -1,13 +1,14 @@
+(function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } })();
+
 let isLoaded = true;
 let chats = document.getElementById('chats')
 let messages = [];
 let hasChat = true;
-let navbar = document.querySelector('header')
+let edttxt = document.querySelector('.edittxt')
 let root = document.querySelector(':root')
-let navHeight = getComputedStyle(navbar).getComputedStyle('height')
+let etheight = getComputedStyle(edttxt).getPropertyValue('height')
 
-root.style.setProperty('--nav-height', navHeight)
-
+root.style.setProperty('--et-height', etheight)
 const changeBtnClr = () => {
     if (txt.value.trim().length == 0) {
         sendsvg.style.fill = '#757575'
