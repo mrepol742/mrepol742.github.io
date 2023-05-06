@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/assets/MavenPro.woff2") format('woff2');
+}
+
+* {
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    outline: none;
+    box-sizing: border-box;
+} 
+
+body {
+    transition: all 2s ease;
+}
+
+div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: white;
+    transition: all 2s ease;
+}
+
+@media (max-width:320px) {
+    div::before {
+        content: "Mobile View";
+        transition: all 2s ease;
+    }
+
+    body {
+        background-color: aqua;
+        transition: all 2s ease;
+    }
+}
+
+@media (min-width:321px) and (max-width:768px) {
+    div::before {
+        content: "Tablet View";
+        transition: all 2s ease;
+    }
+
+    body {
+        background-color: blueviolet;
+        transition: all 2s ease;
+    }
+}
+
+@media(min-width:769px) {
+    div::before {
+        content: "Desktop View";
+        transition: all 2s ease;
+    }
+
+    body {
+        background-color: seagreen;
+        transition: all 2s ease;
+    }
+}
