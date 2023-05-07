@@ -21,6 +21,7 @@ body {
 
 div {
     position: absolute;
+    text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -29,38 +30,70 @@ div {
     transition: all 2s ease;
 }
 
-@media (max-width:320px) {
+@media (min-width:320px)  {
     div::before {
-        content: "Mobile View";
-        transition: all 2s ease;
-    }
-
-    body {
-        background-color: aqua;
-        transition: all 2s ease;
-    }
-}
-
-@media (min-width:321px) and (max-width:768px) {
-    div::before {
-        content: "Tablet View";
-        transition: all 2s ease;
-    }
-
-    body {
-        background-color: blueviolet;
-        transition: all 2s ease;
-    }
-}
-
-@media(min-width:769px) {
-    div::before {
-        content: "Desktop View";
+        content: "Portrait Smartphone";
         transition: all 2s ease;
     }
 
     body {
         background-color: seagreen;
+        transition: all 2s ease;
+    }
+}
+@media (min-width:481px)  { 
+    div::before {
+        content: "E-Reader & Small Tablet";
+        transition: all 2s ease;
+    }
+
+    body {
+        background-color: sienna;
+        transition: all 2s ease;
+    }
+ }
+@media (min-width:641px)  {
+    div::before {
+        content: "Portrait Tablets/Ipad & Landscape E-Reader & Phone";
+        transition: all 2s ease;
+    }
+
+    body {
+        background-color: rebeccapurple;
+        transition: all 2s ease;
+    }
+}
+@media (min-width:961px)  { 
+    div::before {
+        content: "Tablet, Landscape Ipad, Low-res Laptop & Desktop.";
+        transition: all 2s ease;
+    }
+
+    body {
+        background-color: olive;
+        transition: all 2s ease;
+    }
+}
+@media (min-width:1025px) {
+    div::before {
+        content: "Big Landscape Tablet, Laptop & Desktop.";
+        transition: all 2s ease;
+    }
+
+    body {
+        background-color: palevioletred;
+        transition: all 2s ease;
+    }
+}
+
+@media (min-width:1281px) { 
+    div::before {
+        content: "High-res Laptop and Desktop";
+        transition: all 2s ease;
+    }
+
+    body {
+        background-color: chocolate;
         transition: all 2s ease;
     }
 }
