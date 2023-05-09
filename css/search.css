@@ -83,6 +83,30 @@ main {
     transition: all 0.5s ease;
 }
 
+
+.search-container1 {
+    width: 80%;
+    border: none;
+    border-radius: 50px;
+    background: #fff;
+    display: flex;
+    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+    justify-content: space-between;
+    transition: all 0.5s ease;
+}
+
+.search-container1:hover {
+    background: #f8f6f6;
+    transition: all 0.5s ease;
+}
+
+.search-container1>svg {
+    height: 24px;
+    min-width: 70px;
+    align-self: center;
+    color: #212121;
+}
+
 .search-container>svg {
     height: 24px;
     min-width: 70px;
@@ -101,8 +125,23 @@ main {
     font-size: 14px;
 }
 
+#search1 {
+    border-width: 0px;
+    background: transparent;
+    width: 100%;
+    color: #212121;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    font-size: 14px;
+}
+
 #search::placeholder {
     color: #f1f1f1;
+}
+
+#search1::placeholder {
+    color:#484848;
 }
 
 #sug {
@@ -157,17 +196,6 @@ main {
 
 .text-center2 {
     text-align: center;
-}
-
-footer {
-    box-shadow: 0 0 5em #4286f460;
-    background-color: #ffffff;
-    margin-top: 10%;
-    color: #212121;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 5%;
-    padding-bottom: 2%;
 }
 
 .wid {
@@ -359,22 +387,7 @@ nav {
     margin: 1%;
 }
 
-#search1 {
-    border-radius: 10px;
-    border-color: #484848;
-    border-style: solid;
-    padding-left: 13px;
-    padding-right: 13px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    transition: all 0.5s ease;
-}
-
-#search1:hover {
-    border-radius: 50px;
-    transition: all 0.5s ease;
-    border-color: #4285f4;
-}
+ 
 
 .navbar-toggler-icon {
     background-image: url("/images/chevron-down.svg");

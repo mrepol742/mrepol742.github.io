@@ -164,6 +164,10 @@ but.addEventListener('click', () => {
 	find(search.value);
 });
 
+but1.addEventListener('click', () => {
+	find(search.value);
+});
+
 search.addEventListener('input', () => {
 	try {
 		if (WebviumSearchSuggestion.isSearchSuggestionsEnabled()) {
@@ -219,7 +223,6 @@ function find(query) {
 	sug.style.display = 'none';
 	page1.style.display = 'none';
 	page2.style.display = 'block';
-	header2.style.display = 'block';
 	try {
 		if (query.trim().length != 0) {
 			const aq = query.toLowerCase();
