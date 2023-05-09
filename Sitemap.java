@@ -15,7 +15,7 @@ import org.jsoup.parser.*;
 class Sitemap {
 
     private static List<Link> links = new ArrayList<>();
-    private static SimpleDateFormat format =  new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssSSSXXX");
+    private static SimpleDateFormat format =  new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssXXX");
     private static String header = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><?xml-stylesheet type=\"text/xsl\" href=\"/css/sitemap.xsl\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:video=\"http://www.google.com/schemas/sitemap-video/1.1\" xmlns:image=\"http://www.google.com/schemas/sitemap-image/1.1\">\n";
     private static String footer = "</urlset>";
     private static String body = "<url>\n" +

@@ -10,7 +10,7 @@
 		<html xmlns="http://www.w3.org/1999/xhtml">
 		<head>
 			<title>XML Sitemap</title>
-			<meta http-equiv="Content-Type" content="application/xml; charset=utf-8" />
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 			<style type="text/css">
 			@font-face {
     font-family: 'Maven Pro';
