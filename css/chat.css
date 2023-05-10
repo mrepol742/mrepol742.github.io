@@ -76,6 +76,14 @@ main {
     align-items: flex-end;
 }
 
+#welcome {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .chats {
     padding: 1rem 0;
     list-style: none;
