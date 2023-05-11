@@ -18,7 +18,6 @@ class RSS {
 
     private static List<Item> items = new ArrayList<>();
     private static JSONObject obj = new JSONObject();
-    //Sun, 16 Apr 2023 13:47:14 GMT <
     private static SimpleDateFormat format =  new SimpleDateFormat("E, dd MMMM yyyy k:m:s z");
     private static String header = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\">\n<channel>\n";
     private static String footer = "</channel>\n</rss>";

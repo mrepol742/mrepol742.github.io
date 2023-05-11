@@ -1,10 +1,10 @@
 User-agent: *
 Disallow: /log/
 Disallow: /?
-DIsallow: /index.html?
+Disallow: /index.html?
 Allow: /?hl=
+Allow: /search/?hl=
 Disallow: /search?
-Allow: /search?hl=
 Disallow: /search/?
 Disallow: /search/index.html?
 Disallow: /project-orion/chat?
