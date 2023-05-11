@@ -27,7 +27,7 @@ I am proficient in variety of technologies and programming languages, gaining ex
   https://mrepol742.github.io/site.webmanifest
 
   ## Robots.txt
-  https://mrepol742.github.io/robots.txthttps://raw.githubusercontent.com/mrepol742/mrepol742.github.io/log/log.log
+  https://mrepol742.github.io/robots.txt
 
   ## Ads.txt
   https://mrepol742.github.io/ads.txt

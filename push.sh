@@ -1,11 +1,8 @@
 javac Sitemap.java
 java Sitemap
 
-javac SitemapImg.java
-java SitemapImg
-
-javac SitemapVid.java
-java SitemapVid
+javac RSS.java
+java RSS
 
 git add .
 git commit -m "Initial Commit"
