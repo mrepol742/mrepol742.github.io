@@ -1,12 +1,12 @@
 # mrepol742.github.io
-A website to showcase my skills, projects and also where the source codes of Project Orion Chat, Webvium Search, Landing Pages, and other future web projects is are been created.
+I am proficient in variety of technologies and programming languages, gaining experience from years hard work self studying. My skills evolves around Software Engineering, Web Development, SEO, Computer Hardware and Software.
 
 <a href="https://mrepol742.github.io">
 <img src="https://github.com/mrepol742/mrepol742.github.io/blob/master/images/myportfolio.png?raw=true" alt="Melvin Jones Repol" />
   </a>
 
  
-  ## HTTP Server
+  ## Start Server
   python3 -m http.server
   
   ## Load the webpage
@@ -14,3 +14,24 @@ A website to showcase my skills, projects and also where the source codes of Pro
   
   ## Live
   https://mrepol742.github.io
+
+  ## Sitemap
+  https://mrepol742.github.io/sitemap.xml
+
+  ## RSS
+  https://mrepol742.github.io/rss.xml
+
+  ## Search
+  https://mrepol742.github.io/opensearch.xml
+
+  ## Manifest
+  https://mrepol742.github.io/site.webmanifest
+
+  ## Robots.txt
+  https://mrepol742.github.io/robots.txt
+
+  ## Ads.txt
+  https://mrepol742.github.io/ads.txt
+
+  ## Logs
+  https://raw.githubusercontent.com/mrepol742/mrepol742.github.io/log/log.log
