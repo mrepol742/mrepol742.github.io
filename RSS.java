@@ -127,7 +127,7 @@ class RSS {
                 if (hasIndex.isFile()) {
                     System.out.println(format.format(hasIndex.lastModified()) + " | " + domain + hasIndex.getParentFile().getAbsolutePath().replace(url, ""));
                     String[] metas = getMeta(new File(hasIndex.getParentFile().getAbsolutePath() + "/index.html"));
-                     items.add(new Item("<![CDATA[" + getTitle(new File(hasIndex.getParentFile().getAbsolutePath() + "/index.html")) + "]]>", "<![CDATA[" + metas[0] + "]]>", domain + hasIndex.getParentFile().getAbsolutePath().replace(url, ""), "<![CDATA[" + metas[1] + "]]>"));
+                     items.add(new Item("<![CDATA[" + getTitle(new File(hasIndex.getParentFile().getAbsolutePath() + "/index.html")) + "]]>", "<![CDATA[" + metas[0] + "]]>", domain + hasIndex.getParentFile().getAbsolutePath().replace(url, ""), metas[1]));
                      find(new File (file.getAbsolutePath() + "/" + str), domain);
                 }
             }
