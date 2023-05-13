@@ -10,7 +10,7 @@
     <link>https://mrepol742.github.io</link>
   </image>
   <generator> RSS for Melvin Jones Repol </generator>
-  <lastBuildDate>Thu, 11 May 2023 21:5:45 PST</lastBuildDate>
+  <lastBuildDate>Sat, 13 May 2023 11:55:36 PST</lastBuildDate>
   <link href="https://https://mrepol742.github.io/rss.xml" rel="self" type="application/rss+xml"/>
   <language><![CDATA[ en ]]></language>
 <item>
@@ -52,6 +52,13 @@
   <title><![CDATA[Hello World - Melvin Jones Repol]]></title>
   <description><![CDATA[A phrase that is often used to introduce someone to the world of programming.]]></description>
   <link>https://mrepol742.github.io/helloworld</link>
+  <creator><![CDATA[ Melvin Jones Repol ]]></creator>
+  <content medium="image" url="https://mrepol742.github.io/images/mrepol742.png"/>
+</item>
+<item>
+  <title><![CDATA[Melvin Jones Repol]]></title>
+  <description><![CDATA[]]></description>
+  <link>https://mrepol742.github.io/test-page</link>
   <creator><![CDATA[ Melvin Jones Repol ]]></creator>
   <content medium="image" url="https://mrepol742.github.io/images/mrepol742.png"/>
 </item>
