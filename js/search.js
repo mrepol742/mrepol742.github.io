@@ -294,7 +294,10 @@ function updateQoute() {
 }
 
 function s222(q) {
-	document.title = q + " | Webvium Search";
+	$(document).ready(function() {
+		$('title').text(q + " | Webvium Search");
+		window.history.replaceState(null, null, "?query=" + q);
+	})
 	$.ajax({
         url: "https://project-orion.mrepol853.repl.co/search?" + q,
         headers: {

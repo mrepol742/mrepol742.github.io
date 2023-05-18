@@ -47,7 +47,7 @@ main {
         padding-top: 25% !important;
     }
 
-    .container-fluid {
+    .container-fluid, .search-container1 {
         margin-left: 8%;
         margin-right: 8%;
     }
@@ -85,7 +85,7 @@ main {
 
 
 .search-container1 {
-    width: 80%;
+    width: 90%;
     border: none;
     border-radius: 50px;
     background: #fff;
@@ -93,6 +93,8 @@ main {
     box-shadow: 0 0 5em rgba(0, 0, 0, .1);
     justify-content: space-between;
     transition: all 0.5s ease;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .search-container1:hover {
