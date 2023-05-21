@@ -10,7 +10,7 @@
     <link>https://mrepol742.github.io</link>
   </image>
   <generator> RSS for Melvin Jones Repol </generator>
-  <lastBuildDate>Thu, 18 May 2023 17:24:46 PST</lastBuildDate>
+  <lastBuildDate>Mon, 22 May 2023 1:10:21 PST</lastBuildDate>
   <link href="https://https://mrepol742.github.io/rss.xml" rel="self" type="application/rss+xml"/>
   <language><![CDATA[ en ]]></language>
 <item>
@@ -53,7 +53,14 @@
   <description><![CDATA[A phrase that is often used to introduce someone to the world of programming.]]></description>
   <link>https://mrepol742.github.io/helloworld</link>
   <creator><![CDATA[ Melvin Jones Repol ]]></creator>
-  <content medium="image" url="https://mrepol742.github.io/images/mrepol742.png"/>
+  <content medium="image" url="https://mrepol742.github.io/images/helloworld.jpg"/>
+</item>
+<item>
+  <title><![CDATA[100+ ChatGPT Prompts You should use - Melvin Jones Repol]]></title>
+  <description><![CDATA[ChatGPT is a powerful tool that helps you create natural conversations with AI. It provides over 100+ prompt templates to help you create engaging conversations. It is easy to use and can be used to create conversations for various applications. ]]></description>
+  <link>https://mrepol742.github.io/chatgpt-prompts</link>
+  <creator><![CDATA[ Melvin Jones Repol ]]></creator>
+  <content medium="image" url="https://mrepol742.github.io/images/chatgpt.jpg"/>
 </item>
 <item>
   <title><![CDATA[Melvin Jones Repol]]></title>

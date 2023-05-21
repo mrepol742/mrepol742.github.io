@@ -18,8 +18,22 @@
 
 body {
     background: #ffffff !important;
-    color: #212121;
+    color: #2e475d;
 }
+
+p, li {
+    font-size: 20px;
+}
+
+ ol{
+    list-style: none; /* Remove default bullets */
+  }
+
+  ol li::before {content: counter(li); color: #4285f4;
+    display: inline-block; width: 2em;
+    margin-left: -2em}
+   ol li {counter-increment: ol li}
+
 
 legend {
     padding: 10px;
@@ -89,7 +103,7 @@ nav {
 .container-fluid {
     margin-left: 5%;
     margin-right: 5%;
-    padding: 1.2%;
+    padding: 10px;
 }
 
 #friends,
