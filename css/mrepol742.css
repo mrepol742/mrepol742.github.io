@@ -21,10 +21,6 @@ body {
     color: #2e475d;
 }
 
-p, li {
-    font-size: 20px;
-}
-
  ol{
     list-style: none; /* Remove default bullets */
   }

@@ -8,6 +8,7 @@ let isPending = true;
 let edttxt = document.querySelector(".edittxt");
 let root = document.querySelector(":root");
 let etheight = getComputedStyle(edttxt).getPropertyValue("height");
+let hey = ["Sup", "Hey :D", "hey", "yup?", "yes?", "How are you?", "How you doing?", "wassup", "whats new?", "how can i help you?", "hello", "hi", "hellooooo", "hiiiiii"];
 var SpeechRecognition = SpeechRecognition || webkitSpeechRecognition;
 var SpeechGrammarList = SpeechGrammarList || webkitSpeechGrammarList;
 var grammar = "#JSGF V1.0;";
@@ -39,12 +40,14 @@ recognition.onerror = function (event) {
     }
 };
 
+document.getElementById("txt").placeholder = hey[Math.floor(Math.random() * hey.length)];
 root.style.setProperty("--et-height", etheight);
 
 const changeBtnClr = () => {
     if (txt.value.trim().length == 0) {
         sendsvg.style.fill = "#212121";
         sendsvg.style.opacity = "0.7";
+        document.getElementById("txt").placeholder = hey[Math.floor(Math.random() * hey.length)];
     } else {
         sendsvg.style.fill = "#4285f4";
         sendsvg.style.opacity = "1.0";
@@ -247,6 +250,9 @@ facebook.addEventListener("click", () => {
     window.location.href = "https://facebook.com/melvinjonesrepol"
 });
 
+hocgg.addEventListener("click", () => {
+    window.location.href = "https://m.me/AbajwXM3ZUX07emx"
+});
 
 txt.addEventListener("input", () => {
     changeBtnClr();
