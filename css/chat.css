@@ -276,6 +276,10 @@ main {
     .me {
         max-width: 80vw;
     }
+
+    body {
+        height: 100vh;
+    }
 }
 
 .edittxt {
@@ -295,10 +299,7 @@ main {
     font-size: 1.1em;
 }
 
-/*
-svg fill = #4285f4
-*/
-.edittxt, .send, .voice, .newchat {
+.edittxt, .send {
     background: #fff;
     border: none;
     box-sizing: border-box;
@@ -307,6 +308,23 @@ svg fill = #4285f4
     display: flex;
     align-items: center;
     fill: #212121;
+}
+
+.newchat:focus {
+    animation: spin 2s linear infinite;
+}
+
+.top-icon {
+    padding: 5px;
+    border: none;
+    background: #fff;
+    fill: #484848;
+    transition: all 2s ease;
+}
+
+.top-icon:active, .top-icon:hover  {
+    fill: #4285f4;
+    transition: all 2s ease;
 }
 
 @keyframes spin {
