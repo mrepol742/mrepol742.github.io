@@ -49,7 +49,7 @@ nav {
 }
 
 body {
-    height: 100vh;
+    height: 109vh;
     width: 100%;
     background: #fff;
     margin: 0;
@@ -112,11 +112,11 @@ main {
 }
 
 .mj {
-    background: #f3f3f3;
+    background: #484848;
     width: auto;
     margin: 5px;
     padding: 10px 20px 10px 20px;
-    color: #000;
+    color: #fff;
     border-radius: 3px 15px 15px 15px;
     clear: both;
     /*    float: left; */
@@ -149,10 +149,19 @@ main {
 }
 
 .chat-bubble {
-    background-color: #f3f3f3;
+    background-color: #484848;
     padding: 12px 22px;
     margin: 5px;
     border-radius: 3px 15px 15px 15px;
+    display: inline-block;
+}
+
+.chat-bubble0 {
+    background-color: #fff;
+    padding: 12px 22px;
+    margin: 5px;
+    border-radius: 15px 15px 3px 15px;
+    box-shadow: 0 0 1em #21212118;
     display: inline-block;
 }
 
@@ -163,8 +172,8 @@ main {
 }
 
 .typing .dot {
-    animation: mercuryTypingAnimation 1.8s infinite ease-in-out;
-    background-color: #f3f3f3;
+    animation: type 1.8s infinite ease-in-out;
+    background-color: #484848;
     border-radius: 50%;
     height: 7px;
     margin-right: 4px;
@@ -191,23 +200,20 @@ main {
 
 
 
-@keyframes mercuryTypingAnimation {
+@keyframes type {
     0% {
         transform: translateY(0px);
         background-color: #f3f3f3;
-        /* rgba(20,105,69,.7); */
     }
 
     28% {
         transform: translateY(-7px);
-        background-color: #f3f3f3;
-        /*rgba(20,105,69,.4);*/
+        background-color: #67ffa1;
     }
 
     44% {
         transform: translateY(0px);
-        background-color: #d1cdcd;
-        /*rgba(20,105,69,.2);*/
+        background-color: #4285f4;
     }
 }
 
@@ -225,14 +231,15 @@ main {
 }
 
 .me {
-    background: #4285f4;
-    color: #fff;
+    background: #fff;
+    color: #484848;
     width: auto;
     margin: 5px;
     padding: 10px 20px 10px 20px;
     border-radius: 15px 15px 3px 15px;
     clear: both;
     /*    float: right; */
+    box-shadow: 0 0 1em #21212118;
     align-self: flex-end;
     position: relative;
     max-width: 65vw;
@@ -243,7 +250,7 @@ main {
 }
 
 .time1 {
-    color: #000;
+    color: #484848;
     width: auto;
     clear: both;
     float: right;
@@ -254,7 +261,7 @@ main {
 
 
 .time2 {
-    color: #000;
+    color: #484848;
     width: auto;
     clear: both;
     float: left;
@@ -285,23 +292,26 @@ main {
     flex: 1;
     border: none;
     box-sizing: border-box;
-    padding: 1rem;
+    font-size: 1.1em;
 }
 
 /*
 svg fill = #4285f4
 */
-.edittxt .send {
+.edittxt, .send, .voice, .newchat {
     background: #fff;
     border: none;
     box-sizing: border-box;
-    padding: 1rem;
-    font-size: 1.4rem;
+    padding: 10px;
     color: #0078ff;
     display: flex;
     align-items: center;
-    opacity: 0.7;
-    fill: #757575;
+    fill: #212121;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% {  transform: rotate(359deg); }
 }
 
 textarea {
