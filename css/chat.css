@@ -49,7 +49,7 @@ nav {
 }
 
 body {
-    height: 109vh;
+    height: 100vh;
     width: 100%;
     background: #fff;
     margin: 0;
@@ -276,16 +276,14 @@ main {
     .me {
         max-width: 80vw;
     }
-
-    body {
-        height: 100vh;
-    }
 }
 
+/*
 .edittxt {
     position: fixed;
     bottom: 0%;
     width: 100%;
+    
     display: flex;
     align-items: center;
     box-shadow: 0 0 2em #2121215e;
@@ -306,9 +304,41 @@ main {
     padding: 10px;
     color: #0078ff;
     display: flex;
+    flex-direction:row;
     align-items: center;
     fill: #212121;
 }
+*/
+ .send {
+    background: #fff;
+    border: none;
+    padding-top: 0px;
+    fill: #212121;
+}
+
+.edittxt {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 0%;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 0 2em #2121215e;
+    background-color: #ffffff;
+  }
+  
+  .inner {
+    flex-basis: 100%;
+    flex-grow: 1;
+  }
+  
+  .inner:nth-of-type(1) {
+  }
+  
+  .inner:nth-of-type(2) {
+   display: inline-flex;
+   
+  }
 
 .newchat:focus {
     animation: spin 2s linear infinite;
@@ -334,7 +364,15 @@ main {
 
 textarea {
     resize: none;
+    width: 100%;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px solid #484848;
+    padding-right: 8px;
+    padding-left: 8px;
 }
+
+
 
 .navbar-toggler {
     border: none;

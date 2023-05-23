@@ -239,6 +239,15 @@ txt.addEventListener("keypress", function (evt) {
     }
 });
 
+github.addEventListener("click", () => {
+    window.location.href = "https://github.com/mrepol742/mrepol742.github.io"
+});
+
+facebook.addEventListener("click", () => {
+    window.location.href = "https://facebook.com/melvinjonesrepol"
+});
+
+
 txt.addEventListener("input", () => {
     changeBtnClr();
     if (isPending) {
