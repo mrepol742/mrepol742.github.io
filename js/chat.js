@@ -118,7 +118,7 @@ async function sendMsg() {
     }
     construct += "%jk__lio%" + txtInp;
     $.ajax({
-        url: "https://project-orion.mrepol853.repl.co/chat?" + construct,
+        url: "https://project-orion.mrepol742.repl.co/chat?" + construct,
         headers: {
             "Content-Type": "application/x-www-form-urlencoded",
         },
