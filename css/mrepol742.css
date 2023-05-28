@@ -17,18 +17,26 @@
 }
 
 body {
-    background: #ffffff !important;
+    background: #ffffff;
     color: #2e475d;
 }
 
- ol{
-    list-style: none; /* Remove default bullets */
-  }
+ol {
+    list-style: none;
+    /* Remove default bullets */
+}
 
-  ol li::before {content: counter(li); color: #4285f4;
-    display: inline-block; width: 2em;
-    margin-left: -2em}
-   ol li {counter-increment: ol li}
+ol li::before {
+    content: counter(li);
+    color: #4285f4;
+    display: inline-block;
+    width: 2em;
+    margin-left: -2em
+}
+
+ol li {
+    counter-increment: ol li
+}
 
 
 legend {
@@ -49,7 +57,7 @@ hr {
     font-family: 'Maven Pro', sans-serif;
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 a {

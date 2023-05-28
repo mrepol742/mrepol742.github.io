@@ -72,7 +72,7 @@
 				} 
 			</style>
 		</head>
-		<body>
+		<body class="d-flex flex-column min-vh-100">
 		<div id="content">
 			<h1>XML Sitemap</h1>
 			<p class="expl">
