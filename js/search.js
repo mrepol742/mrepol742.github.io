@@ -299,7 +299,7 @@ function s222(q) {
 		window.history.replaceState(null, null, "?query=" + q);
 	})
 	$.ajax({
-        url: "https://project-orion.mrepol853.repl.co/search?" + q,
+        url: "https://search.mrepol742.repl.co?" + q,
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
         },
@@ -389,7 +389,7 @@ function s222(q) {
 
 function s223(q) {
 	$.ajax({
-        url: "https://project-orion.mrepol853.repl.co/searchimg?" + q,
+        url: "https://search.mrepol742.repl.co/img?" + q,
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
         },
