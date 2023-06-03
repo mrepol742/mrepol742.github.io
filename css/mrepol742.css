@@ -17,6 +17,7 @@
 }
 
 body {
+    padding-top: 76px;
     background: #ffffff;
     color: #2e475d;
 }
@@ -85,7 +86,6 @@ a:hover {
 }
 
 main {
-    padding-top: 9% !important;
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -216,7 +216,6 @@ p.top {
     main {
         margin-left: 4%;
         margin-right: 4%;
-        padding-top: 15% !important;
     }
 
     footer {
