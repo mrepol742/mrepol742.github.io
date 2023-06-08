@@ -431,8 +431,15 @@ html {
     display: flex;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 #qwe {
-    transition: all 0.7s ease;
+    transition: all 0.5s ease;
 }
 
 input:-webkit-autofill,
