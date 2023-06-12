@@ -49,7 +49,7 @@ nav {
 }
 
 body {
-    height: 100vh;
+    height: 103vh;
     width: 100%;
     background: #fff;
     margin: 0;
@@ -321,12 +321,10 @@ main {
     flex-wrap: wrap;
     position: fixed;
     bottom: 0%;
-    padding: 10px;
+    padding: 5px;
     width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
     border: none;
-    box-shadow: 0 0 2em #2121215e;
+    box-shadow: 0 0 1em #2121212c;
     background-color: #ffffff;
   }
   
@@ -353,12 +351,12 @@ main {
     border: none;
     background: #fff;
     fill: #484848;
-    transition: all 2s ease;
+    transition: all 0.5s ease;
 }
 
 .top-icon:active, .top-icon:hover  {
     fill: #4285f4;
-    transition: all 2s ease;
+    transition: all 0.5s ease;
 }
 
 @keyframes spin {
@@ -370,15 +368,12 @@ textarea {
     resize: none;
     width: 100%;
     margin: 10px;
-    border-radius: 5px;
+    margin-bottom: 0;
+    border-radius: 10px;
     border: 2px solid #484848;
     padding-right: 8px;
-    border-bottom-width: 3px;
-    border-right-width: 3px;
     padding-left: 8px;
 }
-
-
 
 .navbar-toggler {
     border: none;
