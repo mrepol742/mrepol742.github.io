@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
   <loc>https://mrepol742.github.io</loc>
-  <lastmod>2023-06-04T00:16:36+08:00</lastmod>
+  <lastmod>2023-06-22T21:00:10+08:00</lastmod>
   <image:image>
     <image:loc>https://mrepol742.github.io/images/305620973_197705909297536_1418418276482485489_n.jpg</image:loc>
   </image:image>  <image:image>
@@ -19,8 +19,6 @@
     <image:loc>https://mrepol742.github.io/images/319740793_675470854050375_5531461446004254416_n.jpg</image:loc>
   </image:image>  <image:image>
     <image:loc>https://mrepol742.github.io/images/myportfolio.png</image:loc>
-  </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/webviumsearch.png</image:loc>
   </image:image>  <image:image>
     <image:loc>https://mrepol742.github.io/images/terminal.png</image:loc>
   </image:image>  <image:image>
@@ -62,12 +60,12 @@
   </video:video></url>
 <url>
   <loc>https://mrepol742.github.io/project-orion</loc>
-  <lastmod>2023-05-28T21:01:40+08:00</lastmod>
+  <lastmod>2023-06-22T21:02:40+08:00</lastmod>
 
 </url>
 <url>
   <loc>https://mrepol742.github.io/project-orion/chat</loc>
-  <lastmod>2023-05-28T21:01:16+08:00</lastmod>
+  <lastmod>2023-06-12T23:37:35+08:00</lastmod>
 
 </url>
 <url>
@@ -82,7 +80,7 @@
 </url>
 <url>
   <loc>https://mrepol742.github.io/link-tree</loc>
-  <lastmod>2023-05-28T21:01:40+08:00</lastmod>
+  <lastmod>2023-06-13T05:45:28+08:00</lastmod>
   <image:image>
     <image:loc>https://mrepol742.github.io/images/h5.png</image:loc>
   </image:image>
@@ -128,7 +126,7 @@
 </url>
 <url>
   <loc>https://mrepol742.github.io/webviumbeta</loc>
-  <lastmod>2023-05-28T21:01:40+08:00</lastmod>
+  <lastmod>2023-06-22T21:00:31+08:00</lastmod>
   <image:image>
     <image:loc>https://mrepol742.github.io/images/webvium_transparent_icon.png</image:loc>
   </image:image>  <image:image>
@@ -164,7 +162,7 @@
 </url>
 <url>
   <loc>https://mrepol742.github.io/webviumvpn</loc>
-  <lastmod>2023-05-28T21:01:40+08:00</lastmod>
+  <lastmod>2023-06-22T21:00:37+08:00</lastmod>
   <image:image>
     <image:loc>https://mrepol742.github.io/images/webviumvpn_transparent_icon.png</image:loc>
   </image:image>  <image:image>
@@ -205,7 +203,7 @@
 </url>
 <url>
   <loc>https://mrepol742.github.io/search</loc>
-  <lastmod>2023-05-28T21:01:16+08:00</lastmod>
+  <lastmod>2023-06-08T23:47:40+08:00</lastmod>
 
 </url>
 <url>
@@ -222,7 +220,7 @@
 </url>
 <url>
   <loc>https://mrepol742.github.io/webviumdev</loc>
-  <lastmod>2023-05-28T21:01:40+08:00</lastmod>
+  <lastmod>2023-06-22T21:00:33+08:00</lastmod>
   <image:image>
     <image:loc>https://mrepol742.github.io/images/webvium_transparent_icon.png</image:loc>
   </image:image>  <image:image>
@@ -253,7 +251,7 @@
 </url>
 <url>
   <loc>https://mrepol742.github.io/webvium</loc>
-  <lastmod>2023-05-28T21:01:40+08:00</lastmod>
+  <lastmod>2023-06-22T21:00:27+08:00</lastmod>
   <image:image>
     <image:loc>https://mrepol742.github.io/images/webvium_transparent_icon.png</image:loc>
   </image:image>  <image:image>
