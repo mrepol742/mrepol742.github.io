@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/css/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+  <loc>https://mrepol742.github.io/mrepol742</loc>
+  <changefreq>daily</changefreq>
+  <image:image>
+    <image:loc>https://gifdb.com/images/high/lamborghini-aventador-neon-yellow-racing-dd8dv43e4djl7nvy.gif</image:loc>
+  </image:image>
+</url>
+<url>
+  <loc>https://mrepol742.github.io/valentines</loc>
+</url>
+<url>
+  <loc>https://mrepol742.github.io/wallpaper</loc>
+</url>
+<url>
+  <loc>https://mrepol742.github.io/sketch</loc>
+</url>
+<url>
+  <loc>https://mrepol742.github.io/Calculator</loc>
+</url>
+<url>
+  <loc>https://mrepol742.github.io/calendar</loc>
+</url>
+</urlset>
