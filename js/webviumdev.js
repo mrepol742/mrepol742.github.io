@@ -1,5 +1,5 @@
 async function doJob() {
-const response = await fetch("https://raw.githubusercontent.com/mrepol742/released/dev/info.json");
+const response = await fetch("https://mrepol742-released-dev.netlify.app/info.json");
 const jsonData = await response.json();
 
 var items = document.querySelectorAll('.size12');
