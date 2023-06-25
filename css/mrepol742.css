@@ -76,13 +76,28 @@ a:hover {
 .nav-link,
 .navbar-brand {
     color: #000;
-    transition: all 0.5s ease;
+    transition: all 1s ease;
 }
 
-.nav-link:hover,
+nav .nav-link {
+    text-transform: uppercase;
+}
+
+nav .nav-link:hover {
+    color: #fff !important;
+}
+
+nav .nav-item:hover {
+    background-color: #4285f4 !important;
+    border-radius: 5px;
+    border: none;
+    transition: all 1s ease;
+}
+
+footer .nav-link:hover,
 .navbar-brand:hover {
     color: #4285f4 !important;
-    transition: all 0.5s ease;
+    transition: all 1s ease;
 }
 
 main {
@@ -423,8 +438,8 @@ html {
 }
 
 .navbar-toggler-icon {
-    background-image: url("/images/chevron-down.svg");
-    background-size: 100%;
+    background-image: url("/images/menu.svg");
+    background-size: 80%;
     background-position: center center;
     width: 25px;
     height: 25px;
