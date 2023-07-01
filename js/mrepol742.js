@@ -44,7 +44,6 @@ document.getElementById("accpt").onclick = function() {
 
 document.addEventListener("DOMContentLoaded", function(){
   el_autohide = document.querySelector('.autohide');
-  el_autohide = document.querySelector('.autohide');
   navbar_height = document.querySelector('.navbar').offsetHeight;
   document.body.style.paddingTop = navbar_height + 'px';
   if(el_autohide){
@@ -54,10 +53,16 @@ document.addEventListener("DOMContentLoaded", function(){
          if(scroll_top < last_scroll_top) {
               el_autohide.classList.remove('scrolled-down');
               el_autohide.classList.add('scrolled-up');
+              if (scroll_top == 0) {
+                el_autohide.style.boxShadow = "none";
+              }
           }
           else {
               el_autohide.classList.remove('scrolled-up');
               el_autohide.classList.add('scrolled-down');
+              if (scroll_top != 0) {
+                el_autohide.style.boxShadow = "0 0 5em rgba(0, 0, 0, .3)";
+              }
           }
           last_scroll_top = scroll_top;
     }); 

@@ -1,4 +1,4 @@
-const cacheName = 'mrepol742v3.1';
+const cacheName = 'mrepol742v6';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(cacheName));
