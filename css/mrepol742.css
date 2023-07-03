@@ -86,13 +86,13 @@ nav .nav-link:hover {
 .first {
     background-color: transparent !important;
     box-shadow: none !important;
-  }
+}
 
-  .first  .card-body {
+.first .card-body {
     padding: 5%;
 }
 
-.first   .mb-3 {
+.first .mb-3 {
     padding: 5%;
     margin-bottom: 0 !important;
     border: none;
@@ -121,7 +121,7 @@ footer .nav-link:hover,
 }
 
 footer .nav-link {
-   color: #2e475d;
+    color: #2e475d;
 
 }
 
@@ -228,7 +228,8 @@ nav {
     transition: all 0.5s ease;
 }
 
-.card-header, .accordion-header {
+.card-header,
+.accordion-header {
     background: none;
     border: none;
 }
@@ -270,7 +271,7 @@ p.top {
         margin-right: 0%;
         padding: 0px;
     }
-    
+
 
     .dropdown-menu {
         padding: 4% !important;
@@ -443,8 +444,8 @@ footer {
 }
 
 .dropdown-toggle::after {
-    border: none!important;
-  }
+    border: none !important;
+}
 
 .progress {
     height: 25px;
@@ -504,9 +505,10 @@ input:-webkit-autofill:active {
     box-shadow: none !important;
 }
 
-.icon, .text {
-  vertical-align: middle;
-  display: inline-block;
+.icon,
+.text {
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .sec {
@@ -540,7 +542,7 @@ input:-webkit-autofill:active {
     }
 }
 
-@media (min-width:770px) { 
+@media (min-width:770px) {
 
     #mobile {
         display: none;
