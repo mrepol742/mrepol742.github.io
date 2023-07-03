@@ -522,6 +522,14 @@ input:-webkit-autofill:active {
     display: none;
 }
 
+.grid-container {
+    grid-template-columns: auto;
+}
+
+.grid-item {
+    margin: 1%;
+}
+
 @media (min-width:420px) {
 
     .sec {
@@ -534,5 +542,9 @@ input:-webkit-autofill:active {
 
     #desktop {
         display: block;
+    }
+
+    .grid-container {
+        grid-template-columns: auto auto auto;
     }
 }
