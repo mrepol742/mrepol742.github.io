@@ -113,7 +113,7 @@ class RSS {
             rss.append("  <lastBuildDate>");
             rss.append(format.format(new Date()));
             rss.append("</lastBuildDate>\n");
-            rss.append("  <link href=\"https://" + domain + "/rss.xml\"" + " rel=\"self\" type=\"application/rss+xml\"/>\n");
+            rss.append("  <link href=\"" + domain + "/rss.xml\"" + " rel=\"self\" type=\"application/rss+xml\"/>\n");
             rss.append("  <language><![CDATA[ en ]]></language>\n");
             isHome = true;
         }
