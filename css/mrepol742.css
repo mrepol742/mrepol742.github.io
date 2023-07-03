@@ -552,3 +552,8 @@ input:-webkit-autofill:active {
         display: block;
     }
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
