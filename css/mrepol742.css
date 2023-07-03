@@ -228,8 +228,7 @@ nav {
     transition: all 0.5s ease;
 }
 
-.card-header,
-.accordion-header {
+.card-header, .accordion-header {
     background: none;
     border: none;
 }
@@ -536,15 +535,18 @@ input:-webkit-autofill:active {
         display: inline-block;
     }
 
+    .grid-container {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (min-width:770px) { 
+
     #mobile {
         display: none;
     }
 
     #desktop {
         display: block;
-    }
-
-    .grid-container {
-        grid-template-columns: auto auto auto;
     }
 }
