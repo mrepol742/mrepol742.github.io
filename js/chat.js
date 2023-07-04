@@ -45,19 +45,6 @@ if ('serviceWorker' in navigator) {
   }
   } catch (err) {}
   
-  try {
-  var isShow = true;
-  qwe111.addEventListener("click", function() {
-      if (isShow) {
-          isShow = false;
-          qwe.style.background = 'url("/images/chevron-up.svg")';
-      } else {
-          isShow = true;
-          qwe.style.background = 'url("/images/chevron-down.svg")';
-      }
-  });
-  } catch (er) {}
-  
 let isLoaded = true;
 let chats = document.getElementById("chats");
 let messages = [];

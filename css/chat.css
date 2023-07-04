@@ -384,8 +384,8 @@ textarea {
 }
 
 .navbar-toggler-icon {
-    background-image: url("/images/chevron-down.svg");
-    background-size: 100%;
+    background-image: url("/images/menu.svg");
+    background-size: 80%;
     background-position: center center;
     width: 25px;
     height: 25px;
