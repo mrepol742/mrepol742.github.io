@@ -1,6 +1,3 @@
-//(function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; 
-//document.body.appendChild(script); script.onload = function () { eruda.init() } })();
-
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js').then((reg) => {
       console.log('[ServiceWorker] Registered');
@@ -87,17 +84,6 @@ recognition.onerror = function (event) {
 
 document.getElementById("txt").placeholder = hey[Math.floor(Math.random() * hey.length)];
 root.style.setProperty("--et-height", etheight);
-
-const changeBtnClr = () => {
-    if (txt.value.trim().length == 0) {
-        sendsvg.style.fill = "#212121";
-        sendsvg.style.opacity = "0.7";
-        document.getElementById("txt").placeholder = hey[Math.floor(Math.random() * hey.length)];
-    } else {
-        sendsvg.style.fill = "#4285f4";
-        sendsvg.style.opacity = "1.0";
-    }
-};
 
 function removetype() {
     let a = document.querySelector(".incoming-response");
@@ -227,7 +213,6 @@ async function sendMsg() {
         },
         "fast"
     );
-    changeBtnClr();
 }
 
 if (isLoaded) {
@@ -287,20 +272,8 @@ txt.addEventListener("keypress", function (evt) {
     }
 });
 
-github.addEventListener("click", () => {
-    window.location.href = "https://github.com/mrepol742/mrepol742.github.io"
-});
-
-facebook.addEventListener("click", () => {
-    window.location.href = "https://facebook.com/melvinjonesrepol"
-});
-
-hocgg.addEventListener("click", () => {
-    window.location.href = "https://m.me/AbajwXM3ZUX07emx"
-});
 
 txt.addEventListener("input", () => {
-    changeBtnClr();
     if (isPending) {
         isPending = false;
         let chatBubbleLi = document.createElement("li");

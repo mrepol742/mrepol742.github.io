@@ -46,6 +46,7 @@ a:hover {
 nav {
     box-shadow: 0 0 5em #4286f460;
     background-color: #ffffff;
+    padding: 15px !important;
 }
 
 body {
@@ -66,7 +67,7 @@ main {
 
 
 .root {
-    height: 100%;
+    height: 110%;
     width: 100%;
     background: transparent;
     flex: 1;
@@ -157,7 +158,7 @@ main {
 }
 
 .chat-bubble0 {
-    background-color: #fff;
+    background-color: rgba(49, 48, 48, 0.171);
     padding: 12px 22px;
     margin: 5px;
     border-radius: 15px 15px 3px 15px;
@@ -198,8 +199,6 @@ main {
     margin-right: 0;
 }
 
-
-
 @keyframes type {
     0% {
         transform: translateY(0px);
@@ -231,7 +230,7 @@ main {
 }
 
 .me {
-    background: #fff;
+    background-color: rgba(49, 48, 48, 0.171);
     color: #484848;
     width: auto;
     margin: 5px;
@@ -239,7 +238,7 @@ main {
     border-radius: 15px 15px 3px 15px;
     clear: both;
     /*    float: right; */
-    box-shadow: 0 0 1em #21212118;
+   
     align-self: flex-end;
     position: relative;
     max-width: 65vw;
@@ -317,62 +316,32 @@ main {
 }
 
 .edittxt {
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-block;
     position: fixed;
     bottom: 0%;
+    left: 0%;
+    right: 0%;
     padding: 5px;
-    width: 100%;
-    border: none;
-    box-shadow: 0 0 1em #2121212c;
+    border-color: #58585823;
+    border-width: 1px;
+    border-style: solid;
     background-color: #ffffff;
   }
-  
-  .inner {
-    flex-basis: 100%;
-    flex-grow: 1;
-  }
-  
-  .inner:nth-of-type(1) {
-    padding-left: 5px;
-  }
-  
-  .inner:nth-of-type(2) {
-   display: inline-flex;
-   
-  }
 
-.newchat:focus {
-    animation: spin 2s linear infinite;
+.form-control {
+    border-radius: 50px !important;
+    border-style: solid !important;
+    border-width: 2px !important;
+    background-color: #e7e3e3;
+    border-color: #e7e3e3 !important;
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
 
-.top-icon {
-    padding: 5px;
+.navb {
+    padding: 15px;
+    background: none;
     border: none;
-    background: #fff;
-    fill: #484848;
-    transition: all 0.5s ease;
-}
-
-.top-icon:active, .top-icon:hover  {
-    fill: #4285f4;
-    transition: all 0.5s ease;
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% {  transform: rotate(359deg); }
-}
-
-textarea {
-    resize: none;
-    width: 100%;
-    margin: 10px;
-    margin-bottom: 0;
-    border-radius: 10px;
-    border: 2px solid #484848;
-    padding-right: 8px;
-    padding-left: 8px;
 }
 
 .navbar-toggler {
@@ -468,4 +437,8 @@ input:-webkit-autofill:active {
     border-color: #ffffff !important;
     border-radius: 20px;
     box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+}
+
+svg {
+    fill: #2e475d;
 }
