@@ -135,7 +135,6 @@ nav {
     padding: 15px !important;
     background-color: transparent;
     transition: all 0.5s ease;
-    box-shadow: 0 0 5em rgba(0, 0, 0, .2);
 }
 
 .imgc {
@@ -493,8 +492,6 @@ input:-webkit-autofill:active {
 }
 
 .scrolled-up {
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
     transform: translateY(0);
     box-shadow: 0 0 5em #4286f460;
     transition: all 0.3s ease-in-out;
@@ -556,4 +553,9 @@ input:-webkit-autofill:active {
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
+}
+
+.nav-bg {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
 }

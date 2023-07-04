@@ -68,3 +68,13 @@ document.addEventListener("DOMContentLoaded", function(){
     }); 
   }
 }); 
+
+window.onclick = function(e) {
+  var classList = document.getElementById('navbarText').classList;
+  var navbar = document.querySelector('.autohide');
+  if (classList.contains('collapsed')) {
+     navbar.classList.remove('nav-bg');
+  } else {
+     navbar.classList.add('nav-bg');
+  }
+};
