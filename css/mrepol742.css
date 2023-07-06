@@ -556,8 +556,3 @@ input:-webkit-autofill:active {
     display: block;
     margin-top: 0;
 }
-
-.nav-bg {
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
-}

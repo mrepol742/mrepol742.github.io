@@ -22,6 +22,28 @@ a {
     transition: all 0.5s ease;
 }
 
+body {
+    padding-top: 76px;
+}
+
+li a {
+    color: #fff;
+}
+
+li a:hover {
+    color: #4285f4;
+    transition: all 0.5s ease;
+}
+
+.aaaa {
+    color: #212121 !important;
+}
+
+.aaaa:hover {
+    color: #4285f4 !important;
+}
+
+
 a:hover {
     color: #000000;
     transition: all 0.5s ease;
@@ -76,7 +98,7 @@ main {
     transition: all 0.5s ease;
 }
 
-
+/*
 .search-container1 {
     border: none;
     padding: 5px;
@@ -99,6 +121,7 @@ main {
     color: #212121;
 }
 
+*/
 .search-container>svg {
     height: 24px;
     min-width: 70px;
@@ -358,8 +381,9 @@ input:-webkit-autofill:active {
 }
  
 nav {
-    box-shadow: 0 0 5em #4286f460;
-    background-color: #ffffff;
+    padding: 15px !important;
+    background-color: transparent;
+    transition: all 0.5s ease;
 }
 
 .container-fluid {
@@ -379,7 +403,7 @@ nav {
 
 .navbar-toggler-icon {
     background-image: url("/images/chevron-down.svg");
-    background-size: 100%;
+    background-size: 80%;
     background-position: center center;
     width: 25px;
     height: 25px;
@@ -402,6 +426,9 @@ nav {
 
 .scrolled-up {
     transform: translateY(0);
+    box-shadow: 0 0 5em #4286f460;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
     transition: all 0.3s ease-in-out;
 }
 
@@ -412,4 +439,23 @@ nav {
     border-radius: 20px;
     box-shadow: 0 0 5em rgba(0, 0, 0, .1);
     padding: 15%;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
+}
+
+.accordion-button:hover,
+.accordion-button:active {
+    background-color: transparent !important;
+}
+
+.accordion-button, .accordion-body {
+    color: #ffffff;
+}
+
+.navb {
+    padding: 15px;
+    background: none;
+    border: none;
 }
