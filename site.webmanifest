@@ -1,17 +1,17 @@
 {
   "name": "Melvin Jones Repol - Software Engineer",
   "short_name": "Melvin Jones Repol",
-  "description": "Software Engineer with experience in variety of fields and projects. I love helping and contributing to open source code, programming is one of my passion.",
+  "description": "I'm a self-taught Freelance Software Engineer with experience in web development, seo, computer hardware & software and currently studying arduino programming.",
   "dir": "ltr",
   "lang": "en-US",
   "icons": [
     {
-      "src": "/favicon.png",
+      "src": "/favicon_192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/favicon.png",
+      "src": "/favicon_512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
@@ -27,19 +27,41 @@
       "short_name": "Chat",
       "description": "Chat is a feature of Project Orion that's currently under development where in you can interact with the project AI. If you found any issues please let us know.",
       "url": "/project-orion/chat?utm_source=webmanifest",
-      "icons": [{ "src": "/favicon.png", "sizes": "192x192" }]
+      "icons": [
+        {
+          "src": "/favicon_192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/favicon_512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
     },
     {
       "name": "Webvium Search - A Powerful search engine that allows users to quickly and easily find the information.",
       "short_name": "Search",
       "description": "Find information quickly and easily, and browse the Internet securely with Webvium Search.",
       "url": "/search/?utm_source=webmanifest",
-      "icons": [{ "src": "/search/favicon.png", "sizes": "192x192" }]
+      "icons": [
+        {
+          "src": "/favicon_192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "/favicon_512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ]
     }
   ],
   "screenshots": [
     {
-      "src": "/images/myportfolio.png",
+      "src": "/manifest.jpg",
       "type": "image/png",
       "sizes": "1329x629",
       "form_factor": "wide"
