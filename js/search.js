@@ -258,7 +258,7 @@ function find(query) {
 	}
 }
 
-var sq = decodeURI(location.search.split('query=')[1] ? location.search.split('query=')[1] : '');
+var sq = decodeURI(location.search.split('query=')[1] ? location.search.split('q=')[1] : '');
 if (sq != '') {
 	document.getElementById("search").value = sq;
 	find(sq);
