@@ -1,7 +1,7 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
   <ShortName>Webvium Search</ShortName>
-  <Description>A Search Engine from Webvium Project that's currently under development progress. The default homepage for the Webvium Browser with style.</Description>
+  <Description>Find information quickly and easily, and browse the Internet securely with Webvium Search..</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16" type="image/png">https://mrepol742.github.io/search/favicon.png</Image>
   <Url type="text/html" method="get" template="https://mrepol742.github.io/search?query={searchTerms}&amp;ref=opensearch"/>
