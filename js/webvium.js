@@ -18,10 +18,8 @@ for (var i = 0; i < versionList.length; i++) {
   list.classList.add('list-group-item');
   var a = document.createElement('a');
   a.setAttribute('href', downloadUrlPrefix.replace("%WEBVIUM%", versionList[i]));
-  a.classList.add('btn');
-  a.classList.add('webvI');
   a.setAttribute('target', '_blank');
-  a.innerHTML = "- Webvium v" + versionList[i] + " " + sizeList[i] + "KB";
+  a.innerHTML = "Webvium v" + versionList[i] + " (" + sizeList[i] + "KB)";
   list.appendChild(a);
   versions.appendChild(list);
 }

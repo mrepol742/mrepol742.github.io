@@ -26,24 +26,6 @@ svg {
     fill: #2e475d;
 }
 
-ol {
-    list-style: none;
-    /* Remove default bullets */
-}
-
-ol li::before {
-    content: counter(li);
-    color: #4285f4;
-    display: inline-block;
-    width: 2em;
-    margin-left: -2em
-}
-
-ol li {
-    counter-increment: ol li
-}
-
-
 legend {
     padding: 10px;
 }
@@ -157,6 +139,10 @@ nav {
     margin-top: 2%;
 }
 
+.accordion-button:after {
+    background-image: url("data:image/svg+xml, <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"1em\" viewBox=\"0 0 448 512\"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d=\"M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z\"/></svg>") !important;
+  }
+
 .card,
 .accordion,
 .modal-content,
@@ -195,12 +181,6 @@ nav {
     box-shadow: none;
 }
 
-.accordion-button:not(.collapsed) {
-    color: #212121;
-    background-color: #ffffff;
-    border: none !important;
-}
-
 .accordion-button:focus {
     outline: 0 !important;
     box-shadow: none !important;
@@ -210,10 +190,11 @@ nav {
     transition: all 0.5s ease;
 }
 
+.accordion-button:not(.collapsed),
 .accordion-button:hover,
 .accordion-button:active {
-    background-color: #4285f4 !important;
-    color: white;
+    background-color: #4286f434 !important;
+    color: #4285f4;
     border-radius: 5px !important;
     border: none !important;
     transition: all 0.5s ease;
@@ -398,20 +379,6 @@ footer {
     padding: 15%;
 }
 
-.btn {
-    border-radius: 7px;
-    padding-left: 6%;
-    padding-right: 6%;
-    transition: all 0.5s ease;
-}
-
-.btn:focus {
-    background-color: #ffffff;
-    border-color: #4285f4;
-    color: #4285f4;
-    transition: all 0.5s ease;
-}
-
 .deVaaa {
     background-color: #ffffff;
     box-shadow: 0 0 5em rgba(0, 0, 0, .1);
@@ -555,4 +522,28 @@ input:-webkit-autofill:active {
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
+}
+
+img {
+	transition: .3s ease;
+}
+
+img:hover {
+	-webkit-transform: scale(0.98);
+	transform: scale(0.98);
+}
+
+.btn {
+    color: #4285f4;
+    background-color: #4286f42c;
+    border-radius: 50px;
+    border: none;
+    transition: 0.3s ease;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.btn:hover {
+    background-color: #4286f46c;
+    transition: 0.3s ease;
 }
