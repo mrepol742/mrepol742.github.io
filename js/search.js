@@ -320,7 +320,7 @@ function s222(q) {
 			divimg.setAttribute('class', 'images');
 			var h3 = document.createElement('h3');
 			h3.setAttribute('class', 'igtt');
-			h3.innerText = "Images for " + q;
+			h3.innerText = "Images for " + q + " ›";
 			card.appendChild(h3);
 			var divimgh = document.createElement('div');
 			divimgh.setAttribute('class', 'holder');
@@ -331,7 +331,7 @@ function s222(q) {
 			for (i = 0; i < result.length; i++) {
                 if (i == 4) {
 					var h3 = document.createElement('h3');
-			        h3.innerText = "Images for " + q;
+			        h3.innerText = "Images for " + q + " ›";
 			        h3.setAttribute('class', 'igtt')
 			        card.appendChild(h3);
 					var divimg = document.createElement('div');
@@ -409,7 +409,8 @@ function s223(q) {
 				img.setAttribute('class', 'preview');
 				img.setAttribute('loading', 'lazy');
 				img.setAttribute('src', result[i].url);
-				img.setAttribute('alt', result[i].origin.title);
+				img.setAttribute('onerror', "this.onerror=null; this.src='/images/cover.png'");
+				//img.setAttribute('alt', result[i].origin.title);
 				if (i % 2 === 0) {
 					root.appendChild(img);
 				} else {

@@ -147,7 +147,7 @@ nav {
 .accordion,
 .modal-content,
 .toast {
-    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+    box-shadow: 0 0 5em rgba(0, 0, 0, .05);
     transition: box-shadow .3s;
     padding: 10px;
     margin-top: 10px;
@@ -546,4 +546,8 @@ img:hover {
 .btn:hover {
     background-color: #4286f46c;
     transition: 0.3s ease;
+}
+
+.num {
+    font-size: 4em !important;
 }
