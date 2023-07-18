@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
   <loc>https://mrepol742.github.io</loc>
-  <lastmod>2023-07-09T10:43:51+08:00</lastmod>
+  <lastmod>2023-07-14T18:22:43+08:00</lastmod>
   <image:image>
     <image:loc>https://mrepol742.github.io/images/melvin-jones-repol.transparent-min.png</image:loc>
   </image:image>  <image:image>
@@ -25,14 +25,6 @@
     <image:loc>https://mrepol742.github.io/images/seo.jpg</image:loc>
   </image:image>  <image:image>
     <image:loc>https://mrepol742.github.io/images/chs.jpg</image:loc>
-  </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/bestlinkcollegeofthephilippines.png</image:loc>
-  </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/southeasteasiainstitueoftradeandtechnology.jpeg</image:loc>
-  </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/cover.jpg</image:loc>
-  </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/southeasteasiainstitueoftradeandtechnology.jpeg</image:loc>
   </image:image>
   <video:video>
     <video:title>Webvium - Lightweight, Fast, Material and Full-Featured Android Web Browser</video:title>
@@ -51,23 +43,32 @@
     <video:content_loc>https://mrepol742.github.io/videos/login-system.mp4</video:content_loc>
   </video:video></url>
 <url>
-  <loc>https://mrepol742.github.io/project-orion</loc>
-  <lastmod>2023-07-09T10:27:55+08:00</lastmod>
+  <loc>https://mrepol742.github.io/chatgpt-prompts</loc>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
+  <image:image>
+    <image:loc>https://mrepol742.github.io/images/chatgpt.jpg</image:loc>
+  </image:image>
+</url>
+<url>
+  <loc>https://mrepol742.github.io/flowers</loc>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
 
 </url>
 <url>
-  <loc>https://mrepol742.github.io/project-orion/chat</loc>
-  <lastmod>2023-07-08T11:04:49+08:00</lastmod>
-
+  <loc>https://mrepol742.github.io/helloworld</loc>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
+  <image:image>
+    <image:loc>https://mrepol742.github.io/images/helloworld.jpg</image:loc>
+  </image:image>
 </url>
 <url>
-  <loc>https://mrepol742.github.io/project-orion/privacypolicy</loc>
-  <lastmod>2023-07-09T10:27:55+08:00</lastmod>
+  <loc>https://mrepol742.github.io/ily</loc>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
 
 </url>
 <url>
   <loc>https://mrepol742.github.io/link-tree</loc>
-  <lastmod>2023-07-09T10:27:55+08:00</lastmod>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
   <image:image>
     <image:loc>https://mrepol742.github.io/images/melvin-jones-repol.transparent-min.png</image:loc>
   </image:image>  <image:image>
@@ -75,47 +76,110 @@
   </image:image>
 </url>
 <url>
-  <loc>https://mrepol742.github.io/helloworld</loc>
-  <lastmod>2023-07-09T10:27:55+08:00</lastmod>
+  <loc>https://mrepol742.github.io/privacypolicy</loc>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
+
+</url>
+<url>
+  <loc>https://mrepol742.github.io/project-orion</loc>
+  <lastmod>2023-07-18T08:31:02+08:00</lastmod>
+
+</url>
+<url>
+  <loc>https://mrepol742.github.io/project-orion/chat</loc>
+  <lastmod>2023-07-18T11:16:26+08:00</lastmod>
+
+</url>
+<url>
+  <loc>https://mrepol742.github.io/project-orion/privacypolicy</loc>
+  <lastmod>2023-07-18T11:14:43+08:00</lastmod>
+
+</url>
+<url>
+  <loc>https://mrepol742.github.io/project-orion/termsofservice</loc>
+  <lastmod>2023-07-18T11:13:50+08:00</lastmod>
+
+</url>
+<url>
+  <loc>https://mrepol742.github.io/qrcode</loc>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
   <image:image>
-    <image:loc>https://mrepol742.github.io/images/helloworld.jpg</image:loc>
+    <image:loc>https://mrepol742.github.io/images/qrcode.png</image:loc>
   </image:image>
 </url>
 <url>
-  <loc>https://mrepol742.github.io/chatgpt-prompts</loc>
-  <lastmod>2023-07-09T10:27:55+08:00</lastmod>
-  <image:image>
-    <image:loc>https://mrepol742.github.io/images/chatgpt.jpg</image:loc>
-  </image:image>
+  <loc>https://mrepol742.github.io/rgbcalculator</loc>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
+
+</url>
+<url>
+  <loc>https://mrepol742.github.io/screensizes</loc>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
+
+</url>
+<url>
+  <loc>https://mrepol742.github.io/search</loc>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
+
 </url>
 <url>
   <loc>https://mrepol742.github.io/test-page</loc>
-  <lastmod>2023-07-09T10:27:55+08:00</lastmod>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
 
 </url>
 <url>
   <loc>https://mrepol742.github.io/useragent</loc>
-  <lastmod>2023-07-09T10:27:55+08:00</lastmod>
-
-</url>
-<url>
-  <loc>https://mrepol742.github.io/flowers</loc>
-  <lastmod>2023-07-08T11:04:49+08:00</lastmod>
-
-</url>
-<url>
-  <loc>https://mrepol742.github.io/privacypolicy</loc>
-  <lastmod>2023-07-09T10:27:55+08:00</lastmod>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
 
 </url>
 <url>
   <loc>https://mrepol742.github.io/viewip</loc>
-  <lastmod>2023-07-09T10:27:55+08:00</lastmod>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
+
+</url>
+<url>
+  <loc>https://mrepol742.github.io/webvium</loc>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
+  <image:image>
+    <image:loc>https://mrepol742.github.io/images/webvium_transparent_icon.png</image:loc>
+  </image:image>  <image:image>
+    <image:loc>https://mrepol742.github.io/images/webvium-1.jpg</image:loc>
+  </image:image>  <image:image>
+    <image:loc>https://mrepol742.github.io/images/webvium-2.jpg</image:loc>
+  </image:image>  <image:image>
+    <image:loc>https://mrepol742.github.io/images/webvium-3.jpg</image:loc>
+  </image:image>  <image:image>
+    <image:loc>https://mrepol742.github.io/images/webvium-4.jpg</image:loc>
+  </image:image>  <image:image>
+    <image:loc>https://mrepol742.github.io/images/webvium-5.jpg</image:loc>
+  </image:image>  <image:image>
+    <image:loc>https://mrepol742.github.io/images/webvium-6.jpg</image:loc>
+  </image:image>  <image:image>
+    <image:loc>https://mrepol742.github.io/images/webvium-7.jpg</image:loc>
+  </image:image>  <image:image>
+    <image:loc>https://mrepol742.github.io/images/webvium-8.jpg</image:loc>
+  </image:image>  <image:image>
+    <image:loc>https://mrepol742.github.io/images/uptodown.jpg</image:loc>
+  </image:image>  <image:image>
+    <image:loc>https://mrepol742.github.io/images/available_at_amazon_en_horizontal.png</image:loc>
+  </image:image>
+  <video:video>
+    <video:title>Webvium - Lightweight, Fast, Material and Full-Featured Android Web Browser</video:title>
+    <video:content_loc>https://mrepol742.github.io/videos/Webvium%20-%20Lightweight,%20Fast,%20Material%20and%20Full-Featured%20Android%20Web%20Browser.mp4</video:content_loc>
+  </video:video></url>
+<url>
+  <loc>https://mrepol742.github.io/webvium/download</loc>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
+
+</url>
+<url>
+  <loc>https://mrepol742.github.io/webvium/privacypolicy</loc>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
 
 </url>
 <url>
   <loc>https://mrepol742.github.io/webviumbeta</loc>
-  <lastmod>2023-07-09T10:27:55+08:00</lastmod>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
   <image:image>
     <image:loc>https://mrepol742.github.io/images/webvium_transparent_icon.png</image:loc>
   </image:image>  <image:image>
@@ -141,75 +205,12 @@
   </video:video></url>
 <url>
   <loc>https://mrepol742.github.io/webviumbeta/download</loc>
-  <lastmod>2023-07-09T10:27:55+08:00</lastmod>
-
-</url>
-<url>
-  <loc>https://mrepol742.github.io/rgbcalculator</loc>
-  <lastmod>2023-07-09T10:27:55+08:00</lastmod>
-
-</url>
-<url>
-  <loc>https://mrepol742.github.io/webviumvpn</loc>
-  <lastmod>2023-07-09T10:27:55+08:00</lastmod>
-  <image:image>
-    <image:loc>https://mrepol742.github.io/images/webviumvpn_transparent_icon.png</image:loc>
-  </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/webvium-vpn-main-light.jpg</image:loc>
-  </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/webvium-vpn-main-light-connected.jpg</image:loc>
-  </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/webvium-vpn-main-dark.jpg</image:loc>
-  </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/webvium-vpn-main-dark-connected.jpg</image:loc>
-  </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/uptodown.jpg</image:loc>
-  </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/available_at_amazon_en_horizontal.png</image:loc>
-  </image:image>
-  <video:video>
-    <video:title>Webvium VPN - Anonymous, Secured, Private and the fastest Virtual Private Network</video:title>
-    <video:content_loc>https://mrepol742.github.io/videos/Webvium%20VPN%20-%20Anonymous,%20Secured,%20Private%20and%20the%20fastest%20Virtual%20Private%20Network.mp4</video:content_loc>
-  </video:video></url>
-<url>
-  <loc>https://mrepol742.github.io/webviumvpn/privacypolicy</loc>
-  <lastmod>2023-07-09T10:27:55+08:00</lastmod>
-
-</url>
-<url>
-  <loc>https://mrepol742.github.io/webviumvpn/download</loc>
-  <lastmod>2023-07-09T10:27:55+08:00</lastmod>
-  <image:image>
-    <image:loc>https://mrepol742.github.io/images/uptodown.jpg</image:loc>
-  </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/available_at_amazon_en_horizontal.png</image:loc>
-  </image:image>
-</url>
-<url>
-  <loc>https://mrepol742.github.io/ily</loc>
-  <lastmod>2023-07-08T11:04:48+08:00</lastmod>
-
-</url>
-<url>
-  <loc>https://mrepol742.github.io/search</loc>
-  <lastmod>2023-07-09T10:27:55+08:00</lastmod>
-
-</url>
-<url>
-  <loc>https://mrepol742.github.io/qrcode</loc>
-  <lastmod>2023-07-09T10:27:55+08:00</lastmod>
-  <image:image>
-    <image:loc>https://mrepol742.github.io/images/qrcode.png</image:loc>
-  </image:image>
-</url>
-<url>
-  <loc>https://mrepol742.github.io/screensizes</loc>
-  <lastmod>2023-07-08T11:04:48+08:00</lastmod>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
 
 </url>
 <url>
   <loc>https://mrepol742.github.io/webviumdev</loc>
-  <lastmod>2023-07-09T10:27:55+08:00</lastmod>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
   <image:image>
     <image:loc>https://mrepol742.github.io/images/webvium_transparent_icon.png</image:loc>
   </image:image>  <image:image>
@@ -235,47 +236,43 @@
   </video:video></url>
 <url>
   <loc>https://mrepol742.github.io/webviumdev/download</loc>
-  <lastmod>2023-07-09T10:27:55+08:00</lastmod>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
 
 </url>
 <url>
-  <loc>https://mrepol742.github.io/webvium</loc>
-  <lastmod>2023-07-09T10:27:54+08:00</lastmod>
+  <loc>https://mrepol742.github.io/webviumvpn</loc>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
   <image:image>
-    <image:loc>https://mrepol742.github.io/images/webvium_transparent_icon.png</image:loc>
+    <image:loc>https://mrepol742.github.io/images/webviumvpn_transparent_icon.png</image:loc>
   </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/webvium-1.jpg</image:loc>
+    <image:loc>https://mrepol742.github.io/images/webvium-vpn-main-light.jpg</image:loc>
   </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/webvium-2.jpg</image:loc>
+    <image:loc>https://mrepol742.github.io/images/webvium-vpn-main-light-connected.jpg</image:loc>
   </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/webvium-3.jpg</image:loc>
+    <image:loc>https://mrepol742.github.io/images/webvium-vpn-main-dark.jpg</image:loc>
   </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/webvium-4.jpg</image:loc>
-  </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/webvium-5.jpg</image:loc>
-  </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/webvium-6.jpg</image:loc>
-  </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/webvium-7.jpg</image:loc>
-  </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/webvium-8.jpg</image:loc>
+    <image:loc>https://mrepol742.github.io/images/webvium-vpn-main-dark-connected.jpg</image:loc>
   </image:image>  <image:image>
     <image:loc>https://mrepol742.github.io/images/uptodown.jpg</image:loc>
   </image:image>  <image:image>
     <image:loc>https://mrepol742.github.io/images/available_at_amazon_en_horizontal.png</image:loc>
   </image:image>
   <video:video>
-    <video:title>Webvium - Lightweight, Fast, Material and Full-Featured Android Web Browser</video:title>
-    <video:content_loc>https://mrepol742.github.io/videos/Webvium%20-%20Lightweight,%20Fast,%20Material%20and%20Full-Featured%20Android%20Web%20Browser.mp4</video:content_loc>
+    <video:title>Webvium VPN - Anonymous, Secured, Private and the fastest Virtual Private Network</video:title>
+    <video:content_loc>https://mrepol742.github.io/videos/Webvium%20VPN%20-%20Anonymous,%20Secured,%20Private%20and%20the%20fastest%20Virtual%20Private%20Network.mp4</video:content_loc>
   </video:video></url>
 <url>
-  <loc>https://mrepol742.github.io/webvium/privacypolicy</loc>
-  <lastmod>2023-07-09T10:27:54+08:00</lastmod>
-
+  <loc>https://mrepol742.github.io/webviumvpn/download</loc>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
+  <image:image>
+    <image:loc>https://mrepol742.github.io/images/uptodown.jpg</image:loc>
+  </image:image>  <image:image>
+    <image:loc>https://mrepol742.github.io/images/available_at_amazon_en_horizontal.png</image:loc>
+  </image:image>
 </url>
 <url>
-  <loc>https://mrepol742.github.io/webvium/download</loc>
-  <lastmod>2023-07-09T10:27:54+08:00</lastmod>
+  <loc>https://mrepol742.github.io/webviumvpn/privacypolicy</loc>
+  <lastmod>2023-07-14T11:19:54+08:00</lastmod>
 
 </url>
 </urlset>

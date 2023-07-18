@@ -30,7 +30,7 @@ class Sitemap {
         //String domain = args[0];
         //String url = args[1];
        
-        url = "/home/alexaguno/Documents/mrepol742.github.io";
+        url = "/home/mrepol742/Documents/mrepol742.github.io";
         domain = "https://mrepol742.github.io";
 
         find(new File(url), domain);
