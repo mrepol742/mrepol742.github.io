@@ -459,3 +459,10 @@ nav {
     background: none;
     border: none;
 }
+
+.a-href-s {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

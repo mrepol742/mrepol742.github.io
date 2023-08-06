@@ -379,6 +379,7 @@ function s222(q) {
 				var url = document.createElement('a');
 				url.setAttribute('href', result[i].url);
 				url.setAttribute('id', "url" + i);
+				url.setAttribute('class', 'a-href-s')
 				url.innerText = result[i].url;
 				text.appendChild(url);
 				body.appendChild(text);
@@ -409,7 +410,7 @@ function s223(q) {
 				img.setAttribute('class', 'preview');
 				img.setAttribute('loading', 'lazy');
 				img.setAttribute('src', result[i].url);
-				img.setAttribute('onerror', "this.onerror=null; this.src='/images/cover.png'");
+				//img.setAttribute('onerror', "this.onerror=null; this.src='/images/cover.png'");
 				//img.setAttribute('alt', result[i].origin.title);
 				if (i % 2 === 0) {
 					root.appendChild(img);
