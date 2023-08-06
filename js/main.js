@@ -1,8 +1,14 @@
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js').then((reg) => {
-    console.log('[ServiceWorker] Registered');
+    if (reg.installing) {
+      console.log("Service worker installing");
+    } else if (reg.waiting) {
+      console.log("Service worker installed");
+    } else if (reg.active) {
+      console.log("Service worker active");
+    }
   }).catch((err) => {
-    console.error('[ServiceWorker] failed: ', err)
+    console.error('Service worker failed: ', err)
   });
 }
 
