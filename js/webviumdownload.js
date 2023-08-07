@@ -17,5 +17,5 @@ function getUrl(v) {
   if (versionF > latestVersionCode || versionList[0] > versionF) {
      return "https://mrepol742.github.io/404.html?utm_source=mrepol742.github.io&utm_medium=vnf&utm_campaigns=webvium";
   }
-  return "https://mrepol742-released-stable.netlify.app/Webvium%20v" + version + ".apk";
+  return "https://mrepol742-released-stable.netlify.app/Webvium%20" + version + ".apk";
 }

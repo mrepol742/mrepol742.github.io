@@ -379,7 +379,7 @@ function s222(q) {
 				var url = document.createElement('a');
 				url.setAttribute('href', result[i].url);
 				url.setAttribute('id', "url" + i);
-				url.setAttribute('class', 'a-href-s')
+				url.setAttribute('class', 'a-href-s');
 				url.innerText = result[i].url;
 				text.appendChild(url);
 				body.appendChild(text);
