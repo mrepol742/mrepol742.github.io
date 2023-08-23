@@ -5,7 +5,6 @@ self.addEventListener('install', (event) => {
 });
 
 self.addEventListener('fetch', async (event) => {
-  console.log(event.request.destination + " " +  event.request.url)
   if (event.request.method !== "GET") return;
   if ((event.request.destination === 'image' || (event.request.url.includes("/assets/") && event.request.url.includes(atob("aHR0cHM6Ly9tcmVwb2w3NDIuZ2l0aHViLmlv"))))) {
     event.respondWith(caches.open(cacheName).then((cache) => {
