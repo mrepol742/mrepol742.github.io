@@ -20,6 +20,19 @@
     src: url("/assets/MavenPro.woff2") format('woff2');
 }
 
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/assets/SourceCodePro-Regular.ttf");
+}
+
+h1, h2, h3, h4, h5, h6, th {
+    letter-spacing: -1px;
+    font-family: 'Source Code Pro', sans-serif;
+}
+
 ::selection {
     background-color: #4285f4;
     color: #ffffff;

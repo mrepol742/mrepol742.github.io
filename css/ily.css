@@ -1,10 +1,11 @@
 @font-face {
-    font-family: 'Maven Pro';
+    font-family: 'Source Code Pro';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url("/assets/MavenPro.woff2") format('woff2');
+    src: url("/assets/SourceCodePro-Regular.ttf");
 }
+
 
 ::selection {
     background-color: #de5246;
@@ -17,8 +18,9 @@
 }
 
 * {
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Source Code Pro', sans-serif;
     margin: 0;
+    letter-spacing: -1px;
     padding: 0;
 }
 

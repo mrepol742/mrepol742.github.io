@@ -14,9 +14,9 @@
     src: url("/assets/SourceCodePro-Regular.ttf");
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, th {
     letter-spacing: -1px;
-    font-family: 'Source Code Pro';
+    font-family: 'Source Code Pro', sans-serif;
 }
 
 .flex-left {
