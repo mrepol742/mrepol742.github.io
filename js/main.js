@@ -39,12 +39,6 @@ function getCookie(cname) {
 }
 
 let pp = getCookie("pp");
-let active = document.querySelector(".active");
-
-if (active != null) {
-    active = active.innerHTML;
-}
-
 try {
     var bsAlert = new bootstrap.Toast(document.getElementById("privacypolicy"));
 
@@ -57,12 +51,6 @@ try {
     }
 } catch (err) {}
 
-setNavTitle = () => {
-    if (active != null) {
-        qwe.innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>" + active + "</b>";
-    }
-};
-
 window.addEventListener("DOMContentLoaded", () => {
     if (window.matchMedia("(display-mode: standalone)").matches) {
         document.body.style.setProperty("user-select", "none");
@@ -70,18 +58,10 @@ window.addEventListener("DOMContentLoaded", () => {
         document.body.style.setProperty("-ms-user-select", "none");
         document.onkeydown = (e) => {
             if (e.key == 123 || (e.ctrlKey && e.shiftKey && e.key == "I") || (e.ctrlKey && e.shiftKey && e.key == "C") || (e.ctrlKey && e.shiftKey && e.key == "J") || (e.ctrlKey && e.key == "U")) {
-                efg2(e);
+                e.preventDefault();
             }
         };
-        document.addEventListener("contextmenu", (e) => efg2(e));
-        qwe.onclick = function () {
-            if (!document.getElementById("qwe111").classList.contains("collapsed")) {
-                qwe.innerHTML = "";
-            } else {
-                setNavTitle();
-            }
-        };
-        setNavTitle();
+        document.addEventListener("contextmenu", (e) => e.preventDefault());
         let footer = document.getElementsByTagName("footer")[0];
         footer.style.setProperty("display", "none");
     }

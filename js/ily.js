@@ -1,12 +1,15 @@
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js').then((reg) => {
-    console.log('[ServiceWorker] Registered');
-  }).catch((err) => {
-    console.error('[ServiceWorker] failed: ', err)
-  });
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+        .register("/sw.js")
+        .then((reg) => {
+            console.log("[ServiceWorker] Registered");
+        })
+        .catch((err) => {
+            console.error("[ServiceWorker] failed: ", err);
+        });
 }
 
-var typed = new Typed('#txt', {
+var typed = new Typed("#txt", {
     strings: [
         "I love you",
         "Mahal kita",
@@ -98,22 +101,22 @@ var typed = new Typed('#txt', {
         "ja ciabie kachaju",
         "Kei te aroha au ki a koe",
         "ndiyakuthanda",
-        "Hav tukka Mog Karta"],
+        "Hav tukka Mog Karta",
+    ],
     typeSpeed: 50,
     loop: true,
     loopCount: Infinity,
     showCursor: false,
-    fadeOut: true
+    fadeOut: true,
 });
 
-
-updateBg()
-setInterval(function() {
 updateBg();
+setInterval(function () {
+    updateBg();
 }, 5000);
 
 function updateBg() {
-  document.body.style.background = "url('https://source.unsplash.com/1280x720?love') no-repeat fixed center";
-  document.body.style.backgroundSize = "cover";
-document.body.style.transition = "all 1.5s ease";
+    document.body.style.background = "url('https://source.unsplash.com/1280x720?love') no-repeat fixed center";
+    document.body.style.backgroundSize = "cover";
+    document.body.style.transition = "all 1.5s ease";
 }

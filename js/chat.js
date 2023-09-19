@@ -1,53 +1,56 @@
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js').then((reg) => {
-      if (reg.installing) {
-        console.log("Service worker installing");
-      } else if (reg.waiting) {
-        console.log("Service worker installed");
-      } else if (reg.active) {
-        console.log("Service worker active");
-      }
-    }).catch((err) => {
-      console.error('Service worker failed: ', err)
-    });
-  }
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+        .register("/sw.js")
+        .then((reg) => {
+            if (reg.installing) {
+                console.log("Service worker installing");
+            } else if (reg.waiting) {
+                console.log("Service worker installed");
+            } else if (reg.active) {
+                console.log("Service worker active");
+            }
+        })
+        .catch((err) => {
+            console.error("Service worker failed: ", err);
+        });
+}
 
-  function setCookie(cname, cvalue, exdays) {
+function setCookie(cname, cvalue, exdays) {
     const d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires="+ d.toUTCString();
+    d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+    var expires = "expires=" + d.toUTCString();
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-  }
-  
-  function getCookie(cname) {
+}
+
+function getCookie(cname) {
     var name = cname + "=";
     var decodedCookie = decodeURIComponent(document.cookie);
-    var ca = decodedCookie.split(';');
-    for(var i = 0; i <ca.length; i++) {
-      var c = ca[i];
-      while (c.charAt(0) == ' ') {
-        c = c.substring(1);
-      }
-      if (c.indexOf(name) == 0) {
-        return c.substring(name.length, c.length);
-      }
+    var ca = decodedCookie.split(";");
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == " ") {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
     }
     return "";
-  }
-  
-  var pp = getCookie("pp");
-  try {
-  var bsAlert = new  bootstrap.Toast(document.getElementById("privacypolicy"));
-  
-  if (pp == "") {
-      bsAlert.show();
-  document.getElementById("accpt").onclick = function() {
-    bsAlert.hide();
-    setCookie("pp", "pp", 365);
-  }
-  }
-  } catch (err) {}
-  
+}
+
+var pp = getCookie("pp");
+try {
+    var bsAlert = new bootstrap.Toast(document.getElementById("privacypolicy"));
+
+    if (pp == "") {
+        bsAlert.show();
+        document.getElementById("accpt").onclick = function () {
+            bsAlert.hide();
+            setCookie("pp", "pp", 365);
+        };
+    }
+} catch (err) {}
+
 let isLoaded = true;
 let chats = document.getElementById("chats");
 let messages = [];
@@ -82,9 +85,9 @@ recognition.onerror = function (event) {
     status = true;
     console.log(event.error);
     if (event.error == "no-speech") {
-        notif("Please speak....")
+        notif("Please speak....");
     } else {
-        notif("An error occured. Please try again later.")
+        notif("An error occured. Please try again later.");
     }
 };
 
@@ -206,7 +209,7 @@ async function sendMsg() {
         },
         error: function (result) {
             console.log(result);
-            notif("An error occured while parsing data from the server. Please try again later.")
+            notif("An error occured while parsing data from the server. Please try again later.");
         },
     });
     if (hasChat) {
@@ -257,7 +260,7 @@ send.addEventListener("click", () => {
 
 voice.addEventListener("click", () => {
     if (status) {
-        notif("Speak now...")
+        notif("Speak now...");
         status = false;
         recognition.start();
         var audio = new Audio("/audios/transition-base.mp3");
@@ -277,7 +280,6 @@ txt.addEventListener("keypress", function (evt) {
         document.getElementById("send").click();
     }
 });
-
 
 txt.addEventListener("input", () => {
     if (isPending) {
@@ -314,10 +316,10 @@ function notif(msg) {
     let p = document.createElement("p");
     p.innerText = msg;
     body.appendChild(p);
-    div.appendChild(body)
-    var bsN = new  bootstrap.Toast(div);
+    div.appendChild(body);
+    var bsN = new bootstrap.Toast(div);
     bsN.show();
-    $('#notif').on('hidden.bs.toast', function () {
+    $("#notif").on("hidden.bs.toast", function () {
         $("#notif").empty();
-      })
+    });
 }
