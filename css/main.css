@@ -59,8 +59,6 @@ html {
 
 * {
     font-family: 'Maven Pro', sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 a {
@@ -160,7 +158,7 @@ nav {
 .accordion,
 .modal-content,
 .toast {
-    box-shadow: 0 0 5em rgba(0, 0, 0, .05);
+    box-shadow: 0 0 5em rgba(0, 0, 0, .10);
     transition: box-shadow .3s;
     padding: 10px;
     margin-top: 10px;
@@ -466,22 +464,22 @@ input:-webkit-autofill:active {
     -webkit-text-fill-color: #fff !important;
 }
 
+.scrolled-up-tr {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
 .scrolled-down {
     transform: translateY(-100%);
     transition: all 0.3s ease-in-out;
 }
 
 .scrolled-up {
-    transform: translateY(0);
-    box-shadow: 0 0 5em #4286f460;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
+    transform: translateY(0);
+    box-shadow: 0 0 5em rgba(0, 0, 0, .2);
     transition: all 0.3s ease-in-out;
-}
-
-.scrolled-up-tr {
-    background-color: transparent !important;
-    box-shadow: none !important;
 }
 
 .icon,
@@ -521,7 +519,15 @@ input:-webkit-autofill:active {
     }
 }
 
+.sub-title {
+    font-size: 1.3em !important;
+}
+
 @media (min-width:770px) {
+
+    .sub-title {
+        font-size: 1.5em !important;
+    }
 
     #mobile {
         display: none;
