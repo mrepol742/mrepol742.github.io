@@ -14,7 +14,7 @@
     src: url("/assets/SourceCodePro-Regular.ttf");
 }
 
-h1, h2, h3, h4, h5, h6, th {
+h1, h2, h3, h4, h5, h6, th, h1 strong {
     letter-spacing: -0.7px;
     font-family: 'Source Code Pro', sans-serif;
 }
@@ -48,7 +48,6 @@ fieldset {
     border-style: solid;
 }
 
-
 hr {
     height: 5px;
 }
@@ -59,21 +58,49 @@ html {
 
 * {
     font-family: 'Maven Pro', sans-serif;
+    color: #2e475d;
 }
 
-a {
-    color: #4285f4;
+a,
+.nav-link {
     text-decoration: none;
-    transition: all 0.5s ease;
+    color: #2e475d;
 }
 
 a:hover {
-    color: #212121;
-    transition: all 0.5s ease;
+    color: #2e475d;
 }
 
-nav .nav-link:hover {
-    color: #212121;
+.nav-link:hover {
+    color: #4285f4;
+}
+
+a {
+    display: inline-block;
+    position: relative;
+}
+
+a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #2e4752;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+footer a:after {
+    width: 28% !important;
+    margin-left: 8px !important;
+}
+
+a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .first {
@@ -96,26 +123,6 @@ nav .nav-item {
     padding-right: 10px;
     text-transform: uppercase;
     font-weight: 600;
-    border-radius: 8px;
-    border: none;
-}
-
-nav .nav-item:hover {
-    box-shadow: 0 0 5em rgba(0, 0, 0, .3);
-    transition: all 1s ease;
-    border-radius: 8px;
-    border: none;
-}
-
-footer .nav-link:hover,
-.navbar-brand:hover {
-    color: #4285f4 !important;
-    transition: all 1s ease;
-}
-
-footer .nav-link {
-    color: #2e475d;
-
 }
 
 main {
@@ -126,7 +133,7 @@ main {
 nav {
     padding: 15px !important;
     background-color: transparent;
-    transition: all 0.5s ease;
+    transition: all 0.8s ease;
 }
 
 .imgc {
@@ -158,7 +165,7 @@ nav {
 .modal-content,
 .toast {
     box-shadow: 0 0 5em rgba(0, 0, 0, .10);
-    transition: box-shadow .3s;
+    transition: all .3s ease;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -204,7 +211,6 @@ nav {
 .accordion-button:hover,
 .accordion-button:active {
     background-color: #4286f434 !important;
-    color: #4285f4;
     border-radius: 5px !important;
     border: none !important;
     transition: all 0.5s ease;
@@ -282,36 +288,6 @@ p.top {
 
 .circle-png {
     border-radius: 50% !important;
-}
-
-.skill {
-    margin: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
-    background-color: #ffffff;
-    border-color: #ffffff;
-    border-width: 0px;
-    border-style: solid;
-    border-radius: 50px;
-    color: #484848;
-    transition: all 0.5s ease;
-    list-style: none;
-}
-
-.mrepol742-skills {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.skill:hover {
-    background-color: #4285f4;
-    color: #ffffff;
-    padding-left: 30px;
-    padding-right: 30px;
-    transition: all 0.5s ease;
 }
 
 .asd {
@@ -519,13 +495,13 @@ input:-webkit-autofill:active {
 }
 
 .sub-title {
-    font-size: 1.3em !important;
+    font-size: 1.2em !important;
 }
 
 @media (min-width:770px) {
 
     .sub-title {
-        font-size: 1.5em !important;
+        font-size: 1.4em !important;
     }
 
     #mobile {
