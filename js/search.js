@@ -1,3 +1,20 @@
+/*
+ *
+ * Copyright (c) 2023 Melvin Jones Repol (mrepol742.github.io). All Rights Reserved.
+ *
+ * License under the GNU GENERAL PUBLIC LICENSE, version 3.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     https://github.com/mrepol742/mrepol742.github.io/blob/master/LICENSE
+ *
+ * Unless required by the applicable law or agreed in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 try {
     var v = 28;
     var vc = getCookie("vr");
@@ -262,36 +279,6 @@ if (sq != "") {
         document.getElementById("search").value = sq1;
         find(sq1);
     }
-}
-
-var time = document.getElementById("time");
-var qoute = document.getElementById("qoute");
-var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-
-updateTime();
-setInterval(function () {
-    updateTime();
-}, 60000);
-
-updateQoute();
-
-setInterval(function () {
-    updateQoute();
-}, 300000);
-
-function updateQoute() {
-    $.ajax({
-        method: "GET",
-        url: "https://api.quotable.io/random",
-        contentType: "application/json",
-        success: function (result) {
-            qoute.innerHTML = "<blockquote>" + result.content + "</blockquote> - " + result.author;
-        },
-        error: function ajaxError(jqXHR) {
-            console.error("Error: ", jqXHR.responseText);
-        },
-    });
 }
 
 function s222(q) {
