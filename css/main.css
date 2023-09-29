@@ -14,14 +14,17 @@
     src: url("/assets/SourceCodePro-Regular.ttf");
 }
 
-h1,
+h1, h1 strong {
+    letter-spacing: -1px;
+    font-family: 'Source Code Pro', sans-serif;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6,
-th,
-h1 strong {
+th {
     letter-spacing: -0.7px;
     font-family: 'Source Code Pro', sans-serif;
 }
@@ -102,9 +105,13 @@ a:after {
     transition: transform 0.25s ease-out;
 }
 
+nav a:after, footer a:after {
+    background-color: #4285f4;
+}
+
 footer a:after {
     width: 28% !important;
-    margin-left: 8px !important;
+    margin-left: 10x !important;
 }
 
 a:hover:after {
@@ -229,7 +236,7 @@ nav {
 .accordion:hover,
 .toast:hover {
     border-radius: 0px;
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+    box-shadow: 0 1rem 3rem rgb(66, 133, 244, .180);
     transition: all 0.5s ease;
 }
 
@@ -599,4 +606,9 @@ img:hover {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.link-tree {
+    padding: 10px;
+    margin: 5px;
 }
