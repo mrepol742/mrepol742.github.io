@@ -372,8 +372,9 @@ function s222(q) {
 				div.setAttribute('class', 'col-md-1');
 				var img = document.createElement('img');
 				img.setAttribute('class', 'fav');
-				img.setAttribute('src', result[i].favicons.low_res);
-				img.setAttribute('alt', result[i].title);
+				img.setAttribute('src', "result[i].favicons.low_res");
+				img.setAttribute('onerror', "/webvium/favicon.png");
+
 				div.appendChild(img);
 
 				var title1 = document.createElement('h5');
