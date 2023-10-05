@@ -35,10 +35,6 @@ a {
     transition: all 0.5s ease;
 }
 
-body {
-    padding-top: 76px;
-}
-
 li a {
     color: #fff;
 }
@@ -65,9 +61,6 @@ a:hover {
 * {
     font-family: 'Maven Pro', sans-serif;
     outline: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 main {
@@ -478,4 +471,14 @@ nav {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+body {
+    margin-top: 5px;
+}
+
+.input-group {
+    background-color: #fff;
+    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
+    border-radius: 10px;
 }
