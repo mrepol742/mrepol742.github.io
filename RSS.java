@@ -90,7 +90,7 @@ class RSS {
                 data[0] = content;
             }
             if (prop.equals("og:image")) {
-                data[1] = domain + content;
+                data[1] = content;
             }
         }
         return data;
