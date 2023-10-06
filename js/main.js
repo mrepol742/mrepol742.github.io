@@ -83,6 +83,7 @@ window.addEventListener("DOMContentLoaded", () => {
         footer.style.setProperty("display", "none");
     }
     el_autohide = document.querySelector(".autohide");
+    if (el_autohide != null) {
     navbar_height = document.querySelector(".navbar").offsetHeight;
     document.body.style.paddingTop = navbar_height + "px";
     if (el_autohide) {
@@ -104,4 +105,24 @@ window.addEventListener("DOMContentLoaded", () => {
             last_scroll_top = scroll_top;
         });
     }
+}
 });
+
+window.onerror = function a(msm, url, num) {
+    alert(msm + "\n\n" + url);
+    return false;
+}
+
+const queryString = window.location.search
+const urlParams = new URLSearchParams(queryString);
+const rdr = urlParams.get('rdr')
+
+if (typeof qwermn !== "undefined") {
+if (!queryString.includes("utm_source")) {
+    window.location.href = "/";
+}
+} 
+
+if (rdr != null) {
+    window.location.href = rdr + "?utm_source=" + btoa(window.location);
+}
