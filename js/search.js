@@ -351,6 +351,8 @@ function s222(q) {
 				var img = document.createElement('img');
 				img.setAttribute('class', 'fav');
 				img.setAttribute('src', result[i].favicons.high_res);
+				img.setAttribute('loading', 'lazy');
+				img.setAttribute('onerror', "this.onerror=null; this.style='display: none;'");
 				div.appendChild(img);
 
 				var title1 = document.createElement('h5');
@@ -403,7 +405,7 @@ function s223(q) {
 				img.setAttribute('class', 'preview');
 				img.setAttribute('loading', 'lazy');
 				img.setAttribute('src', result[i].url);
-				//img.setAttribute('onerror', "this.onerror=null; this.src='/images/cover.png'");
+				img.setAttribute('onerror', "this.onerror=null; this.style='display: none;'");
 				//img.setAttribute('alt', result[i].origin.title);
 				if (i % 2 === 0) {
 					root.appendChild(img);
