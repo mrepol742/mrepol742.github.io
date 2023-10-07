@@ -287,8 +287,6 @@ if (sq1 != '') {
 }
 }
 
-var time = document.getElementById("time");
-var qoute = document.getElementById("qoute");
 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
@@ -296,26 +294,6 @@ updateTime();
 setInterval(function() {
 	updateTime();
 }, 60000)
-
-updateQoute();
-
-setInterval(function() {
-    updateQoute();
-}, 300000)
-
-function updateQoute() {
-	$.ajax({
-		method: 'GET',
-		url: 'https://api.quotable.io/random',
-		contentType: 'application/json',
-		success: function(result) {
-			qoute.innerHTML = "<blockquote>" + result.content + "</blockquote> - " + result.author;
-		},
-		error: function ajaxError(jqXHR) {
-			console.error('Error: ', jqXHR.responseText);
-		}
-	});
-}
 
 function s222(q) {
 	$(document).ready(function() {
@@ -372,7 +350,7 @@ function s222(q) {
 				div.setAttribute('class', 'col-md-1');
 				var img = document.createElement('img');
 				img.setAttribute('class', 'fav');
-
+				img.setAttribute('src', result[i].favicons.low_res);
 				div.appendChild(img);
 
 				var title1 = document.createElement('h5');
@@ -443,6 +421,5 @@ function s223(q) {
 
 function updateTime() {
 	var date = new Date();
-    currD.innerHTML = "<h1>" + days[date.getDay()] + " " + months[date.getMonth()] + " " + date.getDate() + "</h1>";
-	time.innerHTML = "<h2>" + date.getHours() + ":" + date.getMinutes(); + "</h2>";
+    currD.innerHTML = "<h1>" + days[date.getDay()] + ", " + months[date.getMonth()] + " " + date.getDate() + "</h1>";
 }

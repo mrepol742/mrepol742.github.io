@@ -40,7 +40,7 @@ li a {
 }
 
 li a:hover {
-    color: #4285f4;
+    color: #2e4752;
     transition: all 0.5s ease;
 }
 
@@ -52,11 +52,10 @@ li a:hover {
     color: #4285f4 !important;
 }
 
-
-a:hover {
-    color: #000000;
-    transition: all 0.5s ease;
+#stitle {
+    color: #fff;
 }
+
 
 * {
     font-family: 'Maven Pro', sans-serif;
@@ -129,7 +128,7 @@ main {
 
 */
 .search-container>svg {
-    height: 24px;
+    height: 17px;
     min-width: 70px;
     align-self: center;
     color: #cecece;
@@ -142,7 +141,7 @@ main {
     color: #ffffff;
     padding-left: 20px;
     padding-right: 0px;
-    height: 50px;
+    height: 45px;
     font-size: 14px;
 }
 
@@ -153,7 +152,7 @@ main {
     color: #212121;
     padding-left: 20px;
     padding-right: 0px;
-    height: 60px;
+    height: 50px;
     font-size: 17px;
 }
 
@@ -237,10 +236,14 @@ main {
 }
 
 #cardbbb:hover, .images .holder .preview:hover {
-     background-color: rgba(0, 0, 0, .1);
+     background-color: rgba(160, 157, 157, 0.1);
      transition: background-color .3s;
      border-radius: 10px;
      border: none;
+}
+
+.accordion-button:after {
+    background-image: url("data:image/svg+xml, <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"1em\" viewBox=\"0 0 448 512\"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d=\"M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z\"/></svg>") !important;
 }
 
 .accordion {
@@ -282,8 +285,7 @@ color: #fff !important;
 
 .accordion-button:hover,
 .accordion-button:active {
-    background-color: #4285f4;
-    color: white;
+    color: #fff;
 }
 
 .card-header,
@@ -447,13 +449,13 @@ nav {
     padding: 15%;
 }
 
-.accordion-button:not(.collapsed) {
-    color: #fff;
-}
-
+.accordion-button:not(.collapsed),
 .accordion-button:hover,
 .accordion-button:active {
-    background-color: transparent !important;
+    background-color: #4286f434 !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+    transition: all 0.5s ease;
 }
 
 .accordion-button, .accordion-body {
@@ -481,4 +483,36 @@ body {
     background-color: #fff;
     box-shadow: 0 0 5em rgba(0, 0, 0, .1);
     border-radius: 10px;
+}
+
+a {
+    display: inline-block;
+    position: relative;
+}
+
+a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #2e4752;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+nav a:after, footer a:after {
+    background-color: #4285f4;
+}
+
+footer a:after {
+    width: 28% !important;
+    margin-left: 10x !important;
+}
+
+a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
