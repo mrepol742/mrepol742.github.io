@@ -350,7 +350,7 @@ function s222(q) {
 				div.setAttribute('class', 'col-md-1');
 				var img = document.createElement('img');
 				img.setAttribute('class', 'fav');
-				img.setAttribute('src', result[i].favicons.low_res);
+				img.setAttribute('src', result[i].favicons.high_res);
 				div.appendChild(img);
 
 				var title1 = document.createElement('h5');
@@ -381,7 +381,6 @@ function s222(q) {
 			}
 			$('#root').empty();
 			root.appendChild(card);
-			wid1.style.display = 'none';
         },
         error: function (result) {
             console.log(result);
