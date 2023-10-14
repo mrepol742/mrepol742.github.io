@@ -126,3 +126,19 @@ if (!queryString.includes("utm_source")) {
 if (rdr != null) {
     window.location.href = rdr + "?utm_source=" + btoa(window.location);
 }
+
+function readMore(a) {
+    var dots = document.getElementById("dots" + a);
+    var moreText = document.getElementById("more" + a);
+    var btnText = document.getElementById("readMore" + a);
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+    }
+  }
