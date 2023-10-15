@@ -2,7 +2,7 @@
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
   <title><![CDATA[Melvin Jones Repol - Software Engineer]]></title>
-  <description><![CDATA[I'm a self-taught Freelance Software Engineer with experience in web development, seo, computer hardware & software and currently pursuing arduino programming.]]></description>
+  <description><![CDATA[I'm a Self-taught Freelance Software Engineer with experience in full-stack web development, seo, data analyics, embedded system design with arduino programming, hardware & software troubleshooting and PWA.]]></description>
   <link>https://mrepol742.github.io  </link>
   <image>
     <url>https://mrepol742.github.io/images/cover.jpg</url>
@@ -10,7 +10,7 @@
     <link>https://mrepol742.github.io</link>
   </image>
   <generator> RSS for Melvin Jones Repol </generator>
-  <lastBuildDate>Sat, 07 October 2023 7:47:43 PST</lastBuildDate>
+  <lastBuildDate>Mon, 16 October 2023 1:40:26 PST</lastBuildDate>
   <link href="https://mrepol742.github.io/rss.xml" rel="self" type="application/rss+xml"/>
   <language><![CDATA[ en ]]></language>
 <item>
@@ -63,7 +63,7 @@
   <content medium="image" url="https://mrepol742.github.io/images/orion-banner.png"/>
 </item>
 <item>
-  <title><![CDATA[Chat.io - Project Orion]]></title>
+  <title><![CDATA[Chat with Project Orion (Chatbot)]]></title>
   <description><![CDATA[Chat.io is a feature of Project Orion that's currently under development where in you can interact with the project AI. If you found any issues please let us know.]]></description>
   <link>https://mrepol742.github.io/project-orion/chat</link>
   <creator><![CDATA[ Melvin Jones Repol ]]></creator>

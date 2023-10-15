@@ -1,7 +1,7 @@
 {
   "name": "Melvin Jones Repol - Software Engineer",
   "short_name": "Mj",
-  "description": "I'm a self-taught Freelance Software Engineer with experience in web development, seo, computer hardware & software and currently studying arduino programming.",
+  "description": "I'm a Self-taught Freelance Software Engineer with experience in full-stack web development, seo, data analyics, embedded system design with arduino programming, hardware & software troubleshooting and PWA.",
   "dir": "ltr",
   "lang": "en-US",
   "icons": [
@@ -16,7 +16,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#4285f4",
+  "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone",
   "start_url": "/index.html?utm_source=webmanifest",
@@ -61,57 +61,10 @@
   ],
   "screenshots": [
     {
-      "src": "/manifest.jpg",
+      "src": "https://mrepol742.github.io/images/myportfolio.png",
       "type": "image/png",
-      "sizes": "1329x629",
+      "sizes": "1366x647",
       "form_factor": "wide"
-    }
-  ],
-  "prefer_related_applications": false,
-  "related_applications": [
-    {
-      "platform": "web",
-      "url": "https://mrepol742.github.io/project-orion/chat?utm_source=webmanifest"
-    },
-    {
-      "platform": "web",
-      "url": "https://mrepol742.github.io/search?utm_source=webmanifest"
-    },
-    {
-      "platform": "web",
-      "url": "https://mrepol742.github.io/webvium?utm_source=webmanifest"
-    },
-    {
-      "platform": "web",
-      "url": "https://mrepol742.github.io/webviumdev?utm_source=webmanifest"
-    },
-    {
-      "platform": "web",
-      "url": "https://mrepol742.github.io/webviumbeta?utm_source=webmanifest"
-    },
-    {
-      "platform": "web",
-      "url": "https://mrepol742.github.io/webviumvpn?utm_source=webmanifest"
-    },
-    {
-      "platform": "web",
-      "url": "https://webvium.en.uptodown.com/android?utm_source=webmanifest"
-    },
-    {
-      "platform": "web",
-      "url": "https://www.amazon.com/dp/B09TLFJ86L?utm_source=webmanifest"
-    },
-    {
-      "platform": "web",
-      "url": "https://webvium-vpn.en.uptodown.com/android?utm_source=webmanifest"
-    },
-    {
-      "platform": "web",
-      "url": "https://www.amazon.com/dp/B09TRT8PGF?utm_source=webmanifest"
-    },
-    {
-      "platform": "web",
-      "url": "https://www.getjar.mobi/mobile/990692/Webvium-Browser-Fast-and-Lightweight?utm_source=webmanifest"
     }
   ]
 }
