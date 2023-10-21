@@ -91,6 +91,7 @@ a:hover {
 a {
     display: inline-block;
     position: relative;
+    word-break: break-all;
 }
 
 a:after {
@@ -479,6 +480,8 @@ input:-webkit-autofill:active {
 .text {
     vertical-align: middle;
     display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .sec {

@@ -55,7 +55,7 @@ function getCookie(cname) {
     return "";
 }
 
-let pp = getCookie("pp");
+let pp = getCookie("pp1");
 try {
     var bsAlert = new bootstrap.Toast(document.getElementById("privacypolicy"));
 
@@ -63,7 +63,7 @@ try {
         bsAlert.show();
         document.getElementById("accpt").onclick = function () {
             bsAlert.hide();
-            setCookie("pp", "pp", 365);
+            setCookie("pp1", "pp1", 7);
         };
     }
 } catch (err) {}
