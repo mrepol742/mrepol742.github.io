@@ -435,8 +435,8 @@ nav {
 .scrolled-up {
     transform: translateY(0);
     box-shadow: 0 0 5em #4286f460;
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
     transition: all 0.3s ease-in-out;
 }
 

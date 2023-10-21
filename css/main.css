@@ -468,8 +468,8 @@ input:-webkit-autofill:active {
 }
 
 .scrolled-up {
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
     transform: translateY(0);
     box-shadow: 0 0 5em rgba(0, 0, 0, .2);
     transition: all 0.3s ease-in-out;
@@ -587,8 +587,8 @@ img:hover {
 
     background-color: rgba(240, 248, 255, 0.247);
 
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
     transform: translateY(0);
     box-shadow: 0 0 5em rgba(0, 0, 0, .2);
     transition: all 0.3s ease-in-out;
