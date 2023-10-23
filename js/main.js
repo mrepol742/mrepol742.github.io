@@ -123,6 +123,22 @@ if (!queryString.includes("utm_source")) {
 }
 } 
 
+if (typeof sendmail !== "undefined") {
+    sendmail.onclick = function() {
+        var subject =  document.getElementById('subject').value;
+        if (subject == "") {
+            document.querySelector('.status').innerHTML = "Subject cannot be empty";
+            return false;
+        }
+        var message =  document.getElementById('message').value;
+        if (message == "") {
+            document.querySelector('.status').innerHTML = "Message cannot be empty";
+            return false;
+        }
+        window.location.href = "mailto:mrepol742@gmail.com?subject=" + subject + "&body=" + message;
+    }
+}
+
 if (rdr != null) {
     window.location.href = rdr + "?utm_source=" + btoa(window.location);
 }
