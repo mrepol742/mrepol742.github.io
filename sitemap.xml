@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
   <loc>https://mrepol742.github.io</loc>
-  <lastmod>2023-10-23T23:11:48+08:00</lastmod>
+  <lastmod>2023-10-26T07:36:48+08:00</lastmod>
   <image:image>
-    <image:loc>https://mrepol742.github.io/images/melvin-jones-repol.circle.png</image:loc>
+    <image:loc>https://mrepol742.github.io/images/melvin-jones-repol.jpg</image:loc>
   </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/melvin-jones-repol.circle.png</image:loc>
+    <image:loc>https://mrepol742.github.io/images/melvin-jones-repol.jpg</image:loc>
   </image:image>  <image:image>
     <image:loc>https://mrepol742.github.io/images/myportfolio.png</image:loc>
   </image:image>  <image:image>
@@ -16,13 +16,17 @@
   </image:image>  <image:image>
     <image:loc>https://mrepol742.github.io/images/intnext.png</image:loc>
   </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/androidstudio.jpg</image:loc>
+    <image:loc>https://mrepol742.github.io/images/Software-Engineer.jpg</image:loc>
   </image:image>  <image:image>
-    <image:loc>https://mrepol742.github.io/images/visualstudio.jpg</image:loc>
+    <image:loc>https://mrepol742.github.io/images/fullstack.webp</image:loc>
   </image:image>  <image:image>
     <image:loc>https://mrepol742.github.io/images/seo.jpg</image:loc>
   </image:image>  <image:image>
+    <image:loc>https://mrepol742.github.io/images/data-analytics.jpeg</image:loc>
+  </image:image>  <image:image>
     <image:loc>https://mrepol742.github.io/images/chs.jpg</image:loc>
+  </image:image>  <image:image>
+    <image:loc>https://mrepol742.github.io/images/pwa.webp</image:loc>
   </image:image>  <image:image>
     <image:loc>https://mrepol742.github.io/images/bestlinkcollegeofthephilippines.png</image:loc>
   </image:image>
