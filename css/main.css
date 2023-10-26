@@ -386,9 +386,9 @@ footer {
 }
 
 .dropdown-menu {
-    background-color: #ffffff !important;
-    border-color: #ffffff !important;
-    border-radius: 20px;
+    background-color: #fff !important;
+    border-color: rgba(0, 0, 0, .1) !important;
+    border-radius: 5px;
     box-shadow: 0 0 5em rgba(0, 0, 0, .1);
     padding: 15%;
 }
