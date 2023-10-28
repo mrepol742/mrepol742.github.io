@@ -549,12 +549,12 @@ input:-webkit-autofill:active {
 }
 
 img {
-    transition: .3s ease;
+    transition: .3s ease-in-out;
 }
 
 img:hover {
-    -webkit-transform: scale(0.95);
-    transform: scale(0.95);
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
 }
 
 .btn {

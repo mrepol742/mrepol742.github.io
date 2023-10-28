@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 
-var queryString = window.location.search;
-var urlParams = new URLSearchParams(queryString);
-var version = urlParams.get("version");
+var queryString1 = window.location.search;
+var urlParams1 = new URLSearchParams(queryString1);
+var version = urlParams1.get("version");
 var url = getUrl(version);
 
 setTimeout(function () {
