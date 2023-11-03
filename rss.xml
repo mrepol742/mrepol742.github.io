@@ -10,7 +10,7 @@
     <link>https://mrepol742.github.io</link>
   </image>
   <generator> RSS for Melvin Jones Repol </generator>
-  <lastBuildDate>Thu, 02 November 2023 17:40:27 PST</lastBuildDate>
+  <lastBuildDate>Fri, 03 November 2023 11:1:38 PST</lastBuildDate>
   <link href="https://mrepol742.github.io/rss.xml" rel="self" type="application/rss+xml"/>
   <language><![CDATA[ en ]]></language>
 <item>
@@ -213,6 +213,13 @@
   <title><![CDATA[This is a test page]]></title>
   <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat]]></description>
   <link>https://mrepol742.github.io/arduino-programs</link>
+  <creator><![CDATA[ Melvin Jones Repol ]]></creator>
+  <content medium="image" url="https://mrepol742.github.io/images/cover.jpg"/>
+</item>
+<item>
+  <title><![CDATA[Schema Markup Testing - Melvin Jones Repol]]></title>
+  <description><![CDATA[A machine-readable representation of your product data that can be shared with Google Merchant Center directly from your website. The markup added to your HTML assists Google and other search engines in reliably understanding and processing your content.]]></description>
+  <link>https://mrepol742.github.io/structured-data</link>
   <creator><![CDATA[ Melvin Jones Repol ]]></creator>
   <content medium="image" url="https://mrepol742.github.io/images/cover.jpg"/>
 </item>
