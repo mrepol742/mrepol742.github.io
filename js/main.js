@@ -84,59 +84,126 @@ window.addEventListener("DOMContentLoaded", () => {
     }
     el_autohide = document.querySelector(".autohide");
     if (el_autohide != null) {
-    navbar_height = document.querySelector(".navbar").offsetHeight;
-    document.body.style.paddingTop = navbar_height + "px";
-    if (el_autohide) {
-        var last_scroll_top = 0;
-        window.addEventListener("scroll", function () {
-            let scroll_top = window.scrollY;
-            if (scroll_top == 0) {
-                el_autohide.classList.add("scrolled-up-tr");
-            } else {
-                el_autohide.classList.remove("scrolled-up-tr");
-            }
-            if (scroll_top < last_scroll_top) {
-                el_autohide.classList.remove("scrolled-down");
-                el_autohide.classList.add("scrolled-up");
-            } else {
-                el_autohide.classList.remove("scrolled-up");
-                el_autohide.classList.add("scrolled-down");
-            }
-            last_scroll_top = scroll_top;
-        });
+        navbar_height = document.querySelector(".navbar").offsetHeight;
+        document.body.style.paddingTop = navbar_height + "px";
+        if (el_autohide) {
+            var last_scroll_top = 0;
+            window.addEventListener("scroll", function () {
+                let scroll_top = window.scrollY;
+                if (scroll_top == 0) {
+                    el_autohide.classList.add("scrolled-up-tr");
+                } else {
+                    el_autohide.classList.remove("scrolled-up-tr");
+                }
+                if (scroll_top < last_scroll_top) {
+                    el_autohide.classList.remove("scrolled-down");
+                    el_autohide.classList.add("scrolled-up");
+                } else {
+                    el_autohide.classList.remove("scrolled-up");
+                    el_autohide.classList.add("scrolled-down");
+                }
+                last_scroll_top = scroll_top;
+            });
+        }
     }
-}
 });
 
-window.onerror = function a(msm, url, num) {
-    alert(msm + "\n\n" + url);
-    return false;
-}
-
-const queryString = window.location.search
+const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const rdr = urlParams.get('rdr')
+const rdr = urlParams.get("rdr");
 
 if (typeof qwermn !== "undefined") {
-if (!queryString.includes("utm_source")) {
-    window.location.href = "/";
+    if (!queryString.includes("utm_source")) {
+        window.location.href = "/";
+    }
 }
-} 
+
+function starsConfettie() {
+    const defaults = {
+        spread: 360,
+        ticks: 50,
+        gravity: 0,
+        decay: 0.94,
+        startVelocity: 30,
+        shapes: ["star"],
+        colors: ["FFE400", "FFBD00", "E89400", "FFCA6C", "FDFFB8"],
+    };
+
+    function shoot() {
+        confetti({
+            ...defaults,
+            particleCount: 40,
+            scalar: 1.2,
+            shapes: ["star"],
+        });
+
+        confetti({
+            ...defaults,
+            particleCount: 10,
+            scalar: 0.75,
+            shapes: ["circle"],
+        });
+    }
+
+    setTimeout(shoot, 0);
+    setTimeout(shoot, 100);
+    setTimeout(shoot, 200);
+}
+
+if (typeof ssspp !== "undefined") {
+    ssspp.onclick = function () {
+        const defaults = {
+            spread: 360,
+            ticks: 100,
+            gravity: 0,
+            decay: 0.94,
+            startVelocity: 30,
+            shapes: ["heart"],
+            colors: ["FFC0CB", "FF69B4", "FF1493", "C71585"],
+        };
+
+        confetti({
+            ...defaults,
+            particleCount: 50,
+            scalar: 2,
+        });
+
+        confetti({
+            ...defaults,
+            particleCount: 25,
+            scalar: 3,
+        });
+
+        confetti({
+            ...defaults,
+            particleCount: 10,
+            scalar: 4,
+        });
+    };
+
+    samiunnafis.onclick = function () {
+        starsConfettie();
+    };
+
+    projectwebvium.onclick = function () {
+        starsConfettie();
+    };
+}
 
 if (typeof sendmail !== "undefined") {
-    sendmail.onclick = function() {
-        var subject =  document.getElementById('subject').value;
+    sendmail.onclick = function () {
+        var subject = document.getElementById("subject").value;
         if (subject == "") {
-            document.querySelector('.status').innerHTML = "Subject cannot be empty";
+            document.querySelector(".status").innerHTML = "Subject cannot be empty";
             return false;
         }
-        var message =  document.getElementById('message').value;
+        var message = document.getElementById("message").value;
         if (message == "") {
-            document.querySelector('.status').innerHTML = "Message cannot be empty";
+            document.querySelector(".status").innerHTML = "Message cannot be empty";
             return false;
         }
         window.location.href = "mailto:mrepol742@gmail.com?subject=" + subject + "&body=" + message;
-    }
+    };
 }
 
 if (rdr != null) {
@@ -147,14 +214,14 @@ function readMore(a) {
     var dots = document.getElementById("dots" + a);
     var moreText = document.getElementById("more" + a);
     var btnText = document.getElementById("readMore" + a);
-  
+
     if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Read more";
-      moreText.style.display = "none";
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
     } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Read less";
-      moreText.style.display = "inline";
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
     }
-  }
+}
