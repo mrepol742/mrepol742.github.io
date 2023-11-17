@@ -19,4 +19,3 @@ Crawl-delay: 60
 Sitemap: https://mrepol742.github.io/sitemap.xml
 Sitemap: https://mrepol742.github.io/static.xml
 Sitemap: https://mrepol742.github.io/RSS.xml
-Sitemap: https://mrepol742.github.io/sololearn.certs.xml

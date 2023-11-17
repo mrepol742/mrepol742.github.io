@@ -17,7 +17,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url("/assets/MavenPro.woff2") format('woff2');
+    src: url("/fonts/MavenPro.woff2") format('woff2');
 }
 
 @font-face {
@@ -25,7 +25,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url("/assets/SourceCodePro-Regular.ttf");
+    src: url("/fonts/SourceCodePro-Regular.ttf");
 }
 
 h1, h2, h3, h4, h5, h6, th {
