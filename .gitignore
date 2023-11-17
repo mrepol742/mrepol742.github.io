@@ -1,4 +1,3 @@
 /arduino-programs
 *.class
-/obfuscate/node_modules
 /vendor
