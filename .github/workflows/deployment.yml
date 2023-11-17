@@ -18,6 +18,8 @@ jobs:
         run: |
           composer install
           rm -rf .github org .gitignore
+          git add vendor
+          
       - name: Push to deployment Repository
         id: push_directory
         uses: cpina/github-action-push-to-another-repository@main
