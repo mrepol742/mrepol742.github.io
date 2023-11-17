@@ -14,11 +14,11 @@ jobs:
  
     steps:
       - uses: actions/checkout@v3
-      - name: Start Obfuscating
+      - name: Installing dependencies
         run: |
           composer install
           rm -rf .github org .gitignore
-          git add vendor
+          git rm -r --cached .
           
       - name: Push to deployment Repository
         id: push_directory
