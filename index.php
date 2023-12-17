@@ -140,6 +140,7 @@ https://github.com/mrepol742/mrepol742.github.io
   </nav>
 
   <main>
+  <a href="https://mrepol742.canny.io" target="_blank" rel="noopener" class="feedback-button">Feedback</a>
     <div class="toast" id="privacypolicy"
       style="position: fixed; bottom: 0; right: 0; z-index: 9999; float: right; margin: 3%;" data-bs-autohide="false">
       <div class="toast-header">
@@ -316,7 +317,7 @@ https://github.com/mrepol742/mrepol742.github.io
             <p class="card-text">A Project for HCI Subject.</p>
                 <p>
                   Technologies: <br>
-                  XAMPP · PHP · HTML · CSS · JavaScript · Bootstrap · MySQL · Git · Github
+                  PHP · HTML · CSS · JavaScript · Bootstrap · MySQL · Git · Github
                 </p>
             <p>Source: <br>
               <a
@@ -335,7 +336,7 @@ https://github.com/mrepol742/mrepol742.github.io
             <p class="card-text">A Project for Web Dev Subject.</p>
             <p>
               Technologies: <br>
-              XAMPP · PHP · HTML · CSS · JavaScript · Bootstrap · MySQL · Git · Github
+              PHP · HTML · CSS · JavaScript · Bootstrap · MySQL · Git · Github
             </p>
             <p>Source: <br>
               <a href="https://github.com/mrepol742/Room-Rental-System"
@@ -375,7 +376,7 @@ https://github.com/mrepol742/mrepol742.github.io
             </p>
             <p>
               Technologies: <br>
-              XAMPP · PHP · HTML · CSS · JavaScript · YML · NodeJS · npmJS · Bootstrap · MySQL · Google Search Console · Git · Github · PHP Composer · reCAPTCHA
+              PHP · HTML · CSS · JavaScript · YML · NodeJS · npmJS · Bootstrap · MySQL · Google Search Console · Git · Github · PHP Composer · reCAPTCHA · Cloudflare
             </p>
             <p>Source: <br>
               <a href="https://github.com/lgu-ms/lgu-ms" target="_blank">https://github.com/lgu-ms/lgu-ms</a>
@@ -728,6 +729,11 @@ https://github.com/mrepol742/mrepol742.github.io
             </div>
           </div>
         </div>
+       
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
         <div class="col-sm">
           <div class="card">
             <div class="card-body text-center2">
@@ -740,10 +746,6 @@ https://github.com/mrepol742/mrepol742.github.io
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
         <div class="col-sm">
           <div class="card">
             <div class="card-body text-center2">
@@ -780,6 +782,11 @@ https://github.com/mrepol742/mrepol742.github.io
             </div>
           </div>
         </div>
+      
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
         <div class="col-sm">
           <div class="card">
             <div class="card-body text-center2">
@@ -804,6 +811,8 @@ https://github.com/mrepol742/mrepol742.github.io
             </div>
           </div>
         </div>
+        <div class="col-sm"></div>
+        <div class="col-sm"></div>
       </div>
     </div>
 

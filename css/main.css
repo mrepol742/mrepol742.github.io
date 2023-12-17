@@ -812,3 +812,29 @@ img:hover {
     border-radius: 6.25rem;
     opacity: .5
 }
+
+.feedback-button {
+    background: #fff;
+    color: #222;
+    z-index: 2147483647;
+    cursor: pointer;
+    position: fixed;
+    bottom: 60%;
+    right: 0;
+    transition-duration: .2s;
+    border-radius: 4px 4px 0 0;
+    transform-origin: right bottom;
+    transform: translateX(6px) rotate(270deg);
+    font-weight: 600;
+    padding: 6px 10px 12px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.3em;
+    box-shadow: 0 0 5em rgba(0, 0, 0, .30);
+}
+
+.feedback-button:hover {
+    text-decoration: none;
+    transform: translateX(0) rotate(270deg)
+}

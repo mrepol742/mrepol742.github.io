@@ -3,22 +3,14 @@
 # mrepol742.github.io
 I'm a self-taught Freelance Software Engineer with experience in web development, seo, computer hardware & software and currently studying arduino programming.
 
-## Server
+## Install Dependencies
+```bash
+composer install --prefer-dist --no-progress
+```
+
+## Start Server
 ```bash
 python3 -m http.server
-```
-> http://0.0.0.0:8000
-
-## Build Sitemap
-```bash
-javac Sitemap.java
-java Sitemap
-```
-
-## Build RSS
-```bash
-javac RSS.java
-java RSS
 ```
 
 ## Contribute
