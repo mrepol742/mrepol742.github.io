@@ -3,22 +3,19 @@
 # mrepol742.github.io
 I'm a self-taught Freelance Software Engineer with experience in web development, seo, computer hardware & software and currently studying arduino programming.
 
+`migrating to php`
+
 ## Server
 ```bash
-python3 -m http.server
-```
-> http://0.0.0.0:8000
-
-## Build Sitemap
-```bash
-javac Sitemap.java
-java Sitemap
+python3 -m http.server && chrome http://0.0.0.0:8000
 ```
 
-## Build RSS
+## Misc
 ```bash
-javac RSS.java
-java RSS
+# build sitemap
+java Sitemap.java
+# build rss
+java RSS.java
 ```
 
 ## Contribute

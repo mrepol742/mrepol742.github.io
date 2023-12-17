@@ -15,6 +15,23 @@
  * limitations under the License.
  */
 
+var entityMap = {
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;",
+    "/": "&#x2F;",
+    "`": "&#x60;",
+    "=": "&#x3D;",
+};
+
+function escapeHtml(string) {
+    return String(string).replace(/[&<>"'`=\/]/g, function (s) {
+        return entityMap[s];
+    });
+}
+
 if ("serviceWorker" in navigator) {
     navigator.serviceWorker
         .register("/sw.js")
@@ -202,12 +219,12 @@ if (typeof sendmail !== "undefined") {
             document.querySelector(".status").innerHTML = "Message cannot be empty";
             return false;
         }
-        window.location.href = "mailto:mrepol742@gmail.com?subject=" + subject + "&body=" + message;
+        window.location.href = escapeHtml("mailto:mrepol742@gmail.com?subject=" + subject + "&body=" + message);
     };
 }
 
 if (rdr != null) {
-    window.location.href = rdr + "?utm_source=" + btoa(window.location);
+    window.location.href = escapeHtml(rdr + "?utm_source=" + window.location);
 }
 
 function readMore(a) {

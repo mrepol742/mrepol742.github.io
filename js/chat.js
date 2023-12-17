@@ -196,11 +196,8 @@ async function sendMsg() {
             if (result.trim().length != 0) {
                 let li1 = document.createElement("li");
                 li1.setAttribute("class", "mj");
-                if (result.startsWith("\n")) {
-                    result = result.replace("\n", "");
-                }
-
-                li1.innerText = result;
+                
+                li1.innerText = result.replace(/^\s+|\s+$/g, '');
 
                 let li2 = document.createElement("li");
                 li2.setAttribute("class", "time2");
