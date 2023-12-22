@@ -234,11 +234,23 @@ function readMore(a) {
 
     if (dots.style.display === "none") {
         dots.style.display = "inline";
-        btnText.innerHTML = "Read more";
+        btnText.innerHTML = "Read More";
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read less";
+        btnText.innerHTML = "Read Less";
         moreText.style.display = "inline";
     }
 }
+
+const videos = document.querySelectorAll('video');
+
+videos.forEach(video => {
+  video.addEventListener('mouseenter', () => {
+    video.play();
+  });
+  
+  video.addEventListener('mouseleave', () => {
+    video.pause();
+  });
+});
