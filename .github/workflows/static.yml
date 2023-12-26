@@ -23,11 +23,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: 17
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Download Dependecies
         run: |
           composer install
+      - name: Generate Sitemap
+        run: |
+          wget https://github.com/mrepol742/RSS-Generator/releases/download/v1.1.1/RSS-Generator-1.0-jar-with-dependencies.jar
+          java -cp RSS-Generator-1.0-jar-with-dependencies.jar com.mrepol742.rssgenerator.App --domain https://mrepol742.github.io/ --publisher "Melvin Jones Repol"
+      - name: Generate RSS
+        run: |
+          wget https://github.com/mrepol742/Sitemap-Generator/releases/download/v1.1/Sitemap-Generator-1.0-jar-with-dependencies.jar
+          java -cp Sitemap-Generator-1.0-jar-with-dependencies.jar com.mrepol742.sitemapgenerator.App --domain https://mrepol742.github.io/ --publisher "Melvin Jones Repol"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:

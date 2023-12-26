@@ -16,6 +16,6 @@ Disallow: /*/download/index.html?
 Disallow: /*.json
 Crawl-delay: 60
 
+Sitemap: https://mrepol742.github.io/sitemap/index.xml
 Sitemap: https://mrepol742.github.io/sitemap.xml
-Sitemap: https://mrepol742.github.io/static.xml
-Sitemap: https://mrepol742.github.io/RSS.xml
+Sitemap: https://mrepol742.github.io/rss/index.xml
