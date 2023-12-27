@@ -234,11 +234,11 @@ function readMore(a) {
 
     if (dots.style.display === "none") {
         dots.style.display = "inline";
-        btnText.innerHTML = "Read More";
+        btnText.innerHTML = "&nbsp;See More";
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = "Read Less";
+        btnText.innerHTML = "";
         moreText.style.display = "inline";
     }
 }

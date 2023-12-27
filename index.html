@@ -31,7 +31,8 @@ https://github.com/mrepol742/mrepol742.github.io
   <meta property="og:title" content="Melvin Jones Repol - Software Engineer">
   <meta property="og:url" content="https://mrepol742.github.io">
   <link rel="license" href="https://raw.githubusercontent.com/mrepol742/mrepol742.github.io/master/LICENSE">
-  <link rel="sitemap" type="application/xml" title="Melvin Jones Repol » Sitemap" href="https://mrepol742.github.io/sitemap/index.xml">
+  <link rel="sitemap" type="application/xml" title="Melvin Jones Repol » Sitemap"
+    href="https://mrepol742.github.io/sitemap/index.xml">
   <link rel="canonical" href="https://mrepol742.github.io">
   <link rel="alternate" type="application/rss+xml" title="Melvin Jones Repol » Feed"
     href="https://mrepol742.github.io/rss/index.xml">
@@ -101,6 +102,9 @@ https://github.com/mrepol742/mrepol742.github.io
           <li class="nav-item">
             <a class="nav-link" href="#skills">Skills</a>
           </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#myteam">My Team</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#education">Education</a>
           </li>
@@ -166,7 +170,7 @@ https://github.com/mrepol742/mrepol742.github.io
           <div class="row g-0">
             <div class="col-md-4" id="mobile">
               <img class="rounded mx-auto d-block img-fluid circle-png" src="/images/melvin-jones-repol.jpg" width="230"
-                alt="Picture of Melvin Jones Repol" title="Melvin Jones Gallano Repol">
+                alt="Picture of Melvin Jones Repol">
             </div>
             <div class="col-md-8">
               <h1 class="card-title"><strong>Melvin Jones Repol</strong></h1>
@@ -210,13 +214,13 @@ https://github.com/mrepol742/mrepol742.github.io
             </div>
             <div class="col-md-4" id="desktop">
               <img class="rounded mx-auto d-block img-fluid circle-png" src="/images/melvin-jones-repol.jpg" width="230"
-                alt="Picture of Melvin Jones Repol" title="Melvin Jones Gallano Repol">
+                alt="Picture of Melvin Jones Repol">
             </div>
           </div>
         </div>
       </div>
     </header>
-    <h2 class="text-center" id="projects">Notable Projects</h2><br>
+    <h2 class="text-center" id="projects">Notable Projects</h2><div class="d-flex justify-content-center"><div class="line"></div></div><br>
     <div class="row">
       <div class="col-sm-6" id="projectwebvium">
         <div class="card ">
@@ -385,10 +389,10 @@ https://github.com/mrepol742/mrepol742.github.io
       </div>
     </div>
     <br>
-    <h2 class="text-center" id="skills">Skills</h2><br>
+    <h2 class="text-center" id="skills">Skills</h2><div class="d-flex justify-content-center"><div class="line" style="width: 6%;"></div></div><br>
     <div class="row">
       <div class="col-sm-6">
-        <div class="card ">
+        <div class="card " onclick="readMore('se')">
           <div class="card-body">
             <!-- Software engineer icons created by Freepik - Flaticon -->
             <img loading="lazy" src="/images/software-engineer.png" class="rounded bg-skill px-3 py-3"
@@ -396,17 +400,18 @@ https://github.com/mrepol742/mrepol742.github.io
             <h5 class="card-title mt-4">Software Engineer</h5>
             <p class="card-text">It's a field of engineering that i used for development and maintenance of software
               systems. It involves the application of engineering principles and techniques to the design<span
-                id="dotsse">...</span><span class="more" id="morese">, development,
+                id="dotsse">...</span><span id="readMorese">&nbsp;See More</span><span class="more" id="morese">,
+                development,
                 testing, and maintenance of software. <br><br>With software engineering, i can create efficient and
                 reliable software solutions that meet customer needs. Additionally, software engineering also involves
                 the
                 use of various tools and technologies to ensure the quality and performance of the software.</span></p>
-            <button onclick="readMore('se')" id="readMorese">Read more</button>
+
           </div>
         </div>
       </div>
       <div class="col-sm-6">
-        <div class="card ">
+        <div class="card " onclick="readMore('wd')">
           <div class="card-body">
             <!-- Software development icons created by HAJICON - Flaticon -->
             <img loading="lazy" src="/images/development.png" class="rounded bg-skill px-3 py-3"
@@ -414,17 +419,17 @@ https://github.com/mrepol742/mrepol742.github.io
             <h5 class="card-title mt-4">Full Stack Web Developer</h5>
             <p class="card-text">As a web developer, I have experience in creating dynamic websites and web applications
               using HTML, CSS, JavaScript, PHP, MySQL, Bootstrap, NodeJS, Firebase, MongoDB and other web<span
-                id="dotswd">...</span><span class="more" id="morewd"> development
+                id="dotswd">...</span><span id="readMorewd">&nbsp;See More</span><span class="more" id="morewd">
+                development
                 frameworks.<br><br> I am proficient in developing
                 user-friendly and responsive web designs that are optimized for various devices and browsers. I have a
                 strong understanding of web development principles and best practices, and I am able to troubleshoot and
                 debug web applications.</span></p>
-            <button onclick="readMore('wd')" id="readMorewd">Read more</button>
           </div>
         </div>
       </div>
       <div class="col-sm-6">
-        <div class="card ">
+        <div class="card " onclick="readMore('seo')">
           <div class="card-body">
             <!-- Seo icons created by Freepik - Flaticon -->
             <img loading="lazy" src="/images/seo.png" class="rounded bg-skill px-3 py-3"
@@ -432,34 +437,33 @@ https://github.com/mrepol742/mrepol742.github.io
             <h5 class="card-title mt-4">Search Engine Optimization (SEO)</h5>
             <p class="card-text">It's a process I use for web development, like on this one, which involves optimizing
               websites to rank higher in search engine results. In SEO it involves optimizing content, website
-              structure, and<span id="dotsseo">...</span><span class="more" id="moreseo"> other elements to make sure
+              structure, and<span id="dotsseo">...</span><span id="readMoreseo">&nbsp;See More</span><span class="more"
+                id="moreseo"> other elements to make sure
                 that search engines can easily find and index a website or a
                 page.
                 <br><br>It is important part of digital marketing, as it helps to increase website visibility and drive
                 more organic traffic to a website.</span>
             </p>
-            <button onclick="readMore('seo')" id="readMoreseo">Read more</button>
           </div>
         </div>
       </div>
       <div class="col-sm-6">
-        <div class="card ">
+        <div class="card " onclick="readMore('dataa')">
           <div class="card-body">
             <!-- Big data icons created by xnimrodx - Flaticon -->
             <img loading="lazy" src="/images/monitor.png" class="rounded bg-skill px-3 py-3" alt="Data Analytics"
               width="90">
             <h5 class="card-title mt-4">Data Analytics</h5>
             <p class="card-text">It's a process of trasforming raw data to understandable information with the main goal
-              is delivering useful information that support desicion-making<span id="dotsdataa">...</span><span
-                class="more" id="moredataa">
+              is delivering useful information that support desicion-making<span id="dotsdataa">...</span>
+              <span id="readMoredataa">&nbsp;See More</span><span class="more" id="moredataa">
                 it includes a range of tools, technologies, and processes used to find trends and solve problems.</span>
             </p>
-            <button onclick="readMore('dataa')" id="readMoredataa">Read more</button>
           </div>
         </div>
       </div>
       <div class="col-sm-6">
-        <div class="card ">
+        <div class="card " onclick="readMore('ar')">
           <div class="card-body">
             <!-- Motherboard icons created by Rmpp - Flaticon -->
             <img loading="lazy" src="/images/motherboard.png" class="rounded bg-skill px-3 py-3" alt="Arduino"
@@ -468,19 +472,18 @@ https://github.com/mrepol742/mrepol742.github.io
             <p class="card-text">
               Demonstrates my ability to create compact and specialized computer systems using the Arduino platform.
               This skill involves combining hardware and software expertise to develop<span id="dotsar">...</span><span
-                class="more" id="morear"> efficient, low-power, and often
+                id="readMorear">&nbsp;See More</span><span class="more" id="morear"> efficient, low-power, and often
                 real-time systems for various applications, from IoT devices to robotics and home automation.
                 <br><br>With my proficiency in selecting microcontrollers, sensors, actuators and programming them
                 effectively, i can optimize code, manage power consumption, and troubleshoot hardware-software
                 interactions. My expertise in this field positions is as a valuable contributor in the world of smart
                 devices and automation.</span>
             </p>
-            <button onclick="readMore('ar')" id="readMorear">Read more</button>
           </div>
         </div>
       </div>
       <div class="col-sm-6">
-        <div class="card ">
+        <div class="card " onclick="readMore('chs')">
           <div class="card-body">
             <!-- Troubleshooting icons created by Freepik - Flaticon -->
             <img loading="lazy" src="/images/troubleshooting.png" class="rounded bg-skill px-3 py-3"
@@ -488,33 +491,105 @@ https://github.com/mrepol742/mrepol742.github.io
             <h5 class="card-title mt-4">Hardware and Software Troubleshooting</h5>
             <p class="card-text">I have experience in computer hardware and software, which includes assembling,
               troubleshooting, and repairing of computer systems. I am knowledgeable in the installation and
-              configuration of operating systems<span id="dotschs">...</span><span class="more" id="morechs">, software
+              configuration of operating systems<span id="dotschs">...</span> <span id="readMorechs">&nbsp;See
+                More</span><span class="more" id="morechs">, software
                 applications, and hardware components.
                 <br><br> And also proficient in the use of various software tools and technologies to optimize computer
                 performance and ensure system security.</span>
             </p>
-            <button onclick="readMore('chs')" id="readMorechs">Read more</button>
           </div>
         </div>
       </div>
       <div class="col-sm-6">
-        <div class="card ">
+        <div class="card " onclick="readMore('pwa')">
           <div class="card-body">
             <!-- App development icons created by justicon - Flaticon -->
             <img loading="lazy" src="/images/app-development.png" class="rounded bg-skill px-3 py-3"
               alt="Progressive Web Applications" width="90">
             <h5 class="card-title mt-4">Progressive Web Applications (PWA)</h5>
             <p class="card-text">A very popular Software Applications built with common web technologies such as HTML,
-              CSS and JavaScript<span id="dotspwa">...</span><span class="more" id="morepwa"> its intended to work
+              CSS and JavaScript<span id="dotspwa">...</span> <span id="readMorepwa">&nbsp;See More</span><span
+                class="more" id="morepwa"> its intended to work
                 in any Operating System with modern web browsers.
                 <br><br> It's a website that behaves as if its a native applications delivered through web.</span>
             </p>
-            <button onclick="readMore('pwa')" id="readMorepwa">Read more</button>
           </div>
         </div>
       </div>
     </div>
     <br>
+    <h2 class="text-center" id="myteam">My Team</h2><div class="d-flex justify-content-center"><div class="line" style="width: 6%;"></div></div><br>
+    <div>
+      <div class="card-group">
+        <div class="card m-2">
+          <div class="card-body text-center2">
+            <img class="rounded mx-auto d-block img-fluid circle-png my-team" src="/images/melvin-jones-repol.transparent.png" width="200"
+            alt="Picture of Melvin Jones Repol" style="background: #de5246;">
+            <h5 class="card-title mt-3">Melvin</h5>
+            <p class="card-text">Lead Designer</p>
+            <p class="card-text">
+              <a href="https://mrepol742.github.io/#me" style="padding-left: 5px; padding-right: 5px;"
+              target="_blank">
+              <i class="fa-solid fa-code"></i>
+          </a>
+          <a href="https://github.com/mrepol742/" style="padding-left: 5px; padding-right: 5px;"
+              target="_blank">
+              <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="http://linkedin.com/in/mrepol742" style="padding-left: 5px; padding-right: 5px;"
+              target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+          </a>
+            </p>
+          </div>
+        </div>
+        <div class="card m-2">
+          <div class="card-body text-center2">
+            <img class="rounded mx-auto d-block img-fluid circle-png my-team" src="/images/melvin-jones-repol.transparent.png" width="200"
+            alt="Picture of Melvin Jones Repol" style="background: #F4B400;">
+            <h5 class="card-title mt-3">Jones</h5>
+            <p class="card-text">Lead Marketer</p>
+            <p class="card-text">
+              <a href="https://mrepol742.github.io/#me" style="padding-left: 5px; padding-right: 5px;"
+              target="_blank">
+              <i class="fa-solid fa-code"></i>
+          </a>
+          <a href="https://github.com/mrepol742/" style="padding-left: 5px; padding-right: 5px;"
+              target="_blank">
+              <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="http://linkedin.com/in/mrepol742" style="padding-left: 5px; padding-right: 5px;"
+              target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+          </a>
+            </p>
+          </div>
+        </div>
+        <div class="card m-2">
+          <div class="card-body text-center2">
+            <img class="rounded mx-auto d-block img-fluid circle-png my-team" src="/images/melvin-jones-repol.transparent.png" width="200"
+            alt="Picture of Melvin Jones Repol" style="background: #4285f4;">
+            <h5 class="card-title mt-3">Repol</h5>
+            <p class="card-text">Lead Developer</p>
+            <p class="card-text">
+              <a href="https://mrepol742.github.io/#me" style="padding-left: 5px; padding-right: 5px;"
+                                target="_blank">
+                                <i class="fa-solid fa-code"></i>
+                            </a>
+                            <a href="https://github.com/mrepol742/" style="padding-left: 5px; padding-right: 5px;"
+                                target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="http://linkedin.com/in/mrepol742" style="padding-left: 5px; padding-right: 5px;"
+                                target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    <br><br>
     <div class="container mt-5">
       <div class="row">
         <div class="col-12">
@@ -610,7 +685,7 @@ https://github.com/mrepol742/mrepol742.github.io
       </div>
     </div>
     <br>
-    <h2 class="text-center" id="friends">Friends</h2><br>
+    <h2 class="text-center" id="friends">Friends</h2><div class="d-flex justify-content-center"><div class="line" style="width: 7%;"></div></div><br>
     <div class="container">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
         <div class="col" id="samiunnafis">
@@ -737,14 +812,14 @@ https://github.com/mrepol742/mrepol742.github.io
     </div>
 
     <br>
-    <h2 class="text-center" id="faq">Faq</h2><br>
-    <div class="accordion ">
+    <h2 class="text-center" id="faq">Faq</h2><div class="d-flex justify-content-center"><div class="line" style="width: 2%;"></div></div><br>
+    <div class="accordion">
       <div class="accordion-item">
         <h2 class="accordion-header" id="panelsStayOpen-headingOne232323m">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
             data-bs-target="#panelsStayOpen-collapseOne232323m" aria-expanded="true"
             aria-controls="panelsStayOpen-collapseOne232323m">
-            
+            What are my projects?
           </button>
         </h2>
         <div id="panelsStayOpen-collapseOne232323m" class="accordion-collapse collapse show"
@@ -883,7 +958,7 @@ https://github.com/mrepol742/mrepol742.github.io
       </div>
     </div>
     <br>
-    <h2 class="text-center">Advertisements</h2><br>
+    <h2 class="text-center">Advertisements</h2><div class="d-flex justify-content-center"><div class="line" style="width: 17%;"></div></div><br>
     <div>
       <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed"
         data-ad-client="ca-pub-5077097159223655" data-ad-slot="7856709026"></ins>

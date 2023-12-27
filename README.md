@@ -10,14 +10,6 @@ I'm a self-taught Freelance Software Engineer with experience in web development
 python3 -m http.server && chrome http://0.0.0.0:8000
 ```
 
-## Misc
-```bash
-# build sitemap
-java Sitemap.java
-# build rss
-java RSS.java
-```
-
 ## Contribute
 Code contributions are welcome! Please commit any pull requests against the master branch. Security audits and feedback are welcome. Please open an issue or email us privately if the report is sensitive in nature.
 <br clear="left"/>
