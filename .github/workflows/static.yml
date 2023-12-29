@@ -33,14 +33,14 @@ jobs:
       - name: Download Dependecies
         run: |
           composer install
-      - name: Generate Sitemap
+      - name: Generate RSS
         run: |
           wget https://github.com/mrepol742/RSS-Generator/releases/download/v1.1.2/RSS-Generator-1.0-jar-with-dependencies.jar
           java -cp RSS-Generator-1.0-jar-with-dependencies.jar com.mrepol742.rssgenerator.App --domain https://mrepol742.github.io/ --publisher "Melvin Jones Repol"
           rm -rf RSS-Generator-1.0-jar-with-dependencies.jar
-      - name: Generate RSS
+      - name: Generate Sitemap
         run: |
-          wget https://github.com/mrepol742/Sitemap-Generator/releases/download/v1.1.1/Sitemap-Generator-1.0-jar-with-dependencies.jar
+          wget https://github.com/mrepol742/Sitemap-Generator/releases/download/v1.1.2/Sitemap-Generator-1.0-jar-with-dependencies.jar
           java -cp Sitemap-Generator-1.0-jar-with-dependencies.jar com.mrepol742.sitemapgenerator.App --domain https://mrepol742.github.io/ --publisher "Melvin Jones Repol"
           rm -rf Sitemap-Generator-1.0-jar-with-dependencies.jar
       - name: Upload artifact
