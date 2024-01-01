@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "components/font-awesome",
-            "version": "6.4.2",
+            "version": "6.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/components/font-awesome.git",
-                "reference": "f70143b8251916dbb207940f06fcb14d5f91e2c6"
+                "reference": "736b79de49acc07e77fdc377d2265ede6f10d3d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/components/font-awesome/zipball/f70143b8251916dbb207940f06fcb14d5f91e2c6",
-                "reference": "f70143b8251916dbb207940f06fcb14d5f91e2c6",
+                "url": "https://api.github.com/repos/components/font-awesome/zipball/736b79de49acc07e77fdc377d2265ede6f10d3d9",
+                "reference": "736b79de49acc07e77fdc377d2265ede6f10d3d9",
                 "shasum": ""
             },
             "type": "component",
@@ -41,9 +41,9 @@
             "description": "Font Awesome, the iconic SVG, font, and CSS framework.",
             "support": {
                 "issues": "https://github.com/components/font-awesome/issues",
-                "source": "https://github.com/components/font-awesome/tree/6.4.2"
+                "source": "https://github.com/components/font-awesome/tree/6.5.1"
             },
-            "time": "2023-08-07T13:23:07+00:00"
+            "time": "2023-12-11T15:51:37+00:00"
         },
         {
             "name": "components/jquery",
