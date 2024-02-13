@@ -621,8 +621,8 @@ input:-webkit-autofill:active {
 
 .preview,
 .preview0 {
-    border-radius: 20px;
-    border-color: #2e475d;
+    border-radius: 28px;
+    border-color: #2e475d69;
     border-width: 4px;
     border-style: solid;
 }
