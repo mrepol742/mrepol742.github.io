@@ -15,22 +15,20 @@
  * limitations under the License.
  */
 
-var queryString1 = window.location.search;
-var urlParams1 = new URLSearchParams(queryString1);
-var version = urlParams1.get("version");
-var url = getUrl(version);
+var versionBrowser = new URLSearchParams(window.location.search).get("version");
+var urlBrowser = getUrl(versionBrowser);
 
 setTimeout(function () {
-    window.location.href = url;
+    window.location.href = urlBrowser;
 }, 3000);
 
-document.getElementById("retry-download").href = url;
+document.getElementById("retry-download").href = urlBrowser;
 
 function getUrl(v) {
-    if (version == null) {
+    if (versionBrowser == null) {
         return "https://mrepol742-released-stable.netlify.app/Webvium%20v" + latestVersionName + ".apk";
     }
-    var versionF = version.replace("v", "").replace(".", "");
+    var versionF = versionBrowser.replace("v", "").replace(".", "");
     if (versionF > latestVersionCode || versionList[0] > versionF) {
         return "https://mrepol742.github.io/404.html?utm_source=mrepol742.github.io&utm_medium=vnf&utm_campaigns=webvium";
     }

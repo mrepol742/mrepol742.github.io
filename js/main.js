@@ -15,6 +15,8 @@
  * limitations under the License.
  */
 
+let cacheName = 'mrepol742v6.6';
+
 var entityMap = {
     "&": "&amp;",
     "<": "&lt;",
@@ -43,10 +45,25 @@ if ("serviceWorker" in navigator) {
             } else if (reg.active) {
                 console.log("Service worker active");
             }
+            self.addEventListener('activate', event => {
+                event.waitUntil(
+                  (async () => {
+                    const keys = await caches.keys();
+                    return keys.map(async (cache) => {
+                      if(cache !== cacheName) {
+                        console.log('Service Worker: Removing old cache: '+ cache);
+                        return await caches.delete(cache);
+                      }
+                    })
+                  })()
+                )
+              })
         })
         .catch((err) => {
             console.error("Service worker failed: ", err);
         });
+} else {
+    console.error("Service working ain't available :(");
 }
 
 function setCookie(cname, cvalue, exdays) {
