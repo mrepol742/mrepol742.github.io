@@ -15,7 +15,9 @@
  * limitations under the License.
  */
 
-const cacheName = 'mrepol742v6.4';
+const cacheable = /^https:\/\/mrepol742.github.io(\/lib\/|\/fonts\/|\/images\/)/;
+const cacheableD = /^http:\/\/0.0.0.0:8000(\/lib\/|\/fonts\/|\/images\/)/;
+let debug = false;
 
 self.addEventListener('activate', event => {
   event.waitUntil(
@@ -36,11 +38,16 @@ self.addEventListener('install', (event) => {
 });
 
 self.addEventListener('fetch', async (event) => {
-  if (event.request.method !== "GET") return;
-  if (((event.request.destination === 'image' || event.request.url.includes("/lib/") || event.request.url.includes("/vendor/") || event.request.url.includes("/fonts/")) && event.request.url.includes(atob("aHR0cHM6Ly9tcmVwb2w3NDIuZ2l0aHViLmlv")))) {
+  if (event.request.method !== "GET") {
+    if (debug) console.log("cache_fetch " + event.request.method);
+    return;
+  }
+  if (a().test(event.request.url)) {
     event.respondWith(caches.open(cacheName).then((cache) => {
       return cache.match(event.request).then((cachedResponse) => {
+        if (debug) console.log("cache_response " + JSON.stringify(cachedResponse));
         return cachedResponse || fetch(event.request.url).then((fetchedResponse) => {
+          if (debug) console.log("cache_put " + event.request.url);
           cache.put(event.request, fetchedResponse.clone());
           return fetchedResponse;
         });
@@ -49,3 +56,8 @@ self.addEventListener('fetch', async (event) => {
   }
   return;
 });
+
+function a() {
+  if (debug) return cacheableD;
+  return cacheable;
+}
