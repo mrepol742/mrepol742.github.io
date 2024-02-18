@@ -62,9 +62,14 @@
     title="Search...">
   <script
     type="application/ld+json">{      "@context": "https://schema.org",      "@type": "SoftwareApplication",      "name": "Webvium Beta",      "operatingSystem": "ANDROID",      "applicationCategory": "BrowserApplication",      "aggregateRating": {        "@type": "AggregateRating",        "ratingValue": "4.6",        "ratingCount": "5500"      },      "offers": {        "@type": "Offer",        "price": "0"      }    }</script>
-  <link href="/vendor/components/font-awesome/css/fontawesome.min.css" rel="stylesheet">
-  <link href="/vendor/components/font-awesome/css/brands.min.css" rel="stylesheet">
-   <link href="/vendor/components/font-awesome/css/solid.min.css" rel="stylesheet">
+    <link rel="preload" href="/vendor/components/font-awesome/css/fontawesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="/vendor/components/font-awesome/css/brands.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="/vendor/components/font-awesome/css/solid.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="/vendor/components/font-awesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/vendor/components/font-awesome/css/brands.min.css">
+    <link rel="stylesheet" href="/vendor/components/font-awesome/css/solid.min.css">
+  </noscript>
     <link href="/vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="shortcut icon" href="/webvium/favicon.png">
