@@ -44,9 +44,14 @@
                 j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-TFD9TXR');</script>
-    <link href="/vendor/components/font-awesome/css/fontawesome.min.css" rel="stylesheet">
-    <link href="/vendor/components/font-awesome/css/brands.min.css" rel="stylesheet">
-     <link href="/vendor/components/font-awesome/css/solid.min.css" rel="stylesheet">
+    <link rel="preload" href="/vendor/components/font-awesome/css/fontawesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="/vendor/components/font-awesome/css/brands.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="/vendor/components/font-awesome/css/solid.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="/vendor/components/font-awesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="/vendor/components/font-awesome/css/brands.min.css">
+  <link rel="stylesheet" href="/vendor/components/font-awesome/css/solid.min.css">
+</noscript>
       <link href="/vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
     <title>Aavesh Jilani - Programmer Profile Card</title>
@@ -74,15 +79,15 @@
                                 Programming Language.
                             </p>
                             <p class="card-text"><small class="text-muted">@aaveshdev</small></p>
-                            <a href="https://aavesh.dragon-lang.org/" style="padding-left: 5px; padding-right: 5px;"
+                            <a href="https://aavesh.dragon-lang.org/" aria-label="Website" style="padding-left: 5px; padding-right: 5px;"
                                 target="_blank">
                                 <i class="fa-solid fa-code"></i>
                             </a>
-                            <a href="https://github.com/aaveshdev" style="padding-left: 5px; padding-right: 5px;"
+                            <a href="https://github.com/aaveshdev" aria-label="Github" style="padding-left: 5px; padding-right: 5px;"
                                 target="_blank">
                                 <i class="fa-brands fa-github"></i>
                             </a>
-                            <a href="https://linkedin.com/in/aaveshjilani"
+                            <a href="https://linkedin.com/in/aaveshjilani" aria-label="LinkedIn"
                                 style="padding-left: 5px; padding-right: 5px;" target="_blank">
                                 <i class="fa-brands fa-linkedin"></i>
                             </a>

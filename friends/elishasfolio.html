@@ -44,9 +44,14 @@
                 j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-TFD9TXR');</script>
-    <link href="/vendor/components/font-awesome/css/fontawesome.min.css" rel="stylesheet">
-    <link href="/vendor/components/font-awesome/css/brands.min.css" rel="stylesheet">
-     <link href="/vendor/components/font-awesome/css/solid.min.css" rel="stylesheet">
+    <link rel="preload" href="/vendor/components/font-awesome/css/fontawesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="/vendor/components/font-awesome/css/brands.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="/vendor/components/font-awesome/css/solid.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="/vendor/components/font-awesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="/vendor/components/font-awesome/css/brands.min.css">
+  <link rel="stylesheet" href="/vendor/components/font-awesome/css/solid.min.css">
+</noscript>
       <link href="/vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
     <title>Elisha Paul Okai - Defi Expert Profile Card</title>
@@ -72,15 +77,15 @@
                                 related projects.
                             </p>
                             <p class="card-text"><small class="text-muted">@elishasfolio</small></p>
-                            <a href="https://elishasfolio.vercel.app" style="padding-left: 5px; padding-right: 5px;"
+                            <a href="https://elishasfolio.vercel.app" aria-label="Website" style="padding-left: 5px; padding-right: 5px;"
                                 target="_blank">
                                 <i class="fa-solid fa-code"></i>
                             </a>
-                            <a href="https://github.com/Elitexv" style="padding-left: 5px; padding-right: 5px;"
+                            <a href="https://github.com/Elitexv" aria-label="GitHub" style="padding-left: 5px; padding-right: 5px;"
                                 target="_blank">
                                 <i class="fa-brands fa-github"></i>
                             </a>
-                            <a href="https://www.linkedin.com/in/elisha-okai-791b8223a/"
+                            <a href="https://www.linkedin.com/in/elisha-okai-791b8223a/" aria-label="LinkedIn" 
                                 style="padding-left: 5px; padding-right: 5px;" target="_blank">
                                 <i class="fa-brands fa-linkedin"></i>
                             </a>

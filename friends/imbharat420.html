@@ -44,9 +44,14 @@
                 j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-TFD9TXR');</script>
-    <link href="/vendor/components/font-awesome/css/fontawesome.min.css" rel="stylesheet">
-    <link href="/vendor/components/font-awesome/css/brands.min.css" rel="stylesheet">
-     <link href="/vendor/components/font-awesome/css/solid.min.css" rel="stylesheet">
+    <link rel="preload" href="/vendor/components/font-awesome/css/fontawesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="/vendor/components/font-awesome/css/brands.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="/vendor/components/font-awesome/css/solid.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="/vendor/components/font-awesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="/vendor/components/font-awesome/css/brands.min.css">
+  <link rel="stylesheet" href="/vendor/components/font-awesome/css/solid.min.css">
+</noscript>
       <link href="/vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
     <title>Bharat Singh - Fullstack Developer Profile Card</title>
@@ -71,15 +76,15 @@
                             <p class="card-text">A experienced professional with expertise in front-end and back-end. He
                                 is passionate about using technology to solve real-world problems.</p>
                             <p class="card-text"><small class="text-muted">@imbharat420</small></p>
-                            <a href="https://bharat.bargali.me/" style="padding-left: 5px; padding-right: 5px;"
+                            <a href="https://bharat.bargali.me/" aria-label="Website" style="padding-left: 5px; padding-right: 5px;"
                                 target="_blank">
                                 <i class="fa-solid fa-code"></i>
                             </a>
-                            <a href="https://github.com/imbharat420/" style="padding-left: 5px; padding-right: 5px;"
+                            <a href="https://github.com/imbharat420/" aria-label="GitHub" style="padding-left: 5px; padding-right: 5px;"
                                 target="_blank">
                                 <i class="fa-brands fa-github"></i>
                             </a>
-                            <a href="http://linkedin.com/in/imbharat420" style="padding-left: 5px; padding-right: 5px;"
+                            <a href="http://linkedin.com/in/imbharat420" aria-label="LinkedIn" style="padding-left: 5px; padding-right: 5px;"
                                 target="_blank">
                                 <i class="fa-brands fa-linkedin"></i>
                             </a>

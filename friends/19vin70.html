@@ -44,13 +44,18 @@
                 j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-TFD9TXR');</script>
-    <link href="/vendor/components/font-awesome/css/fontawesome.min.css" rel="stylesheet">
-    <link href="/vendor/components/font-awesome/css/brands.min.css" rel="stylesheet">
-     <link href="/vendor/components/font-awesome/css/solid.min.css" rel="stylesheet">
+    <link rel="preload" href="/vendor/components/font-awesome/css/fontawesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="/vendor/components/font-awesome/css/brands.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="/vendor/components/font-awesome/css/solid.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="/vendor/components/font-awesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="/vendor/components/font-awesome/css/brands.min.css">
+  <link rel="stylesheet" href="/vendor/components/font-awesome/css/solid.min.css">
+</noscript>
       <link href="/vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
     <title>Marvin Quillo Saik - Programmer Profile Card</title>
-</head>
+</head>    
 
 <body class="d-flex flex-column min-vh-100">
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFD9TXR" height="0" width="0"
@@ -72,11 +77,11 @@
                                 and helping upcomers on their activities specifically on programming matters.
                             </p>
                             <p class="card-text"><small class="text-muted">@19vin70</small></p>
-                            <a href="https://kabe.vercel.app" style="padding-left: 5px; padding-right: 5px;"
+                            <a href="https://kabe.vercel.app" aria-label="Website" style="padding-left: 5px; padding-right: 5px;"
                                 target="_blank">
                                 <i class="fa-solid fa-code"></i>
                             </a>
-                            <a href="https://github.com/19vin70" style="padding-left: 5px; padding-right: 5px;"
+                            <a href="https://github.com/19vin70" aria-label="Github" style="padding-left: 5px; padding-right: 5px;"
                                 target="_blank">
                                 <i class="fa-brands fa-github"></i>
                             </a>
