@@ -15,12 +15,14 @@
  * limitations under the License.
  */
 
+let cacheNameSW = 'mrepol742v6.6';
+
 const cacheable = /^https:\/\/mrepol742.github.io(\/lib\/|\/fonts\/|\/images\/)/;
 const cacheableD = /^http:\/\/0.0.0.0:8000(\/lib\/|\/fonts\/|\/images\/)/;
 let debug = false;
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(caches.open(cacheName));
+  event.waitUntil(caches.open(cacheNameSW));
 });
 
 self.addEventListener('fetch', async (event) => {
@@ -29,7 +31,7 @@ self.addEventListener('fetch', async (event) => {
     return;
   }
   if (a().test(event.request.url)) {
-    event.respondWith(caches.open(cacheName).then((cache) => {
+    event.respondWith(caches.open(cacheNameSW).then((cache) => {
       return cache.match(event.request).then((cachedResponse) => {
         if (debug) console.log("cache_response " + JSON.stringify(cachedResponse));
         return cachedResponse || fetch(event.request.url).then((fetchedResponse) => {
