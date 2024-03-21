@@ -96,9 +96,6 @@
           <li class="nav-item">
             <a class="nav-link" href="#permissions">Permissions</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#previousVersion">Previous Version</a>
-          </li>
         </ul>
         <div>
           <ul class="nav navbar-nav" style="flex-direction: row;">
@@ -415,25 +412,6 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6" id="previousVersion">
-        <div class="accordion ">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingOne244">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapseOne244" aria-expanded="true"
-                aria-controls="panelsStayOpen-collapseOne244">
-                Previous Version
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseOne244" class="accordion-collapse collapse show"
-              aria-labelledby="panelsStayOpen-headingOne244">
-              <div class="accordion-body">
-                <ul class="list-group list-group-flush" id="versions"> </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
     <br>
     <h2 class="text-center">Advertisements</h2><div class="d-flex justify-content-center"><div class="line" style="width: 17%;"></div></div><br>
@@ -646,10 +624,14 @@
       <span>&copy; 2021 Melvin Jones Gallano Repol. All Rights Reserved.</span>
     </div>
   </footer>
-  <script src="/webvium/update.js"></script>
+  <script src="/js/update.js"></script>
   <script src="/vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="/js/main.js"></script>
-  <script src="/js/webviumvpn.js"></script>
+  <script>
+    function download() {
+      window.location.href = "/webviumvpn/download/";
+    }
+  </script>
 </body>
 
 </html>

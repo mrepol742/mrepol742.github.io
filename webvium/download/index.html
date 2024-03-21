@@ -114,9 +114,6 @@
             <a class="nav-link" href="/webvium#permissions">Permissions</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/webvium#previousVersion">Previous Version</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="/webvium#frequentlyAskQuestions">Faq</a>
           </li>
         </ul>
@@ -162,7 +159,7 @@
     <div class="card ">
       <div class="card-body">
         <p>Within a few seconds, your download should begin automatically. If it doesn't, please
-          start the <a href="https://mrepol742-released-stable.netlify.app/Webvium%20v1.0.apk" id="retry-download"
+          start the <a href="https://mrepol742-released-stable.netlify.app/Webvium%20-release.apk" id="retry-download"
             target="_blank">download using this link.</a></p>
         <br>
         <div class="row">
@@ -432,10 +429,54 @@
     </div>
   </footer>
   <script src="/lib/confetti.min.js"></script>
-  <script src="/webvium/update.js"></script>
   <script src="/vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="/js/webviumdownload.js"></script>
   <script src="/js/main.js"></script>
+  <script>
+    setTimeout(function () {
+      window.location.href = 'https://mrepol742-released-stable.netlify.app/Webvium-release.apk'
+    }, 3000);
+    
+    const count = 200,
+      defaults = {
+        origin: {y: 0.7},
+      };
+
+    function fire(particleRatio, opts) {
+      confetti(
+        Object.assign({}, defaults, opts, {
+          particleCount: Math.floor(count * particleRatio),
+        })
+      );
+    }
+
+    fire(0.25, {
+      spread: 26,
+      startVelocity: 55,
+    });
+
+    fire(0.2, {
+      spread: 60,
+    });
+
+    fire(0.35, {
+      spread: 100,
+      decay: 0.91,
+      scalar: 0.8,
+    });
+
+    fire(0.1, {
+      spread: 120,
+      startVelocity: 25,
+      decay: 0.92,
+      scalar: 1.2,
+    });
+
+    fire(0.1, {
+      spread: 120,
+      startVelocity: 45,
+    });
+  </script>
+  </script>
 </body>
 
 </html>

@@ -616,7 +616,7 @@ input:-webkit-autofill:active {
 }
 
 .link-tree {
-   padding: 10px; 
+    padding: 10px;
 }
 
 .preview,
@@ -857,4 +857,11 @@ input:-webkit-autofill:active {
     -webkit-filter: drop-shadow(5px 5px 5px #22222241);
     filter: drop-shadow(5px 5px 5px #22222241);
     transition: background 0.5s ease-out;
+}
+
+.card:hover, .toast:hover {
+    transform: scale(1.03);
+    position: initial;
+    z-index: 111;
+    background: #fff;
 }

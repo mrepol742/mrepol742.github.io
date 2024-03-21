@@ -117,9 +117,6 @@
           <li class="nav-item">
             <a class="nav-link" href="/webviumvpn#permissions">Permissions</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/webviumvpn#previousVersion">Previous Version</a>
-          </li>
         </ul>
         <div>
           <ul class="nav navbar-nav" style="flex-direction: row;">
@@ -163,7 +160,7 @@
     <div class="card ">
       <div class="card-body">
         <p>Within a few seconds, your download should begin automatically. If it doesn't, please
-          start the <a href="https://github.com/mrepol742/released/blob/stable/Webvium%20VPN%20v1.0.apk?raw=true"
+          start the <a href="https://raw.githubusercontent.com/mrepol742/released/80a254530ab93b740ea489b1b4d1b1e058948a9d/Webvium%20VPN%20v1.1.apk"
             id="retry-download" target="_blank">download using this link.</a></p>
         <br>
         <div class="row">
@@ -438,10 +435,53 @@
     </div>
   </footer>
   <script src="/lib/confetti.min.js"></script>
-  <script src="/webvium/update.js"></script>
   <script src="/vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="/js/webviumvpndownload.js"></script>
   <script src="/js/main.js"></script>
+  <script>
+    setTimeout(function () {
+      window.location.href = 'https://raw.githubusercontent.com/mrepol742/released/80a254530ab93b740ea489b1b4d1b1e058948a9d/Webvium%20VPN%20v1.1.apk'
+    }, 3000);
+
+    const count = 200,
+      defaults = {
+        origin: {y: 0.7},
+      };
+
+    function fire(particleRatio, opts) {
+      confetti(
+        Object.assign({}, defaults, opts, {
+          particleCount: Math.floor(count * particleRatio),
+        })
+      );
+    }
+
+    fire(0.25, {
+      spread: 26,
+      startVelocity: 55,
+    });
+
+    fire(0.2, {
+      spread: 60,
+    });
+
+    fire(0.35, {
+      spread: 100,
+      decay: 0.91,
+      scalar: 0.8,
+    });
+
+    fire(0.1, {
+      spread: 120,
+      startVelocity: 25,
+      decay: 0.92,
+      scalar: 1.2,
+    });
+
+    fire(0.1, {
+      spread: 120,
+      startVelocity: 45,
+    });
+  </script>
 </body>
 
 </html>
