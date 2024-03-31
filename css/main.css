@@ -247,7 +247,7 @@ nav {
 .card:hover,
 .accordion:hover,
 .toast:hover {
-    box-shadow: 0 1rem 5rem rgba(66, 134, 244, 0.39);
+    box-shadow: 0 1rem 5rem rgba(66, 134, 244, 0.25);
     transition: all 0.5s ease;
 }
 
