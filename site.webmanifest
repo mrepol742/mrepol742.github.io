@@ -1,7 +1,7 @@
 {
-  "name": "Melvin Jones Repol - Software Engineer",
-  "short_name": "Mj",
-  "description": "I'm a Self-taught Freelance Software Engineer with experience in full-stack web development, seo, data analyics, embedded system design with arduino programming, hardware & software troubleshooting and PWA.",
+  "name": "mrepol742.github.io",
+  "short_name": "mrepol742",
+  "description": "This is where i showcase my projects, landing pages, tools and other awesome things.",
   "dir": "ltr",
   "lang": "en-US",
   "icons": [
@@ -21,44 +21,6 @@
   "display": "standalone",
   "start_url": "/index.html?utm_source=webmanifest",
   "scope": "/",
-  "shortcuts": [
-    {
-      "name": "Chat - Project Orion",
-      "short_name": "Chat",
-      "description": "Chat is a feature of Project Orion that's currently under development where in you can interact with the project AI. If you found any issues please let us know.",
-      "url": "/project-orion/chat?utm_source=webmanifest",
-      "icons": [
-        {
-          "src": "/favicon_192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        },
-        {
-          "src": "/favicon_512.png",
-          "sizes": "512x512",
-          "type": "image/png"
-        }
-      ]
-    },
-    {
-      "name": "Webvium Search - A Powerful search engine that allows users to quickly and easily find the information.",
-      "short_name": "Search",
-      "description": "Find information quickly and easily, and browse the Internet securely with Webvium Search.",
-      "url": "/search/?utm_source=webmanifest",
-      "icons": [
-        {
-          "src": "/favicon_192.png",
-          "sizes": "192x192",
-          "type": "image/png"
-        },
-        {
-          "src": "/favicon_512.png",
-          "sizes": "512x512",
-          "type": "image/png"
-        }
-      ]
-    }
-  ],
   "screenshots": [
     {
       "src": "https://mrepol742.github.io/images/myportfolio.png",

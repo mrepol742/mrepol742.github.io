@@ -1,6 +1,6 @@
 /*
  *
- * Copyright (c) 2023 Melvin Jones Repol (mrepol742.github.io). All Rights Reserved.
+ * Copyright (c) 2023 Melvin Jones Gallano Repol (mrepol742.github.io). All Rights Reserved.
  *
  * License under the GNU GENERAL PUBLIC LICENSE, version 3.0 (the "License");
  * you may not use this file except in compliance with the License.
