@@ -248,15 +248,13 @@ function find(query) {
 				if (WebviumSearchHelper.isValidDomain(aq)) {
 					window.location.href = escapeHtml(query);
 				} else {
-					s222(query);
-					// window.location.href = WebviumSearchHelper.getSearchEngine() + query;
+					window.location.href = WebviumSearchHelper.getSearchEngine() + query;
 				}
 			} else {
 				if (WebviumSearchHelper.isValidDomain(aq)) {
 					window.location.href = escapeHtml("https://" +query);
 				} else {
-					s222(query);
-					// window.location.href = WebviumSearchHelper.getSearchEngine() + query;
+					window.location.href = WebviumSearchHelper.getSearchEngine() + query;
 				
 				}
 			}
@@ -268,8 +266,7 @@ function find(query) {
 			if (aq.startsWith("https://") || aq.startsWith("http://")) {
 				window.location.href = escapeHtml(query);
 			} else {
-				s222(query);
-				//window.location.href = atob("aHR0cHM6Ly9nb29nbGUuY29tL3NlYXJjaD9xPQ==") + query;
+				window.location.href = atob("aHR0cHM6Ly9nb29nbGUuY29tL3NlYXJjaD9xPQ==") + query;
 			}
 		}
 	}
