@@ -196,6 +196,10 @@ nav {
     background-color: transparent;
 }
 
+.less-p {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 
 .toast-header strong {
     font-family: 'Source Code Pro', sans-serif;
@@ -391,7 +395,6 @@ footer {
     background-color: #fff !important;
     border-color: rgba(0, 0, 0, .1) !important;
     border-radius: 5px;
-    box-shadow: 0 0 5em rgba(0, 0, 0, .1);
     padding: 15%;
 }
 
