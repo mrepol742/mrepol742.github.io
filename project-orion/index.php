@@ -3,7 +3,7 @@
 
 <head>
   <?php
-  include("../includes/head.php");
+  include("./includes/head.php");
 
   $meta = new meta();
   $meta->setTitle(
@@ -38,8 +38,8 @@
 
 <body class="d-flex flex-column min-vh-100">
   <?php
-  include('../includes/nav.php');
-  include('../includes/components/toast/privacypolicy.php');
+  include('./includes/nav.php');
+  include('./includes/components/toast/privacypolicy.php');
   ?>
   <main>
     <div class="card mb-3 mt-5">
@@ -96,7 +96,7 @@
       </div>
     </div>
   </main>
-  <?php include("../includes/footer.php") ?>
+  <?php include("./includes/footer.php") ?>
 </body>
 
 </html>

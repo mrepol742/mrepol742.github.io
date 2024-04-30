@@ -3,7 +3,7 @@
 
 <head>
   <?php
-  include("../includes/head.php");
+  include("./includes/head.php");
 
   $meta = new meta();
   $meta->setTitle(

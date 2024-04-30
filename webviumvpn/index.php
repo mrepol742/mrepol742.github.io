@@ -4,7 +4,7 @@
 <head>
 
   <?php
-  include("../includes/head.php");
+  include("./includes/head.php");
 
   $meta = new meta();
   $meta->setTitle(
@@ -59,8 +59,8 @@
 <body class="d-flex flex-column min-vh-100">
 
   <?php
-  include('../includes/nav.php');
-  include('../includes/components/toast/privacypolicy.php');
+  include('./includes/nav.php');
+  include('./includes/components/toast/privacypolicy.php');
   ?>
 
   <main>
@@ -326,7 +326,7 @@
     </div>
   </main>
 
-  <?php include("../includes/footer.php") ?>
+  <?php include("./includes/footer.php") ?>
   <script>
     function download() {
       window.location.href = "/webviumvpn/download/";
