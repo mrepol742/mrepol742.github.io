@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/assets/fonts/SourceCodePro-Regular.ttf");
+}
+
+
+::selection {
+    background-color: #de5246;
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background-color: #de5246;
+    color: #ffffff;
+}
+
+* {
+    font-family: 'Source Code Pro', sans-serif;
+    margin: 0;
+    letter-spacing: -1px;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px #484848;
+}
+
+.a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.tst {
+    position: fixed;
+    z-index: 999999;
+    display: none;
+    bottom: 0%;
+    left: 0%;
+    right: 0;
+    text-align: center;
+    background-color: #212121;
+    color: #ffffff;
+    padding: 4px;
+}
+
+.nojs {
+    position: fixed;
+    z-index: 999999;
+    bottom: 0%;
+    left: 0%;
+    right: 0;
+    text-align: center;
+    background-color: #de5246;
+    color: #ffffff;
+    padding: 4px;
+}
+
+#accpt {
+    color: #ffffff;
+
+}

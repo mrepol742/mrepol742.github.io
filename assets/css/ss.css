@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/assets/fonts/MavenPro.woff2") format('woff2');
+}
+
+* {
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    outline: none;
+    box-sizing: border-box;
+} 
+
+body {
+    transition: all 2s ease;
+}
+
+div {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: white;
+    transition: all 2s ease;
+}
+
+@media (min-width:320px)  {
+    div::before {
+        content: "Portrait Smartphone";
+        transition: all 2s ease;
+    }
+
+    body {
+        background-color: seagreen;
+        transition: all 2s ease;
+    }
+}
+@media (min-width:481px)  { 
+    div::before {
+        content: "E-Reader & Small Tablet";
+        transition: all 2s ease;
+    }
+
+    body {
+        background-color: sienna;
+        transition: all 2s ease;
+    }
+ }
+@media (min-width:641px)  {
+    div::before {
+        content: "Portrait Tablets/Ipad & Landscape E-Reader & Phone";
+        transition: all 2s ease;
+    }
+
+    body {
+        background-color: rebeccapurple;
+        transition: all 2s ease;
+    }
+}
+@media (min-width:961px)  { 
+    div::before {
+        content: "Tablet, Landscape Ipad, Low-res Laptop & Desktop.";
+        transition: all 2s ease;
+    }
+
+    body {
+        background-color: olive;
+        transition: all 2s ease;
+    }
+}
+@media (min-width:1025px) {
+    div::before {
+        content: "Big Landscape Tablet, Laptop & Desktop.";
+        transition: all 2s ease;
+    }
+
+    body {
+        background-color: palevioletred;
+        transition: all 2s ease;
+    }
+}
+
+@media (min-width:1281px) { 
+    div::before {
+        content: "High-res Laptop and Desktop";
+        transition: all 2s ease;
+    }
+
+    body {
+        background-color: chocolate;
+        transition: all 2s ease;
+    }
+}
