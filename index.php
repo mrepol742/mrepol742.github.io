@@ -206,13 +206,18 @@ https://github.com/mrepol742/mrepol742.github.io
       </div>
       <div class="col-sm-6">
         <div class="card ">
-          <img loading="lazy" src="/assets/images/premoza.jpg" class="rounded mx-auto d-block img-fluid" alt="Premoza" width="250">
+          <img loading="lazy" src="/assets/images/premoza-cover-min.png" class="rounded mx-auto d-block img-fluid" alt="Premoza" width="250">
           <div class="card-body">
             <h5 class="card-title">Premoza</h5>
             <p class="card-text">A leading real estate service provider dedicated to delivering exceptional property
               solutions tailored to our clients' needs. With a commitment to excellence, professionalism, and
               innovation, we strive to exceed expectations in every aspect of our service.
             </p>
+            <p>
+            Technologies: <br>
+          laravel
+            </p>
+             <button type="button" class="btn" onclick="window.location.href='https:\/\/github.com\/premoza\/premoza';"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></button><br>
           </div>
         </div>
       </div>
