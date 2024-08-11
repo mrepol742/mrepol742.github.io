@@ -15,10 +15,10 @@
  * limitations under the License.
  */
 
-let cacheNameSW = 'mrepol742v6.6';
+let cacheNameSW = 'mrepol742v7';
 
-const cacheable = /^https:\/\/mrepol742.github.io(\/lib\/|\/fonts\/|\/images\/)/;
-const cacheableD = /^http:\/\/0.0.0.0:8000(\/lib\/|\/fonts\/|\/images\/)/;
+const cacheable = /^https:\/\/mrepol742.github.io(\/lib\/|\/fonts\/|\/images\/|\/vendor\/components\/)/;
+const cacheableD = /^http:\/\/0.0.0.0:8000(\/lib\/|\/fonts\/|\/images\/|\/vendor\/components\/)/;
 let debug = false;
 
 self.addEventListener('install', (event) => {

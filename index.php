@@ -77,7 +77,7 @@ https://github.com/mrepol742/mrepol742.github.io
       <div class="line"></div>
     </div><br>
     <div class="row">
-      <div class="col-sm-6" id="projectwebvium">
+      <div class="col-sm-6 col-md-3" id="projectwebvium">
         <div class="card ">
           <video preload="none" class="rounded mx-auto d-block img-fluid" controls loop poster="/assets/images/webvium22.png">
             <source src="/assets/videos/Webvium%20-%20Lightweight,%20Fast,%20Material%20and%20Full-Featured%20Android%20Web%20Browser.mp4" type="video/mp4">
@@ -95,7 +95,7 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6 col-md-3">
         <div class="card ">
           <img loading="lazy" src="/assets/images/myportfolio.png" class="rounded mx-auto d-block img-fluid" alt="Melvin Jones' Portfolio">
           <div class="card-body">
@@ -110,7 +110,7 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6 col-md-3">
         <div class="card ">
           <video preload="none" class="rounded mx-auto d-block img-fluid" controls loop poster="/assets/images/webviumvpn.png">
             <source src="/assets/videos/Webvium%20VPN%20-%20Anonymous,%20Secured,%20Private%20and%20the%20fastest%20Virtual%20Private%20Network.mp4" type="video/mp4">
@@ -128,7 +128,7 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6 col-md-3">
         <div class="card ">
           <img loading="lazy" src="/assets/images/orion-banner.png" class="rounded mx-auto d-block img-fluid" alt="Orion (Chatbot)" width="550">
           <div class="card-body">
@@ -145,7 +145,8 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6">
+        <!--
+      <div class="col-sm-6 col-md-3">
         <div class="card ">
           <img loading="lazy" src="/assets/images/online-catering-system.png" class="rounded mx-auto d-block img-fluid" alt="Online Catering System" width="550">
           <div class="card-body">
@@ -159,7 +160,7 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6 col-md-3">
         <div class="card ">
           <img loading="lazy" src="https://raw.githubusercontent.com/mrepol742/Room-Rental-System/master/demo.png" class="rounded mx-auto d-block img-fluid" alt="Room Rental System" width="550">
           <div class="card-body">
@@ -173,7 +174,7 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6 col-md-3">
         <div class="card ">
           <img loading="lazy" src="/assets/images/lgu-ms.png" class="rounded mx-auto d-block img-fluid" alt="LGU Management System" width="550">
           <div class="card-body">
@@ -188,7 +189,8 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6">
+-->
+      <div class="col-sm-6 col-md-3">
         <div class="card ">
           <img loading="lazy" src="/assets/images/blog.png" class="rounded mx-auto d-block img-fluid" alt="mrepol742 @ blog" width="550">
           <div class="card-body">
@@ -204,20 +206,28 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6 col-md-3">
         <div class="card ">
           <img loading="lazy" src="/assets/images/premoza-cover-min.png" class="rounded mx-auto d-block img-fluid" alt="Premoza" width="250">
           <div class="card-body">
             <h5 class="card-title">Premoza</h5>
-            <p class="card-text">A leading real estate service provider dedicated to delivering exceptional property
-              solutions tailored to our clients' needs. With a commitment to excellence, professionalism, and
-              innovation, we strive to exceed expectations in every aspect of our service.
+            <p class="card-text">TBA
             </p>
             <p>
             Technologies: <br>
           laravel
             </p>
              <button type="button" class="btn" onclick="window.location.href='https:\/\/github.com\/premoza\/premoza';"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></button><br>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="card ">
+         <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">more available at my github official account
+            </p>
+             <button type="button" class="btn" onclick="window.location.href='https:\/\/github.com\/mrepol742';"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></button><br>
           </div>
         </div>
       </div>
@@ -228,11 +238,11 @@ https://github.com/mrepol742/mrepol742.github.io
       <div class="line" style="width: 6%;"></div>
     </div><br>
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-6 col-md-3">
         <div class="card " onclick="readMore('se')">
           <div class="card-body">
             <!-- Software engineer icons created by Freepik - Flaticon -->
-            <img loading="lazy" src="/assets/images/software-engineer.png" class="rounded bg-skill px-3 py-3" alt="Software Engineering" width="90">
+            <img loading="lazy" src="/assets/images/software-engineer.png" class="rounded bg-skill p-3" alt="Software Engineering" width="90">
             <h5 class="card-title mt-4">Software Engineer</h5>
             <p class="card-text">It's a field of engineering that i used for development and maintenance of software
               systems. It involves the application of engineering principles and techniques to the design<span id="dotsse">...</span><span id="readMorese">&nbsp;See More</span><span class="more" id="morese">,
@@ -245,11 +255,11 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-6 col-md-3">
         <div class="card " onclick="readMore('wd')">
           <div class="card-body">
             <!-- Software development icons created by HAJICON - Flaticon -->
-            <img loading="lazy" src="/assets/images/development.png" class="rounded bg-skill px-3 py-3" alt="Full Stack Web Development" width="90">
+            <img loading="lazy" src="/assets/images/development.png" class="rounded bg-skill p-3" alt="Full Stack Web Development" width="90">
             <h5 class="card-title mt-4">Full Stack Web Developer</h5>
             <p class="card-text">As a web developer, I have experience in creating dynamic websites and web applications
               using HTML, CSS, JavaScript, PHP, MySQL, Bootstrap, NodeJS, Firebase, MongoDB and other web<span id="dotswd">...</span><span id="readMorewd">&nbsp;See More</span><span class="more" id="morewd">
@@ -261,11 +271,11 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-6 col-md-3">
         <div class="card " onclick="readMore('seo')">
           <div class="card-body">
             <!-- Seo icons created by Freepik - Flaticon -->
-            <img loading="lazy" src="/assets/images/seo.png" class="rounded bg-skill px-3 py-3" alt="Search Engine Optimization" width="90">
+            <img loading="lazy" src="/assets/images/seo.png" class="rounded bg-skill p-3" alt="Search Engine Optimization" width="90">
             <h5 class="card-title mt-4">Search Engine Optimization (SEO)</h5>
             <p class="card-text">It's a process I use for web development, like on this one, which involves optimizing
               websites to rank higher in search engine results. In SEO it involves optimizing content, website
@@ -278,11 +288,11 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-6 col-md-3">
         <div class="card " onclick="readMore('dataa')">
           <div class="card-body">
             <!-- Big data icons created by xnimrodx - Flaticon -->
-            <img loading="lazy" src="/assets/images/monitor.png" class="rounded bg-skill px-3 py-3" alt="Data Analytics" width="90">
+            <img loading="lazy" src="/assets/images/monitor.png" class="rounded bg-skill p-3" alt="Data Analytics" width="90">
             <h5 class="card-title mt-4">Data Analytics</h5>
             <p class="card-text">It's a process of trasforming raw data to understandable information with the main goal
               is delivering useful information that support desicion-making<span id="dotsdataa">...</span>
@@ -292,11 +302,11 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-6 col-md-3">
         <div class="card " onclick="readMore('ar')">
           <div class="card-body">
             <!-- Motherboard icons created by Rmpp - Flaticon -->
-            <img loading="lazy" src="/assets/images/motherboard.png" class="rounded bg-skill px-3 py-3" alt="Arduino" width="90">
+            <img loading="lazy" src="/assets/images/motherboard.png" class="rounded bg-skill p-3" alt="Arduino" width="90">
             <h5 class="card-title mt-4">Embedded System Design with Arduino Programming</h5>
             <p class="card-text">
               Demonstrates my ability to create compact and specialized computer systems using the Arduino platform.
@@ -310,11 +320,11 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-6 col-md-3">
         <div class="card " onclick="readMore('chs')">
           <div class="card-body">
             <!-- Troubleshooting icons created by Freepik - Flaticon -->
-            <img loading="lazy" src="/assets/images/troubleshooting.png" class="rounded bg-skill px-3 py-3" alt="Hardware and Software Troubleshooting" width="90">
+            <img loading="lazy" src="/assets/images/troubleshooting.png" class="rounded bg-skill p-3" alt="Hardware and Software Troubleshooting" width="90">
             <h5 class="card-title mt-4">Hardware and Software Troubleshooting</h5>
             <p class="card-text">I have experience in computer hardware and software, which includes assembling,
               troubleshooting, and repairing of computer systems. I am knowledgeable in the installation and
@@ -327,11 +337,11 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-6 col-md-3">
         <div class="card " onclick="readMore('pwa')">
           <div class="card-body">
             <!-- App development icons created by justicon - Flaticon -->
-            <img loading="lazy" src="/assets/images/app-development.png" class="rounded bg-skill px-3 py-3" alt="Progressive Web Applications" width="90">
+            <img loading="lazy" src="/assets/images/app-development.png" class="rounded bg-skill p-3" alt="Progressive Web Applications" width="90">
             <h5 class="card-title mt-4">Progressive Web Applications (PWA)</h5>
             <p class="card-text">A very popular Software Applications built with common web technologies such as HTML,
               CSS and JavaScript<span id="dotspwa">...</span> <span id="readMorepwa">&nbsp;See More</span><span class="more" id="morepwa"> its intended to work

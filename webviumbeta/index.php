@@ -66,7 +66,7 @@
       <div class="line" style="width: 8%;"></div>
     </div><br>
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-6 col-md-3">
         <div class="card mb-3 ">
           <h5 class="card-header">What's New?</h5>
           <div class="card-body">
@@ -83,7 +83,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6 col-md-3">
         <div class="card mb-3 ">
           <h5 class="card-header">Webvium Beta</h5>
           <div class="card-body">
@@ -95,7 +95,7 @@
         </div>
       </div>
 
-      <div class="col-sm-6">
+      <div class="col-sm-6 col-md-3">
         <div class="card mb-3 ">
           <h5 class="card-header">Follow Webvium</h5>
           <div class="card-body">
@@ -116,7 +116,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6">
+      <div class="col-sm-6 col-md-3">
         <div class="card mb-3 ">
           <h5 class="card-header">Support Webvium Beta</h5>
           <div class="card-body">
@@ -213,7 +213,7 @@
     </div>
     <br>
     <div class="row">
-      <div class="col-sm-6" id="permissions">
+      <div class="col-sm-6 col-md-3" id="permissions">
         <div class="accordion ">
           <div class="accordion-item">
             <h2 class="accordion-header" id="panelsStayOpen-headingOne24">
