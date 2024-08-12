@@ -38,7 +38,7 @@
                     <a class="nav-link" href="https://hallofcodes.github.io/">Hall of Codes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/premoza/premoza">Premoza</a>
+                    <a class="nav-link" href="https://premoza.github.io/">Premoza</a>
                 </li>
             </ul>
             <div>
