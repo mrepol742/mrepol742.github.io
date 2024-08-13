@@ -563,6 +563,26 @@ https://github.com/mrepol742/mrepol742.github.io
               </div>
 
             </div>
+
+
+            <div class="timeline-item">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 order-sm-1 order-2 mt-4 mt-sm-0">
+                  <!-- dummy -->
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 order-sm-2 order-1">
+                  <div class="duration duration-right position-relative">
+                    <img class="rounded bg-skill px-3 py-3" width="90" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/ed/49a1a1d099419e9172fcb3d4c3177a/Square.png?auto=format%2Ccompress&dpr=1&w=80&h=80" alt="Kennesaw State University">
+                    <h5 class="my-2">Managing Cybersecurity Incidents and Disasters</h5>
+                    <p class="timeline-subtitle mt-3 mb-0">Kennesaw State University</p>
+                    <small class="text-muted mb-0">8-2024</small><br>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/47WRV357E5DK">See
+                      certification</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
