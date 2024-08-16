@@ -2,9 +2,9 @@
 
 # mrepol742.github.io
 This is where i showcase my projects, landing pages, tools and other awesome things.
-## Server
+## Start
 ```bash
-python3 -m http.server && chrome http://0.0.0.0:8000
+php -S localhost:8000
 ```
 
 ## Contribute
