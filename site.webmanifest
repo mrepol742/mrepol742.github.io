@@ -19,7 +19,7 @@
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone",
-  "start_url": "/index.html?utm_source=webmanifest",
+  "start_url": "/index.php?utm_source=webmanifest",
   "scope": "/",
   "screenshots": [
     {

@@ -1,18 +1,11 @@
 User-agent: *
 Disallow: /log/
 Disallow: /?
-Disallow: /index.html?
 Allow: /?hl=
 Allow: /search/?hl=
 Disallow: /search?
-Disallow: /search/?
-Disallow: /search/index.html?
 Disallow: /project-orion/chat?
-Disallow: /project-orion/chat/?
-Disallow: /project-orion/chat/index.html?
 Disallow: /*/download?
-Disallow: /*/download/?
-Disallow: /*/download/index.html?
 Disallow: /*.json
 Crawl-delay: 60
 

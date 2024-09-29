@@ -127,8 +127,8 @@
           <div class="card-body">
             <h5 class="card-title" id="stitle">Found a problem with this page?</h5>
             <ul class="card-text">
-              <li><a href="https://github.com/mrepol742/mrepol742.github.io/edit/master/search/index.html" target="_blank">Edit on Github</a></li>
-              <li><a href="https://github.com/mrepol742/mrepol742.github.io/blob/master/search/index.html?plain=1" target="_blank">Source on Github</a></li>
+              <li><a href="https://github.com/mrepol742/mrepol742.github.io/edit/master/search/index.php" target="_blank">Edit on Github</a></li>
+              <li><a href="https://github.com/mrepol742/mrepol742.github.io/blob/master/search/index.php?plain=1" target="_blank">Source on Github</a></li>
               <li><a href="https://github.com/mrepol742/mrepol742.github.io/issues/new?">Report a problem with
                   this
                   content on GitHub</a></li>
@@ -179,8 +179,8 @@
         <div class="card-body">
           <h5 class="card-title">Found a problem with this page?</h5>
           <ul class="card-text">
-            <li><a class="aaaa" href="https://github.com/mrepol742/mrepol742.github.io/edit/master/search/index.html" target="_blank">Edit on Github</a></li>
-            <li><a class="aaaa" href="https://github.com/mrepol742/mrepol742.github.io/blob/master/search/index.html?plain=1" target="_blank">Source on Github</a></li>
+            <li><a class="aaaa" href="https://github.com/mrepol742/mrepol742.github.io/edit/master/search/index.php" target="_blank">Edit on Github</a></li>
+            <li><a class="aaaa" href="https://github.com/mrepol742/mrepol742.github.io/blob/master/search/index.php?plain=1" target="_blank">Source on Github</a></li>
             <li><a class="aaaa" href="https://github.com/mrepol742/mrepol742.github.io/issues/new?">Report a problem
                 with this
                 content on GitHub</a></li>

@@ -70,8 +70,8 @@
       <div class="card-body">
         <h5 class="card-title">Found a problem with this page?</h5>
         <ul class="card-text">
-          <li><a href="https://github.com/mrepol742/mrepol742.github.io/edit/master/qrcode/index.html" target="_blank">Edit on Github</a></li>
-          <li><a href="https://github.com/mrepol742/mrepol742.github.io/blob/master/qrcode/index.html?plain=1" target="_blank">Source on Github</a></li>
+          <li><a href="https://github.com/mrepol742/mrepol742.github.io/edit/master/qrcode/index.php" target="_blank">Edit on Github</a></li>
+          <li><a href="https://github.com/mrepol742/mrepol742.github.io/blob/master/qrcode/index.php?plain=1" target="_blank">Source on Github</a></li>
           <li><a href="https://github.com/mrepol742/mrepol742.github.io/issues/new?">Report a problem with this
               content on GitHub</a></li>
 
