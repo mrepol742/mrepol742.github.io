@@ -84,7 +84,7 @@
       <div class="line" style="width: 8%;"></div>
     </div><br>
     <div class="row">
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card mb-3 ">
           <h5 class="card-header">What's New?</h5>
           <div class="card-body">
@@ -101,7 +101,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card mb-3 ">
           <h5 class="card-header">Webvium Dev</h5>
           <div class="card-body">
@@ -113,7 +113,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card mb-3 ">
           <h5 class="card-header">Follow Webvium</h5>
           <div class="card-body">
@@ -134,7 +134,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card mb-3 ">
           <h5 class="card-header">Support Webvium Dev Development</h5>
           <div class="card-body">
@@ -470,7 +470,7 @@
       <a href="https://youtube.com/@mrepol742" aria-label="Youtube" target="_blank">
         <i class="fa-brands fa-youtube px-1"></i>
       </a><br>
-      <span>&copy; 2021 Melvin Jones Gallano Repol. All Rights Reserved.</span>
+      <span>&copy; <?php echo date("Y"); ?>, Melvin Jones Gallano Repol, All Rights Reserved.</span>
     </div>
   </footer>
   <script src="/vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>

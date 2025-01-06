@@ -119,7 +119,7 @@
                                             <a href="https://youtube.com/@mrepol742" aria-label="Youtube" target="_blank">
                                                 <i class="fa-brands fa-youtube px-1"></i>
                                             </a><br>
-                                            <span>&copy; 2021 Melvin Jones Gallano Repol. All Rights Reserved.</span>
+                                            <span>&copy; <?php echo date("Y"); ?>, Melvin Jones Gallano Repol, All Rights Reserved.</span>
                                         </div>
                                     </div>
                                 </div>
