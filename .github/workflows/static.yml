@@ -30,9 +30,6 @@ jobs:
           java-version: 17
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Download Dependecies
-        run: |
-          composer install
       - name: Build
         run: |
           wget https://raw.githubusercontent.com/neurobin/php2html/release/php2html
