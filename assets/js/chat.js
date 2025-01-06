@@ -15,23 +15,6 @@
  * limitations under the License.
  */
 
-if ("serviceWorker" in navigator) {
-    navigator.serviceWorker
-        .register("/sw.js")
-        .then((reg) => {
-            if (reg.installing) {
-                console.log("Service worker installing");
-            } else if (reg.waiting) {
-                console.log("Service worker installed");
-            } else if (reg.active) {
-                console.log("Service worker active");
-            }
-        })
-        .catch((err) => {
-            console.error("Service worker failed: ", err);
-        });
-}
-
 function setCookie(cname, cvalue, exdays) {
     const d = new Date();
     d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);

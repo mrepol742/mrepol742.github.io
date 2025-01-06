@@ -34,38 +34,6 @@ function escapeHtml(string) {
     });
 }
 
-if ("serviceWorker" in navigator) {
-    navigator.serviceWorker
-        .register("/sw.js")
-        .then((reg) => {
-            if (reg.installing) {
-                console.log("Service worker installing");
-            } else if (reg.waiting) {
-                console.log("Service worker installed");
-            } else if (reg.active) {
-                console.log("Service worker active");
-            }
-            self.addEventListener('activate', event => {
-                event.waitUntil(
-                  (async () => {
-                    const keys = await caches.keys();
-                    return keys.map(async (cache) => {
-                      if(cache !== cacheName) {
-                        console.log('Service Worker: Removing old cache: '+ cache);
-                        return await caches.delete(cache);
-                      }
-                    })
-                  })()
-                )
-              })
-        })
-        .catch((err) => {
-            console.error("Service worker failed: ", err);
-        });
-} else {
-    console.error("Service working ain't available :(");
-}
-
 function setCookie(cname, cvalue, exdays) {
     const d = new Date();
     d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);

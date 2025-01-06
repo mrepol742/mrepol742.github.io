@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  
 <head>
   <!--
                                                                        
@@ -77,7 +77,7 @@ https://github.com/mrepol742/mrepol742.github.io
       <div class="line"></div>
     </div><br>
     <div class="row">
-      <div class="col-sm-6 col-md-3" id="projectwebvium">
+      <div class="col-sm-6 col-md-4" id="projectwebvium">
         <div class="card ">
           <video preload="none" class="rounded mx-auto d-block img-fluid" controls loop poster="/assets/images/webvium22.png">
             <source src="/assets/videos/Webvium%20-%20Lightweight,%20Fast,%20Material%20and%20Full-Featured%20Android%20Web%20Browser.mp4" type="video/mp4">
@@ -95,7 +95,7 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card ">
           <img loading="lazy" src="/assets/images/myportfolio.png" class="rounded mx-auto d-block img-fluid" alt="Melvin Jones' Portfolio">
           <div class="card-body">
@@ -110,7 +110,7 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card ">
           <video preload="none" class="rounded mx-auto d-block img-fluid" controls loop poster="/assets/images/webviumvpn.png">
             <source src="/assets/videos/Webvium%20VPN%20-%20Anonymous,%20Secured,%20Private%20and%20the%20fastest%20Virtual%20Private%20Network.mp4" type="video/mp4">
@@ -128,7 +128,7 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card ">
           <img loading="lazy" src="/assets/images/orion-banner.png" class="rounded mx-auto d-block img-fluid" alt="Orion (Chatbot)" width="550">
           <div class="card-body">
@@ -146,7 +146,7 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
       </div>
         <!--
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card ">
           <img loading="lazy" src="/assets/images/online-catering-system.png" class="rounded mx-auto d-block img-fluid" alt="Online Catering System" width="550">
           <div class="card-body">
@@ -160,7 +160,7 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card ">
           <img loading="lazy" src="https://raw.githubusercontent.com/mrepol742/Room-Rental-System/master/demo.png" class="rounded mx-auto d-block img-fluid" alt="Room Rental System" width="550">
           <div class="card-body">
@@ -174,7 +174,7 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card ">
           <img loading="lazy" src="/assets/images/lgu-ms.png" class="rounded mx-auto d-block img-fluid" alt="LGU Management System" width="550">
           <div class="card-body">
@@ -190,7 +190,7 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
       </div>
 -->
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card ">
           <img loading="lazy" src="/assets/images/blog.png" class="rounded mx-auto d-block img-fluid" alt="mrepol742 @ blog" width="550">
           <div class="card-body">
@@ -206,7 +206,7 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card ">
           <img loading="lazy" src="/assets/images/premoza-cover-min.png" class="rounded mx-auto d-block img-fluid" alt="Premoza" width="250">
           <div class="card-body">
@@ -221,7 +221,7 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card ">
          <div class="card-body">
             <h5 class="card-title"></h5>
@@ -238,7 +238,7 @@ https://github.com/mrepol742/mrepol742.github.io
       <div class="line" style="width: 6%;"></div>
     </div><br>
     <div class="row">
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card " onclick="readMore('se')">
           <div class="card-body">
             <!-- Software engineer icons created by Freepik - Flaticon -->
@@ -255,7 +255,7 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card " onclick="readMore('wd')">
           <div class="card-body">
             <!-- Software development icons created by HAJICON - Flaticon -->
@@ -271,7 +271,7 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card " onclick="readMore('seo')">
           <div class="card-body">
             <!-- Seo icons created by Freepik - Flaticon -->
@@ -288,7 +288,7 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card " onclick="readMore('dataa')">
           <div class="card-body">
             <!-- Big data icons created by xnimrodx - Flaticon -->
@@ -302,7 +302,7 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card " onclick="readMore('ar')">
           <div class="card-body">
             <!-- Motherboard icons created by Rmpp - Flaticon -->
@@ -320,7 +320,7 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card " onclick="readMore('chs')">
           <div class="card-body">
             <!-- Troubleshooting icons created by Freepik - Flaticon -->
@@ -337,7 +337,7 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
+      <div class="col-sm-6 col-md-4">
         <div class="card " onclick="readMore('pwa')">
           <div class="card-body">
             <!-- App development icons created by justicon - Flaticon -->
@@ -732,4 +732,3 @@ https://github.com/mrepol742/mrepol742.github.io
   <?php include('includes/footer.php') ?>
 </body>
 
-</html>
