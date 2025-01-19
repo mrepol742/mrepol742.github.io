@@ -11,26 +11,15 @@
 		<head>
 			<title>XML Sitemap</title>
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Source+Code+Pro&display=swap" rel="stylesheet">
+
 			<style type="text/css">
-			@font-face {
-    font-family: 'Maven Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url("/assets/fonts/MavenPro.woff2") format('woff2');
-}
-
-@font-face {
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url("/assets/fonts/SourceCodePro-Regular.ttf");
-}
-
 h1, h2, h3, h4, h5, h6, th {
     letter-spacing: -1px;
-    font-family: 'Source Code Pro', sans-serif;
+    font-family: 'Source Code Pro', serif;
 }
 
 ::selection {
@@ -43,7 +32,7 @@ h1, h2, h3, h4, h5, h6, th {
     color: #ffffff;
 }
 * {
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Maven Pro', serif;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;

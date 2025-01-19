@@ -1,23 +1,7 @@
-@font-face {
-    font-family: 'Maven Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url("/assets/fonts/MavenPro.woff2") format('woff2');
-}
-
-@font-face {
-    font-family: 'Source Code Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url("/assets/fonts/SourceCodePro-Regular.ttf");
-}
-
 h1,
 h1 strong {
     letter-spacing: -1px;
-    font-family: 'Source Code Pro', sans-serif;
+    font-family: 'Source Code Pro', serif;
 }
 
 h2,
@@ -27,7 +11,7 @@ h5,
 h6,
 th {
     letter-spacing: -0.7px;
-    font-family: 'Source Code Pro', sans-serif;
+    font-family: 'Source Code Pro', serif;
 }
 
 ::selection {
@@ -70,7 +54,7 @@ html {
 }
 
 * {
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Maven Pro', serif;
     color: #2e475d;
 }
 
@@ -202,7 +186,7 @@ nav {
 }
 
 .toast-header strong {
-    font-family: 'Source Code Pro', sans-serif;
+    font-family: 'Source Code Pro', serif;
 }
 
 .accordion {
@@ -854,7 +838,8 @@ input:-webkit-autofill:active {
     transition: background 0.5s ease-out;
 }
 
-.card:hover, .toast:hover {
+.card:hover,
+.toast:hover {
     transform: scale(1.03);
     position: initial;
     z-index: 111;

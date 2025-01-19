@@ -108,48 +108,6 @@
     setTimeout(function() {
       window.location.href = 'https://raw.githubusercontent.com/mrepol742/released/80a254530ab93b740ea489b1b4d1b1e058948a9d/Webvium%20VPN%20v1.1.apk'
     }, 3000);
-
-    const count = 200,
-      defaults = {
-        origin: {
-          y: 0.7
-        },
-      };
-
-    function fire(particleRatio, opts) {
-      confetti(
-        Object.assign({}, defaults, opts, {
-          particleCount: Math.floor(count * particleRatio),
-        })
-      );
-    }
-
-    fire(0.25, {
-      spread: 26,
-      startVelocity: 55,
-    });
-
-    fire(0.2, {
-      spread: 60,
-    });
-
-    fire(0.35, {
-      spread: 100,
-      decay: 0.91,
-      scalar: 0.8,
-    });
-
-    fire(0.1, {
-      spread: 120,
-      startVelocity: 25,
-      decay: 0.92,
-      scalar: 1.2,
-    });
-
-    fire(0.1, {
-      spread: 120,
-      startVelocity: 45,
-    });
   </script>
 </body>
 

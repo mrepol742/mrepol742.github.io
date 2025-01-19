@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<?php
+  <?php
   include("././includes/head.php");
 
   $meta = new meta();
@@ -17,8 +17,8 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
- 
-<?php
+
+  <?php
   include('././includes/nav.php');
   include('././includes/components/toast/privacypolicy.php');
   ?>
@@ -114,53 +114,13 @@
       </div>
     </div>
   </main>
-  
+
   <?php include("././includes/footer.php") ?>
 
   <script>
-    setTimeout(function () {
+    setTimeout(function() {
       window.location.href = 'https://mrepol742-released-beta.netlify.app/Webvium-beta.apk'
     }, 3000);
-
-    const count = 200,
-      defaults = {
-        origin: { y: 0.7 },
-      };
-
-    function fire(particleRatio, opts) {
-      confetti(
-        Object.assign({}, defaults, opts, {
-          particleCount: Math.floor(count * particleRatio),
-        })
-      );
-    }
-
-    fire(0.25, {
-      spread: 26,
-      startVelocity: 55,
-    });
-
-    fire(0.2, {
-      spread: 60,
-    });
-
-    fire(0.35, {
-      spread: 100,
-      decay: 0.91,
-      scalar: 0.8,
-    });
-
-    fire(0.1, {
-      spread: 120,
-      startVelocity: 25,
-      decay: 0.92,
-      scalar: 1.2,
-    });
-
-    fire(0.1, {
-      spread: 120,
-      startVelocity: 45,
-    });
   </script>
 </body>
 
