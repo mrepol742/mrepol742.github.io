@@ -32,7 +32,7 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build
         run: |
-          wget https://raw.githubusercontent.com/neurobin/php2html/release/php2html
+          wget https://raw.githubusercontent.com/mrepol742/php2html/release/php2html
           chmod +x php2html
           ./php2html . dist -q
       - name: Generate RSS & Sitemap
