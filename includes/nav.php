@@ -2,8 +2,8 @@
 <header class="autohide navbar navbar-expand-lg fixed-top scrolled-up scrolled-up-tr">
     <nav class="container-fluid">
         <a class="navbar-brand" href="/">
-            <img src="/favicon.png" alt="Mrepol742 Favicon" class="d-inline-block align-text-top" width="24" height="24">
-            Mrepol742
+            <img src="/favicon.png" alt="Melvin Jones Favicon" class="d-inline-block align-text-top" width="24" height="24">
+            Melvin J.
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" id="qwe111">
             <span class="navbar-toggler-icon" id="qwe"></span>
