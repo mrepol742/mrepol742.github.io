@@ -816,7 +816,7 @@ input:-webkit-autofill:active {
     border-radius: 50px !important;
     border: none !important;
     --bs-bg-opacity: 0.2;
-    background-color: rgba(66, 33, 244, var(--bs-bg-opacity)) !important;
+    background-color: rgba(66, 133, 244, var(--bs-bg-opacity)) !important;
 }
 
 .line {

@@ -34,12 +34,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="https://mrepol742.github.io/blog/">Blog</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://hallofcodes.github.io/">Hall of Codes</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://premoza.github.io/">Premoza</a>
-                </li>
             </ul>
             <div>
                 <ul class="nav navbar-nav" style="flex-direction: row;">
