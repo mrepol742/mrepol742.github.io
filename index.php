@@ -77,6 +77,15 @@ https://github.com/mrepol742/mrepol742.github.io
       <div class="line"></div>
     </div><br>
     <div class="row">
+      <div class="col-sm-6 col-md-4" id="projectpos">
+        <div class="card ">
+          <div class="card-body">
+            <h5 class="card-title">Apptrade</h5>
+            <p class="card-text">Centralized POS for all Departments</p>
+            <button type="button" class="btn" onclick="window.location.href='https:\/\/github.com\/mrepol742\/apptrade';"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></button><br>
+          </div>
+        </div>
+      </div>
       <div class="col-sm-6 col-md-4" id="projectshift">
         <div class="card ">
           <img loading="lazy" src="https://core1.axleshift.com/images/banner.png" class="rounded mx-auto d-block img-fluid" alt="Axleshift Banner">
