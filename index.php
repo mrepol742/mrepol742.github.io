@@ -164,7 +164,7 @@ https://github.com/mrepol742/mrepol742.github.io
               Technologies: <br>
               node.js · web scraping · openai · json · npm · git
             </p>
-            <button type="button" class="btn" onclick="window.location.href='/project-orion/'"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Fork</b></button>
+            <button type="button" class="btn" onclick="window.location.href='/project-orion/'"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>View</b></button>
           </div>
         </div>
       </div>
@@ -225,7 +225,7 @@ https://github.com/mrepol742/mrepol742.github.io
               vuepress
             </p>
             <button type="button" class="btn" onclick="window.location.href='https:\/\/github.com\/mrepol742\/blog';"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></button>
-            <button type="button" class="btn" onclick="window.location.href='\/blog\/';"><i class="fa-solid fa-blog"></i>&nbsp;&nbsp;<b>Blog</b></button><br>
+            <button type="button" class="btn" onclick="window.location.href='https:\/\/mrepol742-blog.vercel.app';"><i class="fa-solid fa-blog"></i>&nbsp;&nbsp;<b>Blog</b></button><br>
           </div>
         </div>
       </div>

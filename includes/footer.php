@@ -25,6 +25,9 @@
           <li class="nav-item">
             <a class="nav-link" href="/privacypolicy/">Privacy Policy</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://mrepol742-read-cv.vercel.app">CV</a>
+          </li>
         </ul>
       </div>
       <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
@@ -68,34 +71,34 @@
         <h5>Blog Posts</h5>
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link" href="https://mrepol742.github.io/blog/hello-world/">Hello World - The Genesis</a>
+            <a class="nav-link" href="https://mrepol742-blog.vercel.app/hello-world/">Hello World - The Genesis</a>
           </li>
           <li class="nav-item">
             <a
               class="nav-link"
-              href="https://mrepol742.github.io/blog/open-source-chatbot-revolutionizing-facebook-messenger/">Project Orion - Open Source Chatbot Revolutionizing Facebook
+              href="https://mrepol742-blog.vercel.app/open-source-chatbot-revolutionizing-facebook-messenger/">Project Orion - Open Source Chatbot Revolutionizing Facebook
               Messenger</a>
           </li>
           <li class="nav-item">
             <a
               class="nav-link"
-              href="https://mrepol742.github.io/blog/webvium-latest-release-version-2-9/">Webvium Latest Release - v2.9 stable</a>
+              href="https://mrepol742-blog.vercel.app/webvium-latest-release-version-2-9/">Webvium Latest Release - v2.9 stable</a>
           </li>
           <li class="nav-item">
             <a
               class="nav-link"
-              href="https://mrepol742.github.io/blog/unleashing-the-potential-of-ai/">Unleashing the Potential of AI - Exploring OpenAI's Cutting-Edge
+              href="https://mrepol742-blog.vercel.app/unleashing-the-potential-of-ai/">Unleashing the Potential of AI - Exploring OpenAI's Cutting-Edge
               Technology</a>
           </li>
           <li class="nav-item">
             <a
               class="nav-link"
-              href="https://mrepol742.github.io/blog/webvium-lightweight-fast-and-secured-web-browser/">Webvium Browser - Lightweight, Fast & Full Featured</a>
+              href="https://mrepol742-blog.vercel.app/webvium-lightweight-fast-and-secured-web-browser/">Webvium Browser - Lightweight, Fast & Full Featured</a>
           </li>
           <li class="nav-item">
             <a
               class="nav-link"
-              href="https://mrepol742.github.io/blog/building-a-blog-with-vuepress/">Crafting Your Online Presence - Building a Blog with VuePress</a>
+              href="https://mrepol742-blog.vercel.app/building-a-blog-with-vuepress/">Crafting Your Online Presence - Building a Blog with VuePress</a>
           </li>
         </ul>
       </div>
