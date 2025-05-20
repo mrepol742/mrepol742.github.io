@@ -136,9 +136,7 @@
     </div>
     <br>
     <h2 class="text-center mt-5" id="features">Features</h2>
-    <div class="d-flex justify-content-center">
-      <div class="line" style="width: 8%;"></div>
-    </div><br>
+    <br>
     <div class="row">
       <div class="col-sm-6 col-md-4">
         <div class="card mb-3 " data-aos="fade-up">
@@ -426,9 +424,7 @@
     </div>
     <br>
     <h2 class="text-center mt-5" id="frequentlyAskQuestions">Faq</h2>
-    <div class="d-flex justify-content-center">
-      <div class="line" style="width: 2%;"></div>
-    </div><br>
+    <br>
     <div class="accordion ">
       <div class="accordion-item">
         <h2 class="accordion-header" id="panelsStayOpen-headingFive22a">

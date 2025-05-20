@@ -74,9 +74,7 @@ https://github.com/mrepol742/mrepol742.github.io
       </div>
     </div>
     <h2 class="text-center mt-5" id="projects">Projects</h2>
-    <div class="d-flex justify-content-center">
-      <div class="line"></div>
-    </div><br>
+    <br>
     <div class="row">
       <div class="col-sm-6 col-md-4" id="projectpos">
         <div class="card " data-aos="fade-up">
@@ -235,9 +233,7 @@ https://github.com/mrepol742/mrepol742.github.io
     </div>
     <br>
     <h2 class="text-center mt-5" id="skills">Skills</h2>
-    <div class="d-flex justify-content-center">
-      <div class="line" style="width: 6%;"></div>
-    </div><br>
+    <br>
     <div class="row">
       <div class="col-sm-6 col-md-4">
         <div class="card " data-aos="fade-up" onclick="readMore('se')">
@@ -341,9 +337,7 @@ https://github.com/mrepol742/mrepol742.github.io
     </div>
     <br>
     <h2 class="text-center mt-5" id="myteam">My Team</h2>
-    <div class="d-flex justify-content-center">
-      <div class="line" style="width: 6%;"></div>
-    </div><br>
+    <br>
     <div>
       <div class="card-group">
         <div class="card m-3" data-aos="fade-up">
@@ -437,8 +431,11 @@ https://github.com/mrepol742/mrepol742.github.io
                 <div class="col-lg-6 col-md-6 col-sm-6 mt-4 mt-sm-0 ">
                   <div class="event event-description-right float-left text-start">
                     <h6 class="title mb-1 text-capitalize">Software Engineer</h6>
-                    <p class="timeline-subtitle mt-3 mb-0 text-muted">I develop, deploy and maintain efficient and reliable software and websites
-                      tailored to meet customer needs, based on system analysis, design and business models.</p>
+                    <p class="timeline-subtitle mt-3 mb-0 text-muted">
+                      I develop, deploy, and maintain efficient and reliable software and websites tailored to meet customer needs, based on system analysis, design, and business models.<br><br>
+                      My responsibilities include gathering requirements, designing scalable architectures, implementing robust code, and ensuring quality through testing. I also handle deployment, monitor performance, and provide ongoing support and updates.<br><br>
+                      I collaborate with clients and teams to deliver solutions using modern technologies and best practices, focusing on usability, security, and maintainability.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -653,9 +650,7 @@ https://github.com/mrepol742/mrepol742.github.io
     </div>
     <br>
     <h2 class="text-center mt-5" id="friends">Friends</h2>
-    <div class="d-flex justify-content-center">
-      <div class="line" style="width: 7%;"></div>
-    </div><br>
+    <br>
     <div class="container">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
         <div class="col" id="samiunnafis">
