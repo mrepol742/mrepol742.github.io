@@ -43,6 +43,7 @@ https://github.com/mrepol742/mrepol742.github.io
       </div>
       <div class="col-md-8">
         <h1>Melvin Jones Gallano Repol</h1>
+        <small>IT Staff Intern at Apptrade Inc.</small>
         <p class="sub-title mt-3">I'm a Freelance Software Engineer with expertise in full-stack
           web development, search engine optimization, data analytics, embedded system design with arduino
           programming, hardware & software

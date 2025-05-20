@@ -49,10 +49,10 @@
         <h5 class="mt-3">Services</h5>
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link active" href="/webvium-freight-management-system/">Webvium FMS</a>
+            <a class="nav-link active" href="/freight-management-system/">Freight Management</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="/webvium-point-of-sale-system/">Webvium POS</a>
+            <a class="nav-link active" href="/point-of-sale-system/">Point of Sale</a>
           </li>
         </ul>
       </div>
