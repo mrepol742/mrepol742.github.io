@@ -141,7 +141,7 @@
     </div><br>
     <div class="row">
       <div class="col-sm-6 col-md-4">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h5 class="card-header">What's New?</h5>
           <div class="card-body">
             <p class="card-text">
@@ -158,7 +158,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h5 class="card-header">Cuztomization</h5>
           <div class="card-body">
             <p class="card-text">
@@ -170,7 +170,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h5 class="card-header">Lightweight & Faster</h5>
           <div class="card-body">
             <p class="card-text">
@@ -182,7 +182,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h5 class="card-header">Material Design</h5>
           <div class="card-body">
             <p class="card-text">
@@ -194,7 +194,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h5 class="card-header">Total Browsing Control</h5>
           <div class="card-body">
             <p class="card-text">
@@ -205,7 +205,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h5 class="card-header">Incomparable Privacy</h5>
           <div class="card-body">
             <p class="card-text">
@@ -216,7 +216,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h5 class="card-header">You In Control</h5>
           <div class="card-body">
             <p class="card-text">
@@ -227,7 +227,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h5 class="card-header">Manage Space</h5>
           <div class="card-body">
             <p class="card-text">
@@ -239,7 +239,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h5 class="card-header">AdBlocker</h5>
           <div class="card-body">
             <p class="card-text">
@@ -250,7 +250,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h5 class="card-header">Follow Webvium</h5>
           <div class="card-body">
             <p class="card-text">
@@ -272,7 +272,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h5 class="card-header">Support Webvium</h5>
           <div class="card-body">
             <p class="card-text">
@@ -302,7 +302,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h5 class="card-header">Available at 3rt Party App Stores</h5>
           <div class="card-body">
             <p class="card-text">

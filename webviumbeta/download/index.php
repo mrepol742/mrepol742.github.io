@@ -27,7 +27,7 @@
     <header class="mt-5">
       <h1 class="text-center">Thank you for downloading Webvium Beta.</h1><br>
     </header>
-    <div class="card ">
+    <div class="card " data-aos="fade-up">
       <div class="card-body">
         <p>Within a few seconds, your download should begin automatically. If it doesn't, please
           start the <a href="https://mrepol742-released-beta.netlify.app/Webvium-beta.apk" id="retry-download"

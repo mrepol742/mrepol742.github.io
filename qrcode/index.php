@@ -34,7 +34,7 @@
   <main>
     <div class="row mt-5">
       <div class="col-sm-6">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <div class="card-body">
             <fieldset>
               <legend>Input here</legend>
@@ -50,7 +50,7 @@
         </div>
       </div>
       <div class="col-sm-6">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h1 class="card-header">What is QR Code?</h1>
           <div class="card-body">
             <p class="card-text">

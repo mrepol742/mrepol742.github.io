@@ -32,7 +32,7 @@
         anything to show him.</p><br>
     </div>
     <br>
-    <div class="card ">
+    <div class="card " data-aos="fade-up">
       <div class="card-body">
         <h5 class="card-title">Changes</h5>
         <p class="card-text">We reserve the right, in our sole and absolute discretion, to make changes to

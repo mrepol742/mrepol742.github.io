@@ -25,7 +25,7 @@
 
   <main>
     <h1 class="text-center mt-5">What I Collect, How i use and Changes</h1><br>
-    <div class="card ">
+    <div class="card " data-aos="fade-up">
       <div class="card-body">
         <p class="card-text">Third party vendors, including Google, use cookies to serve ads and analyze
           traffic based on a user's prior visits to this website.
@@ -37,7 +37,7 @@
         </p>
       </div>
     </div> <br>
-    <div class="card ">
+    <div class="card " data-aos="fade-up">
       <div class="card-body">
         <p class="card-text">The information we gather is used to offer, maintain, and secure our users'
           services. This information may also be used to improve your user experience with our services.
@@ -46,7 +46,7 @@
       </div>
     </div>
     <br>
-    <div class="card ">
+    <div class="card " data-aos="fade-up">
       <div class="card-body">
         <p class="card-text">We reserve the right, in our sole and absolute discretion, to make changes to
           this Policy from time to time. Please review this Privacy Policy periodically to check for

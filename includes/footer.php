@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row footer-row">
       <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
-        <h5>Mrepol742</h5>
+        <h5>@mrepol742</h5>
         <ul class="nav flex-column">
           <li class="nav-item">
             <a class="nav-link" href="/">Home</a>
@@ -26,7 +26,7 @@
             <a class="nav-link" href="/privacypolicy/">Privacy Policy</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://mrepol742-read-cv.vercel.app">CV</a>
+            <a class="nav-link" href="https://mrepol742-read-cv.vercel.app">Read CV</a>
           </li>
         </ul>
       </div>
@@ -46,9 +46,18 @@
             <a class="nav-link" href="/webviumvpn/">Webvium VPN</a>
           </li>
         </ul>
+        <h5 class="mt-3">Services</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="/webvium-freight-management-system/">Webvium FMS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/webvium-point-of-sale-system/">Webvium POS</a>
+          </li>
+        </ul>
       </div>
       <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
-        <h5>Donate</h5>
+        <h5>Support</h5>
         <ul class="nav flex-column">
           <li class="nav-item">
             <a class="nav-link" href="https://www.buymeacoffee.com/mrepol742">Buy Me a Coffee</a>
@@ -68,7 +77,7 @@
         </ul>
       </div>
       <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
-        <h5>Blog Posts</h5>
+        <h5>Posts</h5>
         <ul class="nav flex-column">
           <li class="nav-item">
             <a class="nav-link" href="https://mrepol742-blog.vercel.app/hello-world/">Hello World - The Genesis</a>
@@ -125,8 +134,8 @@
       </a>
       <a href="https://youtube.com/@mrepol742" aria-label="Youtube" target="_blank">
         <i class="fa-brands fa-youtube px-1"></i> </a><br />
-      <p>&copy; <?php echo date("Y"); ?>, Melvin Jones Gallano Repol, All Rights Reserved. Other brands or product names are the trademarks of their respective owners.</p>
-      <p>
+      <p>&copy; <?php echo date("Y"); ?>, Melvin Jones Gallano Repol, All Rights Reserved. <br><br>Other brands or product names are the trademarks of their respective owners.</p>
+      <p class="text-muted">
         My websites may contain links to other sites and resources provided by third parties. These links are provided for your convenience only. I do not have control over the contents of those sites or resources, and accepts no responsibility for them or for any loss or damage that may arise from your use of them.</p>
     </div>
   </div>
@@ -142,6 +151,7 @@
   integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ=="
   crossorigin="anonymous"
   referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="/assets/js/main.js"></script>
 <script>
   ;
@@ -158,4 +168,7 @@
     j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
     f.parentNode.insertBefore(j, f)
   })(window, document, 'script', 'dataLayer', 'GTM-TFD9TXR')
+</script>
+<script>
+  AOS.init();
 </script>

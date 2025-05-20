@@ -103,7 +103,7 @@
     </div><br>
     <div class="row">
       <div class="col-sm-6 col-md-4">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h5 class="card-header">What's New?</h5>
           <div class="card-body">
             <p class="card-text">
@@ -120,7 +120,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h5 class="card-header">Lightweight</h5>
           <div class="card-body">
             <p class="card-text">We designed Webvium VPN to be the lightest VPN of its kind. So it
@@ -130,7 +130,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h5 class="card-header">Fast & Secured Servers</h5>
           <div class="card-body">
             <p class="card-text">Servers are carefull picked to make sure they are accessible anywhere
@@ -140,7 +140,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h5 class="card-header">Dark Theme</h5>
           <div class="card-body">
             <p class="card-text">Fan of Dark Mode? or just wanna save few juices. We support Dark Mode
@@ -150,7 +150,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h5 class="card-header">Follow Webvium VPN</h5>
           <div class="card-body">
             <p class="card-text">
@@ -171,7 +171,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h5 class="card-header">Support Webvium VPN</h5>
           <div class="card-body">
             <p class="card-text">
@@ -200,7 +200,7 @@
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card mb-3 ">
+        <div class="card mb-3 " data-aos="fade-up">
           <h5 class="card-header">Available at 3rt Party App Stores</h5>
           <div class="card-body">
             <p class="card-text">

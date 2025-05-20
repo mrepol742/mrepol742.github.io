@@ -29,7 +29,7 @@
       <h4>A machine-readable representation of your product data that can be shared with Google Merchant Center directly from your website. The markup added to your HTML assists Google and other search engines in reliably understanding and processing your content.</h4>
       <div class="row">
         <div class="col-sm-6">
-          <div class="card mb-3 ">
+          <div class="card mb-3 " data-aos="fade-up">
             <img loading="lazy" src="/assets/images/structureddata-rich.png" class="rounded mx-auto d-block img-fluid"
             alt="Rich Results Test" width="550">
             <div class="card-body">
@@ -43,7 +43,7 @@
           </div>
         </div>
         <div class="col-sm-6">
-          <div class="card mb-3 ">
+          <div class="card mb-3 " data-aos="fade-up">
             <img loading="lazy" src="/assets/images/structureddata-schema.png" class="rounded mx-auto d-block img-fluid"
             alt="Schema Markup Validator" width="550">
             <div class="card-body">

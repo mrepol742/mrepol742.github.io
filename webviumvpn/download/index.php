@@ -23,7 +23,7 @@
   ?>
   <main>
     <h1 class="text-center mt-5">Thank you for downloading Webvium VPN.</h1><br>
-    <div class="card ">
+    <div class="card " data-aos="fade-up">
       <div class="card-body">
         <p>Within a few seconds, your download should begin automatically. If it doesn't, please
           start the <a href="https://raw.githubusercontent.com/mrepol742/released/80a254530ab93b740ea489b1b4d1b1e058948a9d/Webvium%20VPN%20v1.1.apk" id="retry-download" target="_blank">download using this link.</a></p>

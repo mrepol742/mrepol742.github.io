@@ -78,17 +78,18 @@ https://github.com/mrepol742/mrepol742.github.io
     </div><br>
     <div class="row">
       <div class="col-sm-6 col-md-4" id="projectpos">
-        <div class="card ">
+        <div class="card " data-aos="fade-up">
           <img loading="lazy" src="/assets/images/myportfolio.png" class="rounded mx-auto d-block img-fluid" alt="Melvin Jones' Portfolio">
           <div class="card-body">
             <h5 class="card-title">Apptrade POS</h5>
             <p class="card-text">This project aims to develop a centralized, web-based Point of Sale (POS) system that serves multiple departments within an organization under a single cohesive platform. Designed with resource constraints and security at its core, the system ensures uninterrupted operation even without internet connectivity.</p>
-            <button type="button" class="btn" onclick="window.location.href='https:\/\/github.com\/mrepol742\/apptrade';"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></button><br>
+            <button type="button" class="btn mb-3" onclick="window.location.href='https:\/\/github.com\/mrepol742\/apptrade';"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></button><br>
+            <small class="badge bg-primary badge-pill d-block p-2">Software as a service</small>
           </div>
         </div>
       </div>
       <div class="col-sm-6 col-md-4" id="projectshift">
-        <div class="card ">
+        <div class="card " data-aos="fade-up">
           <img loading="lazy" src="/assets/images/myportfolio.png" class="rounded mx-auto d-block img-fluid" alt="Melvin Jones' Portfolio">
           <div class="card-body">
             <h5 class="card-title">Core 1 Axleshift</h5>
@@ -96,12 +97,13 @@ https://github.com/mrepol742/mrepol742.github.io
             <p>
               Technologies: <br>
               mern · mongodb atlas · bootstrap · git · gitguardian · sentry · gooogle analytics · google firebase firestore · google recaptcha · amazon aws s3 · github · docker · pm2 · terraform · xendit</p>
-            <button type="button" class="btn" onclick="window.location.href='https:\/\/github.com\/axleshift\/core1';"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></button><br>
+            <button type="button" class="btn mb-3" onclick="window.location.href='https:\/\/github.com\/axleshift\/core1';"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></button><br>
+            <small class="badge bg-primary badge-pill d-block p-2">Software as a service</small>
           </div>
         </div>
       </div>
       <div class="col-sm-6 col-md-4" id="projectwebvium">
-        <div class="card ">
+        <div class="card " data-aos="fade-up">
           <video preload="none" class="rounded mx-auto d-block img-fluid" controls loop poster="/assets/images/webvium22.png">
             <source src="/assets/videos/Webvium%20-%20Lightweight,%20Fast,%20Material%20and%20Full-Featured%20Android%20Web%20Browser.mp4" type="video/mp4">
             Your browser does not support the video tag. Click play to watch it directly <a href="/assets/videos/Webvium%20-%20Lightweight,%20Fast,%20Material%20and%20Full-Featured%20Android%20Web%20Browser.mp4">Play</a>.
@@ -119,7 +121,7 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card ">
+        <div class="card " data-aos="fade-up">
           <img loading="lazy" src="/assets/images/myportfolio.png" class="rounded mx-auto d-block img-fluid" alt="Melvin Jones' Portfolio">
           <div class="card-body">
             <h5 class="card-title">mrepol742.github.io</h5>
@@ -134,7 +136,7 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card ">
+        <div class="card " data-aos="fade-up">
           <video preload="none" class="rounded mx-auto d-block img-fluid" controls loop poster="/assets/images/webviumvpn.png">
             <source src="/assets/videos/Webvium%20VPN%20-%20Anonymous,%20Secured,%20Private%20and%20the%20fastest%20Virtual%20Private%20Network.mp4" type="video/mp4">
             Your browser does not support the video tag. Click play to watch it directly <a href="/assets/videos/Webvium%20VPN%20-%20Anonymous,%20Secured,%20Private%20and%20the%20fastest%20Virtual%20Private%20Network.mp4">Play</a>.
@@ -152,7 +154,7 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card ">
+        <div class="card " data-aos="fade-up">
           <img loading="lazy" src="/assets/images/orion-banner.png" class="rounded mx-auto d-block img-fluid" alt="Orion (Chatbot)" width="550">
           <div class="card-body">
             <h5 class="card-title">Orion Chatbot</h5>
@@ -170,7 +172,7 @@ https://github.com/mrepol742/mrepol742.github.io
       </div>
       <!--
       <div class="col-sm-6 col-md-4">
-        <div class="card ">
+        <div class="card " data-aos="fade-up">
           <img loading="lazy" src="/assets/images/online-catering-system.png" class="rounded mx-auto d-block img-fluid" alt="Online Catering System" width="550">
           <div class="card-body">
             <h5 class="card-title">Online Catering System</h5>
@@ -184,7 +186,7 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card ">
+        <div class="card " data-aos="fade-up">
           <img loading="lazy" src="https://raw.githubusercontent.com/mrepol742/Room-Rental-System/master/demo.png" class="rounded mx-auto d-block img-fluid" alt="Room Rental System" width="550">
           <div class="card-body">
             <h5 class="card-title">Room Rental System</h5>
@@ -198,7 +200,7 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card ">
+        <div class="card " data-aos="fade-up">
           <img loading="lazy" src="/assets/images/lgu-ms.png" class="rounded mx-auto d-block img-fluid" alt="LGU Management System" width="550">
           <div class="card-body">
             <h5 class="card-title">LGU Management System</h5>
@@ -214,7 +216,7 @@ https://github.com/mrepol742/mrepol742.github.io
       </div>
 -->
       <div class="col-sm-6 col-md-4">
-        <div class="card ">
+        <div class="card " data-aos="fade-up">
           <img loading="lazy" src="/assets/images/blog.png" class="rounded mx-auto d-block img-fluid" alt="mrepol742 @ blog" width="550">
           <div class="card-body">
             <h5 class="card-title">mrepol742 @ blog</h5>
@@ -237,7 +239,7 @@ https://github.com/mrepol742/mrepol742.github.io
     </div><br>
     <div class="row">
       <div class="col-sm-6 col-md-4">
-        <div class="card " onclick="readMore('se')">
+        <div class="card " data-aos="fade-up" onclick="readMore('se')">
           <div class="card-body">
             <!-- Software engineer icons created by Freepik - Flaticon -->
             <img loading="lazy" src="/assets/images/software-engineer.png" class="rounded bg-skill p-3" alt="Software Engineering" width="90">
@@ -254,7 +256,7 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card " onclick="readMore('wd')">
+        <div class="card " data-aos="fade-up" onclick="readMore('wd')">
           <div class="card-body">
             <!-- Software development icons created by HAJICON - Flaticon -->
             <img loading="lazy" src="/assets/images/development.png" class="rounded bg-skill p-3" alt="Full Stack Web Development" width="90">
@@ -270,7 +272,7 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card " onclick="readMore('seo')">
+        <div class="card " data-aos="fade-up" onclick="readMore('seo')">
           <div class="card-body">
             <!-- Seo icons created by Freepik - Flaticon -->
             <img loading="lazy" src="/assets/images/seo.png" class="rounded bg-skill p-3" alt="Search Engine Optimization" width="90">
@@ -287,7 +289,7 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card " onclick="readMore('dataa')">
+        <div class="card " data-aos="fade-up" onclick="readMore('dataa')">
           <div class="card-body">
             <!-- Big data icons created by xnimrodx - Flaticon -->
             <img loading="lazy" src="/assets/images/monitor.png" class="rounded bg-skill p-3" alt="Data Analytics" width="90">
@@ -301,7 +303,7 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card " onclick="readMore('ar')">
+        <div class="card " data-aos="fade-up" onclick="readMore('ar')">
           <div class="card-body">
             <!-- Motherboard icons created by Rmpp - Flaticon -->
             <img loading="lazy" src="/assets/images/motherboard.png" class="rounded bg-skill p-3" alt="Arduino" width="90">
@@ -319,7 +321,7 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
       </div>
       <div class="col-sm-6 col-md-4">
-        <div class="card " onclick="readMore('chs')">
+        <div class="card " data-aos="fade-up" onclick="readMore('chs')">
           <div class="card-body">
             <!-- Troubleshooting icons created by Freepik - Flaticon -->
             <img loading="lazy" src="/assets/images/troubleshooting.png" class="rounded bg-skill p-3" alt="Hardware and Software Troubleshooting" width="90">
@@ -343,7 +345,7 @@ https://github.com/mrepol742/mrepol742.github.io
     </div><br>
     <div>
       <div class="card-group">
-        <div class="card m-3">
+        <div class="card m-3" data-aos="fade-up">
           <div class="card-body text-center">
             <img class="rounded mx-auto d-block img-fluid circle-png my-team" src="/assets/images/melvin-jones-repol.transparent.png" width="200" alt="Picture of Melvin Jones Gallano Repol" style="background: #de5246;">
             <h5 class="card-title mt-3">Melvin</h5>
@@ -361,7 +363,7 @@ https://github.com/mrepol742/mrepol742.github.io
             </p>
           </div>
         </div>
-        <div class="card m-3">
+        <div class="card m-3" data-aos="fade-up" data-aos-delay="100">
           <div class="card-body text-center">
             <img class="rounded mx-auto d-block img-fluid circle-png my-team" src="/assets/images/melvin-jones-repol.transparent.png" width="200" alt="Picture of Melvin Jones Gallano Repol" style="background: #F4B400;">
             <h5 class="card-title mt-3">Jones</h5>
@@ -379,7 +381,7 @@ https://github.com/mrepol742/mrepol742.github.io
             </p>
           </div>
         </div>
-        <div class="card m-3">
+        <div class="card m-3" data-aos="fade-up" data-aos-delay="200">
           <div class="card-body text-center">
             <img class="rounded mx-auto d-block img-fluid circle-png my-team" src="/assets/images/melvin-jones-repol.transparent.png" width="200" alt="Picture of Melvin Jones Gallano Repol" style="background: #4285f4;">
             <h5 class="card-title mt-3">Repol</h5>

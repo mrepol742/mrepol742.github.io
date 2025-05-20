@@ -1,4 +1,7 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFD9TXR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div class=" bg-primary p-1 shadow text-center text-white small">
+    Make a difference in the world with Freight Management & Point of Sale System.
+</div>
 <header class="autohide navbar navbar-expand-lg fixed-top scrolled-up scrolled-up-tr">
     <nav class="container-fluid">
         <a class="navbar-brand" href="/">
@@ -18,7 +21,7 @@
                         Webvium
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="/webvium/">Webvium</a>
+                        <a class="dropdown-item" href="/webvium/">Webvium Browser</a>
                         <a class="dropdown-item" href="/webviumbeta/">Webvium Beta</a>
                         <a class="dropdown-item" href="/webviumdev/">Webvium Dev</a>
                         <a class="dropdown-item" href="/search/">Webvium Search</a>
@@ -32,7 +35,10 @@
                     <a class="nav-link" href="/link-tree/">Linktree</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://mrepol742.github.io/blog/">Blog</a>
+                    <a class="nav-link" href="https://mrepol742-blog.vercel.app">Post</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://mrepol742-read-cv.vercel.app">Read CV</a>
                 </li>
             </ul>
             <div>
@@ -40,11 +46,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="https://github.com/mrepol742" title="Github">
                             <i class="fa-brands fa-github"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/melvin-jones-repol-cv.pdf">
-                            <i class="fa-regular fa-file-lines" title="CV"></i>
                         </a>
                     </li>
                     <li class="nav-item">
