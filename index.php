@@ -77,17 +77,6 @@ https://github.com/mrepol742/mrepol742.github.io
     <h2 class="text-center mt-5" id="projects">Projects</h2>
     <br>
     <div class="row">
-      <div class="col-sm-6 col-md-4" id="projectpos">
-        <div class="card " data-aos="fade-up">
-          <img loading="lazy" src="/assets/images/myportfolio.png" class="rounded mx-auto d-block img-fluid" alt="Melvin Jones' Portfolio">
-          <div class="card-body">
-            <h5 class="card-title">Apptrade POS</h5>
-            <p class="card-text">This project aims to develop a centralized, web-based Point of Sale (POS) system that serves multiple departments within an organization under a single cohesive platform. Designed with resource constraints and security at its core, the system ensures uninterrupted operation even without internet connectivity.</p>
-            <button type="button" class="btn mb-3" onclick="window.location.href='https:\/\/github.com\/mrepol742\/apptrade';"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></button><br>
-            <small class="badge bg-primary badge-pill d-block p-2">Software as a service</small>
-          </div>
-        </div>
-      </div>
       <div class="col-sm-6 col-md-4" id="projectshift">
         <div class="card " data-aos="fade-up">
           <img loading="lazy" src="/assets/images/myportfolio.png" class="rounded mx-auto d-block img-fluid" alt="Melvin Jones' Portfolio">
