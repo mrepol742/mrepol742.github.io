@@ -1,5 +1,5 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFD9TXR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<div class=" bg-primary p-1 shadow text-center text-white small">
+<div class="bg-primary p-2 shadow text-center text-white fs-5">
     Shop with ease, quality and affordable prices at <a href="https://ulishastore.com?utm_source=mrepol742&utm_medium=github&utm_campaign=referral&utm_content=navbanner" class="text-decoration-underline">Ulisha Store</a>!
 </div>
 <header class="autohide navbar navbar-expand-lg fixed-top scrolled-up scrolled-up-tr">
