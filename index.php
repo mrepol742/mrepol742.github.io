@@ -77,16 +77,30 @@ https://github.com/mrepol742/mrepol742.github.io
     <h2 class="text-center mt-5" id="projects">Projects</h2>
     <br>
     <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="card " data-aos="fade-up">
+          <img loading="lazy" src="/assets/images/devops-capstone-project.png" class="rounded d-block img-fluid" alt="Devops Capstone Project">
+          <div class="card-body">
+            <h5 class="card-title">Devops Capstone Project</h5>
+            <p class="card-text">Completed as part of the IBM Devops Capstone Project on Coursera.</p>
+            <p>
+              Technologies: <br>
+              python · docker · kubernetes · git
+            </p>
+            <a class="btn" href="https://github.com/mrepol742/secondchance-backend-nodejs-capstone" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
+          </div>
+        </div>
+      </div>
       <div class="col-sm-6 col-md-4" id="projectshift">
         <div class="card " data-aos="fade-up">
-          <img loading="lazy" src="/assets/images/myportfolio.png" class="rounded mx-auto d-block img-fluid" alt="Melvin Jones' Portfolio">
+          <img loading="lazy" src="/assets/images/axleshift.png" class="rounded mx-auto d-block img-fluid" alt="Axleshift Core 1 - Capstone Project">
           <div class="card-body">
-            <h5 class="card-title">Core 1 Axleshift</h5>
+            <h5 class="card-title">Axleshift Core 1 - Capstone Project</h5>
             <p class="card-text">A freight management services. Your shipment Our Platform. Connecting everyone with smarter, faster, and more secure shipping. From first mile to last, we move your world forward.<br> Providing Businesses with cutting-edge platform.</p>
             <p>
               Technologies: <br>
               mern · mongodb atlas · bootstrap · git · gitguardian · sentry · gooogle analytics · google firebase firestore · google recaptcha · amazon aws s3 · github · docker · pm2 · terraform · xendit</p>
-            <button type="button" class="btn mb-3" onclick="window.location.href='https:\/\/github.com\/axleshift\/core1';"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></button><br>
+            <a class="btn mb-3" href="https://github.com/axleshift/core1" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
           </div>
         </div>
       </div>
@@ -104,7 +118,23 @@ https://github.com/mrepol742/mrepol742.github.io
               Technologies: <br>
               java · xml · gradle · git · sqlite
             </p>
-            <button type="button" class="btn" onclick="window.location.href='/webvium/';"><i class="fa-solid fa-download"></i>&nbsp;&nbsp;<b>Download</b></button><br>
+            <a class="btn" href="/webvium/"><i class="fa-solid fa-download"></i>&nbsp;&nbsp;<b>Download</b></a><br>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card " data-aos="fade-up">
+          <img loading="lazy" src="/assets/images/blog.png" class="rounded mx-auto d-block img-fluid" alt="mrepol742 @ blog" width="550">
+          <div class="card-body">
+            <h5 class="card-title">mrepol742 @ blog</h5>
+            <p class="card-text">
+            </p>
+            <p>
+              Technologies: <br>
+              vuepress
+            </p>
+            <a class="btn" href="https://github.com/mrepol742/blog" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a>
+            <a class="btn" href="https://mrepol742-blog.vercel.app" target="_blank"><i class="fa-solid fa-blog"></i>&nbsp;&nbsp;<b>Blog</b></a><br>
           </div>
         </div>
       </div>
@@ -119,7 +149,21 @@ https://github.com/mrepol742/mrepol742.github.io
               Technologies: <br>
               html · css · bootstrap · javascript · seo · php composer · git
             </p>
-            <button type="button" class="btn" onclick="window.location.href='https:\/\/github.com\/mrepol742\/mrepol742.github.io';"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></button><br>
+            <a class="btn" href="https://github.com/mrepol742/mrepol742.github.io" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card " data-aos="fade-up">
+          <img loading="lazy" src="/assets/images/secondchance-backend-nodejs-capstone.png" class="rounded d-block img-fluid" alt="Second Chance Backend Nodejs Capstone">
+          <div class="card-body">
+            <h5 class="card-title">Second Chance Backend Nodejs Capstone</h5>
+            <p class="card-text">Completed as part of the IBM JavaScript Back-End Capstone Project on Coursera.</p>
+            <p>
+              Technologies: <br>
+              javascript · git
+            </p>
+            <a class="btn" href="https://github.com/mrepol742/secondchance-backend-nodejs-capstone" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
           </div>
         </div>
       </div>
@@ -137,7 +181,7 @@ https://github.com/mrepol742/mrepol742.github.io
               Technologies: <br>
               java · xml · openvpn
             </p>
-            <button type="button" class="btn" onclick="window.location.href='/webviumvpn/';"><i class="fa-solid fa-download"></i>&nbsp;&nbsp;<b>Download</b></button><br>
+            <a class="btn" href="/webviumvpn/"><i class="fa-solid fa-download"></i>&nbsp;&nbsp;<b>Download</b></a><br>
           </div>
         </div>
       </div>
@@ -154,11 +198,11 @@ https://github.com/mrepol742/mrepol742.github.io
               Technologies: <br>
               node.js · web scraping · openai · json · npm · git
             </p>
-            <button type="button" class="btn" onclick="window.location.href='/project-orion/'"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>View</b></button>
+            <a class="btn" href="/project-orion/"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>View</b></a>
           </div>
         </div>
       </div>
-      <!--
+
       <div class="col-sm-6 col-md-4">
         <div class="card " data-aos="fade-up">
           <img loading="lazy" src="/assets/images/online-catering-system.png" class="rounded mx-auto d-block img-fluid" alt="Online Catering System" width="550">
@@ -169,7 +213,7 @@ https://github.com/mrepol742/mrepol742.github.io
               Technologies: <br>
               php · html · css · javascript · bootstrap · mysql · git
             </p>
-            <button type="button" class="btn" onclick="window.location.href='https:\/\/github.com\/mrepol742\/Online-Catering-System';"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></button><br>
+            <a class="btn" href="https://github.com/mrepol742/Online-Catering-System" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
           </div>
         </div>
       </div>
@@ -183,7 +227,7 @@ https://github.com/mrepol742/mrepol742.github.io
               Technologies: <br>
               php · html · css · javascript · bootstrap · mysql · git
             </p>
-            <button type="button" class="btn" onclick="window.location.href='https:\/\/github.com\/mrepol742\/Room-Rental-System';"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></button><br>
+            <a class="btn" href="https://github.com/mrepol742/Room-Rental-System" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
           </div>
         </div>
       </div>
@@ -198,24 +242,7 @@ https://github.com/mrepol742/mrepol742.github.io
               Technologies: <br>
               php · html · css · javascript · bootstrap · mysql · git · php composer
             </p>
-            <button type="button" class="btn" onclick="window.location.href='https:\/\/github.com\/lgu-ms\/lgu-ms';"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></button><br>
-          </div>
-        </div>
-      </div>
--->
-      <div class="col-sm-6 col-md-4">
-        <div class="card " data-aos="fade-up">
-          <img loading="lazy" src="/assets/images/blog.png" class="rounded mx-auto d-block img-fluid" alt="mrepol742 @ blog" width="550">
-          <div class="card-body">
-            <h5 class="card-title">mrepol742 @ blog</h5>
-            <p class="card-text">
-            </p>
-            <p>
-              Technologies: <br>
-              vuepress
-            </p>
-            <button type="button" class="btn" onclick="window.location.href='https:\/\/github.com\/mrepol742\/blog';"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></button>
-            <button type="button" class="btn" onclick="window.location.href='https:\/\/mrepol742-blog.vercel.app';"><i class="fa-solid fa-blog"></i>&nbsp;&nbsp;<b>Blog</b></button><br>
+            <a class="btn" href="https://github.com/lgu-ms/lgu-ms" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
           </div>
         </div>
       </div>

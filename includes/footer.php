@@ -46,15 +46,6 @@
             <a class="nav-link" href="/webviumvpn/">Webvium VPN</a>
           </li>
         </ul>
-        <h5 class="mt-3">Services</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" href="/freight-management-system/">Freight Management</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="/point-of-sale-system/">Point of Sale</a>
-          </li>
-        </ul>
       </div>
       <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
         <h5>Support</h5>
@@ -79,6 +70,9 @@
       <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
         <h5>Posts</h5>
         <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="https://mrepol742-blog.vercel.app/build-your-own-freight-management-system/">Build your own FMS</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="https://mrepol742-blog.vercel.app/hello-world/">Hello World - The Genesis</a>
           </li>
