@@ -13,9 +13,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
-                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Webvium
@@ -35,26 +32,26 @@
                     <a class="nav-link" href="/link-tree/">Linktree</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://mrepol742-blog.vercel.app">Post</a>
+                    <a class="nav-link" href="https://mrepol742-blog.vercel.app?utm_source=mrepol742.github.io" target="_blank">Post</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://mrepol742-read-cv.vercel.app">Read CV</a>
+                    <a class="nav-link" href="https://mrepol742-read-cv.vercel.app?utm_source=mrepol742.github.io" target="_blank">CV</a>
                 </li>
             </ul>
             <div>
                 <ul class="nav navbar-nav" style="flex-direction: row;">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/mrepol742" title="Github">
+                        <a class="nav-link" href="https://github.com/mrepol742" title="Github" target="_blank">
                             <i class="fa-brands fa-github"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://mrepol742.github.io/sitemap" title="Sitemap">
+                        <a class="nav-link" href="https://mrepol742.github.io/sitemap" title="Sitemap" target="_blank">
                             <i class="fa-solid fa-sitemap"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://mrepol742.github.io/rss" title="RSS">
+                        <a class="nav-link" href="https://mrepol742.github.io/rss" title="RSS" target="_blank">
                             <i class="fa-solid fa-rss"></i>
                         </a>
                     </li>

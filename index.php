@@ -803,7 +803,7 @@ https://github.com/mrepol742/mrepol742.github.io
               <div class="card-body text-center">
                 <a href="/friends/0x3ef8/">
                   <img loading="lazy" src="https://avatars.githubusercontent.com/u/76643867?v=4" class="mx-auto d-block img-fluid circle-png" alt="Jay Patrick Cano avatar at Github" width="100">
-                  <h4 class="card-title mt-2 no-wrap">Jay Cano</h4>
+                  <h4 class="card-title mt-2 no-wrap">Jay Patrick Cano</h4>
                   <p class="card-text">Programmer</p>
                 </a>
               </div>
@@ -889,26 +889,72 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
       </div>
       <br>
-      <div>
-        <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-5077097159223655" data-ad-slot="7856709026"></ins>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
+      <h2 class="text-center mt-5" id="organizations">Organizations</h2>
       <br>
-      <div class="card mb-5">
-        <div class="card-body">
-          <h5 class="card-title">Found a problem with this page?</h5>
-          <ul class="card-text">
-            <li><a href="https://github.com/mrepol742/mrepol742.github.io/edit/master/index.php" target="_blank">Edit
-                on Github</a></li>
-            <li><a href="https://github.com/mrepol742/mrepol742.github.io/blob/master/index.php?plain=1" target="_blank">Source on Github</a></li>
-            <li><a href="https://github.com/mrepol742/mrepol742.github.io/issues/new?">Report a problem with this
-                content on GitHub</a></li>
-
-          </ul>
+      <div class="row justify-content-center text-center">
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card shadow-sm border-0 h-100" data-aos="fade-up">
+            <div class="card-body">
+              <img src="https://avatars.githubusercontent.com/yourbusinessname" alt="Your Business Name Logo" class="mb-3 rounded-circle" width="70" height="70">
+              <h4 class="mb-1">Your Business Name</h4>
+              <p class="mb-0 text-muted">Organization</p>
+              <a href="https://github.com/yourbusinessname" target="_blank" class="d-block mt-2"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card shadow-sm border-0 h-100" data-aos="fade-up">
+            <div class="card-body">
+              <img src="https://avatars.githubusercontent.com/axleshift" alt="Axleshift Logo" class="mb-3 rounded-circle" width="70" height="70">
+              <h4 class="mb-1">Axleshift</h4>
+              <p class="mb-0 text-muted">Cluster</p>
+              <a href="https://github.com/axleshift" target="_blank" class="d-block mt-2"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card shadow-sm border-0 h-100" data-aos="fade-up">
+            <div class="card-body">
+              <img src="https://avatars.githubusercontent.com/CodeSyncPH" alt="CodeSync PH Logo" class="mb-3 rounded-circle" width="70" height="70">
+              <h4 class="mb-1">CodeSync PH</h4>
+              <p class="mb-0 text-muted">Organization</p>
+              <a href="https://github.com/CodeSyncPH" target="_blank" class="d-block mt-2"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card shadow-sm border-0 h-100" data-aos="fade-up">
+            <div class="card-body">
+              <img src="https://avatars.githubusercontent.com/hallofcodes" alt="Hall of Codes Logo" class="mb-3 rounded-circle" width="70" height="70">
+              <h4 class="mb-1">Hall of Codes</h4>
+              <p class="mb-0 text-muted">Community of Developers</p>
+              <a href="https://github.com/hallofcodes" target="_blank" class="d-block mt-2"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+    <br>
+    <div>
+      <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-5077097159223655" data-ad-slot="7856709026"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+    <br>
+    <div class="card mb-5">
+      <div class="card-body">
+        <h5 class="card-title">Found a problem with this page?</h5>
+        <ul class="card-text">
+          <li><a href="https://github.com/mrepol742/mrepol742.github.io/edit/master/index.php" target="_blank">Edit
+              on Github</a></li>
+          <li><a href="https://github.com/mrepol742/mrepol742.github.io/blob/master/index.php?plain=1" target="_blank">Source on Github</a></li>
+          <li><a href="https://github.com/mrepol742/mrepol742.github.io/issues/new?">Report a problem with this
+              content on GitHub</a></li>
+
+        </ul>
+      </div>
+    </div>
   </main>
 
   <?php include('includes/footer.php') ?>

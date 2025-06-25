@@ -26,6 +26,9 @@
             <a class="nav-link" href="/privacypolicy/">Privacy Policy</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="https://mrepol742-blog.vercel.app">Posts</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="https://mrepol742-read-cv.vercel.app">Read CV</a>
           </li>
         </ul>
@@ -71,37 +74,39 @@
         <h5>Posts</h5>
         <ul class="nav flex-column">
           <li class="nav-item">
-            <a class="nav-link" href="https://mrepol742-blog.vercel.app/build-your-own-freight-management-system/">Build your own FMS</a>
+            <a class="nav-link" href="https://mrepol742-blog.vercel.app/unlocking-performance-essential-techniques-for-code-optimization?utm_source=mrepol742.github.io" target="_blank">Essential Techniques for Code Optimization</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://mrepol742-blog.vercel.app/hello-world/">Hello World - The Genesis</a>
+            <a class="nav-link" href="https://mrepol742-blog.vercel.app/development-workflow-enhancements-supercharging-your-productivity?utm_source=mrepol742.github.io" target="_blank">Supercharging Your Productivity</a>
           </li>
           <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://mrepol742-blog.vercel.app/open-source-chatbot-revolutionizing-facebook-messenger/">Project Orion - Open Source Chatbot Revolutionizing Facebook
-              Messenger</a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://mrepol742-blog.vercel.app/webvium-latest-release-version-2-9/">Webvium Latest Release - v2.9 stable</a>
+            <a class="nav-link" href="https://mrepol742-blog.vercel.app/mastering-performance-optimization-in-modern-web-applications?utm_source=mrepol742.github.io" target="_blank">Performance Optimization in Modern Web Applications
+            </a>
           </li>
           <li class="nav-item">
             <a
               class="nav-link"
-              href="https://mrepol742-blog.vercel.app/unleashing-the-potential-of-ai/">Unleashing the Potential of AI - Exploring OpenAI's Cutting-Edge
-              Technology</a>
+              href="https://mrepol742-blog.vercel.app/performance-optimization-strategies-in-modern-web-applications?utm_source=mrepol742.github.io" target="_blank">Performance Optimization Strategies</a>
           </li>
           <li class="nav-item">
             <a
               class="nav-link"
-              href="https://mrepol742-blog.vercel.app/webvium-lightweight-fast-and-secured-web-browser/">Webvium Browser - Lightweight, Fast & Full Featured</a>
+              href="https://mrepol742-blog.vercel.app/the-power-of-lazy-loading-in-modern-web-development?utm_source=mrepol742.github.io" target="_blank">The Power of Lazy Loading</a>
           </li>
           <li class="nav-item">
             <a
               class="nav-link"
-              href="https://mrepol742-blog.vercel.app/building-a-blog-with-vuepress/">Crafting Your Online Presence - Building a Blog with VuePress</a>
+              href="https://mrepol742-blog.vercel.app/build-your-own-freight-management-system?utm_source=mrepol742.github.io" target="_blank">Build Your Own Freight Management System</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://mrepol742-blog.vercel.app/webvium-lightweight-fast-and-secured-web-browser?utm_source=mrepol742.github.io" target="_blank">Webvium Browser - Lightweight, Fast & Full Featured</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://mrepol742-blog.vercel.app/building-a-blog-with-vuepress?utm_source=mrepol742.github.io" target="_blank"> Your Online Presence - Building a Blog with VuePress</a>
           </li>
         </ul>
       </div>
