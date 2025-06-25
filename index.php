@@ -74,41 +74,41 @@ https://github.com/mrepol742/mrepol742.github.io
         <img class="rounded mx-auto d-block img-fluid circle-png" src="https://avatars.githubusercontent.com/mrepol742" width="300" height="300" alt="Picture of Melvin Jones Gallano Repol">
       </div>
     </div>
-    <div class="container mb-5">
+    <div class="container mb-5 mt-5">
       <div class="row justify-content-center text-center">
         <div class="col-6 col-md-3 mb-4 mb-md-0">
           <div class="card shadow-sm border-0" data-aos="fade-up">
             <div class="card-body">
-              <h2 class="display-3 fw-bold mb-0 count" data-count="10">0</h2>
-              <p class="mb-0">Clients</p>
+              <h2 class="display-3 fw-bold mb-0 count text-primary" data-count="10">0</h2>
+              <p class="mb-0 text-muted">Clients</p>
             </div>
           </div>
         </div>
         <div class="col-6 col-md-3 mb-4 mb-md-0">
           <div class="card shadow-sm border-0" data-aos="fade-up">
             <div class="card-body">
-              <h2 class="display-3 fw-bold mb-0 count" data-count="82">0</h2>
-              <p class="mb-0">Projects</p>
+              <h2 class="display-3 fw-bold mb-0 count text-danger" data-count="82">0</h2>
+              <p class="mb-0 text-muted">Projects</p>
             </div>
           </div>
         </div>
         <div class="col-6 col-md-3 mb-4 mb-md-0">
           <div class="card shadow-sm border-0" data-aos="fade-up">
             <div class="card-body">
-              <h2 class="display-3 fw-bold mb-0 count" data-count="5">0</h2>
-              <p class="mb-0">Years Experience</p>
+              <h2 class="display-3 fw-bold mb-0 count text-warning" data-count="5">0</h2>
+              <p class="mb-0 text-muted">Years Experience</p>
             </div>
           </div>
         </div>
       </div>
 
       <div class="container mt-5">
-        <h2 class="text-center mb-4">Why Work With Me?</h2>
+        <h2 class="text-center mb-4">Why Work with Me?</h2>
         <div class="row g-4 justify-content-center">
           <div class="col-md-4">
             <div class="card h-100 border-0 text-center feature-card" data-aos="fade-up">
               <div class="card-body">
-                <i class="fa-solid fa-hand-holding-dollar fa-2x mb-3 text-primary"></i>
+                <i class="fa-solid fa-hand-holding-dollar fa-3x mb-3 text-primary"></i>
                 <h5 class="card-title">Low Upfront Commitment</h5>
                 <p class="card-text">Only a 5% downpayment is needed for large projects to secure your slot—no big risk, just a small start.</p>
               </div>
@@ -117,7 +117,7 @@ https://github.com/mrepol742/mrepol742.github.io
           <div class="col-md-4">
             <div class="card h-100 border-0 text-center feature-card" data-aos="fade-up">
               <div class="card-body">
-                <i class="fa-solid fa-money-check-dollar fa-2x mb-3 text-success"></i>
+                <i class="fa-solid fa-money-check-dollar fa-3x mb-3 text-success"></i>
                 <h5 class="card-title">No Output, No Payment</h5>
                 <p class="card-text">You pay only when you see results. If nothing is delivered, you owe nothing.</p>
               </div>
@@ -126,7 +126,7 @@ https://github.com/mrepol742/mrepol742.github.io
           <div class="col-md-4">
             <div class="card h-100 border-0 text-center feature-card" data-aos="fade-up">
               <div class="card-body">
-                <i class="fa-solid fa-comments fa-2x mb-3 text-info"></i>
+                <i class="fa-solid fa-comments fa-3x mb-3 text-info"></i>
                 <h5 class="card-title">Transparent Communication</h5>
                 <p class="card-text">Get regular updates and clear, honest communication throughout your project.</p>
               </div>
@@ -135,7 +135,7 @@ https://github.com/mrepol742/mrepol742.github.io
           <div class="col-md-4">
             <div class="card h-100 border-0 text-center feature-card" data-aos="fade-up">
               <div class="card-body">
-                <i class="fa-solid fa-sliders fa-2x mb-3 text-warning"></i>
+                <i class="fa-solid fa-sliders fa-3x mb-3 text-warning"></i>
                 <h5 class="card-title">Flexible Engagement</h5>
                 <p class="card-text">Choose one-time projects or ongoing support—services are tailored to your needs.</p>
               </div>
@@ -144,7 +144,7 @@ https://github.com/mrepol742/mrepol742.github.io
           <div class="col-md-4">
             <div class="card h-100 border-0 text-center feature-card" data-aos="fade-up">
               <div class="card-body">
-                <i class="fa-solid fa-gift fa-2x mb-3 text-danger"></i>
+                <i class="fa-solid fa-gift fa-3x mb-3 text-danger"></i>
                 <h5 class="card-title">Surprise Perks</h5>
                 <p class="card-text">Enjoy occasional bonus features, optimizations, or helpful docs—at no extra cost!</p>
               </div>
@@ -154,14 +154,15 @@ https://github.com/mrepol742/mrepol742.github.io
         <p class="text-center mt-4 mb-0">
           <small>
             Have questions or need something custom?
+            Contact me anytime!
             <a href="mailto:mrepol742@gmail.com" title="Email" class="mx-1">
               <i class="fa-solid fa-envelope"></i>
             </a>
             <a href="https://facebook.com/melvinjonesrepol" title="Facebook" class="mx-1" target="_blank">
               <i class="fa-brands fa-facebook"></i>
             </a>
-            Contact me anytime!
           </small>
+          <small class="text-muted d-block">Student? Get 20% Discount.</small>
         </p>
       </div>
       <h2 class="text-center mt-5" id="projects">Projects</h2>
