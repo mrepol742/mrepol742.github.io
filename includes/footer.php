@@ -53,6 +53,9 @@
             <a class="nav-link" href="/privacypolicy/">Privacy Policy</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="https://mrepol742-blog.vercel.app">Posts</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="https://mrepol742-read-cv.vercel.app">Read CV</a>
           </li>
         </ul>
