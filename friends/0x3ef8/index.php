@@ -12,7 +12,7 @@
         "A highly motivated individual who is passionate about programming and web development.",
         "https://mrepol742.github.io/friends/0x3ef8/"
     );
-    $meta->setImage("https://mrepol742.github.io/images/cover.jpg", "Cover Photo");
+    $meta->setImage("https://avatars.githubusercontent.com/0x3ef8", "Cover Photo");
     $meta->setKeywords("jay patrick cano, 0x3ef8, patrick cano");
     ?>
 </head>
@@ -28,7 +28,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="card asd " id="0x3ef8" style="border-radius: 10px;">
                         <div class="card-body">
-                            <img loading="lazy" src="https://avatars.githubusercontent.com/u/76643867?v=4" class="mx-auto d-block img-fluid circle-png" alt="Jay Patrick Cano avatar at Github" width="150">
+                            <img loading="lazy" src="https://avatars.githubusercontent.com/0x3ef8" class="mx-auto d-block img-fluid circle-png" alt="Jay Patrick Cano avatar at Github" width="150">
                             <h5 class="title mb-1 mt-3 text-capitalize">Jay Patrick Cano</h5>
                             <p class="card-text">A highly motivated individual who is passionate about programming and
                                 web development. He has been working on various projects and has achieved great success

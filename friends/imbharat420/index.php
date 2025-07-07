@@ -12,7 +12,7 @@
         "A experienced professional with expertise in front-end and back-end. He is passionate about using technology to solve real-world problems.",
         "https://mrepol742.github.io/friends/imbharat420/"
     );
-    $meta->setImage("https://mrepol742.github.io/images/cover.jpg", "Cover Photo");
+    $meta->setImage("https://avatars.githubusercontent.com/imbharat420", "Cover Photo");
     $meta->setKeywords("bharat singh, techh jork, imbharat420");
     ?>
 </head>
@@ -28,7 +28,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="card asd " id="imbharat420" style="border-radius: 10px;">
                         <div class="card-body">
-                            <img loading="lazy" src="https://avatars.githubusercontent.com/u/51924618?v=4" class="mx-auto d-block img-fluid circle-png" alt="Bharat Singh avatar at Github" width="150">
+                            <img loading="lazy" src="https://avatars.githubusercontent.com/imbharat420" class="mx-auto d-block img-fluid circle-png" alt="Bharat Singh avatar at Github" width="150">
                             <h5 class="title mb-1 mt-3 text-capitalize">Bharat Singh</h5>
                             <p class="card-text">A experienced professional with expertise in front-end and back-end. He
                                 is passionate about using technology to solve real-world problems.</p>

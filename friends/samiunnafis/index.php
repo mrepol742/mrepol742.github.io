@@ -12,7 +12,7 @@
     "A talented Front-end Developer who is passionate about learning and mastering React. He is dedicated to continuously improving his skills and knowledge.",
     "https://mrepol742.github.io/friends/samiunnafis/"
   );
-  $meta->setImage("https://mrepol742.github.io/images/cover.jpg", "Cover Photo");
+  $meta->setImage("https://avatars.githubusercontent.com/samiunnafis", "Cover Photo");
   $meta->setKeywords("samiun nafis, samiunnafis");
   ?>
 </head>
@@ -28,7 +28,7 @@
         <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="card asd " id="samiunnafis" style="border-radius: 10px;">
             <div class="card-body">
-              <img loading="lazy" src="https://avatars.githubusercontent.com/u/56390452?v=4" class="mx-auto d-block img-fluid circle-png" alt="Samiun Nafis avatar at Github" width="150">
+              <img loading="lazy" src="https://avatars.githubusercontent.com/samiunnafis" class="mx-auto d-block img-fluid circle-png" alt="Samiun Nafis avatar at Github" width="150">
               <h5 class="title mb-1 mt-3 text-capitalize">Samiun Nafis</h5>
               <p class="card-text">A talented Front-end Developer who is passionate about learning and
                 mastering React. He is dedicated to continuously improving his skills and knowledge.</p>

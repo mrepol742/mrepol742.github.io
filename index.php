@@ -769,7 +769,7 @@ https://github.com/mrepol742/mrepol742.github.io
             <div class="card pt-5 pb-5">
               <div class="card-body text-center">
                 <a href="/friends/samiunnafis/">
-                  <img loading="lazy" src="https://avatars.githubusercontent.com/u/56390452?v=4" class="mx-auto d-block img-fluid circle-png" alt="Samiun Nafis avatar at Github" width="100">
+                  <img loading="lazy" src="https://avatars.githubusercontent.com/samiunnafis" class="mx-auto d-block img-fluid circle-png" alt="Samiun Nafis avatar at Github" width="100">
                   <h4 class="card-title mt-2 no-wrap">Samiun Nafis</h4>
                   <p class="card-text">Front-end Developer</p>
                 </a>
@@ -780,7 +780,7 @@ https://github.com/mrepol742/mrepol742.github.io
             <div class="card pt-5 pb-5">
               <div class="card-body text-center">
                 <a href="/friends/imbharat420/">
-                  <img loading="lazy" src="https://avatars.githubusercontent.com/u/51924618?v=4" class="mx-auto d-block img-fluid circle-png" alt="Bharat Singh avatar at Github" width="100">
+                  <img loading="lazy" src="https://avatars.githubusercontent.com/imbharat420" class="mx-auto d-block img-fluid circle-png" alt="Bharat Singh avatar at Github" width="100">
                   <h4 class="card-title mt-2 no-wrap">Bharat Singh</h4>
                   <p class="card-text">Fullstack Developer</p>
                 </a>
@@ -791,7 +791,7 @@ https://github.com/mrepol742/mrepol742.github.io
             <div class="card pt-5 pb-5">
               <div class="card-body text-center">
                 <a href="/friends/elishasfolio/">
-                  <img loading="lazy" src="https://elishasfolio.vercel.app/Elitepics.png" class="mx-auto d-block img-fluid circle-png" alt="Elisha Paul Okai" width="100">
+                  <img loading="lazy" src="https://avatars.githubusercontent.com/elishasfolio" class="mx-auto d-block img-fluid circle-png" alt="Elisha Paul Okai" width="100">
                   <h4 class="card-title mt-2 no-wrap">Elisha Okai</h4>
                   <p class="card-text">Defi Expert</p>
                 </a>
@@ -802,8 +802,8 @@ https://github.com/mrepol742/mrepol742.github.io
             <div class="card pt-5 pb-5">
               <div class="card-body text-center">
                 <a href="/friends/0x3ef8/">
-                  <img loading="lazy" src="https://avatars.githubusercontent.com/u/76643867?v=4" class="mx-auto d-block img-fluid circle-png" alt="Jay Patrick Cano avatar at Github" width="100">
-                  <h4 class="card-title mt-2 no-wrap">Jay Cano</h4>
+                  <img loading="lazy" src="https://avatars.githubusercontent.com/0x3ef8" class="mx-auto d-block img-fluid circle-png" alt="Jay Patrick Cano avatar at Github" width="100">
+                  <h4 class="card-title mt-2 no-wrap">Jay Patrick Cano</h4>
                   <p class="card-text">Programmer</p>
                 </a>
               </div>
@@ -813,7 +813,7 @@ https://github.com/mrepol742/mrepol742.github.io
             <div class="card pt-5 pb-5">
               <div class="card-body text-center">
                 <a href="/friends/19vin70/">
-                  <img loading="lazy" src="https://avatars.githubusercontent.com/u/113106676?v=4" class="mx-auto d-block img-fluid circle-png" alt="Marvin Quillo Saik avatar at Github" width="100">
+                  <img loading="lazy" src="https://avatars.githubusercontent.com/19vin70" class="mx-auto d-block img-fluid circle-png" alt="Marvin Quillo Saik avatar at Github" width="100">
                   <h4 class="card-title mt-2 no-wrap">Marvin Saik</h4>
                   <p class="card-text">Programmer</p>
                 </a>
@@ -823,8 +823,19 @@ https://github.com/mrepol742/mrepol742.github.io
           <div class="col">
             <div class="card pt-5 pb-5">
               <div class="card-body text-center">
+                <a href="/friends/humble2021/">
+                  <img loading="lazy" src="https://avatars.githubusercontent.com/humble2021" class="mx-auto d-block img-fluid circle-png" alt="Efren Caspe Guno avatar at Github" width="100">
+                  <h4 class="card-title mt-2 no-wrap">Efren Caspe Guno</h4>
+                  <p class="card-text">Front-end Developer</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card pt-5 pb-5">
+              <div class="card-body text-center">
                 <a href="/friends/aaveshdev/">
-                  <img loading="lazy" src="https://avatars.githubusercontent.com/u/50949867?v=4" class="mx-auto d-block img-fluid circle-png" alt="Aavesh Jilani avatar at Github" width="100">
+                  <img loading="lazy" src="https://avatars.githubusercontent.com/aaveshdev" class="mx-auto d-block img-fluid circle-png" alt="Aavesh Jilani avatar at Github" width="100">
                   <h4 class="card-title mt-2 no-wrap">Aavesh Jilani</h4>
                   <p class="card-text">Programmer</p>
                 </a>
@@ -835,7 +846,7 @@ https://github.com/mrepol742/mrepol742.github.io
             <div class="card pt-5 pb-5">
               <div class="card-body text-center">
                 <a href="/friends/amosayomide05/">
-                  <img loading="lazy" src="https://avatars.githubusercontent.com/u/62471060?v=4" class="mx-auto d-block img-fluid circle-png" alt="Amos Ayomide avatar at Github" width="100">
+                  <img loading="lazy" src="https://avatars.githubusercontent.com/amosayomide05" class="mx-auto d-block img-fluid circle-png" alt="Amos Ayomide avatar at Github" width="100">
                   <h4 class="card-title mt-2 no-wrap">Amos Ayomide</h4>
                   <p class="card-text">Programmer</p>
                 </a>
@@ -846,7 +857,7 @@ https://github.com/mrepol742/mrepol742.github.io
             <div class="card pt-5 pb-5">
               <div class="card-body text-center">
                 <a href="/friends/emejulucodes/">
-                  <img loading="lazy" src="https://avatars.githubusercontent.com/u/54607888?v=4" class="mx-auto d-block img-fluid circle-png" alt="Emmanuel Emejulu avatar at Github" width="100">
+                  <img loading="lazy" src="https://avatars.githubusercontent.com/emejulucodes" class="mx-auto d-block img-fluid circle-png" alt="Emmanuel Emejulu avatar at Github" width="100">
                   <h4 class="card-title mt-2 no-wrap">Emmanuel Emejulu</h4>
                   <p class="card-text">Mobile App Developer</p>
                 </a>
@@ -857,7 +868,7 @@ https://github.com/mrepol742/mrepol742.github.io
             <div class="card pt-5 pb-5">
               <div class="card-body text-center">
                 <a href="/friends/Mra1k3r0/">
-                  <img loading="lazy" src="https://avatars.githubusercontent.com/u/61144642?v=4" class="mx-auto d-block img-fluid circle-png" alt="John Paul Caigas avatar at Github" width="100">
+                  <img loading="lazy" src="https://avatars.githubusercontent.com/Mra1k3r0" class="mx-auto d-block img-fluid circle-png" alt="John Paul Caigas avatar at Github" width="100">
                   <h4 class="card-title mt-2 no-wrap">John Caigas</h4>
                   <p class="card-text">Programmer</p>
                 </a>
@@ -888,6 +899,49 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
       </div>
+      <br>
+      <div>
+        <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-5077097159223655" data-ad-slot="7856709026"></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+      <br>
+      <h2 class="text-center mt-5" id="posts">Posts</h2>
+      <?php
+      // Fetch the JSON feed
+      $feedUrl = 'https://mrepol742-blog.vercel.app/feed.json';
+      $feedJson = @file_get_contents($feedUrl);
+
+      if ($feedJson !== false) {
+        $feed = json_decode($feedJson, true);
+        if (isset($feed['items']) && is_array($feed['items'])) {
+          echo '<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">';
+          foreach ($feed['items'] as $item) {
+            $title = htmlspecialchars($item['title'] ?? '');
+            $summary = htmlspecialchars($item['summary'] ?? '');
+            $url = htmlspecialchars($item['url'] ?? '');
+            $date = isset($item['date_modified']) ? date('F j, Y', strtotime($item['date_modified'])) : '';
+            echo '<div class="col">';
+            echo '<div class="card h-100">';
+            echo '<div class="card-body">';
+            echo '<h5 class="card-title"><a href="' . $url . '" target="_blank">' . $title . '</a></h5>';
+            echo '<p class="card-text">' . $summary . '</p>';
+            if ($date) {
+              echo '<p class="card-text"><small class="text-muted">' . $date . '</small></p>';
+            }
+            echo '</div>';
+            echo '</div>';
+            echo '</div>';
+          }
+          echo '</div>';
+        } else {
+          echo '<div class="alert alert-warning">No posts found.</div>';
+        }
+      } else {
+        echo '<div class="alert alert-danger">Unable to fetch blog posts at this time.</div>';
+      }
+      ?>
       <br>
       <div>
         <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-5077097159223655" data-ad-slot="7856709026"></ins>

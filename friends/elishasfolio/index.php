@@ -12,7 +12,7 @@
         "Blockchain enthusiast, defi expert, solidity developer, web3 community, project manager and have 3 years experience in building and managing defi related projects.",
         "https://mrepol742.github.io/friends/elishasfolio/"
     );
-    $meta->setImage("https://mrepol742.github.io/images/cover.jpg", "Cover Photo");
+    $meta->setImage("https://avatars.githubusercontent.com/elishasfolio", "Cover Photo");
     $meta->setKeywords("elisha paul okai, elisha okai, elishasfolio");
     ?>
 </head>
@@ -28,7 +28,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="card asd " id="elishasfolio" style="border-radius: 10px;">
                         <div class="card-body">
-                            <img loading="lazy" src="https://elishasfolio.vercel.app/Elitepics.png" class="mx-auto d-block img-fluid circle-png" alt="Elisha Paul Okai" width="150">
+                            <img loading="lazy" src="https://avatars.githubusercontent.com/elishasfolio" class="mx-auto d-block img-fluid circle-png" alt="Elisha Paul Okai" width="150">
                             <h5 class="title mb-1 mt-3 text-capitalize">Elisha Paul Okai</h5>
                             <p class="card-text">Blockchain enthusiast, defi expert, solidity developer, web3
                                 community, project manager and have 3 years experience in building and managing defi

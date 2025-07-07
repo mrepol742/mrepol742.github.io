@@ -12,7 +12,7 @@
         "A passionate web and mobile app developer with over 6 years of experience in programming and the internet.",
         "https://mrepol742.github.io/friends/abass_dev/"
     );
-    $meta->setImage("https://mrepol742.github.io/images/cover.jpg", "Cover Photo");
+    $meta->setImage("https://avatars.githubusercontent.com/abass-dev", "Cover Photo");
     $meta->setKeywords("abass dev, abass_dev");
     ?>
 </head>

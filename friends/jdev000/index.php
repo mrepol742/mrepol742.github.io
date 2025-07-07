@@ -12,7 +12,7 @@
         "A passionate and driven Grade 12 student with a diverse skill set ranging from front-end and back-end development to cybersecurity and 3D design. Starting his tech journey at just 16, he continues to expand his expertise through hands-on projects like his self-built EPD Penta-Copter drone and national-level science fair participation.",
         "https://mrepol742.github.io/friends/jdev000/"
     );
-    $meta->setImage("https://mrepol742.github.io/images/cover.jpg", "Cover Photo");
+    $meta->setImage("https://avatars.githubusercontent.com/jdev000", "Cover Photo");
     $meta->setKeywords("jerome edica, jdev000");
     ?>
 </head>

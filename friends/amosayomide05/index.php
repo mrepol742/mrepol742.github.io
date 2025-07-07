@@ -12,7 +12,7 @@
         "A highly skilled programmer who has a passion for web development.",
         "https://mrepol742.github.io/friends/amosayomide05/"
     );
-    $meta->setImage("https://mrepol742.github.io/images/cover.jpg", "Cover Photo");
+    $meta->setImage("https://avatars.githubusercontent.com/amosayomide05", "Cover Photo");
     $meta->setKeywords("amos ayomide, amosayomide05");
     ?>
 </head>
@@ -28,7 +28,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="card asd " id="amosayomide05" style="border-radius: 10px;">
                         <div class="card-body">
-                            <img loading="lazy" src="https://avatars.githubusercontent.com/u/62471060?v=4" class="mx-auto d-block img-fluid circle-png" alt="Amos Ayomide avatar at Github" width="150">
+                            <img loading="lazy" src="https://avatars.githubusercontent.com/amosayomide05" class="mx-auto d-block img-fluid circle-png" alt="Amos Ayomide avatar at Github" width="150">
                             <h5 class="title mb-1 mt-3 text-capitalize">Amos Ayomide</h5>
                             <p class="card-text">A highly skilled programmer who has a passion for web development. He
                                 has

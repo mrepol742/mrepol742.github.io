@@ -12,7 +12,7 @@
         "Programmer enthusiast, likes solving real world problem and teaching.",
         "https://mrepol742.github.io/friends/19vin70/"
     );
-    $meta->setImage("https://mrepol742.github.io/images/cover.jpg", "Cover Photo");
+    $meta->setImage("https://avatars.githubusercontent.com/19vin70", "Cover Photo");
     $meta->setKeywords("marvin quillo saik, marvin saik, 19vin70");
     ?>
 </head>
@@ -28,7 +28,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="card asd " id="19vin70" style="border-radius: 10px;">
                         <div class="card-body">
-                            <img loading="lazy" src="https://avatars.githubusercontent.com/u/113106676?v=4" class="mx-auto d-block img-fluid circle-png" alt="Marvin Quillo Saik avatar at Github" width="150">
+                            <img loading="lazy" src="https://avatars.githubusercontent.com/19vin70" class="mx-auto d-block img-fluid circle-png" alt="Marvin Quillo Saik avatar at Github" width="150">
                             <h5 class="title mb-1 mt-3 text-capitalize">Marvin Quillo Saik</h5>
                             <p class="card-text">Programmer enthusiast, likes solving real world problem, teaching
                                 and helping upcomers on their activities specifically on programming matters.

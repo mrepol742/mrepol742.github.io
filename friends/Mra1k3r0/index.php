@@ -12,7 +12,7 @@
         "A Software Developer? Backend Developer? Progammer? or a Full Stack Developer? No one knows.",
         "https://mrepol742.github.io/friends/Mra1k3r0/"
     );
-    $meta->setImage("https://mrepol742.github.io/images/cover.jpg", "Cover Photo");
+    $meta->setImage("https://avatars.githubusercontent.com/Mra1k3r0", "Cover Photo");
     $meta->setKeywords("john paul caigas, john caigas, Mra1k3r0");
     ?>
 </head>
@@ -28,7 +28,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="card asd " id="Mra1k3r0" style="border-radius: 10px;">
                         <div class="card-body">
-                            <img loading="lazy" src="https://avatars.githubusercontent.com/u/61144642?v=4" class="mx-auto d-block img-fluid circle-png" alt="John Paul Caigas avatar at Github" width="150">
+                            <img loading="lazy" src="https://avatars.githubusercontent.com/Mra1k3r0" class="mx-auto d-block img-fluid circle-png" alt="John Paul Caigas avatar at Github" width="150">
                             <h5 class="title mb-1 mt-3 text-capitalize">John Paul Caigas</h5>
                             <p class="card-text">A Software Developer? Backend Developer? Progammer? or a Full Stack Developer? No
                                 one knows.

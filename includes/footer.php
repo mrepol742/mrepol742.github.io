@@ -1,8 +1,35 @@
 <footer class="mt-5">
   <div class="container">
     <div class="row footer-row">
-      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
-        <h5>@mrepol742</h5>
+      <div class="col-xl-4 col-lg-4 col-md-7 col-sm-7 col-xs-12">
+        <a href="https://facebook.com/melvinjonesrepol" aria-label="Facebook" target="_blank">
+          <i class="fa-brands fa-facebook px-1"></i>
+        </a>
+        <a href="https://instagram.com/melvinjonesrepol" aria-label="Instagram" target="_blank">
+          <i class="fa-brands fa-instagram px-1"></i>
+        </a>
+        <a href="https://pinterest.com/mrepol742" aria-label="Pinterest" target="_blank">
+          <i class="fa-brands fa-pinterest px-1"></i>
+        </a>
+        <a href="https://twitter.com/mrepol742" aria-label="Twitter" target="_blank">
+          <i class="fa-brands fa-twitter px-1"></i>
+        </a>
+        <a href="https://github.com/mrepol742" aria-label="Github" target="_blank">
+          <i class="fa-brands fa-github px-1"></i>
+        </a>
+        <a href="https://linkedin.com/in/mrepol742" aria-label="LinkedIn" target="_blank">
+          <i class="fa-brands fa-linkedin px-1"></i>
+        </a>
+        <a href="https://youtube.com/@mrepol742" aria-label="Youtube" target="_blank">
+          <i class="fa-brands fa-youtube px-1"></i> </a><br />
+        <p>&copy; <?php echo date("Y"); ?>, Melvin Jones Gallano Repol, All Rights Reserved. <br><br>Other brands or product names are the trademarks of their respective owners.</p>
+        <p class="text-muted">
+          My websites may contain links to other sites and resources provided by third parties. These links are provided for your convenience only. I do not have control over the contents of those sites or resources, and accepts no responsibility for them or for any loss or damage that may arise from your use of them.</p>
+      </div>
+      <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-12">
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-5 col-sm-5 col-xs-12">
+        <h5>Links</h5>
         <ul class="nav flex-column">
           <li class="nav-item">
             <a class="nav-link" href="/">Home</a>
@@ -30,7 +57,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+      <div class="col-xl-2 col-lg-2 col-md-5 col-sm-5 col-xs-12">
         <h5>Software</h5>
         <ul class="nav flex-column">
           <li class="nav-item">
@@ -67,70 +94,6 @@
           </li>
         </ul>
       </div>
-      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
-        <h5>Posts</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link" href="https://mrepol742-blog.vercel.app/build-your-own-freight-management-system/">Build your own FMS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://mrepol742-blog.vercel.app/hello-world/">Hello World - The Genesis</a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://mrepol742-blog.vercel.app/open-source-chatbot-revolutionizing-facebook-messenger/">Project Orion - Open Source Chatbot Revolutionizing Facebook
-              Messenger</a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://mrepol742-blog.vercel.app/webvium-latest-release-version-2-9/">Webvium Latest Release - v2.9 stable</a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://mrepol742-blog.vercel.app/unleashing-the-potential-of-ai/">Unleashing the Potential of AI - Exploring OpenAI's Cutting-Edge
-              Technology</a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://mrepol742-blog.vercel.app/webvium-lightweight-fast-and-secured-web-browser/">Webvium Browser - Lightweight, Fast & Full Featured</a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://mrepol742-blog.vercel.app/building-a-blog-with-vuepress/">Crafting Your Online Presence - Building a Blog with VuePress</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <br />
-    <div class="col-xl-5 col-lg-5 col-md-7 col-sm-7 col-xs-12">
-      <a href="https://facebook.com/melvinjonesrepol" aria-label="Facebook" target="_blank">
-        <i class="fa-brands fa-facebook px-1"></i>
-      </a>
-      <a href="https://instagram.com/melvinjonesrepol" aria-label="Instagram" target="_blank">
-        <i class="fa-brands fa-instagram px-1"></i>
-      </a>
-      <a href="https://pinterest.com/mrepol742" aria-label="Pinterest" target="_blank">
-        <i class="fa-brands fa-pinterest px-1"></i>
-      </a>
-      <a href="https://twitter.com/mrepol742" aria-label="Twitter" target="_blank">
-        <i class="fa-brands fa-twitter px-1"></i>
-      </a>
-      <a href="https://github.com/mrepol742" aria-label="Github" target="_blank">
-        <i class="fa-brands fa-github px-1"></i>
-      </a>
-      <a href="https://linkedin.com/in/mrepol742" aria-label="LinkedIn" target="_blank">
-        <i class="fa-brands fa-linkedin px-1"></i>
-      </a>
-      <a href="https://youtube.com/@mrepol742" aria-label="Youtube" target="_blank">
-        <i class="fa-brands fa-youtube px-1"></i> </a><br />
-      <p>&copy; <?php echo date("Y"); ?>, Melvin Jones Gallano Repol, All Rights Reserved. <br><br>Other brands or product names are the trademarks of their respective owners.</p>
-      <p class="text-muted">
-        My websites may contain links to other sites and resources provided by third parties. These links are provided for your convenience only. I do not have control over the contents of those sites or resources, and accepts no responsibility for them or for any loss or damage that may arise from your use of them.</p>
     </div>
   </div>
 </footer>

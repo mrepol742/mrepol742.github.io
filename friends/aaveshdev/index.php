@@ -12,7 +12,7 @@
         "Renowned software engineer and has been credited for his work on the Dragon Programming Language.",
         "https://mrepol742.github.io/friends/aaveshdev/"
     );
-    $meta->setImage("https://mrepol742.github.io/images/cover.jpg", "Cover Photo");
+    $meta->setImage("https://avatars.githubusercontent.com/aaveshdev", "Cover Photo");
     $meta->setKeywords("aavesh jilani, aaveshdev");
     ?>
 </head>
@@ -28,7 +28,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="card asd " id="aaveshdev" style="border-radius: 10px;">
                         <div class="card-body">
-                            <img loading="lazy" src="https://avatars.githubusercontent.com/u/50949867?v=4" class="mx-auto d-block img-fluid circle-png" alt="Aavesh Jilani avatar at Github" width="150">
+                            <img loading="lazy" src="https://avatars.githubusercontent.com/aaveshdev" class="mx-auto d-block img-fluid circle-png" alt="Aavesh Jilani avatar at Github" width="150">
                             <h5 class="title mb-1 mt-3 text-capitalize">Aavesh Jilani</h5>
                             <p class="card-text">Renowned software engineer and has been credited for his work on the
                                 Dragon Programming Language, Suasive and Citrine Programming Language. He is also a
