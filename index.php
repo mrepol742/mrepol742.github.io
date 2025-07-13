@@ -105,7 +105,7 @@ https://github.com/mrepol742/mrepol742.github.io
       <div class="container mt-5">
         <h2 class="text-center mb-4">Why Work with Me?</h2>
         <div class="row g-4 justify-content-center">
-          <div class="col-md-4">
+          <div class="col-md-5 col-lg-4">
             <div class="card h-100 border-0 text-center feature-card" data-aos="fade-up">
               <div class="card-body">
                 <i class="fa-solid fa-hand-holding-dollar fa-3x mb-3 text-primary"></i>
@@ -114,7 +114,7 @@ https://github.com/mrepol742/mrepol742.github.io
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-5 col-lg-4">
             <div class="card h-100 border-0 text-center feature-card" data-aos="fade-up">
               <div class="card-body">
                 <i class="fa-solid fa-money-check-dollar fa-3x mb-3 text-success"></i>
@@ -123,7 +123,7 @@ https://github.com/mrepol742/mrepol742.github.io
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-5 col-lg-4">
             <div class="card h-100 border-0 text-center feature-card" data-aos="fade-up">
               <div class="card-body">
                 <i class="fa-solid fa-comments fa-3x mb-3 text-info"></i>
@@ -132,7 +132,7 @@ https://github.com/mrepol742/mrepol742.github.io
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-5 col-lg-4">
             <div class="card h-100 border-0 text-center feature-card" data-aos="fade-up">
               <div class="card-body">
                 <i class="fa-solid fa-sliders fa-3x mb-3 text-warning"></i>
@@ -141,7 +141,7 @@ https://github.com/mrepol742/mrepol742.github.io
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-5 col-lg-4">
             <div class="card h-100 border-0 text-center feature-card" data-aos="fade-up">
               <div class="card-body">
                 <i class="fa-solid fa-gift fa-3x mb-3 text-danger"></i>
@@ -168,7 +168,7 @@ https://github.com/mrepol742/mrepol742.github.io
       <h2 class="text-center mt-5" id="projects">Projects</h2>
       <br>
       <div class="row">
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
             <img loading="lazy" src="/assets/images/devops-capstone-project.png" class="rounded d-block img-fluid" alt="Devops Capstone Project">
             <div class="card-body">
@@ -182,20 +182,33 @@ https://github.com/mrepol742/mrepol742.github.io
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4" id="projectshift">
+        <div class="col-sm-6 col-md-6 col-lg-4" id="projectpos">
+          <div class="card " data-aos="fade-up">
+            <img loading="lazy" src="/assets/images/banner.jpg" class="rounded mx-auto d-block img-fluid" alt="Project POS">
+            <div class="card-body">
+              <h5 class="card-title">Project POS</h5>
+              <p class="card-text">A lightweight, web-based and full-featured point of sale system; performance and reliability are a must.</p>
+              <p>
+                Technologies: <br>
+                react · bootstrap · git · laravel · github</p>
+              <a class="btn mb-3" href="https://github.com/mrepol742/project-pos" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-4" id="projectshift">
           <div class="card " data-aos="fade-up">
             <img loading="lazy" src="/assets/images/axleshift.png" class="rounded mx-auto d-block img-fluid" alt="Axleshift Core 1 - Capstone Project">
             <div class="card-body">
               <h5 class="card-title">Axleshift Core 1 - Capstone Project</h5>
-              <p class="card-text">A freight management services. Your shipment Our Platform. Connecting everyone with smarter, faster, and more secure shipping. From first mile to last, we move your world forward.<br> Providing Businesses with cutting-edge platform.</p>
+              <p class="card-text">A freight management services. Providing Businesses with cutting-edge platform.</p>
               <p>
                 Technologies: <br>
-                mern · mongodb atlas · bootstrap · git · gitguardian · sentry · gooogle analytics · google firebase firestore · google recaptcha · amazon aws s3 · github · docker · pm2 · terraform · xendit</p>
+                mern · bootstrap · git · github</p>
               <a class="btn mb-3" href="https://github.com/axleshift/core1" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4" id="projectwebvium">
+        <div class="col-sm-6 col-md-6 col-lg-4" id="projectwebvium">
           <div class="card " data-aos="fade-up">
             <video preload="none" class="rounded mx-auto d-block img-fluid" controls loop poster="/assets/images/webvium22.png">
               <source src="/assets/videos/Webvium%20-%20Lightweight,%20Fast,%20Material%20and%20Full-Featured%20Android%20Web%20Browser.mp4" type="video/mp4">
@@ -213,7 +226,7 @@ https://github.com/mrepol742/mrepol742.github.io
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
             <img loading="lazy" src="/assets/images/blog.png" class="rounded mx-auto d-block img-fluid" alt="mrepol742 @ blog" width="550">
             <div class="card-body">
@@ -229,7 +242,7 @@ https://github.com/mrepol742/mrepol742.github.io
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
             <img loading="lazy" src="/assets/images/myportfolio.png" class="rounded mx-auto d-block img-fluid" alt="Melvin Jones' Portfolio">
             <div class="card-body">
@@ -244,7 +257,7 @@ https://github.com/mrepol742/mrepol742.github.io
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
             <img loading="lazy" src="/assets/images/secondchance-backend-nodejs-capstone.png" class="rounded d-block img-fluid" alt="Second Chance Backend Nodejs Capstone">
             <div class="card-body">
@@ -258,7 +271,7 @@ https://github.com/mrepol742/mrepol742.github.io
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
             <video preload="none" class="rounded mx-auto d-block img-fluid" controls loop poster="/assets/images/webviumvpn.png">
               <source src="/assets/videos/Webvium%20VPN%20-%20Anonymous,%20Secured,%20Private%20and%20the%20fastest%20Virtual%20Private%20Network.mp4" type="video/mp4">
@@ -276,7 +289,7 @@ https://github.com/mrepol742/mrepol742.github.io
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
             <img loading="lazy" src="/assets/images/orion-banner.png" class="rounded mx-auto d-block img-fluid" alt="Orion (Chatbot)" width="550">
             <div class="card-body">
@@ -294,7 +307,7 @@ https://github.com/mrepol742/mrepol742.github.io
           </div>
         </div>
 
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
             <img loading="lazy" src="/assets/images/online-catering-system.png" class="rounded mx-auto d-block img-fluid" alt="Online Catering System" width="550">
             <div class="card-body">
@@ -308,7 +321,7 @@ https://github.com/mrepol742/mrepol742.github.io
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
             <img loading="lazy" src="https://raw.githubusercontent.com/mrepol742/Room-Rental-System/master/demo.png" class="rounded mx-auto d-block img-fluid" alt="Room Rental System" width="550">
             <div class="card-body">
@@ -322,7 +335,7 @@ https://github.com/mrepol742/mrepol742.github.io
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
             <img loading="lazy" src="/assets/images/lgu-ms.png" class="rounded mx-auto d-block img-fluid" alt="LGU Management System" width="550">
             <div class="card-body">
@@ -342,7 +355,7 @@ https://github.com/mrepol742/mrepol742.github.io
       <h2 class="text-center mt-5" id="skills">Skills</h2>
       <br>
       <div class="row">
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up" onclick="readMore('se')">
             <div class="card-body">
               <!-- Software engineer icons created by Freepik - Flaticon -->
@@ -359,7 +372,7 @@ https://github.com/mrepol742/mrepol742.github.io
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up" onclick="readMore('wd')">
             <div class="card-body">
               <!-- Software development icons created by HAJICON - Flaticon -->
@@ -375,7 +388,7 @@ https://github.com/mrepol742/mrepol742.github.io
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up" onclick="readMore('seo')">
             <div class="card-body">
               <!-- Seo icons created by Freepik - Flaticon -->
@@ -392,7 +405,7 @@ https://github.com/mrepol742/mrepol742.github.io
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up" onclick="readMore('dataa')">
             <div class="card-body">
               <!-- Big data icons created by xnimrodx - Flaticon -->
@@ -406,7 +419,7 @@ https://github.com/mrepol742/mrepol742.github.io
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up" onclick="readMore('ar')">
             <div class="card-body">
               <!-- Motherboard icons created by Rmpp - Flaticon -->
@@ -424,7 +437,7 @@ https://github.com/mrepol742/mrepol742.github.io
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up" onclick="readMore('chs')">
             <div class="card-body">
               <!-- Troubleshooting icons created by Freepik - Flaticon -->
@@ -945,49 +958,49 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
       </div>
     </div>
-      <br>
-      <div>
-        <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-5077097159223655" data-ad-slot="7856709026"></ins>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-      <br>
-      <h2 class="text-center mt-5" id="posts">Posts</h2>
-      <?php
-      // Fetch the JSON feed
-      $feedUrl = 'https://mrepol742-blog.vercel.app/feed.json';
-      $feedJson = @file_get_contents($feedUrl);
+    <br>
+    <div>
+      <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-5077097159223655" data-ad-slot="7856709026"></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+    <br>
+    <h2 class="text-center mt-5" id="posts">Posts</h2>
+    <?php
+    // Fetch the JSON feed
+    $feedUrl = 'https://mrepol742-blog.vercel.app/feed.json';
+    $feedJson = @file_get_contents($feedUrl);
 
-      if ($feedJson !== false) {
-        $feed = json_decode($feedJson, true);
-        if (isset($feed['items']) && is_array($feed['items'])) {
-          echo '<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">';
-          foreach ($feed['items'] as $item) {
-            $title = htmlspecialchars($item['title'] ?? '');
-            $summary = htmlspecialchars($item['summary'] ?? '');
-            $url = htmlspecialchars($item['url'] ?? '');
-            $date = isset($item['date_modified']) ? date('F j, Y', strtotime($item['date_modified'])) : '';
-            echo '<div class="col">';
-            echo '<div class="card h-100">';
-            echo '<div class="card-body">';
-            echo '<h5 class="card-title"><a href="' . $url . '" target="_blank">' . $title . '</a></h5>';
-            echo '<p class="card-text">' . $summary . '</p>';
-            if ($date) {
-              echo '<p class="card-text"><small class="text-muted">' . $date . '</small></p>';
-            }
-            echo '</div>';
-            echo '</div>';
-            echo '</div>';
+    if ($feedJson !== false) {
+      $feed = json_decode($feedJson, true);
+      if (isset($feed['items']) && is_array($feed['items'])) {
+        echo '<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">';
+        foreach ($feed['items'] as $item) {
+          $title = htmlspecialchars($item['title'] ?? '');
+          $summary = htmlspecialchars($item['summary'] ?? '');
+          $url = htmlspecialchars($item['url'] ?? '');
+          $date = isset($item['date_modified']) ? date('F j, Y', strtotime($item['date_modified'])) : '';
+          echo '<div class="col">';
+          echo '<div class="card h-100">';
+          echo '<div class="card-body">';
+          echo '<h5 class="card-title"><a href="' . $url . '" target="_blank">' . $title . '</a></h5>';
+          echo '<p class="card-text">' . $summary . '</p>';
+          if ($date) {
+            echo '<p class="card-text"><small class="text-muted">' . $date . '</small></p>';
           }
           echo '</div>';
-        } else {
-          echo '<div class="alert alert-warning">No posts found.</div>';
+          echo '</div>';
+          echo '</div>';
         }
+        echo '</div>';
       } else {
-        echo '<div class="alert alert-danger">Unable to fetch blog posts at this time.</div>';
+        echo '<div class="alert alert-warning">No posts found.</div>';
       }
-      ?>
+    } else {
+      echo '<div class="alert alert-danger">Unable to fetch blog posts at this time.</div>';
+    }
+    ?>
     <br>
     <div>
       <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-5077097159223655" data-ad-slot="7856709026"></ins>
