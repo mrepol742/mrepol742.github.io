@@ -172,13 +172,30 @@ https://github.com/mrepol742/mrepol742.github.io
           <div class="card " data-aos="fade-up">
             <img loading="lazy" src="/assets/images/devops-capstone-project.png" class="rounded d-block img-fluid" alt="Devops Capstone Project">
             <div class="card-body">
+              <h5 class="card-title">Ulisha Store</h5>
+              <p class="card-text">A premier destination for quality fashion, accessories, and electronics. Bringing you the best products at competitive prices.</p>
+              <p>
+                Technologies: <br>
+                react · tailwind · supabase
+              </p>
+              <a class="btn" href="https://ulishastore.com" target="_blank"><i class="fa-solid fa-view"></i>&nbsp;&nbsp;<b>View</b></a><br>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-4">
+          <div class="card " data-aos="fade-up">
+            <img loading="lazy" src="/assets/images/devops-capstone-project.png" class="rounded d-block img-fluid" alt="Devops Capstone Project">
+            <div class="card-body">
               <h5 class="card-title">Devops Capstone Project</h5>
               <p class="card-text">Completed as part of the IBM Devops Capstone Project on Coursera.</p>
               <p>
                 Technologies: <br>
-                python · docker · kubernetes · git
+                python · docker · kubernetes
               </p>
               <a class="btn" href="https://github.com/mrepol742/secondchance-backend-nodejs-capstone" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
+            </div>
+            <div class="card-footer border-0 rounded-2 text-center py-2" style="font-size: 0.80em; background: #f8f9fa;">
+              <span class="text-success"><i class="fa-solid fa-circle-check"></i> Completed</span>
             </div>
           </div>
         </div>
@@ -190,7 +207,7 @@ https://github.com/mrepol742/mrepol742.github.io
               <p class="card-text">A lightweight, web-based and full-featured point of sale system; performance and reliability are a must.</p>
               <p>
                 Technologies: <br>
-                react · bootstrap · git · laravel · github</p>
+                react · bootstrap · laravel</p>
               <a class="btn mb-3" href="https://github.com/mrepol742/project-pos" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
             </div>
           </div>
@@ -203,26 +220,40 @@ https://github.com/mrepol742/mrepol742.github.io
               <p class="card-text">A freight management services. Providing Businesses with cutting-edge platform.</p>
               <p>
                 Technologies: <br>
-                mern · bootstrap · git · github</p>
+                mern · bootstrap</p>
               <a class="btn mb-3" href="https://github.com/axleshift/core1" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-6 col-lg-4" id="projectwebvium">
+        <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
-            <video preload="none" class="rounded mx-auto d-block img-fluid" controls loop poster="/assets/images/webvium22.png">
-              <source src="/assets/videos/Webvium%20-%20Lightweight,%20Fast,%20Material%20and%20Full-Featured%20Android%20Web%20Browser.mp4" type="video/mp4">
-              Your browser does not support the video tag. Click play to watch it directly <a href="/assets/videos/Webvium%20-%20Lightweight,%20Fast,%20Material%20and%20Full-Featured%20Android%20Web%20Browser.mp4">Play</a>.
-            </video>
+            <img loading="lazy" src="/assets/images/secondchance-backend-nodejs-capstone.png" class="rounded d-block img-fluid" alt="Second Chance Backend Nodejs Capstone">
             <div class="card-body">
-              <h5 class="card-title">Webvium Browser</h5>
-              <p class="card-text">A Project that aims to be the lightest, fastest, secured, private and full-featured
-                android web browser. Programmed and design from Scratch.</p>
+              <h5 class="card-title">Second Chance Backend Nodejs Capstone</h5>
+              <p class="card-text">Completed as part of the IBM JavaScript Back-End Capstone Project on Coursera.</p>
               <p>
                 Technologies: <br>
-                java · xml · gradle · git · sqlite
+                javascript
               </p>
-              <a class="btn" href="/webvium/"><i class="fa-solid fa-download"></i>&nbsp;&nbsp;<b>Download</b></a><br>
+              <a class="btn" href="https://github.com/mrepol742/secondchance-backend-nodejs-capstone" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
+            </div>
+            <div class="card-footer border-0 rounded-2 text-center py-2" style="font-size: 0.80em; background: #f8f9fa;">
+              <span class="text-success"><i class="fa-solid fa-circle-check"></i> Completed</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-4">
+          <div class="card " data-aos="fade-up">
+            <img loading="lazy" src="/assets/images/lgu-ms.png" class="rounded mx-auto d-block img-fluid" alt="LGU Management System" width="550">
+            <div class="card-body">
+              <h5 class="card-title">LGU Management System</h5>
+              <p class="card-text">A Project for Project Management class.
+              </p>
+              <p>
+                Technologies: <br>
+                php · javascript · bootstrap · mysql
+              </p>
+              <a class="btn" href="https://github.com/lgu-ms/lgu-ms" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
             </div>
           </div>
         </div>
@@ -235,7 +266,7 @@ https://github.com/mrepol742/mrepol742.github.io
               </p>
               <p>
                 Technologies: <br>
-                vuepress
+                vuepress · copilot
               </p>
               <a class="btn" href="https://github.com/mrepol742/blog" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a>
               <a class="btn" href="https://mrepol742-blog.vercel.app" target="_blank"><i class="fa-solid fa-blog"></i>&nbsp;&nbsp;<b>Blog</b></a><br>
@@ -244,30 +275,48 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
         <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
-            <img loading="lazy" src="/assets/images/myportfolio.png" class="rounded mx-auto d-block img-fluid" alt="Melvin Jones' Portfolio">
+            <img loading="lazy" src="/assets/images/orion-banner.png" class="rounded mx-auto d-block img-fluid" alt="Orion (Chatbot)" width="550">
             <div class="card-body">
-              <h5 class="card-title">mrepol742.github.io</h5>
-              <p class="card-text">This is where i showcase my projects, landing pages, tools and other awesome
-                things.</p>
+              <h5 class="card-title">Orion Chatbot</h5>
+              <p class="card-text">
+                Meet the lightning-fast Facebook Messenger chatbot, seamlessly managing multiple accounts with access to
+                271 commands.</p>
               <p>
                 Technologies: <br>
-                html · css · bootstrap · javascript · seo · php composer · git
+                node.js · openai
               </p>
-              <a class="btn" href="https://github.com/mrepol742/mrepol742.github.io" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
+              <a class="btn" href="/project-orion/"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>View</b></a>
+            </div>
+            <div class="card-footer border-0 rounded-2 text-center py-2" style="font-size: 0.80em; background: #f8f9fa;">
+              <span class="text-danger"><i class="fa-solid fa-triangle-exclamation"></i> Discontinued</span>
             </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
-            <img loading="lazy" src="/assets/images/secondchance-backend-nodejs-capstone.png" class="rounded d-block img-fluid" alt="Second Chance Backend Nodejs Capstone">
+            <img loading="lazy" src="/assets/images/online-catering-system.png" class="rounded mx-auto d-block img-fluid" alt="Online Catering System" width="550">
             <div class="card-body">
-              <h5 class="card-title">Second Chance Backend Nodejs Capstone</h5>
-              <p class="card-text">Completed as part of the IBM JavaScript Back-End Capstone Project on Coursera.</p>
+              <h5 class="card-title">Online Catering System</h5>
+              <p class="card-text">A Project for HCI Subject.</p>
               <p>
                 Technologies: <br>
-                javascript · git
+                php · javascript · bootstrap · mysql
               </p>
-              <a class="btn" href="https://github.com/mrepol742/secondchance-backend-nodejs-capstone" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
+              <a class="btn" href="https://github.com/mrepol742/Online-Catering-System" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-4">
+          <div class="card " data-aos="fade-up">
+            <img loading="lazy" src="https://raw.githubusercontent.com/mrepol742/Room-Rental-System/master/demo.png" class="rounded mx-auto d-block img-fluid" alt="Room Rental System" width="550">
+            <div class="card-body">
+              <h5 class="card-title">Room Rental System</h5>
+              <p class="card-text">A Project for Web Dev Subject.</p>
+              <p>
+                Technologies: <br>
+                php · javascript · bootstrap · mysql
+              </p>
+              <a class="btn" href="https://github.com/mrepol742/Room-Rental-System" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
             </div>
           </div>
         </div>
@@ -283,70 +332,45 @@ https://github.com/mrepol742/mrepol742.github.io
                 simplicity, security and privacy.</p>
               <p>
                 Technologies: <br>
-                java · xml · openvpn
+                java · openvpn
               </p>
               <a class="btn" href="/webviumvpn/"><i class="fa-solid fa-download"></i>&nbsp;&nbsp;<b>Download</b></a><br>
             </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-4">
-          <div class="card " data-aos="fade-up">
-            <img loading="lazy" src="/assets/images/orion-banner.png" class="rounded mx-auto d-block img-fluid" alt="Orion (Chatbot)" width="550">
-            <div class="card-body">
-              <h5 class="card-title">Orion Chatbot</h5>
-              <p class="card-text">
-                Meet the lightning-fast Facebook Messenger chatbot, seamlessly managing multiple accounts with access to
-                271 commands. With distinct privileges for admins, owners, roots, and users, it's the lightweight solution
-                for efficient and personalized interactions.</p>
-              <p>
-                Technologies: <br>
-                node.js · web scraping · openai · json · npm · git
-              </p>
-              <a class="btn" href="/project-orion/"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>View</b></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-md-6 col-lg-4">
-          <div class="card " data-aos="fade-up">
-            <img loading="lazy" src="/assets/images/online-catering-system.png" class="rounded mx-auto d-block img-fluid" alt="Online Catering System" width="550">
-            <div class="card-body">
-              <h5 class="card-title">Online Catering System</h5>
-              <p class="card-text">A Project for HCI Subject.</p>
-              <p>
-                Technologies: <br>
-                php · html · css · javascript · bootstrap · mysql · git
-              </p>
-              <a class="btn" href="https://github.com/mrepol742/Online-Catering-System" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
+            <div class="card-footer border-0 rounded-2 text-center py-2" style="font-size: 0.80em; background: #f8f9fa;">
+              <span class="text-danger"><i class="fa-solid fa-triangle-exclamation"></i> Discontinued</span>
             </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
-            <img loading="lazy" src="https://raw.githubusercontent.com/mrepol742/Room-Rental-System/master/demo.png" class="rounded mx-auto d-block img-fluid" alt="Room Rental System" width="550">
+            <img loading="lazy" src="/assets/images/myportfolio.png" class="rounded mx-auto d-block img-fluid" alt="Melvin Jones' Portfolio">
             <div class="card-body">
-              <h5 class="card-title">Room Rental System</h5>
-              <p class="card-text">A Project for Web Dev Subject.</p>
+              <h5 class="card-title">mrepol742.github.io</h5>
+              <p class="card-text">This is where i showcase my projects, landing pages, tools and other awesome
+                things.</p>
               <p>
                 Technologies: <br>
-                php · html · css · javascript · bootstrap · mysql · git
+                bootstrap · javascript · php
               </p>
-              <a class="btn" href="https://github.com/mrepol742/Room-Rental-System" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
+              <a class="btn" href="https://github.com/mrepol742/mrepol742.github.io" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="col-sm-6 col-md-6 col-lg-4" id="projectwebvium">
           <div class="card " data-aos="fade-up">
-            <img loading="lazy" src="/assets/images/lgu-ms.png" class="rounded mx-auto d-block img-fluid" alt="LGU Management System" width="550">
+            <video preload="none" class="rounded mx-auto d-block img-fluid" controls loop poster="/assets/images/webvium22.png">
+              <source src="/assets/videos/Webvium%20-%20Lightweight,%20Fast,%20Material%20and%20Full-Featured%20Android%20Web%20Browser.mp4" type="video/mp4">
+              Your browser does not support the video tag. Click play to watch it directly <a href="/assets/videos/Webvium%20-%20Lightweight,%20Fast,%20Material%20and%20Full-Featured%20Android%20Web%20Browser.mp4">Play</a>.
+            </video>
             <div class="card-body">
-              <h5 class="card-title">LGU Management System</h5>
-              <p class="card-text">A Project for Project Management class.
-              </p>
+              <h5 class="card-title">Webvium Browser</h5>
+              <p class="card-text">A Project that aims to be the lightest, fastest, secured, private and full-featured
+                android web browser. Programmed and design from Scratch.</p>
               <p>
                 Technologies: <br>
-                php · html · css · javascript · bootstrap · mysql · git · php composer
+                java · sqlite
               </p>
-              <a class="btn" href="https://github.com/lgu-ms/lgu-ms" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
+              <a class="btn" href="/webvium/"><i class="fa-solid fa-download"></i>&nbsp;&nbsp;<b>Download</b></a><br>
             </div>
           </div>
         </div>
@@ -805,8 +829,8 @@ https://github.com/mrepol742/mrepol742.github.io
               <div class="card-body text-center">
                 <a href="/friends/elishasfolio/">
                   <img loading="lazy" src="https://avatars.githubusercontent.com/elishasfolio" class="mx-auto d-block img-fluid circle-png" alt="Elisha Paul Okai" width="100">
-                  <h4 class="card-title mt-2 no-wrap">Elisha Okai</h4>
-                  <p class="card-text">Defi Expert</p>
+                  <h4 class="card-title mt-2 no-wrap">Elisha Paul Okai</h4>
+                  <p class="card-text">Web Developer</p>
                 </a>
               </div>
             </div>

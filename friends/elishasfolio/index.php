@@ -30,9 +30,7 @@
                         <div class="card-body">
                             <img loading="lazy" src="https://avatars.githubusercontent.com/elishasfolio" class="mx-auto d-block img-fluid circle-png" alt="Elisha Paul Okai" width="150">
                             <h5 class="title mb-1 mt-3 text-capitalize">Elisha Paul Okai</h5>
-                            <p class="card-text">Blockchain enthusiast, defi expert, solidity developer, web3
-                                community, project manager and have 3 years experience in building and managing defi
-                                related projects.
+                            <p class="card-text">A Web Developer, Solidity developer, Web3 project/community manager, Business dev manager.
                             </p>
                             <p class="card-text"><small class="text-muted">@elishasfolio</small></p>
                             <a href="https://elishasfolio.vercel.app" aria-label="Website" style="padding-left: 5px; padding-right: 5px;" target="_blank">
