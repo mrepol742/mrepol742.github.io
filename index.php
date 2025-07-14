@@ -187,7 +187,7 @@ https://github.com/mrepol742/mrepol742.github.io
             <img loading="lazy" src="/assets/images/banner.jpg" class="rounded mx-auto d-block img-fluid" alt="Project POS">
             <div class="card-body">
               <h5 class="card-title">Project POS</h5>
-              <p class="card-text">A lightweight, web-based and full-featured point of sale system; performance and reliability are a must.</p>
+              <p class="card-text">A lightweight, web-based and offline-capable POS system built for flawless performance, supporting multi-department roles and full functionality.</p>
               <p>
                 Technologies: <br>
                 react · bootstrap · git · laravel · github</p>
