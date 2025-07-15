@@ -259,25 +259,24 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
         <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
-            <img loading="lazy" src="/assets/images/blog.png" class="rounded mx-auto d-block img-fluid" alt="mrepol742 @ blog" width="550">
+            <img loading="lazy" src="/assets/images/project-deep.png" class="rounded mx-auto d-block img-fluid" alt="Project Deep" width="550">
             <div class="card-body">
-              <h5 class="card-title">mrepol742 @ blog</h5>
-              <p class="card-text">
-              </p>
+              <h5 class="card-title">Project Deep</h5>
+              <p class="card-text">A open-source collaboration! If you're eager to share your insights, tips, or experiences with a broader audience, contributing to Deep Repository is a fantastic opportunity.</p>
               <p>
                 Technologies: <br>
                 vuepress · copilot
               </p>
-              <a class="btn" href="https://github.com/mrepol742/blog" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a>
-              <a class="btn" href="https://mrepol742-blog.vercel.app" target="_blank"><i class="fa-solid fa-blog"></i>&nbsp;&nbsp;<b>Blog</b></a><br>
+              <a class="btn" href="https://github.com/mrepol742/project-deep" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a>
+              <a class="btn" href="https://projectdeep.vercel.app" target="_blank"><i class="fa-solid fa-blog"></i>&nbsp;&nbsp;<b>View</b></a><br>
             </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
-            <img loading="lazy" src="/assets/images/orion-banner.png" class="rounded mx-auto d-block img-fluid" alt="Orion (Chatbot)" width="550">
+            <img loading="lazy" src="/assets/images/orion-banner.png" class="rounded mx-auto d-block img-fluid" alt="Project Orion" width="550">
             <div class="card-body">
-              <h5 class="card-title">Orion Chatbot</h5>
+              <h5 class="card-title">Project Orion</h5>
               <p class="card-text">
                 Meet the lightning-fast Facebook Messenger chatbot, seamlessly managing multiple accounts with access to
                 271 commands.</p>
@@ -363,7 +362,7 @@ https://github.com/mrepol742/mrepol742.github.io
               Your browser does not support the video tag. Click play to watch it directly <a href="/assets/videos/Webvium%20-%20Lightweight,%20Fast,%20Material%20and%20Full-Featured%20Android%20Web%20Browser.mp4">Play</a>.
             </video>
             <div class="card-body">
-              <h5 class="card-title">Webvium Browser</h5>
+              <h5 class="card-title">Project Webvium</h5>
               <p class="card-text">A Project that aims to be the lightest, fastest, secured, private and full-featured
                 android web browser. Programmed and design from Scratch.</p>
               <p>
@@ -983,17 +982,10 @@ https://github.com/mrepol742/mrepol742.github.io
       </div>
     </div>
     <br>
-    <div>
-      <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-5077097159223655" data-ad-slot="7856709026"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-    </div>
-    <br>
-    <h2 class="text-center mt-5" id="posts">Posts</h2>
+    <h2 class="text-center mt-5" id="posts">Deep</h2>
     <?php
     // Fetch the JSON feed
-    $feedUrl = 'https://mrepol742-blog.vercel.app/feed.json';
+    $feedUrl = 'https://projectdeep.vercel.app/feed.json';
     $feedJson = @file_get_contents($feedUrl);
 
     if ($feedJson !== false) {
@@ -1019,19 +1011,12 @@ https://github.com/mrepol742/mrepol742.github.io
         }
         echo '</div>';
       } else {
-        echo '<div class="alert alert-warning">No posts found.</div>';
+        echo '<div class="alert alert-warning">No Deep found.</div>';
       }
     } else {
-      echo '<div class="alert alert-danger">Unable to fetch blog posts at this time.</div>';
+      echo '<div class="alert alert-danger">Unable to fetch Deep at this time.</div>';
     }
     ?>
-    <br>
-    <div>
-      <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-5077097159223655" data-ad-slot="7856709026"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-    </div>
     <br>
     <div class="card mb-5">
       <div class="card-body">
