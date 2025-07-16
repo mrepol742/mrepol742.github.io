@@ -18,28 +18,29 @@
 {
     function setTitle($title, $description, $url)
     {
-        echo "<title>$title</title>";
-        echo '<meta name="description" content="' . $description . '">';
-        echo '<meta property="og:title" content="' . $title . '">';
-        echo '<meta name="twitter:title" content="' . $title . '">';
-        echo '<meta property="og:description" content="' . $description . '">';
-        echo '<meta name="twitter:description" content="' . $description . '">';
-        echo '<meta property="og:url" content="' . $url . '">';
+        echo "\n\n<title>$title</title>\n";
+        echo '<meta name="description" content="' . $description . '">' . "\n";
+        echo '<meta property="og:title" content="' . $title . '">' . "\n";
+        echo '<meta name="twitter:title" content="' . $title . '">' . "\n";
+        echo '<meta property="og:description" content="' . $description . '">' . "\n";
+        echo '<meta name="twitter:description" content="' . $description . '">' . "\n";
+        echo '<meta property="og:url" content="' . $url . '">' . "\n";
     }
 
     function setImage($loc, $alt)
     {
-        echo '<meta property="og:image:alt" content=' . $alt . '">';
-        echo '<meta name="twitter:image:alt" content="' . $alt . '">';
-        echo '<meta property="og:image" content="' . $loc . '">';
-        echo '<meta name="twitter:image:src" content="' . $loc . '" >';
+        echo '<meta property="og:image:alt" content="' . $alt . '">' . "\n";
+        echo '<meta name="twitter:image:alt" content="' . $alt . '">' . "\n";
+        echo '<meta property="og:image" content="' . $loc . '">' . "\n";
+        echo '<meta name="twitter:image:src" content="' . $loc . '" >' . "\n";
     }
 
     function setKeywords($keywords)
     {
-        echo '<meta name="keywords" content="' . $keywords . '">';
+        echo '<meta name="keywords" content="' . $keywords . '">' . "\n";
     }
 } ?>
+
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Melvin Jones Gallano Repol - Software Engineer">
 <meta name="twitter:site" content="@mrepol742" />
@@ -74,4 +75,6 @@
 <link rel="apple-touch-icon" href="/favicon.png">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5077097159223655" crossorigin="anonymous"></script>
+<?php if (!isset($disableAds) && !$disableAds) {
+    echo '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5077097159223655" crossorigin="anonymous"></script>';
+} ?>

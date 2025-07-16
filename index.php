@@ -170,7 +170,21 @@ https://github.com/mrepol742/mrepol742.github.io
       <div class="row">
         <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
-            <img loading="lazy" src="/assets/images/devops-capstone-project.png" class="rounded d-block img-fluid" alt="Devops Capstone Project">
+            <img loading="lazy" src="https://opengraph.githubassets.com/1/mrepol742/project-canis" class="rounded d-block img-fluid" alt="Project Canis">
+            <div class="card-body">
+              <h5 class="card-title">Project Canis</h5>
+              <p class="card-text">Canis Major and the constellation Canis Minor, the “lesser dog,” are widely regarded as two hunting hounds that follow Orion, the great hunter of ancient Greek legends.</p>
+              <p>
+                Technologies: <br>
+                typescript · whatsapp
+              </p>
+              <a class="btn" href="https://github.com/mrepol742/project-canis" target="_blank"><i class="fa-solid fa-view"></i>&nbsp;&nbsp;<b>View</b></a><br>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-4">
+          <div class="card " data-aos="fade-up">
+            <img loading="lazy" src="https://opengraph.githubassets.com/1/Elitexv/Ulisha-store" class="rounded d-block img-fluid" alt="Ulisha Store">
             <div class="card-body">
               <h5 class="card-title">Ulisha Store</h5>
               <p class="card-text">A premier destination for quality fashion, accessories, and electronics. Bringing you the best products at competitive prices.</p>
@@ -184,7 +198,7 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
         <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
-            <img loading="lazy" src="/assets/images/devops-capstone-project.png" class="rounded d-block img-fluid" alt="Devops Capstone Project">
+            <img loading="lazy" src="https://opengraph.githubassets.com/1/mrepol742/devops-capstone-project" class="rounded d-block img-fluid" alt="Devops Capstone Project">
             <div class="card-body">
               <h5 class="card-title">Devops Capstone Project</h5>
               <p class="card-text">Completed as part of the IBM Devops Capstone Project on Coursera.</p>
@@ -192,7 +206,7 @@ https://github.com/mrepol742/mrepol742.github.io
                 Technologies: <br>
                 python · docker · kubernetes
               </p>
-              <a class="btn" href="https://github.com/mrepol742/secondchance-backend-nodejs-capstone" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
+              <a class="btn" href="https://github.com/mrepol742/devops-capstone-project" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a><br>
             </div>
             <div class="card-footer border-0 rounded-2 text-center py-2" style="font-size: 0.80em; background: #f8f9fa;">
               <span class="text-success"><i class="fa-solid fa-circle-check"></i> Completed</span>
@@ -227,7 +241,7 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
         <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
-            <img loading="lazy" src="/assets/images/secondchance-backend-nodejs-capstone.png" class="rounded d-block img-fluid" alt="Second Chance Backend Nodejs Capstone">
+            <img loading="lazy" src="https://opengraph.githubassets.com/1/mrepol742/secondchance-backend-nodejs-capstone" class="rounded d-block img-fluid" alt="Second Chance Backend Nodejs Capstone">
             <div class="card-body">
               <h5 class="card-title">Second Chance Backend Nodejs Capstone</h5>
               <p class="card-text">Completed as part of the IBM JavaScript Back-End Capstone Project on Coursera.</p>
@@ -282,7 +296,7 @@ https://github.com/mrepol742/mrepol742.github.io
                 271 commands.</p>
               <p>
                 Technologies: <br>
-                node.js · openai
+                node.js · openai · facebook
               </p>
               <a class="btn" href="/project-orion/"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>View</b></a>
             </div>

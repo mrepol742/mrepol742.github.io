@@ -277,7 +277,7 @@ setInterval(function() {
 
 function s222(q) {
 	$(document).ready(function() {
-		$('title').text(q + " | Webvium Search");
+		$('title').text(q + " | Search");
 		window.history.replaceState(null, null, "?query=" + q);
 	})
 	$.ajax({
