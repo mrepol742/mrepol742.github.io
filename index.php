@@ -173,10 +173,10 @@ https://github.com/mrepol742/mrepol742.github.io
             <img loading="lazy" src="https://opengraph.githubassets.com/1/mrepol742/project-canis" class="rounded d-block img-fluid" alt="Project Canis">
             <div class="card-body">
               <h5 class="card-title">Project Canis</h5>
-              <p class="card-text">Canis Major and the constellation Canis Minor, the “lesser dog,” are widely regarded as two hunting hounds that follow Orion, the great hunter of ancient Greek legends.</p>
+              <p class="card-text">A scalable, modular WhatsApp chatbot built in TypeScript. It leverages modern best practices, lean architecture, Prisma ORM, Dockerization, and environment-based configuration to deliver a robust, flexible successor to Project Orion.</p>
               <p>
                 Technologies: <br>
-                typescript · whatsapp
+                typescript · prisma · whatsapp
               </p>
               <a class="btn" href="https://github.com/mrepol742/project-canis" target="_blank"><i class="fa-solid fa-view"></i>&nbsp;&nbsp;<b>View</b></a><br>
             </div>
