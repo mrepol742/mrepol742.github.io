@@ -170,6 +170,21 @@ https://github.com/mrepol742/mrepol742.github.io
       <div class="row">
         <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
+            <img loading="lazy" src="https://opengraph.githubassets.com/1/mrepol742/melvinjonesrepol.com" class="rounded d-block img-fluid" alt="Project Canis">
+            <div class="card-body">
+              <h5 class="card-title">melvinjonesrepol.com</h5>
+              <p class="card-text">A modern, enhanced personal portfolio site.</p>
+              <p>
+                Technologies: <br>
+                nextjs
+              </p>
+              <a class="btn" href="https://github.com/mrepol742/melvinjonesrepol.com" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a>
+              <a class="btn" href="https://www.melvinjonesrepol.com" target="_blank"><i class="fa-solid fa-view"></i>&nbsp;&nbsp;<b>View</b></a><br>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-4">
+          <div class="card " data-aos="fade-up">
             <img loading="lazy" src="https://opengraph.githubassets.com/1/mrepol742/project-canis" class="rounded d-block img-fluid" alt="Project Canis">
             <div class="card-body">
               <h5 class="card-title">Project Canis</h5>
