@@ -20,11 +20,15 @@
         <a href="https://linkedin.com/in/mrepol742" aria-label="LinkedIn" target="_blank">
           <i class="fa-brands fa-linkedin px-1"></i>
         </a>
+        <a href="https://steamcommunity.com/id/mrepol742/" aria-label="Steam" target="_blank">
+          <i class="fa-brands fa-steam px-1"></i>
+        </a>
         <a href="https://youtube.com/@mrepol742" aria-label="Youtube" target="_blank">
           <i class="fa-brands fa-youtube px-1"></i> </a><br />
         <p>&copy; <?php echo date("Y"); ?>, Melvin Jones Gallano Repol, All Rights Reserved. <br><br>Other brands or product names are the trademarks of their respective owners.</p>
         <p class="text-muted">
           My websites may contain links to other sites and resources provided by third parties. These links are provided for your convenience only. I do not have control over the contents of those sites or resources, and accepts no responsibility for them or for any loss or damage that may arise from your use of them.</p>
+        <a href="https://www.melvinjonesrepol" class="text-muted">www.melvinjonesrepol.com</a>
       </div>
       <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-12">
       </div>
