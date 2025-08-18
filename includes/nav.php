@@ -1,7 +1,7 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFD9TXR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<div class="bg-primary p-2 shadow text-center text-white fs-6">
+<!-- <div class="bg-primary p-2 shadow text-center text-white fs-6">
     At last we have a new website! <a href="https://www.melvinjonesrepol.com" class="text-white fw-bold">www.melvinjonesrepol.com</a>!<br>
-</div>
+</div> -->
 <header class="autohide navbar navbar-expand-lg fixed-top scrolled-up scrolled-up-tr">
     <nav class="container-fluid">
         <a class="navbar-brand" href="/">

@@ -173,7 +173,7 @@ https://github.com/mrepol742/mrepol742.github.io
             <img loading="lazy" src="https://opengraph.githubassets.com/1/mrepol742/melvinjonesrepol.com" class="rounded d-block img-fluid" alt="Project Canis">
             <div class="card-body">
               <h5 class="card-title">melvinjonesrepol.com</h5>
-              <p class="card-text">A modern, enhanced personal portfolio site.</p>
+              <p class="card-text">A fast, modern portfolio website built for performance and style. Showcases my work and skills with a sleek, responsive design.</p>
               <p>
                 Technologies: <br>
                 nextjs
@@ -199,15 +199,16 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
         <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card " data-aos="fade-up">
-            <img loading="lazy" src="https://opengraph.githubassets.com/1/Elitexv/Ulisha-store" class="rounded d-block img-fluid" alt="Ulisha Store">
+            <img loading="lazy" src="/assets/images/ulisha-store-cover.png" class="rounded d-block img-fluid" alt="Ulisha Store">
             <div class="card-body">
               <h5 class="card-title">Ulisha Store</h5>
               <p class="card-text">A premier destination for quality fashion, accessories, and electronics. Bringing you the best products at competitive prices.</p>
               <p>
                 Technologies: <br>
-                react · tailwind · supabase
+                nextjs · supabase
               </p>
-              <a class="btn" href="https://ulishastore.com" target="_blank"><i class="fa-solid fa-view"></i>&nbsp;&nbsp;<b>View</b></a><br>
+              <a class="btn" href="https://github.com/ulisha-limited" target="_blank"><i class="fa-solid fa-code"></i>&nbsp;&nbsp;<b>Source</b></a>
+              <a class="btn" href="https://www.ulishastore.com" target="_blank"><i class="fa-solid fa-view"></i>&nbsp;&nbsp;<b>View</b></a><br>
             </div>
           </div>
         </div>
@@ -971,10 +972,10 @@ https://github.com/mrepol742/mrepol742.github.io
         <div class="col-12 col-md-4 mb-4">
           <div class="card shadow-sm border-0 h-100" data-aos="fade-up">
             <div class="card-body">
-              <img src="https://avatars.githubusercontent.com/yourbusinessname" alt="Your Business Name Logo" class="mb-3 rounded-circle" width="70" height="70">
-              <h4 class="mb-1">Your Business Name</h4>
+              <img src="https://avatars.githubusercontent.com/ulisha-limited" alt="Ulisha Limited Logo" class="mb-3 rounded-circle" width="70" height="70">
+              <h4 class="mb-1">Ulisha Limited</h4>
               <p class="mb-0 text-muted">Organization</p>
-              <a href="https://github.com/yourbusinessname" target="_blank" class="d-block mt-2"><i class="fa-brands fa-github"></i> GitHub</a>
+              <a href="https://github.com/ulisha-limited" target="_blank" class="d-block mt-2"><i class="fa-brands fa-github"></i> GitHub</a>
             </div>
           </div>
         </div>
@@ -1010,42 +1011,6 @@ https://github.com/mrepol742/mrepol742.github.io
         </div>
       </div>
     </div>
-    <br>
-    <h2 class="text-center mt-5" id="posts">Deep</h2>
-    <?php
-    // Fetch the JSON feed
-    $feedUrl = 'https://projectdeep.vercel.app/feed.json';
-    $feedJson = @file_get_contents($feedUrl);
-
-    if ($feedJson !== false) {
-      $feed = json_decode($feedJson, true);
-      if (isset($feed['items']) && is_array($feed['items'])) {
-        echo '<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">';
-        foreach ($feed['items'] as $item) {
-          $title = htmlspecialchars($item['title'] ?? '');
-          $summary = htmlspecialchars($item['summary'] ?? '');
-          $url = htmlspecialchars($item['url'] ?? '');
-          $date = isset($item['date_modified']) ? date('F j, Y', strtotime($item['date_modified'])) : '';
-          echo '<div class="col">';
-          echo '<div class="card h-100">';
-          echo '<div class="card-body">';
-          echo '<h5 class="card-title"><a href="' . $url . '" target="_blank">' . $title . '</a></h5>';
-          echo '<p class="card-text">' . $summary . '</p>';
-          if ($date) {
-            echo '<p class="card-text"><small class="text-muted">' . $date . '</small></p>';
-          }
-          echo '</div>';
-          echo '</div>';
-          echo '</div>';
-        }
-        echo '</div>';
-      } else {
-        echo '<div class="alert alert-warning">No Deep found.</div>';
-      }
-    } else {
-      echo '<div class="alert alert-danger">Unable to fetch Deep at this time.</div>';
-    }
-    ?>
     <br>
     <div class="card mb-5">
       <div class="card-body">

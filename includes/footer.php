@@ -1,37 +1,6 @@
 <footer class="mt-5">
   <div class="container">
     <div class="row footer-row">
-      <div class="col-xl-4 col-lg-4 col-md-7 col-sm-7 col-xs-12">
-        <a href="https://facebook.com/melvinjonesrepol" aria-label="Facebook" target="_blank">
-          <i class="fa-brands fa-facebook px-1"></i>
-        </a>
-        <a href="https://instagram.com/melvinjonesrepol" aria-label="Instagram" target="_blank">
-          <i class="fa-brands fa-instagram px-1"></i>
-        </a>
-        <a href="https://pinterest.com/mrepol742" aria-label="Pinterest" target="_blank">
-          <i class="fa-brands fa-pinterest px-1"></i>
-        </a>
-        <a href="https://twitter.com/mrepol742" aria-label="Twitter" target="_blank">
-          <i class="fa-brands fa-twitter px-1"></i>
-        </a>
-        <a href="https://github.com/mrepol742" aria-label="Github" target="_blank">
-          <i class="fa-brands fa-github px-1"></i>
-        </a>
-        <a href="https://linkedin.com/in/mrepol742" aria-label="LinkedIn" target="_blank">
-          <i class="fa-brands fa-linkedin px-1"></i>
-        </a>
-        <a href="https://steamcommunity.com/id/mrepol742/" aria-label="Steam" target="_blank">
-          <i class="fa-brands fa-steam px-1"></i>
-        </a>
-        <a href="https://youtube.com/@mrepol742" aria-label="Youtube" target="_blank">
-          <i class="fa-brands fa-youtube px-1"></i> </a><br />
-        <p>&copy; <?php echo date("Y"); ?>, Melvin Jones Gallano Repol, All Rights Reserved. <br><br>Other brands or product names are the trademarks of their respective owners.</p>
-        <p class="text-muted">
-          My websites may contain links to other sites and resources provided by third parties. These links are provided for your convenience only. I do not have control over the contents of those sites or resources, and accepts no responsibility for them or for any loss or damage that may arise from your use of them.</p>
-        <a href="https://www.melvinjonesrepol" class="text-muted">www.melvinjonesrepol.com</a>
-      </div>
-      <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-12">
-      </div>
       <div class="col-xl-2 col-lg-2 col-md-5 col-sm-5 col-xs-12">
         <h5>Links</h5>
         <ul class="nav flex-column">
@@ -100,6 +69,34 @@
             <a class="nav-link" href="https://github.com/sponsors/mrepol742">Github Sponsor</a>
           </li>
         </ul>
+      </div>
+      <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-12">
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-7 col-sm-7 col-xs-12">
+        <a href="https://facebook.com/melvinjonesrepol" aria-label="Facebook" target="_blank">
+          <i class="fa-brands fa-facebook px-1"></i>
+        </a>
+        <a href="https://instagram.com/melvinjonesrepol" aria-label="Instagram" target="_blank">
+          <i class="fa-brands fa-instagram px-1"></i>
+        </a>
+        <a href="https://pinterest.com/mrepol742" aria-label="Pinterest" target="_blank">
+          <i class="fa-brands fa-pinterest px-1"></i>
+        </a>
+        <a href="https://twitter.com/mrepol742" aria-label="Twitter" target="_blank">
+          <i class="fa-brands fa-twitter px-1"></i>
+        </a>
+        <a href="https://github.com/mrepol742" aria-label="Github" target="_blank">
+          <i class="fa-brands fa-github px-1"></i>
+        </a>
+        <a href="https://linkedin.com/in/mrepol742" aria-label="LinkedIn" target="_blank">
+          <i class="fa-brands fa-linkedin px-1"></i>
+        </a>
+        <a href="https://steamcommunity.com/id/mrepol742/" aria-label="Steam" target="_blank">
+          <i class="fa-brands fa-steam px-1"></i>
+        </a>
+        <a href="https://youtube.com/@mrepol742" aria-label="Youtube" target="_blank">
+          <i class="fa-brands fa-youtube px-1"></i> </a><br />
+        <p>&copy; <?php echo date("Y"); ?>, Melvin Jones Gallano Repol. All Rights Reserved.</p>
       </div>
     </div>
   </div>
