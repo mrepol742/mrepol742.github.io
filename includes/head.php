@@ -11,7 +11,6 @@
 <link rel="sitemap" type="application/xml" title="Melvin Jones Gallano Repol » Sitemap" href="https://mrepol742.github.io/sitemap.xml">
 <link rel="alternate" type="application/rss+xml" title="Melvin Jones Gallano Repol » Feed" href="https://mrepol742.github.io/rss/index.xml">
 <link rel="canonical" href="https://mrepol742.github.io">
-<link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Search...">
 <link rel="manifest" href="/site.webmanifest">
 
 <?php class meta

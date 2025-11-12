@@ -119,7 +119,7 @@
 
   <script>
     setTimeout(function() {
-      window.location.href = 'https://mrepol742-released-beta.netlify.app/Webvium-beta.apk'
+      window.location.href = 'https://www.melvinjonesrepol.com/webvium-browser'
     }, 3000);
   </script>
 </body>

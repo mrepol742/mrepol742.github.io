@@ -327,7 +327,7 @@
   <?php include("./includes/footer.php") ?>
   <script>
     function download() {
-      window.location.href = "/webviumvpn/download/";
+      window.location.href = "https://www.melvinjonesrepol.com/webvium-vpn";
     }
   </script>
 </body>

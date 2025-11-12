@@ -1,9 +1,0 @@
-<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
-                      xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>Search</ShortName>
-  <Description>Webvium Search - Find information quickly and easily, and browse the Internet securely with Webvium Search..</Description>
-  <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://mrepol742.github.io/search/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://mrepol742.github.io/search?query={searchTerms}&amp;ref=opensearch"/>
-  <moz:SearchForm>https://mrepol742.github.io/search</moz:SearchForm>
-</OpenSearchDescription>

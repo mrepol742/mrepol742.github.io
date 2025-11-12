@@ -97,6 +97,9 @@
   ?>
 
   <main>
+    <div class="nojs">
+        Thank you for supporting webvium for over a years now. You can download the latest version at <a href="https://www.melvinjonesrepol.com/webvium-browser">https://melvinjonesrepol.com/webvium-browser</a>.
+    </div>
     <div class="card mb-3 mt-5">
       <div class="row g-0">
         <div class="col-md-4">
@@ -727,7 +730,7 @@
     checkUpdate();
 
     function download() {
-      window.location.href = "/webvium/download/";
+      window.location.href = "https://www.melvinjonesrepol.com/webvium-browser";
     }
   </script>
 </body>

@@ -106,7 +106,7 @@
 
   <script>
     setTimeout(function() {
-      window.location.href = 'https://raw.githubusercontent.com/mrepol742/released/80a254530ab93b740ea489b1b4d1b1e058948a9d/Webvium%20VPN%20v1.1.apk'
+      window.location.href = 'https://www.melvinjonesrepol.com/webvium-vpn'
     }, 3000);
   </script>
 </body>

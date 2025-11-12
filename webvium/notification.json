@@ -1,9 +1,23 @@
 {
-    "com.mrepol742.webvium.dev": [
-        {
-            "title": "Hello World",
-            "content": "This is a test",
-            "url": "https://mrepol742.github.io/webviumdev/"
-        }
-    ]
+  "com.mrepol742.webvium": [
+      {
+          "title": "New Webvium Update",
+          "content": "A new update is now available, this update includes major changes, performance improves, support to newer version of android and more exciting features comming....",
+          "url": "https://www.melvinjonesrepol.com/webvium-browser"
+      }
+  ],
+  "com.mrepol742.webvium.beta": [
+      {
+          "title": "New Webvium Update",
+          "content": "A new update is now available, this update includes major changes, performance improves, support to newer version of android and more exciting features comming....",
+          "url": "https://www.melvinjonesrepol.com/webvium-browser"
+      }
+  ],
+  "com.mrepol742.webvium.dev": [
+      {
+          "title": "New Webvium Update",
+          "content": "A new update is now available, this update includes major changes, performance improves, support to newer version of android and more exciting features comming....",
+          "url": "https://www.melvinjonesrepol.com/webvium-browser"
+      }
+  ]
 }
