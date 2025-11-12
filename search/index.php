@@ -26,6 +26,11 @@
       </div>
     </noscript>
 
+    <div class="nojs">
+      If you're reading this. You are using an old version of Webvium Browser which is no longer supported!.
+      Download the new Webvium at <a href="https://www.melvinjonesrepol.com/webvium-browser">https://melvinjonesrepol.com/webvium-browser</a>.
+    </div>
+
     <section id="page1">
       <h1 id="currD">Search</h1>
       <div class="search-container">
