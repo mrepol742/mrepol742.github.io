@@ -10,7 +10,12 @@
 <link rel="license" href="https://raw.githubusercontent.com/mrepol742/mrepol742.github.io/master/LICENSE">
 <link rel="sitemap" type="application/xml" title="Melvin Jones Gallano Repol » Sitemap" href="https://mrepol742.github.io/sitemap.xml">
 <link rel="alternate" type="application/rss+xml" title="Melvin Jones Gallano Repol » Feed" href="https://mrepol742.github.io/rss/index.xml">
-<link rel="canonical" href="https://mrepol742.github.io">
+<!--<link rel="canonical" href="https://mrepol742.github.io">-->
+<link rel="canonical" href="https://melvinjonesrepol.com">
+<meta http-equiv="refresh" content="0; url=https://melvinjonesrepol.com">
+<script>
+  window.location.href = "https://melvinjonesrepol.com";
+</script>
 <link rel="manifest" href="/site.webmanifest">
 
 <?php class meta
