@@ -11,11 +11,11 @@
 <link rel="sitemap" type="application/xml" title="Melvin Jones Gallano Repol » Sitemap" href="https://mrepol742.github.io/sitemap.xml">
 <link rel="alternate" type="application/rss+xml" title="Melvin Jones Gallano Repol » Feed" href="https://mrepol742.github.io/rss/index.xml">
 <!--<link rel="canonical" href="https://mrepol742.github.io">-->
-<link rel="canonical" href="https://melvinjonesrepol.com">
+<!--<link rel="canonical" href="https://melvinjonesrepol.com">
 <meta http-equiv="refresh" content="0; url=https://melvinjonesrepol.com">
 <script>
   window.location.href = "https://melvinjonesrepol.com";
-</script>
+</script>-->
 <link rel="manifest" href="/site.webmanifest">
 
 <?php class meta
@@ -28,7 +28,22 @@
         echo '<meta name="twitter:title" content="' . $title . '">' . "\n";
         echo '<meta property="og:description" content="' . $description . '">' . "\n";
         echo '<meta name="twitter:description" content="' . $description . '">' . "\n";
-        echo '<meta property="og:url" content="' . $url . '">' . "\n";
+        echo '<meta property="og:url" content="' .
+            str_replace('mrepol742.github.io', 'www.melvinjonesrepol.com', $url) .
+            '">' .
+            "\n";
+        echo '<link rel="canonical" href="' .
+            str_replace('mrepol742.github.io', 'www.melvinjonesrepol.com', $url) .
+            '">' .
+            "\n";
+        echo '<meta http-equiv="refresh" content="0; url=' .
+            str_replace('mrepol742.github.io', 'www.melvinjonesrepol.com', $url) .
+            '">' .
+            "\n";
+        echo '<script>window.location.href = "' .
+            str_replace('mrepol742.github.io', 'www.melvinjonesrepol.com', $url) .
+            '";</script>' .
+            "\n\n";
     }
 
     function setImage($loc, $alt)
